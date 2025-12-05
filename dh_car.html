@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Humanities Dashboard: C.A.R. Literature</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- React and ReactDOM (Using Production builds for better UMD stability) -->
+    <script crossorigin src="https://unpkg.com/react@18.2.0/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
+    
+    <!-- PropTypes (CRITICAL FIX: Required by Recharts UMD build to prevent 'oneOfType' undefined error) -->
+    <script src="https://unpkg.com/prop-types@15.8.1/prop-types.min.js"></script>
+    
+    <!-- Babel for JSX -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- Recharts -->
+    <script src="https://unpkg.com/recharts@2.12.7/umd/Recharts.js"></script>
+
+    <style>
+        body { background-color: #f8fafc; }
+        .animate-fade-in { animation: fadeIn 0.5s ease-in; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const { useState } = React;
+        
+        // Safe destructuring of Recharts components
+        const { 
+            BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, 
+            LineChart, Line, AreaChart, Area 
+        } = window.Recharts;
+
+        // --- DATASETS ---
+
+        const genderData = [
+            { year: '1989', source: 'Notre Librairie', total: 1, women: 0, label: 'Indigenous Women', notes: 'Only Huguette Kreif (French) mentioned' },
+            { year: '1990', source: 'Anthologie (Pénel)', total: 60, women: 7, percentage: 11.6, label: 'Women Contributors' },
+            { year: '2023', source: 'Anthologie (Kotagbia)', total: 27, women: 5, percentage: 18.5, label: 'Women Contributors' },
+            { year: '2025', source: 'Les Murmures', total: 12, women: 12, percentage: 100, label: 'Women Featured' },
+        ];
+
+        const timelineData = [
+            { year: 1970, event: 'Bokassa Regime', severity: 9, type: 'Repression', detail: 'Censorship, persecution of intellectuals (Bamboté exile).' },
+            { year: 1980, event: 'Post-Bokassa Frenzy', severity: 4, type: 'Resurgence', detail: 'Short "frenzy" of reading/writing. Small journals appear.' },
+            { year: 1983, event: 'The Institutional Void', severity: 10, type: 'Collapse', detail: 'UNESCO Report: No library, no newspapers since 1981.' },
+            { year: 1990, event: 'Economic Barrier', severity: 8, type: 'Economic', detail: 'Book prices become prohibitive vs purchasing power.' },
+            { year: 2017, event: 'Éditions Oubangui', severity: 3, type: 'Sovereignty', detail: 'Local publishing ecosystem established by L.O. Delombaut.' },
+            { year: 2024, event: 'Diaspora Initiative', severity: 2, type: 'Promotion', detail: 'Arc-En-Ciel du Livre (Paris) organizes promotion.' },
+        ];
+
+        const newVoices = [
+            "Aliya Djabara", "Adrianna Djangha Yasse", "Gladys Nambele", 
+            "Providence Patassé", "Emmanuella Ngoko Yassi", "Esthanou Niko", 
+            "Inès Laure N’Gopot", "Marie Allayam Mboro", "Myriam Sakama Ondjibou", 
+            "Olivia Zoko Kassani", "Winnie Deba", "Phonsia Guere-Mbenzi"
+        ];
+
+        // --- MAIN COMPONENT ---
+
+        const Dashboard = () => {
+            const [activeTab, setActiveTab] = useState('gender');
+
+            return (
+                <div className="min-h-screen bg-slate-50 font-sans text-slate-800 p-6 max-w-7xl mx-auto">
+                
+                    {/* HEADER */}
+                    <header className="mb-8 border-b border-slate-200 pb-6">
+                        <div className="flex items-center gap-3 mb-2">
+                            <i className="fa-solid fa-database text-indigo-600 text-3xl"></i>
+                            <h1 className="text-3xl font-bold text-slate-900">Digital Humanities Analysis</h1>
+                        </div>
+                        <h2 className="text-xl text-slate-500">The Literary Landscape of C.A.R. (1980s–2025)</h2>
+                        <p className="text-sm text-slate-400 mt-2">Data extracted from historical archives, UNESCO reports, and contemporary anthologies.</p>
+                    </header>
+
+                    {/* NAVIGATION */}
+                    <div className="flex flex-wrap gap-4 mb-8">
+                        <button 
+                            onClick={() => setActiveTab('gender')}
+                            className={`px-4 py-2 rounded-lg flex items-center gap-2 font-medium transition-colors ${activeTab === 'gender' ? 'bg-indigo-600 text-white' : 'bg-white border border-slate-200 hover:bg-slate-50'}`}
+                        >
+                            <i className="fa-solid fa-users"></i>
+                            Gender Representation
+                        </button>
+                        <button 
+                            onClick={() => setActiveTab('timeline')}
+                            className={`px-4 py-2 rounded-lg flex items-center gap-2 font-medium transition-colors ${activeTab === 'timeline' ? 'bg-indigo-600 text-white' : 'bg-white border border-slate-200 hover:bg-slate-50'}`}
+                        >
+                            <i className="fa-solid fa-arrow-trend-up"></i>
+                            Chronology of Flux
+                        </button>
+                        <button 
+                            onClick={() => setActiveTab('barriers')}
+                            className={`px-4 py-2 rounded-lg flex items-center gap-2 font-medium transition-colors ${activeTab === 'barriers' ? 'bg-indigo-600 text-white' : 'bg-white border border-slate-200 hover:bg-slate-50'}`}
+                        >
+                            <i className="fa-solid fa-triangle-exclamation"></i>
+                            Structural Barriers
+                        </button>
+                    </div>
+
+                    {/* CONTENT AREA */}
+                    <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-6 min-h-[500px]">
+                        
+                        {/* TAB 1: GENDER ANALYSIS */}
+                        {activeTab === 'gender' && (
+                            <div className="animate-fade-in">
+                                <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
+                                    <i className="fa-solid fa-venus text-pink-500"></i>
+                                    The Rise of Female Voices (1989–2025)
+                                </h3>
+                                <div className="grid md:grid-cols-3 gap-6">
+                                    <div className="md:col-span-2 h-80">
+                                        <ResponsiveContainer width="100%" height="100%">
+                                            <BarChart data={genderData} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
+                                                <CartesianGrid strokeDasharray="3 3" vertical={false} />
+                                                <XAxis dataKey="year" />
+                                                <YAxis label={{ value: 'Number of Women', angle: -90, position: 'insideLeft' }} />
+                                                <Tooltip 
+                                                    contentStyle={{ borderRadius: '8px', border: 'none', boxShadow: '0 4px 6px -1px rgba(0,0,0,0.1)' }}
+                                                />
+                                                <Legend />
+                                                <Bar dataKey="women" name="Women Writers Identified" fill="#db2777" radius={[4, 4, 0, 0]} barSize={50} />
+                                            </BarChart>
+                                        </ResponsiveContainer>
+                                    </div>
+                                    
+                                    <div className="bg-pink-50 p-6 rounded-xl border border-pink-100">
+                                        <h4 className="font-bold text-pink-900 mb-3">The 2025 Cohort</h4>
+                                        <p className="text-xs text-pink-600 mb-3">Featured in <em>Les murmures d’espoir pour mon pays</em></p>
+                                        <ul className="text-sm space-y-1 text-slate-700 h-60 overflow-y-auto pr-2">
+                                            {newVoices.map((name, i) => (
+                                                <li key={i} className="flex items-center gap-2 border-b border-pink-100 py-1">
+                                                    <span className="w-2 h-2 rounded-full bg-pink-400"></span>
+                                                    {name}
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="mt-6 text-sm text-slate-500 bg-slate-50 p-4 rounded-lg">
+                                    <strong>Data Insight:</strong> In 1989, <em>Notre Librairie</em> listed zero indigenous women. By 2025, a specific anthology highlights 12 distinct female poets, shifting from "historical absence" to specific, named recognition.
+                                </div>
+                            </div>
+                        )}
+
+                        {/* TAB 2: TIMELINE ANALYSIS */}
+                        {activeTab === 'timeline' && (
+                            <div className="animate-fade-in">
+                                <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
+                                    <i className="fa-regular fa-calendar text-blue-500"></i>
+                                    Institutional Flux: From Void to Sovereignty
+                                </h3>
+                                <div className="h-80 w-full mb-6">
+                                    <ResponsiveContainer width="100%" height="100%">
+                                        <AreaChart data={timelineData} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
+                                            <defs>
+                                                <linearGradient id="colorSeverity" x1="0" y1="0" x2="0" y2="1">
+                                                    <stop offset="5%" stopColor="#ef4444" stopOpacity={0.8}/>
+                                                    <stop offset="95%" stopColor="#ef4444" stopOpacity={0.1}/>
+                                                </linearGradient>
+                                            </defs>
+                                            <XAxis dataKey="year" />
+                                            <YAxis label={{ value: 'Institutional Difficulty Index (0-10)', angle: -90, position: 'insideLeft' }} domain={[0, 10]} />
+                                            <CartesianGrid strokeDasharray="3 3" />
+                                            <Tooltip />
+                                            <Area type="monotone" dataKey="severity" stroke="#ef4444" fillOpacity={1} fill="url(#colorSeverity)" name="Institutional Difficulty" />
+                                        </AreaChart>
+                                    </ResponsiveContainer>
+                                </div>
+                                
+                                <div className="grid md:grid-cols-3 gap-4">
+                                    {timelineData.map((item, idx) => (
+                                        <div key={idx} className="bg-slate-50 p-4 rounded-lg border border-slate-200 hover:shadow-md transition-shadow">
+                                            <div className="flex justify-between items-center mb-1">
+                                                <span className="font-bold text-blue-600">{item.year}</span>
+                                                <span className={`text-xs font-bold px-2 py-1 rounded ${
+                                                    item.severity > 7 ? 'bg-red-100 text-red-700' : 
+                                                    item.severity < 4 ? 'bg-green-100 text-green-700' : 'bg-amber-100 text-amber-700'
+                                                }`}>{item.type}</span>
+                                            </div>
+                                            <h4 className="font-bold text-slate-800 text-sm">{item.event}</h4>
+                                            <p className="text-xs text-slate-500 mt-1">{item.detail}</p>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        )}
+
+                        {/* TAB 3: BARRIERS ANALYSIS */}
+                        {activeTab === 'barriers' && (
+                            <div className="animate-fade-in">
+                                <h3 className="text-xl font-bold mb-6 flex items-center gap-2">
+                                    <i className="fa-solid fa-triangle-exclamation text-amber-500"></i>
+                                    The "Institutional Void" (1983–1985)
+                                </h3>
+                                
+                                <div className="grid md:grid-cols-2 gap-8">
+                                    <div className="space-y-4">
+                                        <div className="bg-amber-50 p-5 rounded-xl border border-amber-100">
+                                            <h4 className="font-bold text-amber-800 mb-2 flex items-center gap-2">
+                                                <i className="fa-solid fa-building-columns"></i> Infrastructure
+                                            </h4>
+                                            <ul className="list-disc pl-5 text-sm text-amber-900 space-y-2">
+                                                <li><strong>No National Library:</strong> A total lack of archival memory (Dubreuil 12).</li>
+                                                <li><strong>Print Media Blackout:</strong> No newspaper published in the country between 1981 and 1983.</li>
+                                            </ul>
+                                        </div>
+
+                                        <div className="bg-slate-50 p-5 rounded-xl border border-slate-200">
+                                            <h4 className="font-bold text-slate-800 mb-2 flex items-center gap-2">
+                                                <i className="fa-solid fa-file-lines"></i> Economic & Literacy
+                                            </h4>
+                                            <ul className="list-disc pl-5 text-sm text-slate-700 space-y-2">
+                                                <li><strong>Prohibitive Cost:</strong> Books too expensive for local purchasing power (Saulnier 192).</li>
+                                                <li><strong>Regression Risk:</strong> Scarcity of material created a risk of "return to illiteracy" for neo-literates (Dubreuil 15).</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div className="bg-green-50 p-6 rounded-xl border border-green-100">
+                                        <h4 className="font-bold text-green-800 mb-4 text-lg">The Solution: Cultural Sovereignty</h4>
+                                        <p className="text-sm text-green-900 mb-4 italic">
+                                            "Create an internal francophone area... small local publications." — Pierre Sammy-Mackfoy
+                                        </p>
+                                        
+                                        <div className="relative pl-4 border-l-2 border-green-300 space-y-6">
+                                            <div>
+                                                <span className="text-xs font-bold text-green-600 block">2017: The Turning Point</span>
+                                                <strong className="text-slate-800">Éditions Oubangui Established</strong>
+                                                <p className="text-xs text-slate-600 mt-1">Founder: Landry Ouoko Delombaut. <br/>Output: 84+ Titles.</p>
+                                            </div>
+                                            <div>
+                                                <span className="text-xs font-bold text-green-600 block">Impact</span>
+                                                <strong className="text-slate-800">Internal Ecosystem</strong>
+                                                <p className="text-xs text-slate-600 mt-1">Replaces external intermediaries, allowing for the emergence of female voices (e.g., Yabouza).</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        )}
+
+                    </div>
+                </div>
+            );
+        };
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<Dashboard />);
+    </script>
+</body>
+</html>
