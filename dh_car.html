@@ -109,7 +109,22 @@
             );
         };
 
-        const Notification = ({ id, message, type, onClose }) => {
+        // Notification style constants (moved outside to avoid recreation on each render)
+        const NOTIFICATION_TYPE_STYLES = {
+            info: 'bg-blue-50 border-blue-200 text-blue-800',
+            success: 'bg-green-50 border-green-200 text-green-800',
+            warning: 'bg-amber-50 border-amber-200 text-amber-800',
+            error: 'bg-red-50 border-red-200 text-red-800'
+        };
+
+        const NOTIFICATION_ICON_STYLES = {
+            info: 'fa-circle-info text-blue-500',
+            success: 'fa-circle-check text-green-500',
+            warning: 'fa-triangle-exclamation text-amber-500',
+            error: 'fa-circle-xmark text-red-500'
+        };
+
+        const Notification = ({ message, type, onClose }) => {
             const [isLeaving, setIsLeaving] = useState(false);
 
             const handleClose = () => {
@@ -117,24 +132,10 @@
                 setTimeout(onClose, SLIDE_OUT_DURATION);
             };
 
-            const typeStyles = {
-                info: 'bg-blue-50 border-blue-200 text-blue-800',
-                success: 'bg-green-50 border-green-200 text-green-800',
-                warning: 'bg-amber-50 border-amber-200 text-amber-800',
-                error: 'bg-red-50 border-red-200 text-red-800'
-            };
-
-            const iconStyles = {
-                info: 'fa-circle-info text-blue-500',
-                success: 'fa-circle-check text-green-500',
-                warning: 'fa-triangle-exclamation text-amber-500',
-                error: 'fa-circle-xmark text-red-500'
-            };
-
             const animationClass = isLeaving ? 'animate-slide-out' : 'animate-slide-in';
-            const colorClass = typeStyles[type] || typeStyles.info;
+            const colorClass = NOTIFICATION_TYPE_STYLES[type] || NOTIFICATION_TYPE_STYLES.info;
             const notificationClasses = `${colorClass} ${animationClass} border rounded-lg shadow-lg p-4 flex items-start gap-3 min-w-[300px]`;
-            const iconClasses = `fa-solid ${iconStyles[type] || iconStyles.info} text-xl mt-0.5`;
+            const iconClasses = `fa-solid ${NOTIFICATION_ICON_STYLES[type] || NOTIFICATION_ICON_STYLES.info} text-xl mt-0.5`;
 
             return (
                 <div className={notificationClasses}>
