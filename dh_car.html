@@ -63,6 +63,7 @@
             const [notifications, setNotifications] = useState([]);
             const counterRef = useRef(0);
             const timeoutsRef = useRef({});
+            const removeNotificationRef = useRef();
 
             const removeNotification = useCallback((id) => {
                 setNotifications(prev => prev.filter(notif => notif.id !== id));
@@ -72,6 +73,9 @@
                 }
             }, []);
 
+            // Keep ref updated to avoid stale closures in setTimeout
+            removeNotificationRef.current = removeNotification;
+
             const addNotification = useCallback((message, type = 'info', duration = 5000) => {
                 const id = counterRef.current;
                 counterRef.current += 1;
@@ -79,10 +83,10 @@
                 
                 if (duration > 0) {
                     timeoutsRef.current[id] = setTimeout(() => {
-                        removeNotification(id);
+                        removeNotificationRef.current(id);
                     }, duration);
                 }
-            }, [removeNotification]);
+            }, []);
 
             // Cleanup all timeouts on unmount
             useEffect(() => {
@@ -126,10 +130,19 @@
 
         const Notification = ({ message, type, onClose }) => {
             const [isLeaving, setIsLeaving] = useState(false);
+            const closeTimeoutRef = useRef(null);
+
+            useEffect(() => {
+                return () => {
+                    if (closeTimeoutRef.current) {
+                        clearTimeout(closeTimeoutRef.current);
+                    }
+                };
+            }, []);
 
             const handleClose = () => {
                 setIsLeaving(true);
-                setTimeout(onClose, SLIDE_OUT_DURATION);
+                closeTimeoutRef.current = setTimeout(onClose, SLIDE_OUT_DURATION);
             };
 
             const animationClass = isLeaving ? 'animate-slide-out' : 'animate-slide-in';
