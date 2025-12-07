@@ -38,7 +38,7 @@
     <div id="root"></div>
 
     <script type="text/babel">
-        const { useState, useEffect, createContext, useContext } = React;
+        const { useState, useEffect, createContext, useContext, useCallback, useRef } = React;
         
         // Safe destructuring of Recharts components
         const { 
@@ -60,21 +60,36 @@
 
         const NotificationProvider = ({ children }) => {
             const [notifications, setNotifications] = useState([]);
+            const [notificationCounter, setNotificationCounter] = useState(0);
+            const timeoutsRef = React.useRef({});
 
-            const addNotification = (message, type = 'info', duration = 5000) => {
-                const id = Date.now();
+            const addNotification = React.useCallback((message, type = 'info', duration = 5000) => {
+                const id = notificationCounter;
+                setNotificationCounter(prev => prev + 1);
                 setNotifications(prev => [...prev, { id, message, type, duration }]);
                 
                 if (duration > 0) {
-                    setTimeout(() => {
+                    timeoutsRef.current[id] = setTimeout(() => {
                         removeNotification(id);
+                        delete timeoutsRef.current[id];
                     }, duration);
                 }
-            };
+            }, [notificationCounter]);
 
-            const removeNotification = (id) => {
+            const removeNotification = React.useCallback((id) => {
                 setNotifications(prev => prev.filter(notif => notif.id !== id));
-            };
+                if (timeoutsRef.current[id]) {
+                    clearTimeout(timeoutsRef.current[id]);
+                    delete timeoutsRef.current[id];
+                }
+            }, []);
+
+            // Cleanup all timeouts on unmount
+            useEffect(() => {
+                return () => {
+                    Object.values(timeoutsRef.current).forEach(clearTimeout);
+                };
+            }, []);
 
             return (
                 <NotificationContext.Provider value={{ addNotification, removeNotification }}>
@@ -167,13 +182,13 @@
             // Show a welcome notification on mount
             useEffect(() => {
                 addNotification('Welcome to the Digital Humanities Dashboard!', 'success', 4000);
-            }, []);
+            }, [addNotification]);
 
             // Helper function to show notifications on tab change
-            const handleTabChange = (tab, message) => {
+            const handleTabChange = useCallback((tab, message) => {
                 setActiveTab(tab);
                 addNotification(message, 'info', 3000);
-            };
+            }, [addNotification]);
 
             return (
                 <div className="min-h-screen bg-slate-50 font-sans text-slate-800 p-6 max-w-7xl mx-auto">
