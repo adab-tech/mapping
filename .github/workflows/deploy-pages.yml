@@ -43,6 +43,14 @@ jobs:
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
+        with:
+          # This repo has never had Pages enabled via the dashboard —
+          # enablement: true lets this action turn it on itself (source:
+          # GitHub Actions) on first run instead of failing with "Get
+          # Pages site failed... verify that the repository has Pages
+          # enabled." Safe to leave true permanently: once enabled, this
+          # is a no-op on every subsequent run.
+          enablement: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
