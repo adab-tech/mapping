@@ -117,6 +117,56 @@ function validateEntry(entry, index, seenIds) {
   if (typeof entry.url === "string" && !validUrl(entry.url)) {
     fail(context, `field "url" ("${entry.url}") is not a well-formed http(s) URL`);
   }
+
+  // --- optional fields (Track 1 expansion): validated for type/shape when present, never required ---
+
+  // citation: non-empty string when present
+  if (entry.citation !== undefined) {
+    if (typeof entry.citation !== "string" || entry.citation.trim().length === 0) {
+      fail(context, `field "citation" must be a non-empty string when present`);
+    }
+  }
+
+  // access_notes: non-empty string when present
+  if (entry.access_notes !== undefined) {
+    if (typeof entry.access_notes !== "string" || entry.access_notes.trim().length === 0) {
+      fail(context, `field "access_notes" must be a non-empty string when present`);
+    }
+  }
+
+  // related_ids: array of non-empty strings when present; cross-reference existence
+  // is checked separately in main() once every entry's id is known.
+  if (entry.related_ids !== undefined) {
+    if (!Array.isArray(entry.related_ids)) {
+      fail(context, `field "related_ids" must be an array when present`);
+    } else if (!entry.related_ids.every((item) => typeof item === "string" && item.trim().length > 0)) {
+      fail(context, `field "related_ids" must contain only non-empty strings`);
+    } else if (typeof entry.id === "string" && entry.related_ids.includes(entry.id)) {
+      fail(context, `field "related_ids" must not reference the entry's own "id"`);
+    }
+  }
+
+  // preview_url: string (http/https URL) or explicit null when present
+  if (entry.preview_url !== undefined && entry.preview_url !== null) {
+    if (typeof entry.preview_url !== "string" || !validUrl(entry.preview_url)) {
+      fail(context, `field "preview_url" must be null or a well-formed http(s) URL, got ${JSON.stringify(entry.preview_url)}`);
+    }
+  }
+}
+
+/** Second pass: once every entry's id is known, confirm every related_ids
+ * reference actually resolves to another entry in the dataset. Run after
+ * per-entry validation so a typo'd id anywhere doesn't cascade. */
+function validateRelatedIdsResolve(data, seenIds) {
+  data.forEach((entry, index) => {
+    if (!isPlainObject(entry) || !Array.isArray(entry.related_ids)) return;
+    const context = `entry #${index} (${typeof entry.id === "string" ? entry.id : "no id"})`;
+    for (const relatedId of entry.related_ids) {
+      if (typeof relatedId === "string" && !seenIds.has(relatedId)) {
+        fail(context, `field "related_ids" references "${relatedId}", which is not an "id" of any entry in this file`);
+      }
+    }
+  });
 }
 
 function main() {
@@ -148,6 +198,7 @@ function main() {
 
   const seenIds = new Set();
   data.forEach((entry, index) => validateEntry(entry, index, seenIds));
+  validateRelatedIdsResolve(data, seenIds);
 
   if (errors.length > 0) {
     console.error(`\nFound ${errors.length} problem(s) in data/collections.json:\n`);

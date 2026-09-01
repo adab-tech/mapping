@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "title": "Mapping Voices — taswirar ma'ajiyar tarihin baka",
+    "description": "Taswira mai hulɗa ta ainihin tarin ma'ajiyar tarihin baka da shaidun murya, wadda za a iya tace ta bisa ƙasa, jigo, harshe, da shekaru goma."
+  },
+  "skipLink": "Tsallake zuwa taswira",
+  "header": {
+    "eyebrow": "Taswirar shaidu",
+    "note": "Tarin tarihin baka da shaidun murya, an zana su",
+    "filtersToggle": "Buɗe abubuwan tacewa da jerin abubuwa",
+    "languageLabel": "Harshe"
+  },
+  "filters": {
+    "heading": "Bincika taswirar",
+    "closeLabel": "Rufe abubuwan tacewa",
+    "country": "Ƙasa",
+    "theme": "Jigo",
+    "language": "Harshe",
+    "decade": "Shekaru goma",
+    "allCountries": "Dukkan ƙasashe",
+    "allThemes": "Dukkan jigogi",
+    "allLanguages": "Dukkan harsuna",
+    "allDecades": "Dukkan shekaru goma",
+    "reset": "Sake saita tacewa"
+  },
+  "results": {
+    "heading": "Jerin abubuwa",
+    "empty": "Babu wani tari da ya dace da wannan tacewa.",
+    "countOne": "Tari 1 aka nuna",
+    "countOther": "Tari {n} aka nuna"
+  },
+  "map": {
+    "ariaLabel": "Taswirar tarin tarihin baka da shaidun murya. Ana iya zuwa kowace alama da maballin kwamfuta, kuma tana ba da sanarwar tarin da take wakilta.",
+    "hint": "Yi amfani da maballin Tab don isa ga kowace alama, ko yi amfani da jerin abubuwa don bincike ta jeri.",
+    "loading": "Ana loda tarin bayanai…",
+    "loadError": "An kasa loda bayanan tarin ({url}). Idan kana gudanar da wannan a gida, tabbatar akwai fayil {url} kusa da index.html.",
+    "markerLabel": "{label}. Yana buɗe cikakkun bayanai."
+  },
+  "popup": {
+    "languagesPrefix": "Harsuna:",
+    "viewDetails": "Duba cikakkun bayanai"
+  },
+  "detail": {
+    "heading": "Game da wannan tari",
+    "closeLabel": "Rufe bayanai",
+    "placeholder": "Zaɓi alama a kan taswira, ko wani abu daga jerin, don karanta bayaninsa a nan.",
+    "languages": "Harsuna",
+    "themes": "Jigogi",
+    "period": "Lokaci",
+    "visitSource": "Ziyarci asalin ma'ajiya",
+    "opensNewTab": "(zai buɗe a wani shafi na daban)",
+    "selectionAnnounce": "Ana nuna bayanan {title}.",
+    "decadeUnknown": "ba a sani ba",
+    "decadePresent": "yanzu",
+    "decadeFormat": "shekarun {n}",
+    "decadeRange": "{start} – {end}",
+    "decadeToPresent": "{start} – {present}"
+  },
+  "footer": {
+    "template": "Bayanan taswira da hotuna © na masu bayarwa ga %LINK%. Mapping Voices taswira ce ta gwaji/nuni — duba README domin sanin yadda ake ƙara sabon tari.",
+    "osmLinkText": "OpenStreetMap"
+  }
+}

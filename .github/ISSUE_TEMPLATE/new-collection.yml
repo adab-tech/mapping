@@ -1,0 +1,192 @@
+name: Propose a new collection
+description: >-
+  Suggest a real, publicly documented oral-history or voice-testimony
+  collection for the Mapping Voices atlas. No Git or JSON knowledge needed —
+  fill in what you know and a maintainer will turn it into a data entry.
+title: "[New collection]: "
+labels:
+  - new-collection
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping grow Mapping Voices! Before you start, please read
+        the **honesty rule**: every entry in this project must describe a
+        **real, publicly documented** collection, with a real institution and
+        a real, working URL. Do not submit anything you can't point to a real
+        source for — if you're not sure a field is accurate, leave it blank
+        rather than guess.
+
+        See [`CONTRIBUTING.md`](https://github.com/adab-tech/mapping/blob/main/CONTRIBUTING.md)
+        and [`data/schema-notes.md`](https://github.com/adab-tech/mapping/blob/main/data/schema-notes.md)
+        for the full field reference. Prefer opening a pull request directly?
+        You can do that instead — this form is just the no-Git path.
+
+  - type: input
+    id: title
+    attributes:
+      label: Collection title
+      description: The collection's real name (or the specific archive/fonds name, if the institution holds several).
+      placeholder: e.g. CELHTO Oral Tradition Archive
+    validations:
+      required: true
+
+  - type: input
+    id: archive
+    attributes:
+      label: Holding institution / archive
+      description: The real name of the institution that holds this collection.
+      placeholder: e.g. Centre d'Etudes Linguistiques et Historiques par Tradition Orale (African Union)
+    validations:
+      required: true
+
+  - type: input
+    id: country
+    attributes:
+      label: Country
+      description: >-
+        A common-name country string (e.g. "Niger", "United States"), not an
+        ISO code. This is the country the map pin belongs to — usually the
+        institution's country, but see the note below if the collection's
+        cultural/geographic subject differs from where it's physically held.
+      placeholder: e.g. Niger
+    validations:
+      required: true
+
+  - type: input
+    id: latitude
+    attributes:
+      label: Latitude
+      description: Decimal degrees, between -90 and 90. Pin location for the map.
+      placeholder: e.g. 13.5127
+    validations:
+      required: true
+
+  - type: input
+    id: longitude
+    attributes:
+      label: Longitude
+      description: Decimal degrees, between -180 and 180. Pin location for the map.
+      placeholder: e.g. 2.1128
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        **If the collection's cultural/geographic subject differs from where
+        it's physically archived** (e.g. a Malian griot epic recorded by a
+        linguist and held at a US university library), give the country and
+        coordinates of the subject, not the archive building — the `archive`
+        field above still names the real physical holder. See
+        `data/schema-notes.md` for more on this.
+
+  - type: input
+    id: languages
+    attributes:
+      label: Languages
+      description: Comma-separated list of languages the recordings/materials are actually in.
+      placeholder: e.g. Hausa, Zarma, Fulfulde, Tamasheq, French
+    validations:
+      required: true
+
+  - type: input
+    id: themes
+    attributes:
+      label: Themes
+      description: >-
+        Comma-separated free-text tags for filtering. Reuse an existing theme
+        where it genuinely fits (e.g. "oral tradition", "migration",
+        "women's history") rather than coining a near-duplicate.
+      placeholder: e.g. oral tradition, history, linguistics
+    validations:
+      required: true
+
+  - type: input
+    id: decade_start
+    attributes:
+      label: Start year
+      description: Year the collection or recording effort began.
+      placeholder: e.g. 1968
+    validations:
+      required: true
+
+  - type: input
+    id: decade_end
+    attributes:
+      label: End year (leave blank if ongoing)
+      description: Year it ended, or leave this blank if the collection is still actively growing.
+      placeholder: e.g. 2005
+    validations:
+      required: false
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: 1-3 plain-language sentences on what the collection actually contains. No hype, no invented detail.
+      placeholder: What is actually in this collection, in plain language?
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: A real, working link to the collection's or archive's own public page (not a secondary write-up about it).
+      placeholder: https://www.example.org/collection
+    validations:
+      required: true
+
+  - type: input
+    id: citation
+    attributes:
+      label: Citation (optional)
+      description: >-
+        An academic-style citation, e.g. "Institution Name. Collection
+        Title. Retrieved from URL." Only fill this in with details you can
+        verify — never invent a DOI, access date, or other citation detail
+        you're not sure of.
+      placeholder: e.g. CELHTO. Oral Tradition Archive. Retrieved from https://www.celhto.org/
+    validations:
+      required: false
+
+  - type: input
+    id: access_notes
+    attributes:
+      label: Access notes (optional)
+      description: >-
+        Only state what the collection's own public page actually says, e.g.
+        "Freely accessible online", "Requires institutional login",
+        "In-person/reading-room access only", "Partial collection online,
+        full collection by request".
+      placeholder: e.g. Freely accessible online
+    validations:
+      required: false
+
+  - type: input
+    id: preview_url
+    attributes:
+      label: Preview URL (optional)
+      description: >-
+        ONLY fill this in if the archive itself publicly provides an
+        official embeddable or linkable audio/video preview or player for
+        this collection (their own "listen" button, on their own site).
+        Never link to a third-party mirror or a downloaded file. Leave
+        blank if you're at all unsure — no preview is better than a wrong
+        one.
+      placeholder: https://www.example.org/collection/listen
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: honesty-confirmation
+    attributes:
+      label: Honesty confirmation
+      description: Mapping Voices only lists real, publicly documented collections — please confirm before submitting.
+      options:
+        - label: >-
+            I've confirmed this is a real, publicly documented collection —
+            a real institution, a real holding, and a real URL I can point
+            to — and I have not invented or guessed at any detail above.
+          required: true
