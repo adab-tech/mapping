@@ -1,0 +1,72 @@
+[
+  {
+    "id": "sample-archive-one",
+    "title": "Sample Archive One (FAKE TEST DATA)",
+    "archive": "Placeholder Institute for Testing",
+    "country": "Niger",
+    "lat": 13.5137,
+    "lng": 2.1098,
+    "languages": ["Hausa", "French"],
+    "themes": ["oral tradition", "migration"],
+    "decade_start": 1980,
+    "decade_end": 2000,
+    "summary": "This is fabricated placeholder text used only to test the Mapping Voices UI locally. It is not a real archive.",
+    "url": "https://example.com/sample-archive-one"
+  },
+  {
+    "id": "sample-archive-two",
+    "title": "Sample Archive Two (FAKE TEST DATA)",
+    "archive": "Fictional University Voice Lab",
+    "country": "United States",
+    "lat": 40.7128,
+    "lng": -74.0060,
+    "languages": ["English", "Spanish"],
+    "themes": ["women's history", "labor"],
+    "decade_start": 1960,
+    "decade_end": 1990,
+    "summary": "Made-up test entry number two, standing in for a real oral-history collection while the UI is developed.",
+    "url": "https://example.com/sample-archive-two"
+  },
+  {
+    "id": "sample-archive-three",
+    "title": "Sample Archive Three (FAKE TEST DATA)",
+    "archive": "Imaginary National Sound Archive",
+    "country": "India",
+    "lat": 28.6139,
+    "lng": 77.2090,
+    "languages": ["Hindi", "Urdu", "Bengali"],
+    "themes": ["oral tradition", "partition history"],
+    "decade_start": 1947,
+    "decade_end": null,
+    "summary": "Placeholder record simulating an ongoing collection (null end decade) for local testing purposes only.",
+    "url": "https://example.com/sample-archive-three"
+  },
+  {
+    "id": "sample-archive-four",
+    "title": "Sample Archive Four (FAKE TEST DATA)",
+    "archive": "Test Regional Memory Project",
+    "country": "Brazil",
+    "lat": -23.5505,
+    "lng": -46.6333,
+    "languages": ["Portuguese"],
+    "themes": ["migration", "urban life"],
+    "decade_start": 2000,
+    "decade_end": 2020,
+    "summary": "Dummy dataset entry used to verify filter and detail-panel behavior. Not a real archive or collection.",
+    "url": "https://example.com/sample-archive-four"
+  },
+  {
+    "id": "sample-archive-five",
+    "title": "Sample Archive Five (FAKE TEST DATA)",
+    "archive": "Notional Folklore & Voice Centre",
+    "country": "Australia",
+    "lat": -25.2744,
+    "lng": 133.7751,
+    "languages": ["English"],
+    "themes": ["oral tradition", "indigenous history"],
+    "decade_start": 1975,
+    "decade_end": 2010,
+    "summary": "Fifth invented placeholder entry, included only to exercise the country/theme/language/decade filters together.",
+    "url": "https://example.com/sample-archive-five"
+  }
+]
