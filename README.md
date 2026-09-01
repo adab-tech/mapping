@@ -4,6 +4,9 @@
 [![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
+**Live:** [adamu.tech/mapping](https://adamu.tech/mapping/) ·
+[adab-tech.github.io/mapping](https://adab-tech.github.io/mapping/) (GitHub Pages, canonical)
+
 Mapping Voices is an open, interactive atlas of oral-history and
 voice-testimony archives. It's a single map, filterable by country, theme,
 language, and decade, that puts a pin on every collection in its dataset:
