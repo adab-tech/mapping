@@ -26,8 +26,10 @@
   "results": {
     "heading": "Index",
     "empty": "Aucune collection ne correspond à ces filtres.",
-    "countOne": "1 collection affichée",
-    "countOther": "{n} collections affichées"
+    "count": {
+      "one": "{n} collection affichée",
+      "other": "{n} collections affichées"
+    }
   },
   "map": {
     "ariaLabel": "Carte des collections d'histoire orale et de témoignages. Chaque repère est accessible au clavier et annonce la collection qu'il représente.",

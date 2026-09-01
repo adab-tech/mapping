@@ -89,14 +89,26 @@ Pushing to `main` runs `.github/workflows/deploy-pages.yml`, which validates
 Pages via `actions/upload-pages-artifact` and `actions/deploy-pages`. No
 build step is involved.
 
+## License & citation
+
+The application code is MIT-licensed. The dataset in `data/collections.json`
+is licensed separately under CC BY 4.0, so it stays easy to reuse in
+research while crediting the project that compiled it — see `LICENSE` for
+the full split and its rationale. If you use or reference this project,
+`CITATION.cff` has the details (GitHub also surfaces this as a "Cite this
+repository" button on the repo page).
+
 ## Project layout
 
 ```
 index.html                       entry point
 css/style.css                    styles
 js/app.js                        map + filtering logic
+locales/*.json                   UI-chrome translations (en, ha, fr, ar)
 data/collections.json            the seed dataset (see above)
 data/schema-notes.md             schema reference + how to add an entry
 scripts/validate-data.mjs        zero-dependency data validator
 .github/workflows/deploy-pages.yml   GitHub Pages deployment
+LICENSE                          code (MIT) + dataset (CC BY 4.0) licensing
+CITATION.cff                     how to cite this project
 ```
