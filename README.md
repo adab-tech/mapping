@@ -69,26 +69,30 @@ and browsers block `fetch()` against `file://` URLs.
 
 ## The seed dataset
 
-`data/collections.json` holds the map's data: 130+ entries spanning 60+
-countries across every inhabited continent — real, publicly documented
-oral-history and voice-testimony collections, with real institutions and a
-real, working link to each collection's own public page. No fictional
-archives, testimonies, or recordings are included — if an entry couldn't be
-verified as real, it isn't here. Coverage includes particular attention to
-Niger and the wider Sahel/West Africa region (Niger's CELHTO and IRSH,
-Mali's Sunjata-epic field recordings, Guinea's Sosso-Bala griot tradition,
-Nigeria's Ifa corpus, Benin/Nigeria/Togo's Gelede heritage, Senegal's IFAN
-sound archives, Ghana's Nketia Archives), since that region is
-under-represented in most general oral-history tool demos and this project
-grew out of Hausa/Sahel-region digital humanities research.
+`data/collections.json` holds the map's data: 190+ entries spanning 115+
+countries across every inhabited continent — Africa, Asia, Europe, North and
+South America, and Oceania all represented in real strength, not just a
+token pin per continent — with real institutions and a real, working link to
+each collection's own public page. No fictional archives, testimonies, or
+recordings are included — if an entry couldn't be verified as real, it isn't
+here. Coverage includes particular attention to Niger and the wider
+Sahel/West Africa region (Niger's CELHTO and IRSH, Mali's Sunjata-epic field
+recordings, Guinea's Sosso-Bala griot tradition, Nigeria's Ifa corpus,
+Benin/Nigeria/Togo's Gelede heritage, Senegal's IFAN sound archives, Ghana's
+Nketia Archives), since that region is under-represented in most general
+oral-history tool demos and this project grew out of Hausa/Sahel-region
+digital humanities research.
 
 **This is a growing, curated set — not a finished or exhaustive index.**
 There are still hundreds of oral-history and voice-archive collections
-worldwide that aren't in here yet, and coverage is uneven: some regions
-(Central Asia, Central Africa, the Balkans, the Pacific Islands, Mexico and
-Central America) are thinner than others simply because nobody has added
-them yet, not because they lack real archives worth mapping. That's exactly
-the gap the [institutions & researchers](#for-institutions-researchers--universities)
+worldwide that aren't in here yet, and coverage is still uneven in specific
+places even within well-represented regions — Myanmar, Laos, Panama,
+Honduras, the Dominican Republic, Ecuador, Paraguay, North Macedonia,
+Albania, Belarus, Zambia, Tanzania, and several Gulf states have no entry
+yet, usually because a real institution exists but no verifiable, citable
+archive page for it could be confirmed, not because the region lacks oral
+history worth mapping. That's exactly the gap the
+[institutions & researchers](#for-institutions-researchers--universities)
 section above is asking for help closing. See `data/schema-notes.md` for the full field
 reference and the exact steps for adding a new entry (in short: confirm it's
 real, add an object matching the schema, run

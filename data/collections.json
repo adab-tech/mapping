@@ -3313,5 +3313,1286 @@
     "summary": "Begun as an independent agency in 1980 and integrated into the African Caribbean Institute of Jamaica in 1990, the Jamaica Memory Bank holds over 2,000 sound recordings and 800 videos of storytelling, folk religion, craft, and oral history from across Jamaica's parishes.",
     "url": "https://acij-ioj.org.jm/",
     "citation": "African Caribbean Institute of Jamaica. Jamaica Memory Bank. Retrieved from https://acij-ioj.org.jm/."
+  },
+  {
+    "id": "kazakhstan-central-state-sound-archive",
+    "title": "Central State Archive of Film, Photo Documents and Sound Recordings of the Republic of Kazakhstan",
+    "archive": "Central State Archive of Film, Photo Documents and Sound Recordings of the Republic of Kazakhstan",
+    "country": "Kazakhstan",
+    "lat": 43.222,
+    "lng": 76.8512,
+    "languages": [
+      "Kazakh",
+      "Russian"
+    ],
+    "themes": [
+      "history",
+      "national memory"
+    ],
+    "decade_start": 1943,
+    "decade_end": null,
+    "summary": "Kazakhstan's national audiovisual archive, founded in 1943 and based in Almaty, holds roughly 300,000 items of film, photo and sound-recording documents covering the country's Soviet-era and post-independence history.",
+    "url": "http://kfdz.kz/",
+    "citation": "Central State Archive of Film, Photo Documents and Sound Recordings of the Republic of Kazakhstan. Retrieved from http://kfdz.kz/."
+  },
+  {
+    "id": "uzbekistan-institute-language-literature-folklore",
+    "title": "Folklore Archive of the Institute of Uzbek Language, Literature and Folklore",
+    "archive": "Institute of Uzbek Language, Literature and Folklore, Academy of Sciences of Uzbekistan",
+    "country": "Uzbekistan",
+    "lat": 41.2995,
+    "lng": 69.2401,
+    "languages": [
+      "Uzbek"
+    ],
+    "themes": [
+      "folklore",
+      "oral tradition",
+      "epic performance",
+      "ethnomusicology"
+    ],
+    "decade_start": 1934,
+    "decade_end": null,
+    "summary": "Founded in 1934 in Tashkent, this Academy of Sciences institute's Department of Folklore has organized decades of field expeditions recording Uzbek oral narratives and epic dostons, including a large 1969 expedition that documented epic narrators with the Alisher Navoi Museum of Literature and Karshi State Pedagogical Institute.",
+    "url": "https://tai.academy.uz/en",
+    "citation": "Institute of Uzbek Language, Literature and Folklore, Academy of Sciences of Uzbekistan. Retrieved from https://tai.academy.uz/en."
+  },
+  {
+    "id": "kyrgyzstan-manas-epic-trilogy",
+    "title": "Kyrgyz Epic Trilogy: Manas, Semetey, Seytek",
+    "archive": "UNESCO Intangible Cultural Heritage / Kyrgyz manaschi (epic-teller) tradition",
+    "country": "Kyrgyzstan",
+    "lat": 42.8746,
+    "lng": 74.5698,
+    "languages": [
+      "Kyrgyz"
+    ],
+    "themes": [
+      "oral tradition",
+      "epic performance",
+      "history"
+    ],
+    "decade_start": 1922,
+    "decade_end": null,
+    "summary": "The Manas, Semetey and Seytek trilogy is an oral epic recited by Kyrgyz manaschi performers and inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity in 2013. Its first large-scale transcription from oral performance, of the version narrated by Sagymbay Orozbakov, was carried out between 1922 and 1926 and is separately inscribed on UNESCO's Memory of the World Register.",
+    "url": "https://ich.unesco.org/en/RL/kyrgyz-epic-trilogy-manas-semetey-seytek-00876",
+    "citation": "UNESCO Intangible Cultural Heritage. Kyrgyz epic trilogy: Manas, Semetey, Seytek. Retrieved from https://ich.unesco.org/en/RL/kyrgyz-epic-trilogy-manas-semetey-seytek-00876.",
+    "related_ids": [
+      "uzbekistan-institute-language-literature-folklore"
+    ]
+  },
+  {
+    "id": "tajikistan-rudaki-institute-folklore-archive",
+    "title": "Tajik Folklore Archive of the Rudaki Institute of Language and Literature",
+    "archive": "Rudaki Institute of Language and Literature, Academy of Sciences of Tajikistan",
+    "country": "Tajikistan",
+    "lat": 38.5598,
+    "lng": 68.787,
+    "languages": [
+      "Tajik"
+    ],
+    "themes": [
+      "folklore",
+      "oral tradition",
+      "linguistics"
+    ],
+    "decade_start": 1923,
+    "decade_end": 2003,
+    "summary": "The Rudaki Institute in Dushanbe, founded in 1932, holds one of the few surviving repositories of Tajik expressive culture: a folklore archive of notebooks, notecards and loose-leaf papers from Soviet-era and post-Soviet fieldwork expeditions, collected between 1923 and 2003 and written in Arabic, Latin and Cyrillic script.",
+    "url": "https://izar.tj/en/department-folklore",
+    "citation": "Rudaki Institute of Language and Literature, Academy of Sciences of Tajikistan. Department of Folklore. Retrieved from https://izar.tj/en/department-folklore."
+  },
+  {
+    "id": "turkey-trt-folk-music-archive",
+    "title": "TRT Turkish Folk Music Archive",
+    "archive": "Turkish Radio and Television Corporation (TRT)",
+    "country": "Turkey",
+    "lat": 39.9208,
+    "lng": 32.8541,
+    "languages": [
+      "Turkish"
+    ],
+    "themes": [
+      "folklore",
+      "music",
+      "ethnomusicology"
+    ],
+    "decade_start": 1926,
+    "decade_end": null,
+    "summary": "TRT's folk music archive comprises more than 6,500 field-collected recordings and notations of Turkish folk music, built on collecting expeditions beginning with the Istanbul Municipal Conservatory (1926-1929) and continued by the Ankara State Conservatory (1936-1952). Notation and recording holdings are made available through TRT's Nota Kutuphanesi (Notation Library) platform.",
+    "url": "https://nota.trt.net.tr/Nota-Kutuphanesi",
+    "citation": "Turkish Radio and Television Corporation (TRT). Nota Kutuphanesi. Retrieved from https://nota.trt.net.tr/Nota-Kutuphanesi."
+  },
+  {
+    "id": "afghanistan-hoover-oral-history-project",
+    "title": "HART: Hoover Afghanistan Oral History Project",
+    "archive": "Hoover Institution Library & Archives, Stanford University",
+    "country": "Afghanistan",
+    "lat": 34.5553,
+    "lng": 69.2075,
+    "languages": [
+      "Dari",
+      "Pashto"
+    ],
+    "themes": [
+      "war and conflict",
+      "displacement",
+      "migration",
+      "refugees"
+    ],
+    "decade_start": 2022,
+    "decade_end": null,
+    "summary": "Since 2022, oral historian Halima Kazem has recorded more than 450 hours of interviews with Afghans who fled the country following the August 2021 Taliban takeover and the collapse of the Afghan government. The interviews are held in the Hoover Institution Library & Archives' digital repository.",
+    "url": "https://digitalcollections2.hoover.org/collection/3249451/hart-hoover-afghanistan-oral-history-project",
+    "citation": "Hoover Institution Library & Archives, Stanford University. HART: Hoover Afghanistan Oral History Project. Retrieved from https://digitalcollections2.hoover.org/collection/3249451/hart-hoover-afghanistan-oral-history-project."
+  },
+  {
+    "id": "iraq-mosul-jewish-community-testimonies",
+    "title": "Intangible Heritage Collection of Testimonies on the Jewish Community of Mosul",
+    "archive": "ALIPH Foundation (International Alliance for the Protection of Heritage in Conflict Areas)",
+    "country": "Iraq",
+    "lat": 36.3489,
+    "lng": 43.1189,
+    "languages": [
+      "Arabic"
+    ],
+    "themes": [
+      "displacement",
+      "community memory",
+      "religion"
+    ],
+    "decade_start": 2021,
+    "decade_end": 2022,
+    "summary": "Between 2021 and 2022, an ALIPH Foundation-supported project recorded seventeen video interviews with individuals connected to Mosul's historic Jewish community, whose members had largely left Iraq by the mid-20th century, alongside digitization of private family archives and a community journal.",
+    "url": "https://www.aliph-foundation.org/en/projects/intangible-heritage-collection-of-testimonies-on-the-jewish-community-of-mosul",
+    "citation": "ALIPH Foundation. Intangible Heritage Collection of Testimonies on the Jewish Community of Mosul. Retrieved from https://www.aliph-foundation.org/en/projects/intangible-heritage-collection-of-testimonies-on-the-jewish-community-of-mosul."
+  },
+  {
+    "id": "saudi-arabia-darah-oral-history-center",
+    "title": "Darah Oral History Center",
+    "archive": "King Abdulaziz Foundation for Research and Archives (Darah)",
+    "country": "Saudi Arabia",
+    "lat": 24.7136,
+    "lng": 46.6753,
+    "languages": [
+      "Arabic"
+    ],
+    "themes": [
+      "oral tradition",
+      "history",
+      "family history"
+    ],
+    "decade_start": 1995,
+    "decade_end": null,
+    "summary": "Established in 1995 by the King Abdulaziz Foundation for Research and Archives (Darah) in Riyadh, this was the first specialized oral history center in Saudi Arabia. It has recorded thousands of audio and video interviews with storytellers, elders and narrators from across the Kingdom for use in historical research.",
+    "url": "https://www.darah.org.sa/",
+    "citation": "King Abdulaziz Foundation for Research and Archives (Darah). Retrieved from https://www.darah.org.sa/."
+  },
+  {
+    "id": "uae-national-archives-oral-history-programme",
+    "title": "Oral History Programme",
+    "archive": "National Library and Archives, United Arab Emirates",
+    "country": "United Arab Emirates",
+    "lat": 24.4539,
+    "lng": 54.3773,
+    "languages": [
+      "Arabic"
+    ],
+    "themes": [
+      "oral tradition",
+      "folklife",
+      "everyday life"
+    ],
+    "decade_start": 2008,
+    "decade_end": null,
+    "summary": "Since 2008, the UAE's National Library and Archives has recorded more than 800 audio-visual interviews with elderly Emirati narrators and eyewitnesses, documenting local dialects, folk songs and the lifestyles of earlier generations for the national archival record.",
+    "url": "https://www.nla.ae/en/our-history/oral-history/overview/overview/",
+    "citation": "National Library and Archives, United Arab Emirates. Oral History Overview. Retrieved from https://www.nla.ae/en/our-history/oral-history/overview/overview/."
+  },
+  {
+    "id": "kuwait-auk-oral-history-documentation-project",
+    "title": "Oral History and Documentation Project (OHDP)",
+    "archive": "American University of Kuwait Library",
+    "country": "Kuwait",
+    "lat": 29.3375,
+    "lng": 48.0758,
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "themes": [
+      "oral tradition",
+      "community memory",
+      "everyday life"
+    ],
+    "decade_start": 2020,
+    "decade_end": null,
+    "summary": "Launched in 2020 by the American University of Kuwait Library in collaboration with KIPCO, the Oral History and Documentation Project is Kuwait's first comprehensive program actively recording life-history interviews across a range of topics to preserve the voices of Kuwaiti and non-Kuwaiti residents. The library was among the first in the Arab world to adopt the OHMS oral-history indexing application, including Arabic-language support.",
+    "url": "https://oralhistory.auk.edu.kw",
+    "access_notes": "Selected life-history interviews are published and browsable via the project's own online platform.",
+    "citation": "American University of Kuwait Library. Oral History and Documentation Project. Retrieved from https://oralhistory.auk.edu.kw."
+  },
+  {
+    "id": "sudan-folklore-traditional-music-archives",
+    "title": "Folklore and Traditional Music Archives",
+    "archive": "Institute of African and Asian Studies, University of Khartoum",
+    "country": "Sudan",
+    "lat": 15.6136,
+    "lng": 32.5322,
+    "languages": [
+      "Arabic"
+    ],
+    "themes": [
+      "folklore",
+      "ethnomusicology",
+      "music"
+    ],
+    "decade_start": 1963,
+    "decade_end": null,
+    "summary": "The Institute of African and Asian Studies at the University of Khartoum holds the Folklore and Traditional Music Archives: more than 3,000 audio recordings and photographs of traditional Sudanese music and folklore gathered since 1963 through successive research initiatives. UNESCO's Intangible Cultural Heritage Fund has supported an action plan for digitizing and preserving the collection.",
+    "url": "https://ich.unesco.org/en/news/digitization-of-sudan-folklore-and-traditional-music-archives-00046",
+    "citation": "UNESCO Intangible Cultural Heritage. Digitization of Sudan folklore and traditional music archives. Retrieved from https://ich.unesco.org/en/news/digitization-of-sudan-folklore-and-traditional-music-archives-00046."
+  },
+  {
+    "id": "tunisia-cmam-phonotheque-nationale",
+    "title": "Phonothèque Nationale de Tunisie (National Sound Archive)",
+    "archive": "Centre des Musiques Arabes et Méditerranéennes (CMAM), Ennejma Ezzahra",
+    "country": "Tunisia",
+    "lat": 36.8687,
+    "lng": 10.3412,
+    "languages": [
+      "Arabic",
+      "French"
+    ],
+    "themes": [
+      "music",
+      "ethnomusicology",
+      "folklife"
+    ],
+    "decade_start": 1907,
+    "decade_end": null,
+    "summary": "The Phonothèque Nationale de Tunisie, run by the Centre des Musiques Arabes et Méditerranéennes at the Ennejma Ezzahra palace near Tunis, holds Tunisia's historical phonographic heritage: 78/80/45/33rpm discs and field recordings dating back to 1907, organized into roughly thirty corpora and made accessible online through the Telemeta audio platform.",
+    "url": "https://phonotheque.cmam.tn/",
+    "access_notes": "Many collections are streamable online via the Telemeta-based Phonothèque platform; other material requires an in-person consultation request to the Center."
+  },
+  {
+    "id": "botswana-national-archives-oral-history",
+    "title": "Oral History Collection",
+    "archive": "Botswana National Archives and Records Services (BNARS)",
+    "country": "Botswana",
+    "lat": -24.6558,
+    "lng": 25.9086,
+    "languages": [
+      "Setswana",
+      "English"
+    ],
+    "themes": [
+      "oral tradition",
+      "community memory",
+      "history"
+    ],
+    "decade_start": 1982,
+    "decade_end": null,
+    "summary": "BNARS, a department under Botswana's Ministry of Youth, Sport and Culture, has collected oral history recordings since 1982 documenting the histories of Botswana's ethnic groups, villages and notable individuals, held alongside its documentary archival holdings in Gaborone.",
+    "url": "https://www.gov.bw/culture/national-archives-research-enquiry",
+    "access_notes": "In-person research-room access at the National Archives in Gaborone; researchers submit an enquiry form in advance."
+  },
+  {
+    "id": "namibia-national-archives-aacrls-oral-history",
+    "title": "AACRLS Oral History Collection",
+    "archive": "National Archives of Namibia",
+    "country": "Namibia",
+    "lat": -22.57,
+    "lng": 17.0836,
+    "languages": [
+      "English",
+      "Afrikaans"
+    ],
+    "themes": [
+      "oral tradition",
+      "resistance history",
+      "colonial history"
+    ],
+    "decade_start": 2001,
+    "decade_end": 2010,
+    "summary": "The National Archives of Namibia's Archives of Anti-Colonial Resistance and the Liberation Struggle (AACRLS) programme, jointly funded by Namibia and Germany from 2001 to 2010, expanded the Archives' oral history holdings from a small base to roughly 1,500 recorded interviews with participants in Namibia's liberation struggle.",
+    "url": "https://nan.gov.na/finding-aids"
+  },
+  {
+    "id": "mozambique-arquivo-historico-oral-history",
+    "title": "Independence-War and Rural Life Oral History Collection",
+    "archive": "Arquivo Histórico de Moçambique, Eduardo Mondlane University",
+    "country": "Mozambique",
+    "lat": -25.9689,
+    "lng": 32.5934,
+    "languages": [
+      "Portuguese"
+    ],
+    "themes": [
+      "war and conflict",
+      "oral tradition",
+      "everyday life"
+    ],
+    "decade_start": 1979,
+    "decade_end": 1984,
+    "summary": "The Arquivo Histórico de Moçambique, overseen by Eduardo Mondlane University in Maputo since 1976, holds several hundred cassette-tape interviews and storytelling sessions recorded between 1979 and 1984 in Mozambique's northern provinces, documenting the war of independence, rural social life, rituals and local histories.",
+    "url": "https://ahm.ghost.uem.mz/"
+  },
+  {
+    "id": "angola-arquivo-nacional-oral-tradition",
+    "title": "Oral Tradition Sound Collection",
+    "archive": "Arquivo Nacional de Angola",
+    "country": "Angola",
+    "lat": -8.8147,
+    "lng": 13.2302,
+    "languages": [
+      "Portuguese",
+      "Umbundu"
+    ],
+    "themes": [
+      "oral tradition",
+      "folklife",
+      "history"
+    ],
+    "decade_start": 1960,
+    "decade_end": 1979,
+    "summary": "Angola's National Archive holds magnetic-tape recordings made during the 1960s and 1970s in the Benguela, Huambo, Bié and Luanda regions, including interviews with traditional leaders (sobas and sekulos), oral narratives, songs and elders' memories, some of it recovered after an earlier period of neglect and now cared for by the Archive's oral-archive department.",
+    "url": "https://www.ana.gov.ao/"
+  },
+  {
+    "id": "drc-rmca-ethnomusicology-sound-archive",
+    "title": "Ethnomusicological Sound Archive (Congo Collections)",
+    "archive": "Royal Museum for Central Africa (Tervuren, Belgium)",
+    "country": "Democratic Republic of the Congo",
+    "lat": -4.4419,
+    "lng": 15.2663,
+    "languages": [
+      "French",
+      "Lingala",
+      "Swahili",
+      "Kikongo",
+      "Tshiluba"
+    ],
+    "themes": [
+      "ethnomusicology",
+      "music",
+      "colonial history"
+    ],
+    "decade_start": 1910,
+    "decade_end": null,
+    "summary": "The Royal Museum for Central Africa's ethnomusicology department holds roughly 3,000 hours of sound recordings of traditional music from Central Africa, with a strong focus on the Congo and Rwanda, spanning 1910 Edison-cylinder recordings made by Armand Hutereau in Uele province through later tape, cassette and digital field recordings. A digitization project (DEKKMMA), run with the Université Libre de Bruxelles and Ghent University, is making the collection more widely accessible.",
+    "url": "https://www.africamuseum.be/en/research/discover/collections_management/archives_and_documentation/archives",
+    "access_notes": "Physically held in Tervuren, Belgium, as the historical repository for this Central African material; access is by request to the museum's ethnomusicology department."
+  },
+  {
+    "id": "madagascar-phonogrammarchiv-collection",
+    "title": "Madagascar Sound Collection",
+    "archive": "Phonogrammarchiv, Austrian Academy of Sciences",
+    "country": "Madagascar",
+    "lat": -18.9146,
+    "lng": 47.5361,
+    "languages": [
+      "Malagasy"
+    ],
+    "themes": [
+      "oral tradition",
+      "folklore",
+      "music"
+    ],
+    "decade_start": 1961,
+    "decade_end": 1992,
+    "summary": "Field recordings of Malagasy traditional music, fairy tales and stories, made between 1961 and 1992 by researchers including Gerhard Kubik and August Schmidhofer, are held by the Vienna Phonogrammarchiv. In September 2012 the Archive repatriated a digital copy of over 1,000 of these sound documents to the Institut de Civilisations at the University of Antananarivo.",
+    "url": "https://www.oeaw.ac.at/en/phonogrammarchiv/home",
+    "access_notes": "A digital copy of the collection was repatriated to the University of Antananarivo in 2012; the original recordings remain held by the Phonogrammarchiv in Vienna.",
+    "citation": "IASA. Phonogrammarchiv repatriates Madagascar's acoustic heritage. Retrieved from https://www.iasa-web.org/phonogrammarchiv-repatriates-madagascar%E2%80%99s-acoustic-heritage."
+  },
+  {
+    "id": "cameroon-cerdotola-oral-resources-laboratory",
+    "title": "Oral Resources Laboratory (Laboratoire des Ressources Orales)",
+    "archive": "Centre International de Recherche et de Documentation sur les Traditions et les Langues Africaines (CERDOTOLA)",
+    "country": "Cameroon",
+    "lat": 3.848,
+    "lng": 11.5021,
+    "languages": [
+      "French"
+    ],
+    "themes": [
+      "oral tradition",
+      "linguistics",
+      "language documentation"
+    ],
+    "decade_start": 1977,
+    "decade_end": null,
+    "summary": "CERDOTOLA, an intergovernmental research center founded by 11 African states in 1977 and headquartered in Yaoundé, runs an Oral Resources Laboratory (Laboratoire des Ressources Orales) dedicated to documenting and archiving African oral traditions and languages, and has hosted training sessions and conferences on sound, oral and radio archives across the continent.",
+    "url": "https://en.cerdotola.org/"
+  },
+  {
+    "id": "algeria-cnrpah-oral-heritage-recordings",
+    "title": "Ethnomusicology and Oral Heritage Sound Recordings",
+    "archive": "Centre National de Recherches Préhistoriques, Anthropologiques et Historiques (CNRPAH)",
+    "country": "Algeria",
+    "lat": 36.7538,
+    "lng": 3.0588,
+    "languages": [
+      "Arabic",
+      "Tamazight"
+    ],
+    "themes": [
+      "ethnomusicology",
+      "oral tradition",
+      "folklore"
+    ],
+    "decade_start": 1974,
+    "decade_end": null,
+    "summary": "CNRPAH, Algeria's national research center for prehistory, anthropology and history, has conducted ethnomusicological fieldwork since 1974 and built an audio collection of more than 300 hours of recordings; since 2007 it has coordinated Algeria's national inventory of intangible cultural heritage together with the country's regional cultural departments.",
+    "url": "https://cnrpah.org/"
+  },
+  {
+    "id": "libya-lcahs-oral-history-project",
+    "title": "Libyan Oral History Project",
+    "archive": "Libyan Center for Archives and Historical Studies (formerly the Libyan Studies Center)",
+    "country": "Libya",
+    "lat": 32.8872,
+    "lng": 13.1913,
+    "languages": [
+      "Arabic"
+    ],
+    "themes": [
+      "resistance history",
+      "colonial history",
+      "oral tradition"
+    ],
+    "decade_start": 1978,
+    "decade_end": null,
+    "summary": "Established in Tripoli in the late 1970s with methodological input from historian Jan Vansina, the Libyan Center for Archives and Historical Studies (formerly the Libyan Studies Center) built a large-scale oral history archive recording testimonies of participants in Libyan resistance to Italian colonial rule and survivors of Italy's concentration camps in Libya.",
+    "url": "https://lcahs.ly/"
+  },
+  {
+    "id": "italy-icbsa-sound-archive",
+    "title": "ICBSA National Sound Archive",
+    "archive": "Istituto Centrale per i Beni Sonori ed Audiovisivi (ICBSA), Italian Ministry of Culture",
+    "country": "Italy",
+    "lat": 41.893,
+    "lng": 12.4763,
+    "languages": [
+      "Italian"
+    ],
+    "themes": [
+      "folklife",
+      "music",
+      "oral tradition",
+      "history"
+    ],
+    "decade_start": 1928,
+    "decade_end": null,
+    "summary": "Italy's national sound archive, founded in 1928 as the Discoteca di Stato, holds over 300,000 sound items ranging from Edison wax cylinders to digital recordings, including field recordings of Italian folk music, regional dialects, and oral traditions.",
+    "url": "http://www.icbsa.it/"
+  },
+  {
+    "id": "greece-asia-minor-oral-tradition-archive",
+    "title": "Oral Tradition Archive of the Centre for Asia Minor Studies",
+    "archive": "Centre for Asia Minor Studies (Κέντρο Μικρασιατικών Σπουδών)",
+    "country": "Greece",
+    "lat": 37.9716,
+    "lng": 23.7296,
+    "languages": [
+      "Greek"
+    ],
+    "themes": [
+      "displacement",
+      "migration",
+      "refugees",
+      "oral tradition"
+    ],
+    "decade_start": 1930,
+    "decade_end": 1970,
+    "summary": "Founded in 1930 by Melpo and Octave Merlier, the Centre's Oral Tradition Archive gathered testimonies from more than 5,000 Greek Orthodox refugees from Asia Minor, covering roughly 1,475 investigated pre-1922 settlements and documenting daily life, the population exchange, and the 1922 Asia Minor Catastrophe.",
+    "url": "https://www.kms.org.gr/en/archives/oral-tradition-archive/"
+  },
+  {
+    "id": "slovenia-institute-ethnomusicology-sound-archive",
+    "title": "Sound Archive of the Institute of Ethnomusicology",
+    "archive": "Institute of Ethnomusicology (Glasbenonarodopisni inštitut), ZRC SAZU",
+    "country": "Slovenia",
+    "lat": 46.0489,
+    "lng": 14.5061,
+    "languages": [
+      "Slovenian"
+    ],
+    "themes": [
+      "ethnomusicology",
+      "folklife",
+      "music",
+      "oral tradition"
+    ],
+    "decade_start": 1934,
+    "decade_end": null,
+    "summary": "Founded in 1934 and now part of the Slovenian Academy of Sciences and Arts, the Institute runs a dedicated Sound Archive and Studio (established 1994) of Slovenian and South Slavic folk music, song, and dance recordings, with selected material published through its Etnomuza digital platform.",
+    "url": "https://gni.zrc-sazu.si/en"
+  },
+  {
+    "id": "romania-brailoiu-institute-ethnography-folklore",
+    "title": "Constantin Brăiloiu Institute of Ethnography and Folklore Archive",
+    "archive": "Institutul de Etnografie și Folclor „Constantin Brăiloiu”, Romanian Academy",
+    "country": "Romania",
+    "lat": 44.4136,
+    "lng": 26.0836,
+    "languages": [
+      "Romanian"
+    ],
+    "themes": [
+      "ethnomusicology",
+      "folklore",
+      "oral tradition",
+      "music"
+    ],
+    "decade_start": 1928,
+    "decade_end": null,
+    "summary": "Successor to the folklore archive that composer-ethnomusicologist Constantin Brăiloiu founded in 1928 under the Society of Romanian Composers, the Institute preserves decades of field recordings of Romanian folk music and oral tradition gathered during Brăiloiu's and sociologist Dimitrie Gusti's village research campaigns and later fieldwork.",
+    "url": "https://academiaromana.ro/ief/"
+  },
+  {
+    "id": "latvia-folklore-archives-dainas",
+    "title": "Archives of Latvian Folklore",
+    "archive": "Institute of Literature, Folklore and Art, University of Latvia (Latviešu folkloras krātuve)",
+    "country": "Latvia",
+    "lat": 56.9346,
+    "lng": 24.0972,
+    "languages": [
+      "Latvian"
+    ],
+    "themes": [
+      "oral tradition",
+      "folklore",
+      "music"
+    ],
+    "decade_start": 1924,
+    "decade_end": null,
+    "summary": "Established in 1924, the Archives of Latvian Folklore is the oldest folklore archive in the Baltic states, holding more than three million items including manuscripts, and audio and video recordings. Its centerpiece, the Cabinet of Dainas — Krišjānis Barons's card catalogue of over 200,000 Latvian folk songs — was inscribed on UNESCO's Memory of the World Register in 2001.",
+    "url": "https://lulfmi.lv/en/archives-of-latvian-folklore",
+    "citation": "UNESCO Memory of the World Register: 'Dainu skapis' (Cabinet of Dainas), inscribed 2001."
+  },
+  {
+    "id": "lithuania-folklore-phonogram-collection",
+    "title": "Lithuanian Folk Music Phonogram Collection",
+    "archive": "Institute of Lithuanian Literature and Folklore, Lithuanian Folklore Archives",
+    "country": "Lithuania",
+    "lat": 54.6975,
+    "lng": 25.3011,
+    "languages": [
+      "Lithuanian"
+    ],
+    "themes": [
+      "oral tradition",
+      "music",
+      "folklore"
+    ],
+    "decade_start": 1908,
+    "decade_end": 1949,
+    "summary": "Held at the Lithuanian Folklore Archives, this collection of early phonograph and later tape recordings of Lithuanian folk songs and music, made between 1908 and 1949, was inscribed on UNESCO's Memory of the World national register in 2008 as documentary heritage of regional significance.",
+    "url": "https://archyvas.llti.lt/en/lithuanian_folk_music_phonogram_collection/?id=55793"
+  },
+  {
+    "id": "switzerland-uzh-phonogrammarchiv",
+    "title": "Phonogrammarchiv of the University of Zurich",
+    "archive": "Phonogrammarchiv, University of Zurich",
+    "country": "Switzerland",
+    "lat": 47.3746,
+    "lng": 8.5501,
+    "languages": [
+      "German",
+      "French",
+      "Italian",
+      "Romansh"
+    ],
+    "themes": [
+      "linguistics",
+      "language documentation",
+      "oral tradition"
+    ],
+    "decade_start": 1909,
+    "decade_end": null,
+    "summary": "Founded in 1909, Switzerland's oldest sound archive collects, documents, and publishes recordings of Swiss dialects across all four national languages; it is now housed within the University of Zurich's Institute of Computational Linguistics.",
+    "url": "https://www.phonogrammarchiv.uzh.ch/de.html"
+  },
+  {
+    "id": "denmark-folklore-archives-royal-library",
+    "title": "Danish Folklore Archives",
+    "archive": "Dansk Folkemindesamling, Royal Danish Library",
+    "country": "Denmark",
+    "lat": 55.6739,
+    "lng": 12.5807,
+    "languages": [
+      "Danish"
+    ],
+    "themes": [
+      "folklore",
+      "everyday life",
+      "oral tradition"
+    ],
+    "decade_start": 1904,
+    "decade_end": null,
+    "summary": "Established in 1904 and incorporated into the Royal Danish Library in 2008, the Danish Folklore Archives preserves manuscripts, audio recordings, and video documenting Danish folk narrative, custom, song, and everyday life across more than a century of collecting.",
+    "url": "https://www.kb.dk/en/find-materials/collections/folklore-archive"
+  },
+  {
+    "id": "iceland-arni-magnusson-folklore-collection",
+    "title": "Folklore Collection of the Árni Magnússon Institute",
+    "archive": "Árni Magnússon Institute for Icelandic Studies (Stofnun Árna Magnússonar í íslenskum fræðum)",
+    "country": "Iceland",
+    "lat": 64.1394,
+    "lng": -21.9508,
+    "languages": [
+      "Icelandic"
+    ],
+    "themes": [
+      "folklore",
+      "oral tradition",
+      "music"
+    ],
+    "decade_start": 1900,
+    "decade_end": null,
+    "summary": "The Institute's ethnology division holds a large tape-recorded folklore collection of ballads, folk songs, folktales, and descriptions of customs gathered across Iceland and Icelandic settlements in North America, with source material dating back to 1900.",
+    "url": "https://arnastofnun.is/en/culture",
+    "access_notes": "Selected recordings from the collection are accessible online via the ismus.is portal."
+  },
+  {
+    "id": "bulgaria-iefsem-ethnographic-archive",
+    "title": "Ethnographic Archive of the Institute of Ethnology and Folklore Studies",
+    "archive": "Institute of Ethnology and Folklore Studies with Ethnographic Museum (IEFSEM), Bulgarian Academy of Sciences",
+    "country": "Bulgaria",
+    "lat": 42.6941,
+    "lng": 23.3299,
+    "languages": [
+      "Bulgarian"
+    ],
+    "themes": [
+      "folklife",
+      "ethnomusicology",
+      "oral tradition"
+    ],
+    "decade_start": 1947,
+    "decade_end": null,
+    "summary": "Tracing its research lineage to the Institute of Folklore founded by the Bulgarian Academy of Sciences in 1947, IEFSEM's Ethnographic Archive holds field-collected written records, photographs, and sound recordings of Bulgarian pre-industrial and traditional culture, with active digitization efforts underway.",
+    "url": "https://iefem.bas.bg/en/"
+  },
+  {
+    "id": "croatia-ethnology-folklore-research-sound-archive",
+    "title": "Sound Archive of the Institute of Ethnology and Folklore Research",
+    "archive": "Institute of Ethnology and Folklore Research (Institut za etnologiju i folkloristiku), Zagreb",
+    "country": "Croatia",
+    "lat": 45.809,
+    "lng": 15.9971,
+    "languages": [
+      "Croatian"
+    ],
+    "themes": [
+      "folklife",
+      "ethnomusicology",
+      "oral tradition"
+    ],
+    "decade_start": 1948,
+    "decade_end": null,
+    "summary": "Founded in 1948, the Institute's Audio Library holds several thousand recordings of Croatian oral literature, folk music and dance, and narrations of custom, gathered from Croatian-speaking regions and Croatian communities living outside Croatia.",
+    "url": "https://www.ief.hr/en/archive/collections/"
+  },
+  {
+    "id": "serbia-sasa-institute-musicology-archive",
+    "title": "Archive of the Institute of Musicology SASA",
+    "archive": "Institute of Musicology, Serbian Academy of Sciences and Arts (SASA)",
+    "country": "Serbia",
+    "lat": 44.8175,
+    "lng": 20.4581,
+    "languages": [
+      "Serbian"
+    ],
+    "themes": [
+      "ethnomusicology",
+      "folklore",
+      "music"
+    ],
+    "decade_start": 1948,
+    "decade_end": null,
+    "summary": "Founded in 1948 as the first musicology institute in the former Yugoslavia, the Institute holds an extensive archive of ethnomusicological field notation and sound recordings of Serbian folk songs and dances, built up through decades of ongoing fieldwork.",
+    "url": "https://music.sanu.ac.rs/en/archive/"
+  },
+  {
+    "id": "portugal-fado-museum-digital-sound-archive",
+    "title": "Digital Sound Archive (Arquivo Sonoro Digital)",
+    "archive": "INET-MD (Instituto de Etnomusicologia) and Museu do Fado, Lisbon",
+    "country": "Portugal",
+    "lat": 38.7126,
+    "lng": -9.1281,
+    "languages": [
+      "Portuguese"
+    ],
+    "themes": [
+      "music",
+      "oral tradition",
+      "everyday life"
+    ],
+    "decade_start": 1900,
+    "decade_end": null,
+    "summary": "A partnership between the Fado Museum and the Institute of Ethnomusicology (INET-MD, NOVA University Lisbon), this digital archive brings together thousands of historical fado recordings dating from the early 20th century, forming Portugal's largest historical popular-music sound repository.",
+    "url": "https://www.inetmd.pt/publicacoes/arquivo-sonoro-digital/"
+  },
+  {
+    "id": "belgium-cegesoma-oral-history-wwii",
+    "title": "CegeSoma Oral History Interview Collections",
+    "archive": "CegeSoma, State Archives of Belgium",
+    "country": "Belgium",
+    "lat": 50.8362,
+    "lng": 4.3315,
+    "languages": [
+      "French",
+      "Dutch"
+    ],
+    "themes": [
+      "war and conflict",
+      "oral tradition",
+      "everyday life",
+      "military history"
+    ],
+    "decade_start": 1969,
+    "decade_end": null,
+    "summary": "Belgium's federal research centre on 20th-century conflict, part of the State Archives since 2016, holds about 1,800 digitized interviews with former WWII resistance fighters, collaborators, and eyewitnesses, plus 1,200 interviews recorded between 1984 and 1998 on daily life under the German Occupation.",
+    "url": "https://www.cegesoma.be/en/home"
+  },
+  {
+    "id": "ukraine-lviv-urban-media-archive",
+    "title": "Urban Media Archive Oral History Interviews",
+    "archive": "Center for Urban History of East Central Europe, Lviv",
+    "country": "Ukraine",
+    "lat": 49.8404,
+    "lng": 24.0297,
+    "languages": [
+      "Ukrainian",
+      "Russian",
+      "Polish"
+    ],
+    "themes": [
+      "oral tradition",
+      "urban history",
+      "everyday life",
+      "migration"
+    ],
+    "decade_start": 2004,
+    "decade_end": null,
+    "summary": "Since its founding in 2004, the Center for Urban History has recorded oral history interviews on urban space, professional biographies, and everyday life across Lviv and East-Central Europe, digitized and annotated for public access in its Urban Media Archive.",
+    "url": "https://uma.lvivcenter.org/en/interviews"
+  },
+  {
+    "id": "slovakia-institute-musicology-folk-music-archive",
+    "title": "Folk Music Sound Recordings of the Institute of Musicology SAS",
+    "archive": "Institute of Musicology, Slovak Academy of Sciences (Ústav hudobnej vedy SAV)",
+    "country": "Slovakia",
+    "lat": 48.1633,
+    "lng": 17.0704,
+    "languages": [
+      "Slovak"
+    ],
+    "themes": [
+      "ethnomusicology",
+      "folklore",
+      "music"
+    ],
+    "decade_start": 1950,
+    "decade_end": null,
+    "summary": "The Institute's Department of Ethnomusicology holds Slovakia's most extensive folk-music recording collection: over 3,500 tapes recorded by Institute staff from the second half of the 20th century onward, covering every region of Slovakia and Slovak diaspora communities abroad.",
+    "url": "https://uhv.sav.sk/en/"
+  },
+  {
+    "id": "mexico-fonoteca-nacional",
+    "title": "Fonoteca Nacional de México",
+    "archive": "Fonoteca Nacional de México",
+    "country": "Mexico",
+    "lat": 19.3467,
+    "lng": -99.1718,
+    "languages": [
+      "Spanish",
+      "Indigenous languages of Mexico"
+    ],
+    "themes": [
+      "oral tradition",
+      "ethnomusicology",
+      "linguistics",
+      "folklife"
+    ],
+    "decade_start": 1900,
+    "decade_end": null,
+    "summary": "Mexico's national sound archive, established in 2008 in Coyoacán, Mexico City, holds and preserves historical and contemporary recordings including music, oral narratives, radio broadcasts and field recordings in Spanish and multiple Mexican indigenous languages, some dating to early wax-cylinder recordings.",
+    "url": "https://www.fonotecanacional.gob.mx/",
+    "citation": "Fonoteca Nacional de México. Retrieved from https://www.fonotecanacional.gob.mx/."
+  },
+  {
+    "id": "mexico-fonoteca-henrietta-yurchenco",
+    "title": "Fonoteca Henrietta Yurchenco",
+    "archive": "Instituto Nacional de los Pueblos Indígenas (INPI)",
+    "country": "Mexico",
+    "lat": 19.4326,
+    "lng": -99.1332,
+    "languages": [
+      "Indigenous languages of Mexico",
+      "Spanish"
+    ],
+    "themes": [
+      "oral tradition",
+      "indigenous history",
+      "ethnomusicology",
+      "linguistics"
+    ],
+    "decade_start": 1960,
+    "decade_end": 1997,
+    "summary": "Named for ethnomusicologist Henrietta Yurchenco, this sound archive held by Mexico's national indigenous-peoples institute comprises more than 11,000 field recordings of indigenous music, oral narratives, interviews and festivals gathered by researchers between 1960 and 1997, plus some of the earliest known recordings of Mexican indigenous music.",
+    "url": "https://www.inpi.gob.mx/acervos/fonoteca.html",
+    "citation": "Instituto Nacional de los Pueblos Indígenas. Fonoteca Henrietta Yurchenco. Retrieved from https://www.inpi.gob.mx/acervos/fonoteca.html."
+  },
+  {
+    "id": "guatemala-remhi-centro-memoria-gerardi",
+    "title": "REMHI — Proyecto Interdiocesano de Recuperación de la Memoria Histórica",
+    "archive": "Centro de la Memoria Monseñor Juan Gerardi (Oficina de Derechos Humanos del Arzobispado de Guatemala, ODHAG)",
+    "country": "Guatemala",
+    "lat": 14.6349,
+    "lng": -90.5069,
+    "languages": [
+      "Spanish",
+      "Mayan languages"
+    ],
+    "themes": [
+      "genocide",
+      "human rights",
+      "war and conflict",
+      "state terrorism",
+      "memory and reconciliation",
+      "transitional justice"
+    ],
+    "decade_start": 1995,
+    "decade_end": 1998,
+    "summary": "Directed by Bishop Juan Gerardi and published as the 1998 report 'Guatemala: Nunca Más', REMHI gathered several thousand oral testimonies from survivors and witnesses of Guatemala's internal armed conflict; the original testimonies and case files are preserved at the archdiocese's Centro de la Memoria, which bears Gerardi's name after his 1998 assassination.",
+    "url": "https://www.odhag.org.gt/cmmjg/",
+    "access_notes": "The popularized version of the REMHI report is freely available online; original testimony archives are held for research access at the Centro de la Memoria."
+  },
+  {
+    "id": "costa-rica-archivo-historico-musical-ucr",
+    "title": "Archivo Histórico Musical",
+    "archive": "Escuela de Artes Musicales, Universidad de Costa Rica",
+    "country": "Costa Rica",
+    "lat": 9.9376,
+    "lng": -84.0505,
+    "languages": [
+      "Spanish"
+    ],
+    "themes": [
+      "music",
+      "folklife",
+      "everyday life",
+      "history"
+    ],
+    "decade_start": 1993,
+    "decade_end": null,
+    "summary": "Founded in 1993 at the University of Costa Rica's School of Musical Arts, this archive rescues, preserves and digitizes Costa Rica's musical heritage, holding scores, photographs and sound recordings from more than 5,600 Costa Rican composers and musicians.",
+    "url": "https://archivomusical.ucr.ac.cr/",
+    "citation": "Universidad de Costa Rica, Escuela de Artes Musicales. Archivo Histórico Musical. Retrieved from https://archivomusical.ucr.ac.cr/."
+  },
+  {
+    "id": "cuba-museo-nacional-musica-fonoteca",
+    "title": "Fonoteca del Museo Nacional de la Música",
+    "archive": "Museo Nacional de la Música de Cuba",
+    "country": "Cuba",
+    "lat": 23.1367,
+    "lng": -82.3553,
+    "languages": [
+      "Spanish"
+    ],
+    "themes": [
+      "music",
+      "ethnomusicology",
+      "folklife",
+      "history"
+    ],
+    "decade_start": 1971,
+    "decade_end": null,
+    "summary": "Cuba's national music museum in Havana, formed in 1998 from the merger of the earlier Museo y Archivo de la Música with the Odilio Urfé documentation center, holds a sound archive of wax cylinders, reel-to-reel tapes and thousands of discs documenting Cuban musical history, built partly from the Urfé family's private collection.",
+    "url": "https://www.ministeriodecultura.gob.cu/es/ministerio-2/directorio-de-entidades/instituciones-nacionales/museo-nacional-de-la-musica",
+    "citation": "Ministerio de Cultura de Cuba. Museo Nacional de la Música. Retrieved from https://www.ministeriodecultura.gob.cu/es/ministerio-2/directorio-de-entidades/instituciones-nacionales/museo-nacional-de-la-musica."
+  },
+  {
+    "id": "haiti-radio-haiti-archive-duke",
+    "title": "Radio Haiti Archive",
+    "archive": "David M. Rubenstein Rare Book & Manuscript Library, Duke University",
+    "country": "Haiti",
+    "lat": 18.5944,
+    "lng": -72.3074,
+    "languages": [
+      "Haitian Creole",
+      "French",
+      "English"
+    ],
+    "themes": [
+      "political history",
+      "human rights",
+      "resistance history",
+      "war and conflict",
+      "everyday life"
+    ],
+    "decade_start": 1957,
+    "decade_end": 2003,
+    "summary": "More than 5,300 digitized audio recordings from independent station Radio Haiti-Inter, donated to Duke's Human Rights Archive by co-anchor Michèle Montas after journalist Jean Dominique's 2000 assassination, documenting Haitian politics, culture and daily life from the Duvalier era through the 1991-1994 coup years and beyond, with trilingual (Kreyòl, French, English) metadata.",
+    "url": "https://repository.duke.edu/dc/radiohaiti",
+    "access_notes": "Freely accessible online via the Duke Digital Repository.",
+    "citation": "Radio Haiti Archive, David M. Rubenstein Rare Book & Manuscript Library, Duke University. Retrieved from https://repository.duke.edu/dc/radiohaiti."
+  },
+  {
+    "id": "puerto-rico-archivo-musica-sonido-icp",
+    "title": "Archivo de Música y Sonido",
+    "archive": "Archivo General de Puerto Rico, Instituto de Cultura Puertorriqueña",
+    "country": "Puerto Rico",
+    "lat": 18.4655,
+    "lng": -66.1057,
+    "languages": [
+      "Spanish"
+    ],
+    "themes": [
+      "music",
+      "oral tradition",
+      "folklife",
+      "everyday life"
+    ],
+    "decade_start": 1955,
+    "decade_end": null,
+    "summary": "A division of Puerto Rico's General Archive under the Instituto de Cultura Puertorriqueña, this collection preserves roughly 15,000 musical works by more than 700 composers alongside around 10,000 recordings, including field recordings of poetry recitations, political rallies and workshops documenting Puerto Rican oral testimony.",
+    "url": "https://www.icp.pr.gov/archivo-general/",
+    "citation": "Instituto de Cultura Puertorriqueña. Archivo General de Puerto Rico. Retrieved from https://www.icp.pr.gov/archivo-general/."
+  },
+  {
+    "id": "bolivia-archivo-oral-fondo-sonoro-umsa",
+    "title": "El Archivo Oral — Fondo Oral Sonoro",
+    "archive": "Carrera de Literatura, Universidad Mayor de San Andrés (UMSA)",
+    "country": "Bolivia",
+    "lat": -16.5,
+    "lng": -68.15,
+    "languages": [
+      "Aymara",
+      "Quechua",
+      "Spanish"
+    ],
+    "themes": [
+      "oral tradition",
+      "community memory",
+      "folklore",
+      "linguistics"
+    ],
+    "decade_start": 1980,
+    "decade_end": null,
+    "summary": "Run by the Literature program at Bolivia's Universidad Mayor de San Andrés, this archive holds roughly 700 hours of audio with more than 7,000 recorded oral narratives — memories, local histories, testimonies, myths and stories — gathered from highland, valley and Amazonian communities across Bolivia's nine departments, in Aymara, Quechua and other languages.",
+    "url": "http://www.literatura.edu.bo/archivo_oral/index.php/archivo/sobre-el-archivo",
+    "citation": "Universidad Mayor de San Andrés, Carrera de Literatura. El Archivo Oral - Fondo Oral Sonoro. Retrieved from http://www.literatura.edu.bo/archivo_oral/index.php/archivo/sobre-el-archivo."
+  },
+  {
+    "id": "venezuela-testimonios-audiovisuales-culturas-vivas",
+    "title": "Testimonios Audiovisuales de las Culturas Vivas de América Latina y el Caribe del Siglo XX",
+    "archive": "Fundación Centro de la Diversidad Cultural",
+    "country": "Venezuela",
+    "lat": 10.4806,
+    "lng": -66.9036,
+    "languages": [
+      "Spanish",
+      "Indigenous languages of the Americas"
+    ],
+    "themes": [
+      "ethnomusicology",
+      "oral tradition",
+      "folklife",
+      "religion"
+    ],
+    "decade_start": 1948,
+    "decade_end": 1986,
+    "summary": "Custodied in Caracas by the Centro de la Diversidad Cultural (successor to the OAS-founded ethnomusicology institute INIDEF, built around Isabel Aretz's field research), this collection of 152,344 images and 23,383 sound recordings of music, legends, games, poetry, prayers and traditional medicine practices from across Latin America and the Caribbean was inscribed on UNESCO's Memory of the World Regional Register for Latin America and the Caribbean in November 2023.",
+    "url": "http://www.diversidadcultural.gob.ve/",
+    "citation": "UNESCO Memory of the World Programme, Regional Register for Latin America and the Caribbean (2023 inscriptions); Fundación Centro de la Diversidad Cultural. Retrieved from http://www.diversidadcultural.gob.ve/."
+  },
+  {
+    "id": "uruguay-archivo-oral-memoria-mume",
+    "title": "Archivo Oral de la Memoria",
+    "archive": "Museo de la Memoria (MUME), Intendencia de Montevideo",
+    "country": "Uruguay",
+    "lat": -34.9011,
+    "lng": -56.1645,
+    "languages": [
+      "Spanish"
+    ],
+    "themes": [
+      "state terrorism",
+      "human rights",
+      "memory",
+      "political history",
+      "resistance history"
+    ],
+    "decade_start": 1973,
+    "decade_end": 1985,
+    "summary": "Created by Montevideo's Museum of Memory together with the Association of Friends of MUME, this oral archive holds recorded testimonies from former political prisoners of Uruguay's civil-military dictatorship, including accounts from clandestine detention and torture sites, plus testimonies from relatives of the disappeared, accessible to researchers by appointment.",
+    "url": "https://mume.montevideo.gub.uy/archivo-oral-de-la-memoria",
+    "access_notes": "In-person access by appointment; summaries of available testimonies are published on the museum's site."
+  },
+  {
+    "id": "nicaragua-narrativas-orales-ihnca-exilio",
+    "title": "Narrativas Orales — Brigada de Rescate Histórico Germán Pomares Ordóñez",
+    "archive": "Instituto de Historia de Nicaragua y Centroamérica (IHNCA)",
+    "country": "Nicaragua",
+    "lat": 12.1364,
+    "lng": -86.2514,
+    "languages": [
+      "Spanish"
+    ],
+    "themes": [
+      "political history",
+      "resistance history",
+      "war and conflict",
+      "community memory"
+    ],
+    "decade_start": 1980,
+    "decade_end": 1980,
+    "summary": "In 1980, alongside Nicaragua's National Literacy Campaign, some 215 university-student brigadistas recorded roughly 6,900 cassette interviews with popular leaders and witnesses about the Somoza dictatorship and the Sandinista Popular Insurrection; the collection was held at IHNCA (Universidad Centroamericana) until the government's 2023 confiscation of the university, after which exiled Jesuit staff republished the digitized collection at 'El IHNCA en el Exilio'.",
+    "url": "https://ihncaexilio.org/el-acervo-ihnca/colecciones/",
+    "access_notes": "Freely browsable online following the 2023 relaunch as 'El IHNCA en el Exilio' after the original archive at UCA Managua was confiscated by the Nicaraguan government.",
+    "citation": "El IHNCA en el Exilio. Colecciones. Retrieved from https://ihncaexilio.org/el-acervo-ihnca/colecciones/."
+  },
+  {
+    "id": "vietnam-institute-musicology-databank",
+    "title": "Vietnamese Institute for Musicology Data Bank",
+    "archive": "Vietnamese Institute for Musicology (Viện Âm nhạc Việt Nam)",
+    "country": "Vietnam",
+    "lat": 21.0285,
+    "lng": 105.8542,
+    "languages": [
+      "Vietnamese",
+      "multiple Vietnamese ethnic minority languages"
+    ],
+    "themes": [
+      "ethnomusicology",
+      "folklife",
+      "oral tradition"
+    ],
+    "decade_start": 1976,
+    "decade_end": null,
+    "summary": "Vietnam's national musicology institute, formally independent since 1976, conducts ongoing fieldwork recording traditional and folk music across the country's ethnic groups, including tens of thousands of folk song and instrumental recordings catalogued in a searchable online data bank.",
+    "url": "https://www.vienamnhac.vn/data-bank.html",
+    "citation": "Vietnamese Institute for Musicology. Data Bank. Retrieved from https://www.vienamnhac.vn/data-bank.html.",
+    "access_notes": "Catalog entries and some audio browsable on the institute's website; full recordings typically require contacting the institute directly."
+  },
+  {
+    "id": "thailand-sac-anthropological-archives",
+    "title": "Anthropological Archives Database",
+    "archive": "Princess Maha Chakri Sirindhorn Anthropology Centre (SAC)",
+    "country": "Thailand",
+    "lat": 13.7739,
+    "lng": 100.4571,
+    "languages": [
+      "Thai",
+      "multiple Thai regional and ethnic languages"
+    ],
+    "themes": [
+      "folklore",
+      "linguistics",
+      "oral tradition"
+    ],
+    "decade_start": 1991,
+    "decade_end": null,
+    "summary": "A public anthropological research organization under Thailand's Ministry of Culture that systematically gathers and preserves ethnographic material from across the country, including audio field recordings, in a searchable online Anthropological Archives Database.",
+    "url": "https://db.sac.or.th/anthroarchives/en/about-us.php",
+    "access_notes": "Database searchable online in Thai and English; some holdings require an in-person research visit to Bangkok."
+  },
+  {
+    "id": "indonesia-jaap-kunst-collection-ntt",
+    "title": "Jaap Kunst Collection",
+    "archive": "Perpustakaan Daerah Nusa Tenggara Timur (NTT Regional Library), with University of Amsterdam",
+    "country": "Indonesia",
+    "lat": -10.1772,
+    "lng": 123.607,
+    "languages": [
+      "Indonesian",
+      "multiple regional languages of Flores, Sumba, Alor, Timor and Kisar"
+    ],
+    "themes": [
+      "ethnomusicology",
+      "music",
+      "colonial history"
+    ],
+    "decade_start": 1919,
+    "decade_end": 1934,
+    "summary": "Colonial-era sound recordings, film footage, and photographs made by ethnomusicologist Jaap Kunst across Flores, Sumba, Alor, Timor, and Kisar between 1919 and 1934 were digitally repatriated in 2024 by the University of Amsterdam to the NTT Regional Library in Kupang, where they are now accessible in a dedicated 'Jaap Kunst Corner.'",
+    "url": "https://www.uva.nl/en/shared-content/faculteiten/en/faculteit-der-geesteswetenschappen/news/2024/10/uva-returns-sound-recordings-and-film-footage-from-colonial-collection-to-indonesia.html",
+    "citation": "University of Amsterdam. UvA returns sound recordings and film footage from colonial collection to Indonesia (October 2024).",
+    "access_notes": "Digitized copies freely accessible in person at the NTT Regional Library, Kupang; original recordings remain held at the University of Amsterdam."
+  },
+  {
+    "id": "philippines-hinilawod-epic-chant-recordings",
+    "title": "Hinilawod Epic Chant Recordings",
+    "archive": "Henry Luce III Library, Central Philippine University",
+    "country": "Philippines",
+    "lat": 10.7305,
+    "lng": 122.5637,
+    "languages": [
+      "Karay-a"
+    ],
+    "themes": [
+      "epic performance",
+      "oral tradition",
+      "folklore"
+    ],
+    "decade_start": 1956,
+    "decade_end": 1957,
+    "summary": "Magnetic-tape recordings of the Hinilawod, the epic cycle of Panay, chanted in archaic Karay-a by tradition-bearers Ulang Udig and Narcisa 'Hugan-an' Lingaya and recorded by anthropologist F. Landa Jocano in 1956-57. Inscribed on the UNESCO Memory of the World Committee for Asia and the Pacific (MOWCAP) Register in 2024 as the earliest extensive documentation of the Panay epics.",
+    "url": "https://library.cpu.edu.ph/hinilawod-epic-chant-recordings-secured-in-unescos-memory-of-the-world-registry/",
+    "citation": "Memory of the World Committee for Asia and the Pacific. Hinilawod Epic Chant Recordings (2024). https://www.mowcapunesco.org/register/hinilawod-epic-chant-recordings-2024/",
+    "access_notes": "Digitized and curated by the University of the Philippines Center for Ethnomusicology; original tapes held at Central Philippine University, Iloilo City."
+  },
+  {
+    "id": "malaysia-arkib-negara-oral-history",
+    "title": "National Archives of Malaysia Oral History Programme",
+    "archive": "National Archives of Malaysia (Arkib Negara Malaysia)",
+    "country": "Malaysia",
+    "lat": 3.172,
+    "lng": 101.674,
+    "languages": [
+      "Malay"
+    ],
+    "themes": [
+      "oral tradition",
+      "history",
+      "community memory"
+    ],
+    "decade_start": 1963,
+    "decade_end": null,
+    "summary": "Malaysia's national archives has run an oral history programme since 1963, one of the earliest in Southeast Asia, housed within its Documentation and Publication section; interviews recorded through the programme have been used extensively in local historical publications since the 1980s.",
+    "url": "https://www.arkib.gov.my/en/",
+    "access_notes": "Registration required for full access; short audio excerpts viewable online via the Archives' Online Finding Aid at ofa.arkib.gov.my."
+  },
+  {
+    "id": "png-ipngs-music-archive",
+    "title": "IPNGS Music Archive",
+    "archive": "Institute of Papua New Guinea Studies (IPNGS)",
+    "country": "Papua New Guinea",
+    "lat": -9.4707,
+    "lng": 147.1908,
+    "languages": [
+      "multiple Papua New Guinean languages"
+    ],
+    "themes": [
+      "ethnomusicology",
+      "music",
+      "folklife"
+    ],
+    "decade_start": 1898,
+    "decade_end": null,
+    "summary": "A government-funded cultural research institute established in 1974 whose Music Archive holds the world's largest collection of Papua New Guinean music recordings and documentation: more than 6,700 collections totalling roughly 12,000 hours of tape, cassette, and digital recordings, including early wax-cylinder and shellac recordings dating to 1898 repatriated from European archives.",
+    "url": "https://www.ipngs.gov.pg/",
+    "access_notes": "Access to the archive is by application to IPNGS in Port Moresby."
+  },
+  {
+    "id": "solomon-islands-national-museum-tapes",
+    "title": "Solomon Islands National Museum Analog Tape Collection",
+    "archive": "Solomon Islands Archives and National Museum",
+    "country": "Solomon Islands",
+    "lat": -9.428,
+    "lng": 159.9498,
+    "languages": [
+      "multiple Solomon Islands languages"
+    ],
+    "themes": [
+      "language documentation",
+      "folklife",
+      "oral tradition"
+    ],
+    "decade_start": 1970,
+    "decade_end": null,
+    "summary": "Around 200 analog tapes held by the Solomon Islands National Museum contain field recordings in local languages and recordings of customary knowledge made from the 1970s by Solomon Islands government agencies and visiting researchers, covering many of the country's 74 languages, several with few remaining speakers.",
+    "url": "https://eap.bl.uk/project/EAP693",
+    "citation": "Endangered Archives Programme, British Library. EAP693: Preservation of Solomon Islands analog recordings.",
+    "access_notes": "Digitized copies deposited with the Solomon Islands National Museum, PARADISEC, and the British Library; originals remain in Honiara."
+  },
+  {
+    "id": "fsm-micsem-music-archive",
+    "title": "MicSem Music Collection",
+    "archive": "Micronesian Seminar (MicSem)",
+    "country": "Federated States of Micronesia",
+    "lat": 6.96,
+    "lng": 158.2075,
+    "languages": [
+      "multiple Micronesian languages"
+    ],
+    "themes": [
+      "ethnomusicology",
+      "music",
+      "folklife"
+    ],
+    "decade_start": 1950,
+    "decade_end": 1990,
+    "summary": "MicSem, a Catholic Church-founded research and public education organization based in Pohnpei since 1992, holds a digitized collection of over 20,000 tracks of Micronesian music, including recordings gathered from government radio stations across Chuuk, Pohnpei, Kosrae, Yap, the Marshall Islands, and Palau dating from the 1950s onward, searchable through its own website.",
+    "url": "https://micsem.org/music/music-listing/",
+    "access_notes": "Music listings and audio streams are freely browsable on the MicSem website."
+  },
+  {
+    "id": "marshall-islands-alele-museum-archive",
+    "title": "Alele Museum Audio-Visual Collection",
+    "archive": "Alele Museum, Public Library and National Archives",
+    "country": "Marshall Islands",
+    "lat": 7.105,
+    "lng": 171.38,
+    "languages": [
+      "Marshallese"
+    ],
+    "themes": [
+      "folklife",
+      "oral tradition",
+      "community memory"
+    ],
+    "decade_start": 1980,
+    "decade_end": 1999,
+    "summary": "The Marshall Islands' national museum, library, and archive holds a video and audio collection including local television programs, traditional stories and proverbs, and community event recordings from the 1980s and 1990s, some documenting traditions no longer held by living community members.",
+    "url": "https://www.alele.org/",
+    "access_notes": "Located in Majuro; the archive functions as the country's designated national archives."
+  },
+  {
+    "id": "nepal-madan-puraskar-pustakalaya-audio",
+    "title": "Madan Puraskar Pustakalaya Audio-Visual Collection",
+    "archive": "Madan Puraskar Pustakalaya",
+    "country": "Nepal",
+    "lat": 27.671,
+    "lng": 85.3247,
+    "languages": [
+      "Nepali"
+    ],
+    "themes": [
+      "oral tradition",
+      "linguistics",
+      "folklife"
+    ],
+    "decade_start": 1955,
+    "decade_end": null,
+    "summary": "Nepal's principal Nepali-language library and archive, founded in 1955, holds an audio-visual collection of roughly 750 items including oral testimonies, an audio corpus of Nepali speech, transcribed radio interviews, and recorded voices of Nepali writers.",
+    "url": "https://madanpuraskar.org/collection-development-2/",
+    "access_notes": "Materials are held at the library's premises in Patan, Lalitpur; researchers should contact the library directly for access."
+  },
+  {
+    "id": "sri-lanka-national-library-folklore-collection",
+    "title": "Folklore Collection",
+    "archive": "National Library of Sri Lanka",
+    "country": "Sri Lanka",
+    "lat": 6.9066,
+    "lng": 79.863,
+    "languages": [
+      "Sinhala",
+      "Tamil"
+    ],
+    "themes": [
+      "folklore",
+      "oral tradition"
+    ],
+    "decade_start": 1990,
+    "decade_end": null,
+    "summary": "Sri Lanka's national library maintains a dedicated Folklore Collection documenting Sinhala and Tamil oral traditions, folk literature, and related documentary heritage as part of its national holdings.",
+    "url": "http://www.natlib.lk/index.php/folklore-collection",
+    "access_notes": "Located in Colombo; materials accessible on-site as part of the library's reference collection."
   }
 ]
