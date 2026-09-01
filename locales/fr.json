@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "title": "Mapping Voices — un atlas des archives d'histoire orale",
+    "description": "Un atlas interactif de véritables collections d'archives d'histoire orale et de témoignages oraux, filtrable par pays, thème, langue et décennie."
+  },
+  "skipLink": "Aller à la carte",
+  "header": {
+    "eyebrow": "Un atlas de témoignages",
+    "note": "Collections d'histoire orale et de témoignages, cartographiées",
+    "filtersToggle": "Ouvrir les filtres et l'index",
+    "languageLabel": "Langue"
+  },
+  "filters": {
+    "heading": "Parcourir l'atlas",
+    "closeLabel": "Fermer les filtres",
+    "country": "Pays",
+    "theme": "Thème",
+    "language": "Langue",
+    "decade": "Décennie",
+    "allCountries": "Tous les pays",
+    "allThemes": "Tous les thèmes",
+    "allLanguages": "Toutes les langues",
+    "allDecades": "Toutes les décennies",
+    "reset": "Réinitialiser les filtres"
+  },
+  "results": {
+    "heading": "Index",
+    "empty": "Aucune collection ne correspond à ces filtres.",
+    "countOne": "1 collection affichée",
+    "countOther": "{n} collections affichées"
+  },
+  "map": {
+    "ariaLabel": "Carte des collections d'histoire orale et de témoignages. Chaque repère est accessible au clavier et annonce la collection qu'il représente.",
+    "hint": "Utilisez la touche Tab pour atteindre chaque repère, ou parcourez la liste dans l'index.",
+    "loading": "Chargement des collections…",
+    "loadError": "Impossible de charger le jeu de données ({url}). Si vous exécutez ce site en local, vérifiez qu'un fichier {url} existe à côté d'index.html.",
+    "markerLabel": "{label}. Ouvre les détails."
+  },
+  "popup": {
+    "languagesPrefix": "Langues :",
+    "viewDetails": "Voir tous les détails"
+  },
+  "detail": {
+    "heading": "À propos de cette collection",
+    "closeLabel": "Fermer les détails",
+    "placeholder": "Sélectionnez un repère sur la carte, ou une entrée dans l'index, pour en lire le détail ici.",
+    "languages": "Langues",
+    "themes": "Thèmes",
+    "period": "Période",
+    "visitSource": "Consulter l'archive source",
+    "opensNewTab": "(s'ouvre dans un nouvel onglet)",
+    "selectionAnnounce": "Affichage des détails de {title}.",
+    "decadeUnknown": "inconnue",
+    "decadePresent": "aujourd'hui",
+    "decadeFormat": "années {n}",
+    "decadeRange": "{start} – {end}",
+    "decadeToPresent": "{start} – {present}"
+  },
+  "footer": {
+    "template": "Données et imagerie cartographiques © %LINK%, ses contributeurs. Mapping Voices est un atlas de démonstration — voir le README pour savoir comment ajouter une collection.",
+    "osmLinkText": "OpenStreetMap"
+  }
+}
