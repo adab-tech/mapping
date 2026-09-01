@@ -8,6 +8,13 @@ on:
     - cron: "0 6 * * 1"
   workflow_dispatch:
 
+# A manual re-run overlapping the weekly schedule (or two manual triggers
+# close together) could otherwise both find "no existing tracking issue"
+# and each create one — cancel-in-progress avoids racing duplicate issues.
+concurrency:
+  group: check-links
+  cancel-in-progress: true
+
 permissions:
   issues: write
 

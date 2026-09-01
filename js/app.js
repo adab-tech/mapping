@@ -811,7 +811,7 @@
       els.detailBody.appendChild(summary);
     }
 
-    if (c.url) {
+    if (c.url && /^https?:\/\//i.test(c.url)) {
       var link = document.createElement("a");
       link.className = "detail-link";
       link.href = c.url;
