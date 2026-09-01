@@ -73,6 +73,15 @@ array fields aren't empty, and exits non-zero with a specific message per
 problem found. The same check runs in CI on every push, via
 `.github/workflows/deploy-pages.yml`.
 
+## Contributing
+
+Know about a real oral-history or voice-testimony collection that belongs on
+this map? You don't need to know Git or JSON to suggest it — see
+[`CONTRIBUTING.md`](CONTRIBUTING.md) for the low-friction issue-form path, as
+well as the direct pull-request path for anyone comfortable editing
+`data/collections.json` themselves. Same honesty rule either way: real
+institutions, real URLs, nothing invented.
+
 ## Deployment
 
 Pushing to `main` runs `.github/workflows/deploy-pages.yml`, which validates
