@@ -26,8 +26,10 @@
   "results": {
     "heading": "Index",
     "empty": "No collections match these filters.",
-    "countOne": "1 collection shown",
-    "countOther": "{n} collections shown"
+    "count": {
+      "one": "{n} collection shown",
+      "other": "{n} collections shown"
+    }
   },
   "map": {
     "ariaLabel": "Map of oral-history and voice-testimony collections. Each pin is keyboard-focusable and announces the collection it represents.",

@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+
+# Least-privilege: this job only reads files and runs local scripts, never
+# writes anything — declared explicitly rather than relying on whatever
+# the repo's default token permissions happen to be.
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Validate data/collections.json
+        run: node scripts/validate-data.mjs
+
+      - name: Validate locale files are structurally consistent
+        run: node scripts/validate-locales.mjs

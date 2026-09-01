@@ -1,0 +1,102 @@
+name: Check dataset links
+
+on:
+  schedule:
+    # Weekly, Monday 06:00 UTC. Link rot is slow — no need for anything
+    # more frequent, and this hits ~130+ external institutions' servers
+    # each run, so being infrequent is also just being a polite crawler.
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+# A manual re-run overlapping the weekly schedule (or two manual triggers
+# close together) could otherwise both find "no existing tracking issue"
+# and each create one — cancel-in-progress avoids racing duplicate issues.
+concurrency:
+  group: check-links
+  cancel-in-progress: true
+
+permissions:
+  issues: write
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run link checker
+        id: check
+        run: node scripts/check-links.mjs > report.md
+
+      - name: Find existing tracking issue
+        id: find
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+              labels: "broken-links",
+            });
+            return issues.length ? issues[0].number : null;
+
+      - name: Open or update tracking issue (failures found)
+        if: steps.check.outputs.failure_count != '0'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("fs");
+            const body = fs.readFileSync("report.md", "utf8") +
+              "\n\n_This issue is automatically updated by `.github/workflows/check-links.yml` " +
+              "on its next scheduled run. It will close itself automatically once every link " +
+              "passes again — no need to close it manually unless you're confident a failure " +
+              "is a false positive._";
+            const existing = ${{ steps.find.outputs.result }};
+            if (existing) {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing,
+                body,
+              });
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing,
+                body: "Updated with this run's results.",
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: "Broken links detected in data/collections.json",
+                body,
+                labels: ["broken-links"],
+              });
+            }
+
+      - name: Close tracking issue (all links passing)
+        if: steps.check.outputs.failure_count == '0' && steps.find.outputs.result != 'null'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const existing = ${{ steps.find.outputs.result }};
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: existing,
+              body: "All links passed on this run — closing.",
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: existing,
+              state: "closed",
+            });

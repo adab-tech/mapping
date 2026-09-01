@@ -26,8 +26,10 @@
   "results": {
     "heading": "Jerin abubuwa",
     "empty": "Babu wani tari da ya dace da wannan tacewa.",
-    "countOne": "Tari 1 aka nuna",
-    "countOther": "Tari {n} aka nuna"
+    "count": {
+      "one": "Tari {n} aka nuna",
+      "other": "Tari {n} aka nuna"
+    }
   },
   "map": {
     "ariaLabel": "Taswirar tarin tarihin baka da shaidun murya. Ana iya zuwa kowace alama da maballin kwamfuta, kuma tana ba da sanarwar tarin da take wakilta.",

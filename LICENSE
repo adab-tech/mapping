@@ -1,0 +1,41 @@
+MIT License
+
+Copyright (c) 2026 Adamu Abubakar
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+This license covers the application source code (HTML, CSS, JavaScript,
+build/deploy configuration) in this repository.
+
+The dataset in `data/collections.json` — the curated index of oral-history
+and voice-testimony archive collections — is licensed separately under
+Creative Commons Attribution 4.0 International (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+This split is deliberate: the code is a tool, freely reusable under standard
+open-source terms; the dataset is a curated body of factual, citable
+information about third-party archives, better served by an attribution
+license that keeps it easy to reuse in research while crediting the project
+that compiled it. Note that CC BY 4.0 applies to this project's own
+compilation and descriptions — it does not grant any rights to the
+underlying archival recordings, testimonies, or materials themselves, which
+remain the property of their respective holding institutions and are subject
+to those institutions' own terms of access.

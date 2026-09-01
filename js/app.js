@@ -662,8 +662,28 @@
     });
   }
 
+  /**
+   * Locale-correct pluralization via the standard Intl.PluralRules API
+   * (built into every modern browser, no dependency needed) rather than a
+   * hardcoded one/other split — that split is wrong for languages with
+   * richer plural systems, most notably Arabic's six categories (zero,
+   * one, two, few, many, other), e.g. 3 collections needs a different
+   * grammatical form than 11 collections. Falls back to "other" for any
+   * category a given locale's strings don't define (English/French/Hausa
+   * only need "one"/"other"; only Arabic currently defines all six).
+   */
   function announceCount(n) {
-    var text = n === 1 ? t("results.countOne") : t("results.countOther", { n: n });
+    var category;
+    try {
+      category = new Intl.PluralRules(activeLocale).select(n);
+    } catch (e) {
+      category = n === 1 ? "one" : "other";
+    }
+    var key = "results.count." + category;
+    if (getByPath(activeStrings, key) === undefined && getByPath(fallbackStrings, key) === undefined) {
+      category = "other";
+    }
+    var text = t("results.count." + category, { n: n });
     els.resultsCount.textContent = text;
   }
 
@@ -791,7 +811,7 @@
       els.detailBody.appendChild(summary);
     }
 
-    if (c.url) {
+    if (c.url && /^https?:\/\//i.test(c.url)) {
       var link = document.createElement("a");
       link.className = "detail-link";
       link.href = c.url;
