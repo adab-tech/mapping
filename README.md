@@ -70,8 +70,19 @@ Zero dependencies — plain Node built-ins only, no `npm install` needed. It
 checks that every entry has its required fields, that `lat`/`lng` are real
 coordinates, that every `id` is unique, that `url` is well-formed, and that
 array fields aren't empty, and exits non-zero with a specific message per
-problem found. The same check runs in CI on every push, via
-`.github/workflows/deploy-pages.yml`.
+problem found. The same check runs in CI on every push (via
+`.github/workflows/deploy-pages.yml`) and on every pull request (via
+`.github/workflows/ci.yml`, which also runs `node
+scripts/validate-locales.mjs` — checks that every `locales/*.json` file
+defines the same UI-chrome keys as `locales/en.json`, so a new string added
+to one locale doesn't silently drift out of sync with the others).
+
+A separate, unrelated check — `node scripts/check-links.mjs` — actually
+requests every entry's `url` (and `preview_url`, where set) and reports any
+that fail. This runs weekly via `.github/workflows/check-links.yml`, not on
+every PR (a source rate-limiting or briefly down isn't a reason to block a
+contribution), and opens or updates a tracking issue automatically when it
+finds a failure, closing it again once every link passes.
 
 ## Contributing
 
@@ -108,7 +119,11 @@ locales/*.json                   UI-chrome translations (en, ha, fr, ar)
 data/collections.json            the seed dataset (see above)
 data/schema-notes.md             schema reference + how to add an entry
 scripts/validate-data.mjs        zero-dependency data validator
+scripts/validate-locales.mjs     checks locale files stay structurally in sync
+scripts/check-links.mjs          weekly external-link health check
 .github/workflows/deploy-pages.yml   GitHub Pages deployment
+.github/workflows/ci.yml         validation on every pull request
+.github/workflows/check-links.yml    weekly link-rot check
 LICENSE                          code (MIT) + dataset (CC BY 4.0) licensing
 CITATION.cff                     how to cite this project
 ```
