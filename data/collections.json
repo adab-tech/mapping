@@ -6,12 +6,25 @@
     "country": "United States",
     "lat": 40.7128,
     "lng": -74.006,
-    "languages": ["English", "Spanish"],
-    "themes": ["everyday life", "family history", "community memory"],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "themes": [
+      "everyday life",
+      "family history",
+      "community memory"
+    ],
     "decade_start": 2003,
     "decade_end": null,
     "summary": "Since 2003, StoryCorps has recorded unscripted conversations between everyday Americans about their lives. The full collection is preserved at the Library of Congress, with searchable highlights published in the online StoryCorps Archive.",
-    "url": "https://archive.storycorps.org/"
+    "url": "https://archive.storycorps.org/",
+    "citation": "StoryCorps / Library of Congress American Folklife Center. StoryCorps Archive. Retrieved from https://archive.storycorps.org/.",
+    "access_notes": "Freely accessible online via the StoryCorps Archive; the full recorded collection is preserved at the Library of Congress.",
+    "related_ids": [
+      "911-memorial-museum-oral-history",
+      "the-historymakers"
+    ]
   },
   {
     "id": "veterans-history-project",
@@ -20,12 +33,25 @@
     "country": "United States",
     "lat": 38.8951,
     "lng": -77.0364,
-    "languages": ["English"],
-    "themes": ["war and conflict", "military history"],
+    "languages": [
+      "English"
+    ],
+    "themes": [
+      "war and conflict",
+      "military history"
+    ],
     "decade_start": 2000,
     "decade_end": null,
     "summary": "A congressionally established program that collects and preserves firsthand video and audio interviews, letters, diaries, and photographs of U.S. wartime veterans from World War I through current conflicts.",
-    "url": "https://www.loc.gov/vets/"
+    "url": "https://www.loc.gov/vets/",
+    "citation": "Library of Congress, American Folklife Center. Veterans History Project. Retrieved from https://www.loc.gov/vets/.",
+    "access_notes": "Many interviews viewable online via the Library of Congress; the full collection is available by research visit.",
+    "related_ids": [
+      "iwm-sound-archive",
+      "national-wwii-museum-oral-history",
+      "korean-war-legacy-foundation",
+      "vietnam-center-ttu"
+    ]
   },
   {
     "id": "densho-digital-repository",
@@ -34,12 +60,24 @@
     "country": "United States",
     "lat": 47.6062,
     "lng": -122.3321,
-    "languages": ["English", "Japanese"],
-    "themes": ["migration", "incarceration", "civil rights"],
+    "languages": [
+      "English",
+      "Japanese"
+    ],
+    "themes": [
+      "migration",
+      "incarceration",
+      "civil rights"
+    ],
     "decade_start": 1996,
     "decade_end": null,
     "summary": "Densho preserves and freely shares video oral history interviews with Japanese Americans unjustly incarcerated during World War II, alongside primary-source documents and photographs from before, during, and after that period.",
-    "url": "https://ddr.densho.org/"
+    "url": "https://ddr.densho.org/",
+    "citation": "Densho. Densho Digital Repository. Retrieved from https://ddr.densho.org/.",
+    "access_notes": "Freely accessible online.",
+    "related_ids": [
+      "japanese-american-national-museum"
+    ]
   },
   {
     "id": "usc-shoah-foundation-vha",
@@ -48,12 +86,29 @@
     "country": "United States",
     "lat": 34.0224,
     "lng": -118.2851,
-    "languages": ["English", "Hebrew", "Russian", "Polish", "multiple other languages"],
-    "themes": ["genocide", "Holocaust", "human rights"],
+    "languages": [
+      "English",
+      "Hebrew",
+      "Russian",
+      "Polish",
+      "multiple other languages"
+    ],
+    "themes": [
+      "genocide",
+      "Holocaust",
+      "human rights"
+    ],
     "decade_start": 1994,
     "decade_end": null,
     "summary": "Founded by Steven Spielberg in 1994, the Visual History Archive holds tens of thousands of video testimonies from survivors and witnesses of the Holocaust and later genocides, including in Rwanda, Armenia, Cambodia, and Nanjing.",
-    "url": "https://sfi.usc.edu/vha"
+    "url": "https://sfi.usc.edu/vha",
+    "citation": "USC Shoah Foundation. Visual History Archive. Retrieved from https://sfi.usc.edu/vha.",
+    "access_notes": "Full testimonies require registration through partner institutions or educational access via IWitness; some clips are public.",
+    "related_ids": [
+      "yad-vashem-testimonies",
+      "fortunoff-video-archive",
+      "armenian-film-foundation"
+    ]
   },
   {
     "id": "ralph-rinzler-folklife-archives",
@@ -62,12 +117,24 @@
     "country": "United States",
     "lat": 38.8951,
     "lng": -77.0364,
-    "languages": ["English", "multiple"],
-    "themes": ["folklife", "music", "oral tradition"],
+    "languages": [
+      "English",
+      "multiple"
+    ],
+    "themes": [
+      "folklife",
+      "music",
+      "oral tradition"
+    ],
     "decade_start": 1967,
     "decade_end": null,
     "summary": "Holds field recordings, oral history interviews, and documentation connected to the Smithsonian Folklife Festival and Smithsonian Folkways Recordings, spanning traditions from the United States and around the world.",
-    "url": "https://folklife.si.edu/archives"
+    "url": "https://folklife.si.edu/archives",
+    "citation": "Smithsonian Center for Folklife and Cultural Heritage. Ralph Rinzler Folklife Archives and Collections. Retrieved from https://folklife.si.edu/archives.",
+    "related_ids": [
+      "association-cultural-equity-lomax",
+      "berlin-phonogramm-archiv"
+    ]
   },
   {
     "id": "nctr-residential-schools",
@@ -76,12 +143,24 @@
     "country": "Canada",
     "lat": 49.8951,
     "lng": -97.1384,
-    "languages": ["English", "French", "Indigenous languages"],
-    "themes": ["Indigenous history", "human rights", "residential schools"],
+    "languages": [
+      "English",
+      "French",
+      "Indigenous languages"
+    ],
+    "themes": [
+      "Indigenous history",
+      "human rights",
+      "residential schools"
+    ],
     "decade_start": 2007,
     "decade_end": null,
     "summary": "The permanent home for the statements, documents, and video testimony gathered by Canada's Truth and Reconciliation Commission from Survivors of the residential school system.",
-    "url": "https://nctr.ca/"
+    "url": "https://nctr.ca/",
+    "citation": "University of Manitoba. National Centre for Truth and Reconciliation. Retrieved from https://nctr.ca/.",
+    "related_ids": [
+      "doris-duke-utah-oral-history"
+    ]
   },
   {
     "id": "museu-da-pessoa",
@@ -90,12 +169,22 @@
     "country": "Brazil",
     "lat": -23.5505,
     "lng": -46.6333,
-    "languages": ["Portuguese"],
-    "themes": ["everyday life", "migration", "labor history"],
+    "languages": [
+      "Portuguese"
+    ],
+    "themes": [
+      "everyday life",
+      "migration",
+      "labor history"
+    ],
     "decade_start": 1991,
     "decade_end": null,
     "summary": "A collaborative virtual museum of life stories founded in Sao Paulo in 1991, holding tens of thousands of personal narratives documenting migration, work, and community memory across Brazil.",
-    "url": "https://museudapessoa.org/"
+    "url": "https://museudapessoa.org/",
+    "citation": "Museu da Pessoa. Museu da Pessoa (Museum of the Person). Retrieved from https://museudapessoa.org/.",
+    "related_ids": [
+      "cpdoc-fgv-brazil"
+    ]
   },
   {
     "id": "cnmh-colombia",
@@ -104,12 +193,24 @@
     "country": "Colombia",
     "lat": 4.711,
     "lng": -74.0721,
-    "languages": ["Spanish"],
-    "themes": ["armed conflict", "human rights", "memory and reconciliation"],
+    "languages": [
+      "Spanish"
+    ],
+    "themes": [
+      "armed conflict",
+      "human rights",
+      "memory and reconciliation"
+    ],
     "decade_start": 2011,
     "decade_end": null,
     "summary": "Colombia's national public institution charged with collecting oral testimony and documentation related to the country's decades-long armed conflict, made accessible through its virtual human-rights archive.",
-    "url": "https://www.archivodelosddhh.gov.co/"
+    "url": "https://www.archivodelosddhh.gov.co/",
+    "citation": "Centro Nacional de Memoria Historica. Human Rights and Historical Memory Virtual Archive. Retrieved from https://www.archivodelosddhh.gov.co/.",
+    "related_ids": [
+      "museo-palabra-imagen-el-salvador",
+      "lugar-de-la-memoria-peru",
+      "memoria-abierta-argentina"
+    ]
   },
   {
     "id": "memoria-abierta-argentina",
@@ -118,12 +219,23 @@
     "country": "Argentina",
     "lat": -34.6037,
     "lng": -58.3816,
-    "languages": ["Spanish"],
-    "themes": ["state terrorism", "human rights", "memory"],
+    "languages": [
+      "Spanish"
+    ],
+    "themes": [
+      "state terrorism",
+      "human rights",
+      "memory"
+    ],
     "decade_start": 1999,
     "decade_end": null,
     "summary": "An alliance of Argentine human rights organizations whose oral archive gathers testimony from people affected by state terrorism during the 1976-1983 military dictatorship and the resistance to it.",
-    "url": "https://memoriaabierta.org.ar/wp/archivo-oral/"
+    "url": "https://memoriaabierta.org.ar/wp/archivo-oral/",
+    "citation": "Memoria Abierta. Archivo Oral de Memoria Abierta. Retrieved from https://memoriaabierta.org.ar/wp/archivo-oral/.",
+    "related_ids": [
+      "cnmh-colombia",
+      "museo-memoria-chile"
+    ]
   },
   {
     "id": "bl-national-life-stories",
@@ -132,12 +244,23 @@
     "country": "United Kingdom",
     "lat": 51.5074,
     "lng": -0.1278,
-    "languages": ["English"],
-    "themes": ["social history", "labor history", "science"],
+    "languages": [
+      "English"
+    ],
+    "themes": [
+      "social history",
+      "labor history",
+      "science"
+    ],
     "decade_start": 1987,
     "decade_end": null,
     "summary": "An oral history charity based at the British Library that has recorded in-depth biographical interviews since 1987 across industry, science, the arts, and public life, preserved within the British Library Sound Archive.",
-    "url": "https://www.bl.uk/about/projects/national-life-stories"
+    "url": "https://www.bl.uk/about/projects/national-life-stories",
+    "citation": "British Library. National Life Stories. Retrieved from https://www.bl.uk/about/projects/national-life-stories.",
+    "related_ids": [
+      "iwm-sound-archive",
+      "warwick-modern-records-centre"
+    ]
   },
   {
     "id": "tobar-an-dualchais",
@@ -146,12 +269,25 @@
     "country": "United Kingdom",
     "lat": 55.9533,
     "lng": -3.1883,
-    "languages": ["Scottish Gaelic", "Scots", "English"],
-    "themes": ["oral tradition", "folklore", "music"],
+    "languages": [
+      "Scottish Gaelic",
+      "Scots",
+      "English"
+    ],
+    "themes": [
+      "oral tradition",
+      "folklore",
+      "music"
+    ],
     "decade_start": 1930,
     "decade_end": null,
     "summary": "Digitized recordings from the University of Edinburgh's School of Scottish Studies Archives and partner collections, offering thousands of songs, stories, and oral history recorded across Scotland from the 1930s onward.",
-    "url": "https://www.tobarandualchais.co.uk/"
+    "url": "https://www.tobarandualchais.co.uk/",
+    "citation": "School of Scottish Studies Archives, University of Edinburgh. Tobar an Dualchais / Kist o Riches. Retrieved from https://www.tobarandualchais.co.uk/.",
+    "related_ids": [
+      "finnish-literature-society-folklore-archive",
+      "estonian-folklore-archives"
+    ]
   },
   {
     "id": "duchas-national-folklore-collection",
@@ -160,12 +296,23 @@
     "country": "Ireland",
     "lat": 53.3498,
     "lng": -6.2603,
-    "languages": ["Irish", "English"],
-    "themes": ["folklore", "oral tradition"],
+    "languages": [
+      "Irish",
+      "English"
+    ],
+    "themes": [
+      "folklore",
+      "oral tradition"
+    ],
     "decade_start": 1935,
     "decade_end": null,
     "summary": "One of Europe's largest folklore archives, held at University College Dublin and digitized via duchas.ie, including the 1930s Schools' Collection of oral tradition gathered by schoolchildren and thousands of hours of sound recordings.",
-    "url": "https://www.duchas.ie/en"
+    "url": "https://www.duchas.ie/en",
+    "citation": "University College Dublin. National Folklore Collection (Duchas). Retrieved from https://www.duchas.ie/en.",
+    "related_ids": [
+      "tobar-an-dualchais",
+      "finnish-literature-society-folklore-archive"
+    ]
   },
   {
     "id": "memory-of-nations-czech",
@@ -174,12 +321,26 @@
     "country": "Czech Republic",
     "lat": 50.0755,
     "lng": 14.4378,
-    "languages": ["Czech", "Slovak", "English"],
-    "themes": ["totalitarianism", "war and conflict", "political history"],
+    "languages": [
+      "Czech",
+      "Slovak",
+      "English"
+    ],
+    "themes": [
+      "totalitarianism",
+      "war and conflict",
+      "political history"
+    ],
     "decade_start": 2001,
     "decade_end": null,
     "summary": "Built by the non-profit Post Bellum, this online database holds thousands of testimonies from witnesses of 20th-century totalitarian regimes in Czechoslovakia and the Czech Republic, including WWII, the Holocaust, and communist-era persecution.",
-    "url": "https://www.memoryofnations.eu/en"
+    "url": "https://www.memoryofnations.eu/en",
+    "citation": "Post Bellum. Memory of Nations. Retrieved from https://www.memoryofnations.eu/en.",
+    "related_ids": [
+      "karta-center-poland",
+      "osa-archivum-budapest",
+      "european-solidarity-centre-archive"
+    ]
   },
   {
     "id": "1947-partition-archive",
@@ -188,12 +349,29 @@
     "country": "India",
     "lat": 28.6139,
     "lng": 77.209,
-    "languages": ["English", "Hindi", "Urdu", "Punjabi", "Bengali", "Gujarati", "Sindhi"],
-    "themes": ["migration", "Partition", "displacement"],
+    "languages": [
+      "English",
+      "Hindi",
+      "Urdu",
+      "Punjabi",
+      "Bengali",
+      "Gujarati",
+      "Sindhi"
+    ],
+    "themes": [
+      "migration",
+      "Partition",
+      "displacement"
+    ],
     "decade_start": 2010,
     "decade_end": null,
     "summary": "A crowd-sourced oral history project, founded in Berkeley in 2010, that has recorded over 12,000 witness accounts of the 1947 Partition of British India from survivors across India, Pakistan, Bangladesh, and the diaspora.",
-    "url": "https://www.1947partitionarchive.org/"
+    "url": "https://www.1947partitionarchive.org/",
+    "citation": "The 1947 Partition Archive. The 1947 Partition Archive. Retrieved from https://www.1947partitionarchive.org/.",
+    "related_ids": [
+      "citizens-archive-pakistan",
+      "nehru-memorial-oral-history"
+    ]
   },
   {
     "id": "hiroshima-peace-memorial-testimony",
@@ -202,12 +380,24 @@
     "country": "Japan",
     "lat": 34.3955,
     "lng": 132.4536,
-    "languages": ["Japanese", "English"],
-    "themes": ["war and conflict", "nuclear history", "peace"],
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "themes": [
+      "war and conflict",
+      "nuclear history",
+      "peace"
+    ],
     "decade_start": 1986,
     "decade_end": null,
     "summary": "Video testimonies of hibakusha (atomic bomb survivors) recorded by the Hiroshima Peace Memorial Museum since 1986, documenting firsthand accounts of the 1945 atomic bombing and its aftermath.",
-    "url": "https://hpmm-db.jp/testify_en/"
+    "url": "https://hpmm-db.jp/testify_en/",
+    "citation": "Hiroshima Peace Memorial Museum. A-bomb Survivor Testimony Archive. Retrieved from https://hpmm-db.jp/testify_en/.",
+    "related_ids": [
+      "nagasaki-peace-memorial-testimonies",
+      "okinawa-peace-memorial-museum"
+    ]
   },
   {
     "id": "dccam-oral-history",
@@ -216,12 +406,23 @@
     "country": "Cambodia",
     "lat": 11.5564,
     "lng": 104.9282,
-    "languages": ["Khmer", "English"],
-    "themes": ["genocide", "war and conflict", "transitional justice"],
+    "languages": [
+      "Khmer",
+      "English"
+    ],
+    "themes": [
+      "genocide",
+      "war and conflict",
+      "transitional justice"
+    ],
     "decade_start": 1995,
     "decade_end": null,
     "summary": "DC-Cam documents the history of the Khmer Rouge regime (1975-1979) through survivor and perpetrator testimony, including an oral history project tied to the Extraordinary Chambers in the Courts of Cambodia.",
-    "url": "https://www.dccam.org/"
+    "url": "https://www.dccam.org/",
+    "citation": "Documentation Center of Cambodia (DC-Cam). Documentation Center of Cambodia Oral History Project. Retrieved from https://www.dccam.org/.",
+    "related_ids": [
+      "khmer-legacies"
+    ]
   },
   {
     "id": "palestinian-oral-history-archive",
@@ -230,12 +431,23 @@
     "country": "Lebanon",
     "lat": 33.8938,
     "lng": 35.5018,
-    "languages": ["Arabic"],
-    "themes": ["displacement", "refugees", "Nakba"],
+    "languages": [
+      "Arabic"
+    ],
+    "themes": [
+      "displacement",
+      "refugees",
+      "Nakba"
+    ],
     "decade_start": 2011,
     "decade_end": null,
     "summary": "Based at the American University of Beirut, POHA holds over 1,000 hours of testimony from first-generation Palestinian refugees living in Lebanon, documenting memories of pre-1948 Palestine and subsequent displacement.",
-    "url": "https://www.aub.edu.lb/ifi/Pages/poha.aspx"
+    "url": "https://www.aub.edu.lb/ifi/Pages/poha.aspx",
+    "citation": "American University of Beirut, Issam Fares Institute. Palestinian Oral History Archive (POHA). Retrieved from https://www.aub.edu.lb/ifi/Pages/poha.aspx.",
+    "related_ids": [
+      "zochrot-nakba-testimonies",
+      "ips-narrating-palestine"
+    ]
   },
   {
     "id": "aiatsis-collection",
@@ -244,12 +456,23 @@
     "country": "Australia",
     "lat": -35.2809,
     "lng": 149.13,
-    "languages": ["English", "Aboriginal and Torres Strait Islander languages"],
-    "themes": ["Indigenous history", "oral tradition", "language documentation"],
+    "languages": [
+      "English",
+      "Aboriginal and Torres Strait Islander languages"
+    ],
+    "themes": [
+      "Indigenous history",
+      "oral tradition",
+      "language documentation"
+    ],
     "decade_start": 1964,
     "decade_end": null,
     "summary": "Australia's national collection of Aboriginal and Torres Strait Islander cultural heritage, including decades of oral history interviews and language recordings gathered in partnership with Indigenous communities.",
-    "url": "https://aiatsis.gov.au/collection"
+    "url": "https://aiatsis.gov.au/collection",
+    "citation": "Australian Institute of Aboriginal and Torres Strait Islander Studies. AIATSIS Collection. Retrieved from https://aiatsis.gov.au/collection.",
+    "related_ids": [
+      "paradisec-archive"
+    ]
   },
   {
     "id": "nga-taonga-sound-vision",
@@ -258,12 +481,23 @@
     "country": "New Zealand",
     "lat": -41.2865,
     "lng": 174.7762,
-    "languages": ["English", "Maori"],
-    "themes": ["broadcast history", "oral tradition", "national memory"],
+    "languages": [
+      "English",
+      "Maori"
+    ],
+    "themes": [
+      "broadcast history",
+      "oral tradition",
+      "national memory"
+    ],
     "decade_start": 1988,
     "decade_end": null,
     "summary": "Aotearoa New Zealand's audiovisual archive, formed from the merger of the Nga Taonga Korero sound archive, the Television New Zealand Archive, and the New Zealand Film Archive, preserving over a century of recorded sound and moving image.",
-    "url": "https://www.ngataonga.org.nz/"
+    "url": "https://www.ngataonga.org.nz/",
+    "citation": "Nga Taonga Sound & Vision. Nga Taonga Sound & Vision. Retrieved from https://www.ngataonga.org.nz/.",
+    "related_ids": [
+      "aiatsis-collection"
+    ]
   },
   {
     "id": "saha-oral-history",
@@ -272,12 +506,26 @@
     "country": "South Africa",
     "lat": -26.2041,
     "lng": 28.0473,
-    "languages": ["English", "Afrikaans", "Zulu", "Xhosa"],
-    "themes": ["apartheid", "human rights", "resistance history"],
+    "languages": [
+      "English",
+      "Afrikaans",
+      "Zulu",
+      "Xhosa"
+    ],
+    "themes": [
+      "apartheid",
+      "human rights",
+      "resistance history"
+    ],
     "decade_start": 1988,
     "decade_end": null,
     "summary": "An independent archive founded by anti-apartheid activists, SAHA holds oral history interviews and documents relating to the struggle against apartheid and South Africa's Truth and Reconciliation Commission.",
-    "url": "https://www.saha.org.za/collections/oral_history.htm"
+    "url": "https://www.saha.org.za/collections/oral_history.htm",
+    "citation": "South African History Archive. SAHA Oral History Collections. Retrieved from https://www.saha.org.za/collections/oral_history.htm.",
+    "related_ids": [
+      "district-six-museum",
+      "gala-queer-archive"
+    ]
   },
   {
     "id": "district-six-museum",
@@ -286,12 +534,23 @@
     "country": "South Africa",
     "lat": -33.9249,
     "lng": 18.4241,
-    "themes": ["forced removal", "urban history", "memory"],
-    "languages": ["English", "Afrikaans"],
+    "themes": [
+      "forced removal",
+      "urban history",
+      "memory"
+    ],
+    "languages": [
+      "English",
+      "Afrikaans"
+    ],
     "decade_start": 1994,
     "decade_end": null,
     "summary": "The District Six Museum's Sound Archive collects recorded interviews with former residents forcibly removed from Cape Town's District Six under apartheid's Group Areas Act, preserving memories of the destroyed community.",
-    "url": "https://www.districtsix.co.za/collections/"
+    "url": "https://www.districtsix.co.za/collections/",
+    "citation": "District Six Museum. District Six Museum Sound Archive. Retrieved from https://www.districtsix.co.za/collections/.",
+    "related_ids": [
+      "saha-oral-history"
+    ]
   },
   {
     "id": "genocide-archive-rwanda",
@@ -300,12 +559,27 @@
     "country": "Rwanda",
     "lat": -1.9403,
     "lng": 29.8739,
-    "languages": ["Kinyarwanda", "French", "English"],
-    "themes": ["genocide", "transitional justice", "human rights"],
+    "languages": [
+      "Kinyarwanda",
+      "French",
+      "English"
+    ],
+    "themes": [
+      "genocide",
+      "transitional justice",
+      "human rights"
+    ],
     "decade_start": 2010,
     "decade_end": null,
     "summary": "A digital archive holding over 8,000 survivor and witness testimonies, Gacaca court records, and memorial documentation of the 1994 genocide against the Tutsi, built with the University of Texas Libraries.",
-    "url": "https://genocidearchiverwanda.org.rw/"
+    "url": "https://genocidearchiverwanda.org.rw/",
+    "citation": "Aegis Trust / National Commission for the Fight Against Genocide. Genocide Archive of Rwanda. Retrieved from https://genocidearchiverwanda.org.rw/.",
+    "access_notes": "Freely accessible online with a searchable video player.",
+    "related_ids": [
+      "dccam-oral-history",
+      "khmer-legacies"
+    ],
+    "preview_url": "https://genocidearchiverwanda.org.rw/index.php/Category:Survivor_Testimonies"
   },
   {
     "id": "celhto-oral-tradition-archive",
@@ -314,12 +588,28 @@
     "country": "Niger",
     "lat": 13.5127,
     "lng": 2.1128,
-    "languages": ["Hausa", "Zarma", "Fulfulde", "Tamasheq", "French"],
-    "themes": ["oral tradition", "history", "linguistics"],
+    "languages": [
+      "Hausa",
+      "Zarma",
+      "Fulfulde",
+      "Tamasheq",
+      "French"
+    ],
+    "themes": [
+      "oral tradition",
+      "history",
+      "linguistics"
+    ],
     "decade_start": 1968,
     "decade_end": null,
     "summary": "An African Union research center based in Niamey since 1968 (created with UNESCO support as the Regional Center for Oral Tradition), CELHTO collects, studies, and preserves oral traditions and languages from across Africa on audio, video, and written media.",
-    "url": "https://www.celhto.org/"
+    "url": "https://www.celhto.org/",
+    "citation": "Centre d'Etudes Linguistiques et Historiques par Tradition Orale (African Union). CELHTO Oral Tradition Archive. Retrieved from https://www.celhto.org/.",
+    "related_ids": [
+      "sahel-sounds-field-recordings",
+      "fondation-hampate-ba",
+      "irsh-niamey-boubou-hama"
+    ]
   },
   {
     "id": "irsh-niamey-boubou-hama",
@@ -328,12 +618,25 @@
     "country": "Niger",
     "lat": 13.5127,
     "lng": 2.1128,
-    "languages": ["Hausa", "Zarma", "French", "Arabic"],
-    "themes": ["oral tradition", "manuscripts", "history"],
+    "languages": [
+      "Hausa",
+      "Zarma",
+      "French",
+      "Arabic"
+    ],
+    "themes": [
+      "oral tradition",
+      "manuscripts",
+      "history"
+    ],
     "decade_start": 1944,
     "decade_end": null,
     "summary": "Niger's oldest research institution, IRSH grew out of a regional branch of IFAN and continues the documentation work begun by historian Boubou Hama, whose collection of oral sources and manuscripts helped found Niger's tradition of oral-history-based scholarship.",
-    "url": "https://irsh-uam.com/"
+    "url": "https://irsh-uam.com/",
+    "citation": "Universite Abdou Moumouni de Niamey. Institut de Recherches en Sciences Humaines. Retrieved from https://irsh-uam.com/.",
+    "related_ids": [
+      "celhto-oral-tradition-archive"
+    ]
   },
   {
     "id": "bird-mali-collections",
@@ -342,12 +645,23 @@
     "country": "Mali",
     "lat": 12.6392,
     "lng": -8.0029,
-    "languages": ["Bambara"],
-    "themes": ["oral tradition", "epic performance", "music"],
+    "languages": [
+      "Bambara"
+    ],
+    "themes": [
+      "oral tradition",
+      "epic performance",
+      "music"
+    ],
     "decade_start": 1960,
     "decade_end": 2000,
     "summary": "Field recordings made by linguist Charles S. Bird together with Malian collaborators, capturing griot performances of the Epic of Sunjata, kora and donso ngoni music, and hunters' songs unavailable in any other archive.",
-    "url": "https://libraries.indiana.edu/bird-mali"
+    "url": "https://libraries.indiana.edu/bird-mali",
+    "citation": "Archives of Traditional Music, Indiana University. Charles S. Bird Mali Collections. Retrieved from https://libraries.indiana.edu/bird-mali.",
+    "related_ids": [
+      "sahel-sounds-field-recordings",
+      "fondation-hampate-ba"
+    ]
   },
   {
     "id": "sosso-bala-cultural-space",
@@ -356,12 +670,24 @@
     "country": "Guinea",
     "lat": 11.42,
     "lng": -9.16,
-    "languages": ["Maninka", "French"],
-    "themes": ["oral tradition", "griot heritage", "music"],
+    "languages": [
+      "Maninka",
+      "French"
+    ],
+    "themes": [
+      "oral tradition",
+      "griot heritage",
+      "music"
+    ],
     "decade_start": 2001,
     "decade_end": null,
     "summary": "UNESCO-recognized heritage centered on the Sosso-Bala, a sacred 13th-century balafon kept in the village of Nyagassola, whose annual ceremonial playing carries the oral epic tradition of the Sunjata story through griot performance.",
-    "url": "https://ich.unesco.org/en/RL/cultural-space-of-sosso-bala-00009"
+    "url": "https://ich.unesco.org/en/RL/cultural-space-of-sosso-bala-00009",
+    "citation": "UNESCO Intangible Cultural Heritage / Ministry of Culture of Guinea. Cultural Space of Sosso-Bala. Retrieved from https://ich.unesco.org/en/RL/cultural-space-of-sosso-bala-00009.",
+    "related_ids": [
+      "moorish-epic-theydinn",
+      "ifa-divination-system"
+    ]
   },
   {
     "id": "ifa-divination-system",
@@ -370,12 +696,23 @@
     "country": "Nigeria",
     "lat": 7.4905,
     "lng": 4.5521,
-    "languages": ["Yoruba"],
-    "themes": ["oral tradition", "divination", "religion"],
+    "languages": [
+      "Yoruba"
+    ],
+    "themes": [
+      "oral tradition",
+      "divination",
+      "religion"
+    ],
     "decade_start": 2005,
     "decade_end": null,
     "summary": "A UNESCO-listed oral literary corpus (the Odu Ifa) of the Yoruba people of southwestern Nigeria: an enormous body of verses transmitted orally by babalawo priests and drawn upon in divination practice.",
-    "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146"
+    "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+    "citation": "UNESCO Intangible Cultural Heritage / Yoruba babalawo tradition. Ifa Divination System. Retrieved from https://ich.unesco.org/en/RL/ifa-divination-system-00146.",
+    "related_ids": [
+      "gelede-oral-heritage",
+      "sosso-bala-cultural-space"
+    ]
   },
   {
     "id": "gelede-oral-heritage",
@@ -384,12 +721,22 @@
     "country": "Benin",
     "lat": 7.3667,
     "lng": 2.6,
-    "languages": ["Yoruba"],
-    "themes": ["oral tradition", "masquerade", "women's history"],
+    "languages": [
+      "Yoruba"
+    ],
+    "themes": [
+      "oral tradition",
+      "masquerade",
+      "women's history"
+    ],
     "decade_start": 2001,
     "decade_end": null,
     "summary": "A UNESCO-listed oral and performance tradition of the Yoruba-Nago communities spanning Benin, Nigeria, and Togo, combining masked dance with sung epic and satirical verse that honors women's role in social life.",
-    "url": "https://ich.unesco.org/en/RL/oral-heritage-of-gelede-00002"
+    "url": "https://ich.unesco.org/en/RL/oral-heritage-of-gelede-00002",
+    "citation": "UNESCO Intangible Cultural Heritage / Yoruba-Nago communities. Oral Heritage of Gelede. Retrieved from https://ich.unesco.org/en/RL/oral-heritage-of-gelede-00002.",
+    "related_ids": [
+      "ifa-divination-system"
+    ]
   },
   {
     "id": "ifan-dakar-sound-archives",
@@ -398,12 +745,25 @@
     "country": "Senegal",
     "lat": 14.6928,
     "lng": -17.4467,
-    "languages": ["Wolof", "French", "multiple Senegalese languages"],
-    "themes": ["oral tradition", "music", "colonial history"],
+    "languages": [
+      "Wolof",
+      "French",
+      "multiple Senegalese languages"
+    ],
+    "themes": [
+      "oral tradition",
+      "music",
+      "colonial history"
+    ],
     "decade_start": 1938,
     "decade_end": null,
     "summary": "Founded in Dakar in 1938, IFAN holds a large sound archive of West African oral traditions, songs, and epics, including over 1,400 digitized cassette recordings and historic WWI-era recordings of Senegalese soldiers.",
-    "url": "https://ifan.ucad.sn/"
+    "url": "https://ifan.ucad.sn/",
+    "citation": "Institut Fondamental d'Afrique Noire, Universite Cheikh Anta Diop. IFAN Sound Archives. Retrieved from https://ifan.ucad.sn/.",
+    "related_ids": [
+      "nketia-archives-ghana",
+      "sahel-sounds-field-recordings"
+    ]
   },
   {
     "id": "nketia-archives-ghana",
@@ -412,11 +772,2546 @@
     "country": "Ghana",
     "lat": 5.6494,
     "lng": -0.187,
-    "languages": ["Twi", "Ga", "Ewe", "English", "multiple Ghanaian languages"],
-    "themes": ["oral tradition", "music", "ethnomusicology"],
+    "languages": [
+      "Twi",
+      "Ga",
+      "Ewe",
+      "English",
+      "multiple Ghanaian languages"
+    ],
+    "themes": [
+      "oral tradition",
+      "music",
+      "ethnomusicology"
+    ],
     "decade_start": 1952,
     "decade_end": null,
     "summary": "Named for ethnomusicologist J.H. Kwabena Nketia, this archive at the University of Ghana holds the largest and most systematic set of recordings by any African ethnomusicologist: over six decades of field recordings documenting music, oral tradition, and performance across Ghana.",
-    "url": "https://ias.ug.edu.gh/content/jh-kwabena-nketia-archives"
+    "url": "https://ias.ug.edu.gh/content/jh-kwabena-nketia-archives",
+    "citation": "Institute of African Studies, University of Ghana. J.H. Kwabena Nketia Archives. Retrieved from https://ias.ug.edu.gh/content/jh-kwabena-nketia-archives.",
+    "related_ids": [
+      "ifan-dakar-sound-archives"
+    ]
+  },
+  {
+    "id": "sahel-sounds-field-recordings",
+    "title": "Sahel Sounds Field Recordings Archive",
+    "archive": "Sahel Sounds",
+    "country": "Niger",
+    "lat": 13.5127,
+    "lng": 2.1128,
+    "languages": [
+      "Hausa",
+      "Zarma",
+      "Tamasheq",
+      "French",
+      "Arabic"
+    ],
+    "themes": [
+      "oral tradition",
+      "music",
+      "griot heritage"
+    ],
+    "decade_start": 2009,
+    "decade_end": null,
+    "summary": "An independent record label and blog run by ethnomusicologist Christopher Kirkley since 2009, documenting music and everyday sound across Niger, Mali, and Mauritania, including cellphone-shared recordings, radio broadcasts, and village field recordings published openly online.",
+    "url": "https://blog.sahelsounds.com/",
+    "citation": "Sahel Sounds. Field Recordings from the Sahel. Retrieved from https://blog.sahelsounds.com/.",
+    "access_notes": "Freely accessible online via blog and Bandcamp releases.",
+    "related_ids": [
+      "celhto-oral-tradition-archive",
+      "bird-mali-collections"
+    ]
+  },
+  {
+    "id": "ibadan-african-studies-audiovisual",
+    "title": "African Studies Ibadan Audiovisual and Arabic Manuscripts Archive",
+    "archive": "Institute of African Studies, University of Ibadan",
+    "country": "Nigeria",
+    "lat": 7.3775,
+    "lng": 3.947,
+    "languages": [
+      "Yoruba",
+      "Hausa",
+      "English",
+      "Arabic"
+    ],
+    "themes": [
+      "oral tradition",
+      "history",
+      "language documentation"
+    ],
+    "decade_start": 1962,
+    "decade_end": null,
+    "summary": "Founded in 1962, the Institute has long recorded festivals, songs, and oral traditions across Nigeria; a 2021 Arcadia-funded project is digitizing its audiovisual and Arabic-manuscript holdings from West Africa's decolonization period.",
+    "url": "https://ui.edu.ng/content/institute-african-studies",
+    "citation": "Institute of African Studies, University of Ibadan. African Studies Ibadan Audiovisual and Arabic Manuscripts Archive. Retrieved from https://ui.edu.ng/content/institute-african-studies.",
+    "access_notes": "In-person access at the Institute; digitized portions being released via the Endangered Archives Programme."
+  },
+  {
+    "id": "zimbabwe-archives-oral-history",
+    "title": "Oral History Programme",
+    "archive": "National Archives of Zimbabwe",
+    "country": "Zimbabwe",
+    "lat": -17.8292,
+    "lng": 31.0522,
+    "languages": [
+      "Shona",
+      "Ndebele",
+      "English"
+    ],
+    "themes": [
+      "oral tradition",
+      "war and conflict",
+      "national memory"
+    ],
+    "decade_start": 1935,
+    "decade_end": null,
+    "summary": "Zimbabwe's National Archives, established in 1935, runs an Oral History programme with the National Museums and Monuments and the University of Zimbabwe recording testimony of the First and Second Chimurenga liberation struggles in English and local languages.",
+    "url": "https://www.archives.gov.zw/",
+    "citation": "National Archives of Zimbabwe. Oral History Programme. Retrieved from https://www.archives.gov.zw/.",
+    "access_notes": "In-person/reading-room access; some liberation-history recordings referenced in public reporting."
+  },
+  {
+    "id": "kenya-national-archives-oral-history",
+    "title": "Oral History Collections",
+    "archive": "Kenya National Archives and Documentation Service",
+    "country": "Kenya",
+    "lat": -1.2833,
+    "lng": 36.8167,
+    "languages": [
+      "Swahili",
+      "English",
+      "multiple Kenyan languages"
+    ],
+    "themes": [
+      "oral tradition",
+      "colonial history",
+      "national memory"
+    ],
+    "decade_start": 1965,
+    "decade_end": null,
+    "summary": "Kenya's national archive, established by Act of Parliament in 1965, holds audio cassette recordings of oral histories and folk songs alongside colonial records, government files, and papers of prominent Kenyans.",
+    "url": "https://www.archives.go.ke/homepage",
+    "citation": "Kenya National Archives and Documentation Service. Oral History Collections. Retrieved from https://www.archives.go.ke/homepage."
+  },
+  {
+    "id": "institute-ethiopian-studies",
+    "title": "Institute of Ethiopian Studies Audiovisual Archive",
+    "archive": "Addis Ababa University",
+    "country": "Ethiopia",
+    "lat": 9.03,
+    "lng": 38.7633,
+    "languages": [
+      "Amharic",
+      "Ge'ez",
+      "Oromo",
+      "multiple Ethiopian languages"
+    ],
+    "themes": [
+      "oral tradition",
+      "ethnomusicology",
+      "manuscripts"
+    ],
+    "decade_start": 1963,
+    "decade_end": null,
+    "summary": "Established in 1963, the Institute holds the world's largest single collection of Ethiopian manuscripts alongside an Audiovisual Materials section with ethnomusicological field recordings documenting Ethiopia's oral and musical traditions.",
+    "url": "https://aau.edu.et/institute/IES",
+    "citation": "Institute of Ethiopian Studies, Addis Ababa University. Audiovisual Archive. Retrieved from https://aau.edu.et/institute/IES."
+  },
+  {
+    "id": "mosireen-858-archive",
+    "title": "858: An Archive of Resistance",
+    "archive": "Mosireen Collective",
+    "country": "Egypt",
+    "lat": 30.0444,
+    "lng": 31.2357,
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "themes": [
+      "war and conflict",
+      "human rights",
+      "political history"
+    ],
+    "decade_start": 2011,
+    "decade_end": null,
+    "summary": "A video collective formed during the 2011 Egyptian revolution released 858 hours of raw, timestamped footage of protests and state violence, freely licensed and published as a public archive of firsthand documentation and voice.",
+    "url": "https://858.ma/",
+    "citation": "Mosireen Collective. 858: An Archive of Resistance. Retrieved from https://858.ma/.",
+    "access_notes": "Freely accessible online, indexed and searchable video."
+  },
+  {
+    "id": "ircam-amazigh-culture",
+    "title": "Institut Royal de la Culture Amazighe",
+    "archive": "Institut Royal de la Culture Amazighe (IRCAM)",
+    "country": "Morocco",
+    "lat": 34.0209,
+    "lng": -6.8416,
+    "languages": [
+      "Tamazight",
+      "Arabic",
+      "French"
+    ],
+    "themes": [
+      "oral tradition",
+      "language documentation",
+      "history"
+    ],
+    "decade_start": 2001,
+    "decade_end": null,
+    "summary": "Founded by royal decree in 2001, IRCAM researches and promotes Amazigh (Berber) language and culture across Morocco, including documentation of oral literature and dialects through its research centres in Rabat.",
+    "url": "https://www.ircam.ma/",
+    "citation": "Institut Royal de la Culture Amazighe. Retrieved from https://www.ircam.ma/."
+  },
+  {
+    "id": "fondation-hampate-ba",
+    "title": "Fondation Amadou Hampâté Bâ",
+    "archive": "Fondation Amadou Hampâté Bâ",
+    "country": "Côte d'Ivoire",
+    "lat": 5.3599,
+    "lng": -3.9906,
+    "languages": [
+      "French",
+      "Fulfulde",
+      "Bambara"
+    ],
+    "themes": [
+      "oral tradition",
+      "history",
+      "griot heritage"
+    ],
+    "decade_start": 2002,
+    "decade_end": null,
+    "summary": "Based in Abidjan, this foundation preserves the personal archive of Malian writer and ethnologist Amadou Hampate Ba, a lifelong advocate for African oral tradition, including audiovisual recordings and manuscripts now being digitized with UNESCO support.",
+    "url": "https://www.unesco.org/en/memory-world/amadou-hampate-ba",
+    "citation": "Fondation Amadou Hampâté Bâ. Retrieved via UNESCO Memory of the World: https://www.unesco.org/en/memory-world/amadou-hampate-ba.",
+    "access_notes": "In-person access in Abidjan; digitization and online access underway via UNESCO partnership.",
+    "related_ids": [
+      "bird-mali-collections",
+      "celhto-oral-tradition-archive"
+    ]
+  },
+  {
+    "id": "moorish-epic-theydinn",
+    "title": "Moorish Epic T'heydinn",
+    "archive": "UNESCO Intangible Cultural Heritage / Mauritanian griot (iggawin) tradition",
+    "country": "Mauritania",
+    "lat": 18.0735,
+    "lng": -15.9582,
+    "languages": [
+      "Hassaniya Arabic"
+    ],
+    "themes": [
+      "oral tradition",
+      "griot heritage",
+      "history"
+    ],
+    "decade_start": 2011,
+    "decade_end": null,
+    "summary": "A UNESCO-listed oral epic tradition of Mauritania's Moorish tribes, recited by griot (iggawin) families accompanied by lute, harp, and kettledrum, functioning as each tribe's sung and spoken oral history handed down through generations.",
+    "url": "https://ich.unesco.org/en/USL/moorish-epic-t-heydinn-00524",
+    "citation": "UNESCO Intangible Cultural Heritage. Moorish Epic T'heydinn. Retrieved from https://ich.unesco.org/en/USL/moorish-epic-t-heydinn-00524."
+  },
+  {
+    "id": "refugee-law-project-uganda",
+    "title": "Documentation of War-Affected Communities",
+    "archive": "Refugee Law Project, Makerere University",
+    "country": "Uganda",
+    "lat": 0.3476,
+    "lng": 32.5825,
+    "languages": [
+      "English",
+      "Acholi",
+      "Luo"
+    ],
+    "themes": [
+      "war and conflict",
+      "transitional justice",
+      "human rights"
+    ],
+    "decade_start": 1999,
+    "decade_end": null,
+    "summary": "Founded in 1999 as an outreach project of Makerere University's law school, the Refugee Law Project documents testimony and advocates for transitional justice for communities affected by conflict with the Lord's Resistance Army in northern Uganda.",
+    "url": "https://www.refugeelawproject.org/",
+    "citation": "Refugee Law Project, Makerere University. Retrieved from https://www.refugeelawproject.org/."
+  },
+  {
+    "id": "zochrot-nakba-testimonies",
+    "title": "Nakba Survivor Testimonies",
+    "archive": "Zochrot",
+    "country": "Israel",
+    "lat": 32.0853,
+    "lng": 34.7818,
+    "languages": [
+      "Arabic",
+      "Hebrew"
+    ],
+    "themes": [
+      "Nakba",
+      "displacement",
+      "memory and reconciliation"
+    ],
+    "decade_start": 2002,
+    "decade_end": null,
+    "summary": "An Israeli NGO founded in 2002 that collects and publishes video testimonies from Palestinian refugees who witnessed the 1948 Nakba, alongside accounts from Israelis who took part in the 1948 war, to promote public accountability and the right of return.",
+    "url": "https://www.zochrot.org/testimonies/all/en",
+    "citation": "Zochrot. Nakba Survivor Testimonies. Retrieved from https://www.zochrot.org/testimonies/all/en.",
+    "access_notes": "Freely accessible online, video testimonies with searchable database.",
+    "preview_url": "https://www.zochrot.org/testimonies/all/en",
+    "related_ids": [
+      "palestinian-oral-history-archive",
+      "ips-narrating-palestine"
+    ]
+  },
+  {
+    "id": "umam-documentation-research",
+    "title": "UMAM Documentation & Research",
+    "archive": "UMAM Documentation & Research",
+    "country": "Lebanon",
+    "lat": 33.8464,
+    "lng": 35.4936,
+    "languages": [
+      "Arabic",
+      "French",
+      "English"
+    ],
+    "themes": [
+      "armed conflict",
+      "memory and reconciliation",
+      "human rights"
+    ],
+    "decade_start": 2004,
+    "decade_end": null,
+    "summary": "A nonprofit founded in 2004 in Beirut's southern suburbs that collects documents, interviews, and narratives relating to the 1975-1990 Lebanese Civil War, working to break cycles of blame through public engagement with contested memory.",
+    "url": "https://www.umam-dr.org/",
+    "citation": "UMAM Documentation & Research. Retrieved from https://www.umam-dr.org/.",
+    "related_ids": [
+      "palestinian-oral-history-archive"
+    ]
+  },
+  {
+    "id": "ips-narrating-palestine",
+    "title": "Narrating Palestine: The Palestinian Oral History Archive Project",
+    "archive": "Institute for Palestine Studies",
+    "country": "Lebanon",
+    "lat": 33.8938,
+    "lng": 35.5018,
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "themes": [
+      "Nakba",
+      "displacement",
+      "oral tradition"
+    ],
+    "decade_start": 2011,
+    "decade_end": null,
+    "summary": "Launched in 2011, this project of the Beirut-based Institute for Palestine Studies digitizes and catalogs Palestinian oral history testimonies gathered by researchers across the region, from Ramallah and Haifa to Beirut, Damascus, and Amman.",
+    "url": "https://www.palestine-studies.org/en/node/227700",
+    "citation": "Institute for Palestine Studies. Narrating Palestine: The Palestinian Oral History Archive Project. Retrieved from https://www.palestine-studies.org/en/node/227700.",
+    "related_ids": [
+      "palestinian-oral-history-archive",
+      "zochrot-nakba-testimonies"
+    ]
+  },
+  {
+    "id": "institut-kurde-paris",
+    "title": "Kurdish Digital Library and Audio Archive",
+    "archive": "Institut kurde de Paris",
+    "country": "France",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "languages": [
+      "Kurdish (Kurmanji, Sorani)",
+      "French"
+    ],
+    "themes": [
+      "language documentation",
+      "oral tradition",
+      "history"
+    ],
+    "decade_start": 1983,
+    "decade_end": null,
+    "summary": "An independent Kurdish cultural foundation created in Paris in 1983 that maintains a library and audio archive of Kurdish music, spoken recordings, and periodicals aimed at preserving Kurdish language and cultural memory.",
+    "url": "https://www.institutkurde.org/",
+    "citation": "Institut kurde de Paris. Retrieved from https://www.institutkurde.org/."
+  },
+  {
+    "id": "yad-vashem-testimonies",
+    "title": "Survivor Testimonies Collection",
+    "archive": "Yad Vashem",
+    "country": "Israel",
+    "lat": 31.7736,
+    "lng": 35.175,
+    "languages": [
+      "Hebrew",
+      "English",
+      "multiple languages"
+    ],
+    "themes": [
+      "Holocaust",
+      "genocide",
+      "human rights"
+    ],
+    "decade_start": 1953,
+    "decade_end": null,
+    "summary": "Israel's official Holocaust remembrance authority, established by law in 1953, holds over 125,000 survivor testimonies (written, audio, and video) among more than 210 million pages of Holocaust documentation, with thousands available online.",
+    "url": "https://www.yadvashem.org/collections/testimonies.html",
+    "citation": "Yad Vashem. Survivor Testimonies Collection. Retrieved from https://www.yadvashem.org/collections/testimonies.html.",
+    "access_notes": "Thousands of full testimonies freely viewable online; broader archive by researcher request.",
+    "preview_url": "https://www.yadvashem.org/collections/testimonies.html",
+    "related_ids": [
+      "usc-shoah-foundation-vha",
+      "fortunoff-video-archive"
+    ]
+  },
+  {
+    "id": "harvard-iranian-oral-history",
+    "title": "Iranian Oral History Project",
+    "archive": "Harvard University Center for Middle Eastern Studies",
+    "country": "Iran",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "languages": [
+      "Persian",
+      "English"
+    ],
+    "themes": [
+      "political history",
+      "history",
+      "memory and reconciliation"
+    ],
+    "decade_start": 1981,
+    "decade_end": null,
+    "summary": "Launched at Harvard in 1981 by historian Habib Ladjevardi, this project recorded personal accounts of 134 political leaders and eyewitnesses to major events in Iranian history from the 1920s through the 1980s, now digitized and streamed publicly.",
+    "url": "https://cmes.fas.harvard.edu/projects/iohp",
+    "citation": "Harvard University Center for Middle Eastern Studies. Iranian Oral History Project. Retrieved from https://cmes.fas.harvard.edu/projects/iohp."
+  },
+  {
+    "id": "odysseo-generiques-oral-archives",
+    "title": "Oral Archives of Immigration History (Odysseo)",
+    "archive": "Genériques / Les Amis de Génériques",
+    "country": "France",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "languages": [
+      "French",
+      "Arabic",
+      "multiple immigrant languages"
+    ],
+    "themes": [
+      "migration",
+      "displacement",
+      "labor history"
+    ],
+    "decade_start": 1987,
+    "decade_end": null,
+    "summary": "Founded in 1987, the association Genériques built the Odysseo portal cataloguing sources on immigration to France since 1800, including an oral-history campaign recording dozens of witnesses to 1968-1988 immigrant mobilization and anti-discrimination struggles.",
+    "url": "https://www.lesamisdegeneriques.org/",
+    "citation": "Genériques. Oral Archives of Immigration History. Retrieved from https://www.lesamisdegeneriques.org/.",
+    "access_notes": "Digitized sources freely searchable online via the Odysseo portal.",
+    "related_ids": [
+      "domid-migration-museum"
+    ]
+  },
+  {
+    "id": "iwm-sound-archive",
+    "title": "Sound Archive",
+    "archive": "Imperial War Museums",
+    "country": "United Kingdom",
+    "lat": 51.4954,
+    "lng": -0.1098,
+    "languages": [
+      "English",
+      "multiple languages"
+    ],
+    "themes": [
+      "war and conflict",
+      "military history",
+      "oral tradition"
+    ],
+    "decade_start": 1972,
+    "decade_end": null,
+    "summary": "Established in 1972 as the Department of Sound Records, IWM's Sound Archive is the world's largest oral history archive of its kind, with over 60,000 hours of interviews covering conflicts since 1914 in more than 15 languages.",
+    "url": "https://www.iwm.org.uk/collections/sound",
+    "citation": "Imperial War Museums. Sound Archive. Retrieved from https://www.iwm.org.uk/collections/sound.",
+    "access_notes": "Many recordings streamable online; full collection via research room visit.",
+    "related_ids": [
+      "veterans-history-project",
+      "fortunoff-video-archive"
+    ]
+  },
+  {
+    "id": "prisons-memory-archive",
+    "title": "Prisons Memory Archive",
+    "archive": "Prisons Memory Archive / Public Record Office of Northern Ireland",
+    "country": "United Kingdom",
+    "lat": 54.5973,
+    "lng": -5.9301,
+    "languages": [
+      "English"
+    ],
+    "themes": [
+      "war and conflict",
+      "memory and reconciliation",
+      "human rights"
+    ],
+    "decade_start": 2006,
+    "decade_end": 2007,
+    "summary": "Between 2006 and 2007, filmmakers recorded 161 filmed oral histories with former prisoners, officers, chaplains, and visitors inside Armagh Gaol and the Maze and Long Kesh Prison, capturing life-storytelling about Northern Ireland's Troubles.",
+    "url": "https://prisonsmemoryarchive.com/",
+    "citation": "Prisons Memory Archive. Retrieved from https://prisonsmemoryarchive.com/.",
+    "access_notes": "Selected extracts online; full collection held at the Public Record Office of Northern Ireland."
+  },
+  {
+    "id": "ajr-refugee-voices",
+    "title": "AJR Refugee Voices Testimony Archive",
+    "archive": "Association of Jewish Refugees",
+    "country": "United Kingdom",
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "languages": [
+      "English",
+      "German"
+    ],
+    "themes": [
+      "Holocaust",
+      "migration",
+      "displacement"
+    ],
+    "decade_start": 2003,
+    "decade_end": null,
+    "summary": "Commissioned in 2003, this UK archive holds 310 filmed interviews totalling 450 hours with Jewish refugees and survivors of Nazi Europe who rebuilt their lives in Britain, with summaries and clips available and full interviews via research partners.",
+    "url": "https://www.ajrrefugeevoices.org.uk/",
+    "citation": "Association of Jewish Refugees. Refugee Voices Testimony Archive. Retrieved from https://www.ajrrefugeevoices.org.uk/.",
+    "access_notes": "Summaries and short clips online; full unedited interviews via institutional partners."
+  },
+  {
+    "id": "warwick-modern-records-centre",
+    "title": "Working Class and Labour Oral History Archive",
+    "archive": "Modern Records Centre, University of Warwick",
+    "country": "United Kingdom",
+    "lat": 52.3793,
+    "lng": -1.561,
+    "languages": [
+      "English"
+    ],
+    "themes": [
+      "labor history",
+      "social history",
+      "political history"
+    ],
+    "decade_start": 1973,
+    "decade_end": null,
+    "summary": "Established in 1973, the Modern Records Centre holds Britain's largest archive of trade union records and industrial relations history, including oral history recordings documenting the working-class labour movement.",
+    "url": "https://warwick.ac.uk/services/library/mrc/",
+    "citation": "Modern Records Centre, University of Warwick. Retrieved from https://warwick.ac.uk/services/library/mrc/.",
+    "related_ids": [
+      "walter-reuther-library",
+      "bl-national-life-stories"
+    ]
+  },
+  {
+    "id": "national-library-wales-sound-archive",
+    "title": "Screen and Sound Archive",
+    "archive": "National Library of Wales",
+    "country": "United Kingdom",
+    "lat": 52.4153,
+    "lng": -4.0829,
+    "languages": [
+      "Welsh",
+      "English"
+    ],
+    "themes": [
+      "oral tradition",
+      "migration",
+      "social history"
+    ],
+    "decade_start": 1898,
+    "decade_end": null,
+    "summary": "The National Library of Wales's Screen and Sound Archive preserves recordings of Welsh life dating from 1898 onward, including oral history interviews with Welsh migrants to North America and Patagonia, dialect recordings, and industrial-community testimony.",
+    "url": "https://www.library.wales/catalogues-searching/about-our-collections/screen-sound-archive",
+    "citation": "National Library of Wales. Screen and Sound Archive. Retrieved from https://www.library.wales/catalogues-searching/about-our-collections/screen-sound-archive."
+  },
+  {
+    "id": "european-solidarity-centre-archive",
+    "title": "European Solidarity Centre Archive",
+    "archive": "European Solidarity Centre",
+    "country": "Poland",
+    "lat": 54.352,
+    "lng": 18.6466,
+    "languages": [
+      "Polish",
+      "English"
+    ],
+    "themes": [
+      "labor history",
+      "political history",
+      "totalitarianism"
+    ],
+    "decade_start": 2008,
+    "decade_end": null,
+    "summary": "Operating since 2008 in Gdansk, this archive collects documents, photographs, and personal testimony documenting Poland's Solidarity trade union movement and the wider anti-communist opposition in Eastern Europe from 1970 to 1989.",
+    "url": "https://ecs.gda.pl/en/archive/",
+    "citation": "European Solidarity Centre. Archive. Retrieved from https://ecs.gda.pl/en/archive/.",
+    "related_ids": [
+      "karta-center-poland",
+      "memory-of-nations-czech"
+    ]
+  },
+  {
+    "id": "karta-center-poland",
+    "title": "Ośrodek KARTA Oral History Collections",
+    "archive": "KARTA Center Foundation",
+    "country": "Poland",
+    "lat": 52.2148,
+    "lng": 21.0128,
+    "languages": [
+      "Polish",
+      "Russian",
+      "Ukrainian"
+    ],
+    "themes": [
+      "totalitarianism",
+      "war and conflict",
+      "political history"
+    ],
+    "decade_start": 1982,
+    "decade_end": null,
+    "summary": "Growing out of an underground publishing project launched in early 1982 during martial law, Poland's largest community archive now holds oral history recordings and biographical accounts documenting Nazi and Soviet occupation, deportation, and communist-era persecution.",
+    "url": "https://karta.org.pl/",
+    "citation": "KARTA Center Foundation. Retrieved from https://karta.org.pl/.",
+    "related_ids": [
+      "european-solidarity-centre-archive",
+      "memory-of-nations-czech",
+      "osa-archivum-budapest"
+    ]
+  },
+  {
+    "id": "osa-archivum-budapest",
+    "title": "Blinken OSA Archivum",
+    "archive": "Central European University",
+    "country": "Hungary",
+    "lat": 47.4979,
+    "lng": 19.0402,
+    "languages": [
+      "English",
+      "Hungarian",
+      "Russian"
+    ],
+    "themes": [
+      "totalitarianism",
+      "human rights",
+      "political history"
+    ],
+    "decade_start": 1995,
+    "decade_end": null,
+    "summary": "Founded by George Soros in 1995, this Budapest archive holds Cold War-era records including Radio Free Europe/Radio Liberty materials and oral history interviews with former Soviet dissidents and Communist Party officials.",
+    "url": "https://archivum.org/",
+    "citation": "Blinken OSA Archivum, Central European University. Retrieved from https://archivum.org/.",
+    "related_ids": [
+      "karta-center-poland",
+      "memory-of-nations-czech"
+    ]
+  },
+  {
+    "id": "pcrc-ordinary-heroes",
+    "title": "Ordinary Heroes Digital Archive",
+    "archive": "Post-Conflict Research Center",
+    "country": "Bosnia and Herzegovina",
+    "lat": 43.8563,
+    "lng": 18.4131,
+    "languages": [
+      "Bosnian"
+    ],
+    "themes": [
+      "armed conflict",
+      "memory and reconciliation",
+      "human rights"
+    ],
+    "decade_start": 2011,
+    "decade_end": null,
+    "summary": "Founded in Sarajevo in 2011, the Post-Conflict Research Center collects testimony of rescuers and survivors from the 1992-95 Bosnian War through its Ordinary Heroes peacebuilding programme, preserving oral testimonies, letters, and diaries.",
+    "url": "https://p-crc.org/our-work/post-conflict-research/rescue-and-survivor-testemonials/ordinary-heroes-digital-archive/",
+    "citation": "Post-Conflict Research Center. Ordinary Heroes Digital Archive. Retrieved from https://p-crc.org/our-work/post-conflict-research/rescue-and-survivor-testemonials/ordinary-heroes-digital-archive/."
+  },
+  {
+    "id": "yahad-in-unum",
+    "title": "Holocaust by Bullets Testimony Archive",
+    "archive": "Yahad-In Unum",
+    "country": "France",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "languages": [
+      "French",
+      "Ukrainian",
+      "Russian",
+      "Polish",
+      "multiple languages"
+    ],
+    "themes": [
+      "Holocaust",
+      "genocide",
+      "war and conflict"
+    ],
+    "decade_start": 2004,
+    "decade_end": null,
+    "summary": "Founded in 2004 by Father Patrick Desbois, this Paris-based organization has recorded over 7,000 eyewitness interviews across Central and Eastern Europe documenting mass shootings of Jews during the Holocaust, identifying more than 3,000 execution sites.",
+    "url": "https://www.yahadinunum.org/",
+    "citation": "Yahad-In Unum. Holocaust by Bullets Testimony Archive. Retrieved from https://www.yahadinunum.org/.",
+    "access_notes": "Archive being transferred to Yad Vashem for public research access.",
+    "related_ids": [
+      "yad-vashem-testimonies",
+      "memory-of-nations-czech"
+    ]
+  },
+  {
+    "id": "berlin-phonogramm-archiv",
+    "title": "Berliner Phonogramm-Archiv",
+    "archive": "Ethnologisches Museum, Staatliche Museen zu Berlin",
+    "country": "Germany",
+    "lat": 52.5063,
+    "lng": 13.2066,
+    "languages": [
+      "multiple world languages"
+    ],
+    "themes": [
+      "oral tradition",
+      "ethnomusicology",
+      "music"
+    ],
+    "decade_start": 1893,
+    "decade_end": 1954,
+    "summary": "One of the world's oldest sound archives, the Berlin Phonogramm-Archiv preserves about 30,000 wax cylinder recordings made between 1893 and 1954 documenting music and spoken traditions from cultures around the globe, inscribed on UNESCO's Memory of the World register.",
+    "url": "https://www.smb.museum/en/museums-institutions/ethnologisches-museum/collection-research/research/sound-recordings-made-by-the-prussian-phonographic-commission/",
+    "citation": "Ethnologisches Museum, Staatliche Museen zu Berlin. Berliner Phonogramm-Archiv. Retrieved from https://www.smb.museum/en/museums-institutions/ethnologisches-museum/collection-research/research/sound-recordings-made-by-the-prussian-phonographic-commission/.",
+    "related_ids": [
+      "austria-phonogrammarchiv",
+      "association-cultural-equity-lomax"
+    ]
+  },
+  {
+    "id": "romarchive",
+    "title": "RomArchive",
+    "archive": "RomArchive e.V.",
+    "country": "Germany",
+    "lat": 52.52,
+    "lng": 13.405,
+    "languages": [
+      "Romani",
+      "German",
+      "English"
+    ],
+    "themes": [
+      "oral tradition",
+      "genocide",
+      "human rights"
+    ],
+    "decade_start": 2019,
+    "decade_end": null,
+    "summary": "Launched online in January 2019 after a five-year international project, RomArchive is a digital archive of Roma and Sinti arts and history told by Roma and Sinti themselves, including a dedicated section of oral testimonies from victims of Nazi persecution.",
+    "url": "https://www.romarchive.eu/en/",
+    "citation": "RomArchive. Retrieved from https://www.romarchive.eu/en/.",
+    "access_notes": "Freely accessible online."
+  },
+  {
+    "id": "finnish-literature-society-folklore-archive",
+    "title": "Folklore Archives of the Finnish Literature Society",
+    "archive": "Finnish Literature Society (SKS)",
+    "country": "Finland",
+    "lat": 60.1699,
+    "lng": 24.9384,
+    "languages": [
+      "Finnish",
+      "Karelian"
+    ],
+    "themes": [
+      "oral tradition",
+      "folklife",
+      "music"
+    ],
+    "decade_start": 1937,
+    "decade_end": null,
+    "summary": "Consolidated in 1937 from folklore collections begun when the Society was founded in 1831, this archive holds around 4 million folklore items and 30,000 hours of sound and video, including the field poetry that formed the basis of the Finnish epic Kalevala.",
+    "url": "https://www.finlit.fi/en/archives/",
+    "citation": "Finnish Literature Society (SKS). Folklore Archives. Retrieved from https://www.finlit.fi/en/archives/.",
+    "related_ids": [
+      "estonian-folklore-archives",
+      "tobar-an-dualchais"
+    ]
+  },
+  {
+    "id": "estonian-folklore-archives",
+    "title": "Estonian Folklore Archives",
+    "archive": "Estonian Literary Museum",
+    "country": "Estonia",
+    "lat": 58.3776,
+    "lng": 26.729,
+    "languages": [
+      "Estonian",
+      "Voro",
+      "Seto"
+    ],
+    "themes": [
+      "oral tradition",
+      "folklife",
+      "language documentation"
+    ],
+    "decade_start": 1927,
+    "decade_end": null,
+    "summary": "Founded in Tartu in 1927, Estonia's central folklore archive holds roughly 1.5 million manuscript pages, 188,000 sound recordings, and 1,700 films documenting Estonian and Seto folk song, storytelling, and oral tradition.",
+    "url": "https://www.folklore.ee/dbases/",
+    "citation": "Estonian Literary Museum. Estonian Folklore Archives. Retrieved from https://www.folklore.ee/dbases/.",
+    "related_ids": [
+      "finnish-literature-society-folklore-archive"
+    ]
+  },
+  {
+    "id": "georgia-traditional-polyphony-center",
+    "title": "International Research Center for Traditional Polyphony",
+    "archive": "Tbilisi Vano Sarajishvili State Conservatoire",
+    "country": "Georgia",
+    "lat": 41.71,
+    "lng": 44.79,
+    "languages": [
+      "Georgian"
+    ],
+    "themes": [
+      "oral tradition",
+      "music",
+      "ethnomusicology"
+    ],
+    "decade_start": 2002,
+    "decade_end": null,
+    "summary": "Established with UNESCO support in 2002-2003, this Tbilisi research centre studies and documents Georgian traditional vocal polyphony, an oral musical tradition inscribed on UNESCO's list of the Intangible Cultural Heritage of Humanity.",
+    "url": "https://polyphony.ge/en/home-2/",
+    "citation": "International Research Center for Traditional Polyphony, Tbilisi State Conservatoire. Retrieved from https://polyphony.ge/en/home-2/."
+  },
+  {
+    "id": "ahotsak-basque-oral-archive",
+    "title": "Ahotsak.eus Basque Oral Archive",
+    "archive": "Badihardugu Association",
+    "country": "Spain",
+    "lat": 43.263,
+    "lng": -2.935,
+    "languages": [
+      "Basque (Euskara)",
+      "Spanish",
+      "French"
+    ],
+    "themes": [
+      "oral tradition",
+      "language documentation",
+      "social history"
+    ],
+    "decade_start": 2003,
+    "decade_end": null,
+    "summary": "Since 2003, this project has video-recorded interviews with more than 6,000 Basque speakers over age 75 across Spain and France, documenting Basque dialects, local history, and 20th-century historical memory.",
+    "url": "https://ahotsak.eus/english/",
+    "citation": "Badihardugu Association. Ahotsak.eus Basque Oral Archive. Retrieved from https://ahotsak.eus/english/.",
+    "access_notes": "Freely accessible online, catalogued by topic and town."
+  },
+  {
+    "id": "isof-sweden-folklore",
+    "title": "Dialect, Name, and Folklore Archives",
+    "archive": "Institutet för sprak och folkminnen (Isof)",
+    "country": "Sweden",
+    "lat": 59.8586,
+    "lng": 17.6389,
+    "languages": [
+      "Swedish",
+      "Sami",
+      "Finnish"
+    ],
+    "themes": [
+      "oral tradition",
+      "folklife",
+      "language documentation"
+    ],
+    "decade_start": 2006,
+    "decade_end": null,
+    "summary": "Sweden's government agency for language and folklore, in its current form since a 2006 institutional merger, holds archives of dialect recordings, folk music, and folklore gathered from across the country and Swedish-speaking areas abroad.",
+    "url": "https://www.isof.se/",
+    "citation": "Institutet för sprak och folkminnen (Isof). Retrieved from https://www.isof.se/."
+  },
+  {
+    "id": "austria-phonogrammarchiv",
+    "title": "Phonogrammarchiv",
+    "archive": "Austrian Academy of Sciences",
+    "country": "Austria",
+    "lat": 48.2082,
+    "lng": 16.3738,
+    "languages": [
+      "multiple world languages"
+    ],
+    "themes": [
+      "oral tradition",
+      "ethnomusicology",
+      "language documentation"
+    ],
+    "decade_start": 1899,
+    "decade_end": null,
+    "summary": "Founded in 1899, the Vienna Phonogrammarchiv is the world's oldest audiovisual research archive, holding field recordings of languages, dialects, and non-European music made chiefly by Austrian scholars, many inscribed on UNESCO's Memory of the World register.",
+    "url": "https://www.oeaw.ac.at/en/phonogrammarchiv/phonogrammarchiv/history-of-the-pha",
+    "citation": "Austrian Academy of Sciences. Phonogrammarchiv. Retrieved from https://www.oeaw.ac.at/en/phonogrammarchiv/phonogrammarchiv/history-of-the-pha.",
+    "related_ids": [
+      "berlin-phonogramm-archiv",
+      "romarchive"
+    ]
+  },
+  {
+    "id": "sami-archives-norway",
+    "title": "The Sami Archives",
+    "archive": "National Archival Services of Norway",
+    "country": "Norway",
+    "lat": 69.0125,
+    "lng": 23.0412,
+    "languages": [
+      "Northern Sami",
+      "Norwegian"
+    ],
+    "themes": [
+      "Indigenous history",
+      "oral tradition",
+      "language documentation"
+    ],
+    "decade_start": 1988,
+    "decade_end": null,
+    "summary": "Located at the Sami academic park Diehtosiida in Kautokeino, the Sami Archives has preserved material relating to the Sami people since 1988, and since 2005 operates as part of Norway's National Archival Services.",
+    "url": "https://www.arkivverket.no/om-oss/samisk-arkiv",
+    "citation": "National Archival Services of Norway. The Sami Archives. Retrieved from https://www.arkivverket.no/om-oss/samisk-arkiv."
+  },
+  {
+    "id": "singapore-oral-history-centre",
+    "title": "Oral History Centre",
+    "archive": "National Archives of Singapore",
+    "country": "Singapore",
+    "lat": 1.2833,
+    "lng": 103.85,
+    "languages": [
+      "English",
+      "Mandarin",
+      "Malay",
+      "Tamil"
+    ],
+    "themes": [
+      "national memory",
+      "everyday life",
+      "social history"
+    ],
+    "decade_start": 1979,
+    "decade_end": null,
+    "summary": "Set up in 1979, Singapore's Oral History Centre records life stories and eyewitness accounts documenting the nation's diverse voices, from leaders and innovators to ordinary residents who witnessed historical change.",
+    "url": "https://www.nas.gov.sg/archivesonline/oral_history_interviews/about-us",
+    "citation": "National Archives of Singapore. Oral History Centre. Retrieved from https://www.nas.gov.sg/archivesonline/oral_history_interviews/about-us.",
+    "access_notes": "Interviews searchable online; full recordings subject to interviewee consent."
+  },
+  {
+    "id": "citizens-archive-pakistan",
+    "title": "Oral History Project",
+    "archive": "Citizens Archive of Pakistan",
+    "country": "Pakistan",
+    "lat": 24.8607,
+    "lng": 67.0011,
+    "languages": [
+      "Urdu",
+      "English",
+      "Punjabi",
+      "Sindhi"
+    ],
+    "themes": [
+      "Partition",
+      "displacement",
+      "migration"
+    ],
+    "decade_start": 2007,
+    "decade_end": null,
+    "summary": "Founded in 2007 in Karachi, this nonprofit's Oral History Project has recorded over 5,000 testimonies, beginning with survivors of the 1947 Partition and expanding to broader South Asian historical narratives.",
+    "url": "https://citizensarchive.org/portfolio-item/oral-history-project/",
+    "citation": "Citizens Archive of Pakistan. Oral History Project. Retrieved from https://citizensarchive.org/portfolio-item/oral-history-project/.",
+    "related_ids": [
+      "1947-partition-archive"
+    ]
+  },
+  {
+    "id": "nehru-memorial-oral-history",
+    "title": "Oral History Division",
+    "archive": "Nehru Memorial Museum and Library",
+    "country": "India",
+    "lat": 28.5921,
+    "lng": 77.1998,
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "themes": [
+      "political history",
+      "history",
+      "national memory"
+    ],
+    "decade_start": 1966,
+    "decade_end": null,
+    "summary": "Organized beginning in 1966, this division of India's Nehru Memorial Museum and Library recorded reminiscences of figures connected to Gandhi and Nehru and participants in India's freedom struggle, later expanding to economic and cultural history; 838 transcripts are held.",
+    "url": "https://nehruportal.nic.in/oral-history",
+    "citation": "Nehru Memorial Museum and Library. Oral History Division. Retrieved from https://nehruportal.nic.in/oral-history.",
+    "related_ids": [
+      "1947-partition-archive"
+    ]
+  },
+  {
+    "id": "sparrow-india",
+    "title": "SPARROW: Sound & Picture Archives for Research on Women",
+    "archive": "SPARROW",
+    "country": "India",
+    "lat": 19.2183,
+    "lng": 72.8493,
+    "languages": [
+      "Hindi",
+      "Tamil",
+      "English",
+      "multiple Indian languages"
+    ],
+    "themes": [
+      "women's history",
+      "oral tradition",
+      "everyday life"
+    ],
+    "decade_start": 1988,
+    "decade_end": null,
+    "summary": "Founded in Mumbai in 1988 by writer C.S. Lakshmi, SPARROW is India's largest archive of women's history, holding oral history recordings, personal papers, photographs, and documentary films centering women's own accounts of social change.",
+    "url": "https://www.sparrowonline.org/",
+    "citation": "SPARROW. Sound & Picture Archives for Research on Women. Retrieved from https://www.sparrowonline.org/."
+  },
+  {
+    "id": "hong-kong-memory-project",
+    "title": "Hong Kong Memory Project",
+    "archive": "Hong Kong University of Science and Technology",
+    "country": "Hong Kong",
+    "lat": 22.3193,
+    "lng": 114.1694,
+    "languages": [
+      "Cantonese",
+      "English"
+    ],
+    "themes": [
+      "oral tradition",
+      "everyday life",
+      "national memory"
+    ],
+    "decade_start": 2006,
+    "decade_end": null,
+    "summary": "Begun in 2006, this digital repository gathers oral history and multimedia documentation of Hong Kong's history and culture, covering topics from Kai Tak Airport's neighbourhood to village life and traditional festivals.",
+    "url": "https://www.hkmemory.hk/en/index.html",
+    "citation": "Hong Kong Memory Project. Retrieved from https://www.hkmemory.hk/en/index.html.",
+    "access_notes": "Freely accessible online."
+  },
+  {
+    "id": "shanghai-comfort-women-museum",
+    "title": "Chinese \"Comfort Women\" History Museum and Research Center",
+    "archive": "Shanghai Normal University",
+    "country": "China",
+    "lat": 31.1631,
+    "lng": 121.4184,
+    "languages": [
+      "Mandarin Chinese"
+    ],
+    "themes": [
+      "war and conflict",
+      "women's history",
+      "human rights"
+    ],
+    "decade_start": 1999,
+    "decade_end": null,
+    "summary": "Since founding a research center in 1999, historian Su Zhiliang and colleagues have recorded testimony from more than 100 Chinese survivors of Japan's wartime military sexual slavery system, opening a dedicated museum on campus in 2016.",
+    "url": "https://www.shnu.edu.cn/",
+    "citation": "Shanghai Normal University. Chinese \"Comfort Women\" History Museum and Research Center. Retrieved from https://www.shnu.edu.cn/.",
+    "related_ids": [
+      "house-of-sharing-korea"
+    ]
+  },
+  {
+    "id": "jeju43-peace-foundation",
+    "title": "Jeju 4.3 Archives",
+    "archive": "Jeju 4.3 Peace Foundation",
+    "country": "South Korea",
+    "lat": 33.4996,
+    "lng": 126.5312,
+    "languages": [
+      "Korean"
+    ],
+    "themes": [
+      "war and conflict",
+      "human rights",
+      "memory and reconciliation"
+    ],
+    "decade_start": 2008,
+    "decade_end": null,
+    "summary": "Established in 2008, this foundation manages Jeju's Peace Memorial Hall and an archive of over 14,600 victim and bereaved-family testimonies documenting the 1947-54 Jeju uprising and massacre, inscribed on UNESCO's Memory of the World Register in 2025.",
+    "url": "http://jeju43peace.org/",
+    "citation": "Jeju 4.3 Peace Foundation. Jeju 4.3 Archives. Retrieved from http://jeju43peace.org/."
+  },
+  {
+    "id": "house-of-sharing-korea",
+    "title": "Museum of Sexual Slavery by the Japanese Military",
+    "archive": "House of Sharing",
+    "country": "South Korea",
+    "lat": 37.4292,
+    "lng": 127.2145,
+    "languages": [
+      "Korean",
+      "English",
+      "Japanese"
+    ],
+    "themes": [
+      "war and conflict",
+      "women's history",
+      "human rights"
+    ],
+    "decade_start": 1992,
+    "decade_end": null,
+    "summary": "Founded in 1992 as a residence for surviving Korean 'comfort women,' the House of Sharing includes the world's first museum devoted to wartime sexual slavery, preserving the testimonies, belongings, and artwork of its former residents.",
+    "url": "http://www.nanum.org/",
+    "citation": "House of Sharing. Museum of Sexual Slavery by the Japanese Military. Retrieved from http://www.nanum.org/.",
+    "related_ids": [
+      "shanghai-comfort-women-museum"
+    ]
+  },
+  {
+    "id": "korean-war-legacy-foundation",
+    "title": "Korean War Legacy Foundation Interview Archive",
+    "archive": "Korean War Legacy Foundation",
+    "country": "United States",
+    "lat": 43.0481,
+    "lng": -76.1474,
+    "languages": [
+      "English",
+      "Korean",
+      "multiple UN-participant languages"
+    ],
+    "themes": [
+      "war and conflict",
+      "military history"
+    ],
+    "decade_start": 2005,
+    "decade_end": null,
+    "summary": "Growing from a 2005 encounter with Syracuse-area veterans, this foundation built the world's largest archive of Korean War oral histories, with over 1,500 recorded interviews of veterans from dozens of participating countries.",
+    "url": "https://koreanwarlegacy.org/interactive-library/",
+    "citation": "Korean War Legacy Foundation. Interview Archive. Retrieved from https://koreanwarlegacy.org/interactive-library/.",
+    "access_notes": "Freely accessible online, searchable video library.",
+    "preview_url": "https://koreanwarlegacy.org/interactive-library/",
+    "related_ids": [
+      "veterans-history-project"
+    ]
+  },
+  {
+    "id": "taiwan-human-rights-museum-white-terror",
+    "title": "White Terror Oral History Archive",
+    "archive": "National Human Rights Museum",
+    "country": "Taiwan",
+    "lat": 24.9737,
+    "lng": 121.5398,
+    "languages": [
+      "Mandarin Chinese",
+      "Taiwanese Hokkien"
+    ],
+    "themes": [
+      "political history",
+      "human rights",
+      "memory and reconciliation"
+    ],
+    "decade_start": 2011,
+    "decade_end": null,
+    "summary": "A preparatory office founded in 2011 (formally established as a museum in 2018) has recorded oral history interviews with more than 500 political prisoners and their families, documenting Taiwan's 1949-1987 White Terror era of martial-law repression.",
+    "url": "https://www.nhrm.gov.tw/w/nhrmEN/About",
+    "citation": "National Human Rights Museum. White Terror Oral History Archive. Retrieved from https://www.nhrm.gov.tw/w/nhrmEN/About."
+  },
+  {
+    "id": "vietnam-center-ttu",
+    "title": "Oral History Project",
+    "archive": "The Vietnam Center and Sam Johnson Vietnam Archive, Texas Tech University",
+    "country": "United States",
+    "lat": 33.5779,
+    "lng": -101.8552,
+    "languages": [
+      "English",
+      "Vietnamese"
+    ],
+    "themes": [
+      "war and conflict",
+      "military history",
+      "migration"
+    ],
+    "decade_start": 1999,
+    "decade_end": null,
+    "summary": "Since 1999, this project of the world's largest nongovernmental Vietnam War archive has collected over 1,100 oral history interviews with American veterans, Vietnamese allies and opponents, protesters, and family members, available via its Virtual Vietnam Archive.",
+    "url": "https://www.vietnam.ttu.edu/oralhistory/",
+    "citation": "The Vietnam Center and Sam Johnson Vietnam Archive, Texas Tech University. Oral History Project. Retrieved from https://www.vietnam.ttu.edu/oralhistory/."
+  },
+  {
+    "id": "liberation-war-museum-bangladesh",
+    "title": "Liberation War Museum Oral History Archive",
+    "archive": "Liberation War Museum",
+    "country": "Bangladesh",
+    "lat": 23.7797,
+    "lng": 90.3639,
+    "languages": [
+      "Bengali",
+      "English"
+    ],
+    "themes": [
+      "war and conflict",
+      "national memory",
+      "displacement"
+    ],
+    "decade_start": 1996,
+    "decade_end": null,
+    "summary": "Established in Dhaka in 1996, the Liberation War Museum has coordinated student-led oral history collection nationwide, gathering some 70,000 eyewitness accounts of Bangladesh's 1971 Liberation War alongside its collection of wartime artifacts.",
+    "url": "https://www.liberationwarmuseumbd.org/",
+    "citation": "Liberation War Museum. Oral History Archive. Retrieved from https://www.liberationwarmuseumbd.org/."
+  },
+  {
+    "id": "nagasaki-peace-memorial-testimonies",
+    "title": "Testimonies of the Atomic Bomb Survivors",
+    "archive": "Nagasaki National Peace Memorial Hall for the Atomic Bomb Victims",
+    "country": "Japan",
+    "lat": 32.7736,
+    "lng": 129.8636,
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "themes": [
+      "war and conflict",
+      "nuclear history",
+      "peace"
+    ],
+    "decade_start": 2003,
+    "decade_end": null,
+    "summary": "Opened in 2003, this Nagasaki memorial hall records and preserves video testimony from hibakusha (atomic bomb survivors), documenting firsthand accounts of the 1945 atomic bombing and postwar life, alongside a searchable photograph and record database.",
+    "url": "https://www.peace-nagasaki.go.jp/en/",
+    "citation": "Nagasaki National Peace Memorial Hall for the Atomic Bomb Victims. Testimonies of the Atomic Bomb Survivors. Retrieved from https://www.peace-nagasaki.go.jp/en/.",
+    "related_ids": [
+      "hiroshima-peace-memorial-testimony"
+    ]
+  },
+  {
+    "id": "okinawa-peace-memorial-museum",
+    "title": "Battle of Okinawa Survivor Testimonies",
+    "archive": "Okinawa Prefectural Peace Memorial Museum",
+    "country": "Japan",
+    "lat": 26.0908,
+    "lng": 127.7128,
+    "languages": [
+      "Japanese",
+      "Okinawan",
+      "English"
+    ],
+    "themes": [
+      "war and conflict",
+      "peace",
+      "memory and reconciliation"
+    ],
+    "decade_start": 1975,
+    "decade_end": null,
+    "summary": "Established in 1975 in Itoman, this museum has documented written and video testimonies of Battle of Okinawa survivors since its founding, honoring the memory of all who perished in the 1945 battle regardless of nationality or military status.",
+    "url": "https://www.peace-museum.okinawa.jp/english/",
+    "citation": "Okinawa Prefectural Peace Memorial Museum. Battle of Okinawa Survivor Testimonies. Retrieved from https://www.peace-museum.okinawa.jp/english/.",
+    "related_ids": [
+      "hiroshima-peace-memorial-testimony",
+      "nagasaki-peace-memorial-testimonies"
+    ]
+  },
+  {
+    "id": "michinoku-shinrokuden",
+    "title": "Michinoku Shinrokuden",
+    "archive": "International Research Institute of Disaster Science, Tohoku University",
+    "country": "Japan",
+    "lat": 38.2682,
+    "lng": 140.8694,
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "themes": [
+      "disaster and survivor testimony",
+      "everyday life",
+      "memory and reconciliation"
+    ],
+    "decade_start": 2011,
+    "decade_end": null,
+    "summary": "Launched in September 2011, this Tohoku University digital archive collects photographs, records, and firsthand testimonies and stories of the thoughts and memories of survivors of the 2011 Great East Japan Earthquake and tsunami, with civic contributions welcomed.",
+    "url": "http://search.shinrokuden.irides.tohoku.ac.jp/shinrokuden/",
+    "citation": "International Research Institute of Disaster Science, Tohoku University. Michinoku Shinrokuden. Retrieved from http://search.shinrokuden.irides.tohoku.ac.jp/shinrokuden/.",
+    "access_notes": "Freely accessible online; open to public contributions."
+  },
+  {
+    "id": "ainu-museum-nibutani",
+    "title": "Nibutani Ainu Culture Museum",
+    "archive": "Nibutani Ainu Culture Museum, Biratori Town",
+    "country": "Japan",
+    "lat": 42.6939,
+    "lng": 142.0158,
+    "languages": [
+      "Ainu",
+      "Japanese"
+    ],
+    "themes": [
+      "Indigenous history",
+      "oral tradition",
+      "language documentation"
+    ],
+    "decade_start": 1992,
+    "decade_end": null,
+    "summary": "Opened in 1992 in the Ainu community of Nibutani, Hokkaido, this museum preserves and screens recordings of yukar (heroic epics) and other Ainu oral traditions passed down by word of mouth for generations.",
+    "url": "https://www.town.biratori.hokkaido.jp/",
+    "citation": "Nibutani Ainu Culture Museum, Biratori Town. Retrieved from https://www.town.biratori.hokkaido.jp/."
+  },
+  {
+    "id": "vanuatu-cultural-centre-archive",
+    "title": "Film and Audio Archive",
+    "archive": "Vanuatu Cultural Centre",
+    "country": "Vanuatu",
+    "lat": -17.7333,
+    "lng": 168.3167,
+    "languages": [
+      "Bislama",
+      "English",
+      "French",
+      "multiple ni-Vanuatu languages"
+    ],
+    "themes": [
+      "oral tradition",
+      "folklife",
+      "Indigenous history"
+    ],
+    "decade_start": 1955,
+    "decade_end": null,
+    "summary": "Vanuatu's national cultural institution, tracing its origins to 1955, maintains a Film and Audio Archive and a national heritage registry documenting kastom (customary) oral traditions, ceremonies, and languages across the archipelago's many communities.",
+    "url": "https://vanuatuculturalcentre.gov.vu/",
+    "citation": "Vanuatu Cultural Centre. Film and Audio Archive. Retrieved from https://vanuatuculturalcentre.gov.vu/."
+  },
+  {
+    "id": "itaukei-institute-fiji",
+    "title": "iTaukei Institute of Language and Culture",
+    "archive": "iTaukei Affairs Board",
+    "country": "Fiji",
+    "lat": -18.1248,
+    "lng": 178.4501,
+    "languages": [
+      "iTaukei (Fijian)",
+      "English"
+    ],
+    "themes": [
+      "oral tradition",
+      "language documentation",
+      "Indigenous history"
+    ],
+    "decade_start": 1974,
+    "decade_end": null,
+    "summary": "Evolving from a Fijian dictionary project begun in 1974, this institute is custodian of iTaukei dialects and oral traditions across Fiji's fourteen provinces, running a Cultural Mapping Programme recording traditional knowledge village by village.",
+    "url": "https://www.itaukeiaffairs.gov.fj/index.php/divisions/tilc",
+    "citation": "iTaukei Affairs Board. iTaukei Institute of Language and Culture. Retrieved from https://www.itaukeiaffairs.gov.fj/index.php/divisions/tilc."
+  },
+  {
+    "id": "paradisec-archive",
+    "title": "PARADISEC",
+    "archive": "Pacific and Regional Archive for Digital Sources in Endangered Cultures",
+    "country": "Australia",
+    "lat": -33.8886,
+    "lng": 151.1873,
+    "languages": [
+      "multiple Pacific and Southeast Asian languages"
+    ],
+    "themes": [
+      "language documentation",
+      "oral tradition",
+      "Indigenous history"
+    ],
+    "decade_start": 2003,
+    "decade_end": null,
+    "summary": "Established in 2003, this digital archive preserves endangered field recordings from Oceania and Southeast Asia, holding 20,500 hours of audio and 4,000 hours of video documenting 1,291 languages that would otherwise risk being lost.",
+    "url": "https://www.paradisec.org.au/",
+    "citation": "PARADISEC. Retrieved from https://www.paradisec.org.au/.",
+    "related_ids": [
+      "elar-soas",
+      "ailla-archive"
+    ]
+  },
+  {
+    "id": "australian-queer-archives",
+    "title": "Australian Queer Archives",
+    "archive": "Australian Queer Archives (AQuA)",
+    "country": "Australia",
+    "lat": -37.8567,
+    "lng": 144.9749,
+    "languages": [
+      "English"
+    ],
+    "themes": [
+      "LGBTQ+ history",
+      "social history",
+      "community memory"
+    ],
+    "decade_start": 1978,
+    "decade_end": null,
+    "summary": "Established in Melbourne in 1978 as the Australian Lesbian and Gay Archives, AQuA holds over 500,000 items including oral history and audio recordings, the largest collection relating to LGBTQI+ Australians.",
+    "url": "https://queerarchives.org.au/",
+    "citation": "Australian Queer Archives (AQuA). Retrieved from https://queerarchives.org.au/.",
+    "related_ids": [
+      "one-archives-usc",
+      "gala-queer-archive"
+    ]
+  },
+  {
+    "id": "gala-queer-archive",
+    "title": "GALA Queer Archive",
+    "archive": "GALA Queer Archive",
+    "country": "South Africa",
+    "lat": -26.1929,
+    "lng": 28.0305,
+    "languages": [
+      "English",
+      "Afrikaans",
+      "Zulu",
+      "Xhosa"
+    ],
+    "themes": [
+      "LGBTQ+ history",
+      "human rights",
+      "community memory"
+    ],
+    "decade_start": 1997,
+    "decade_end": null,
+    "summary": "Founded in Johannesburg in 1997 as Gay and Lesbian Memory in Action, GALA documents LGBTQIA+ history and culture in South Africa and the region, including oral history projects on lesbian narratives and African women's queer experience.",
+    "url": "https://gala.co.za/",
+    "citation": "GALA Queer Archive. Retrieved from https://gala.co.za/.",
+    "related_ids": [
+      "saha-oral-history",
+      "one-archives-usc"
+    ]
+  },
+  {
+    "id": "one-archives-usc",
+    "title": "ONE Archives at the USC Libraries",
+    "archive": "University of Southern California Libraries",
+    "country": "United States",
+    "lat": 34.0224,
+    "lng": -118.2851,
+    "languages": [
+      "English"
+    ],
+    "themes": [
+      "LGBTQ+ history",
+      "social history",
+      "community memory"
+    ],
+    "decade_start": 1952,
+    "decade_end": null,
+    "summary": "Founded in 1952 and housed at USC Libraries since 2010, ONE Archives is the largest LGBTQ archive in the world, holding over two million items including thousands of oral history video and audio recordings.",
+    "url": "https://one.usc.edu/",
+    "citation": "ONE Archives at the USC Libraries. Retrieved from https://one.usc.edu/.",
+    "related_ids": [
+      "gala-queer-archive",
+      "lesbian-herstory-archives",
+      "glbt-historical-society"
+    ]
+  },
+  {
+    "id": "lesbian-herstory-archives",
+    "title": "Lesbian Herstory Archives",
+    "archive": "Lesbian Herstory Archives",
+    "country": "United States",
+    "lat": 40.671,
+    "lng": -73.9814,
+    "languages": [
+      "English"
+    ],
+    "themes": [
+      "LGBTQ+ history",
+      "women's history",
+      "community memory"
+    ],
+    "decade_start": 1974,
+    "decade_end": null,
+    "summary": "Founded in 1974 by members of New York's Gay Academic Union, the Lesbian Herstory Archives in Brooklyn holds the world's largest collection of lesbian history, including roughly 3,000 oral history cassette recordings and 950 videotapes.",
+    "url": "https://lesbianherstoryarchives.org/",
+    "citation": "Lesbian Herstory Archives. Retrieved from https://lesbianherstoryarchives.org/.",
+    "related_ids": [
+      "one-archives-usc",
+      "glbt-historical-society"
+    ]
+  },
+  {
+    "id": "glbt-historical-society",
+    "title": "GLBT Historical Society Archives",
+    "archive": "GLBT Historical Society",
+    "country": "United States",
+    "lat": 37.7749,
+    "lng": -122.4194,
+    "languages": [
+      "English"
+    ],
+    "themes": [
+      "LGBTQ+ history",
+      "social history",
+      "community memory"
+    ],
+    "decade_start": 1985,
+    "decade_end": null,
+    "summary": "Founded in San Francisco in 1985, the GLBT Historical Society holds an oral history collection begun in 1992 and later projects including the San Francisco ACT UP Oral History Project chronicling AIDS-era direct-action organizing.",
+    "url": "https://www.glbthistory.org/archives-about-visitor-info",
+    "citation": "GLBT Historical Society. Archives. Retrieved from https://www.glbthistory.org/archives-about-visitor-info.",
+    "related_ids": [
+      "one-archives-usc",
+      "lesbian-herstory-archives"
+    ]
+  },
+  {
+    "id": "black-cultural-archives-windrush",
+    "title": "Windrush Generation Oral Histories",
+    "archive": "Black Cultural Archives",
+    "country": "United Kingdom",
+    "lat": 51.4613,
+    "lng": -0.1156,
+    "languages": [
+      "English"
+    ],
+    "themes": [
+      "migration",
+      "displacement",
+      "community memory"
+    ],
+    "decade_start": 1981,
+    "decade_end": null,
+    "summary": "Founded in Brixton in 1981, the Black Cultural Archives holds oral history interviews with members of the Windrush generation and Black Women's Movement, documenting the postwar migration of Caribbean and African communities to Britain.",
+    "url": "https://blackculturalarchives.org/our-story",
+    "citation": "Black Cultural Archives. Windrush Generation Oral Histories. Retrieved from https://blackculturalarchives.org/our-story.",
+    "related_ids": [
+      "saada-archive",
+      "domid-migration-museum"
+    ]
+  },
+  {
+    "id": "walter-reuther-library",
+    "title": "Walter P. Reuther Library Oral History Collection",
+    "archive": "Wayne State University",
+    "country": "United States",
+    "lat": 42.3573,
+    "lng": -83.0673,
+    "languages": [
+      "English"
+    ],
+    "themes": [
+      "labor history",
+      "social history",
+      "civil rights"
+    ],
+    "decade_start": 1960,
+    "decade_end": null,
+    "summary": "Founded in 1960 as the Labor History Archives, North America's largest labor archive holds oral history recordings alongside the papers of unions and labor leaders documenting the American labor movement from Detroit's auto industry outward.",
+    "url": "https://reuther.wayne.edu/memory",
+    "citation": "Walter P. Reuther Library, Wayne State University. Oral History Collection. Retrieved from https://reuther.wayne.edu/memory.",
+    "access_notes": "In-person/reading-room access; recordings requested via the Audiovisual Department.",
+    "related_ids": [
+      "warwick-modern-records-centre",
+      "sohp-unc"
+    ]
+  },
+  {
+    "id": "sophia-smith-voices-of-feminism",
+    "title": "Voices of Feminism Oral History Project",
+    "archive": "Sophia Smith Collection, Smith College",
+    "country": "United States",
+    "lat": 42.3168,
+    "lng": -72.6412,
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "themes": [
+      "women's history",
+      "civil rights",
+      "labor history"
+    ],
+    "decade_start": 1990,
+    "decade_end": 2006,
+    "summary": "Recorded between 1990 and 2006 and expanded with Ford Foundation funding, this project documents grassroots feminist organizing in the late 20th-century United States through five-to-six-hour interviews with labor, anti-racism, lesbian-rights, and reproductive-justice activists.",
+    "url": "https://libraries.smith.edu/special-collections/research-collections/resources-lists/oral-histories/voices-of-feminism",
+    "citation": "Sophia Smith Collection, Smith College. Voices of Feminism Oral History Project. Retrieved from https://libraries.smith.edu/special-collections/research-collections/resources-lists/oral-histories/voices-of-feminism.",
+    "related_ids": [
+      "jewish-womens-archive-weaving-words",
+      "sparrow-india"
+    ]
+  },
+  {
+    "id": "jewish-womens-archive-weaving-words",
+    "title": "Weaving Women's Words",
+    "archive": "Jewish Women's Archive",
+    "country": "United States",
+    "lat": 42.3601,
+    "lng": -71.0589,
+    "languages": [
+      "English"
+    ],
+    "themes": [
+      "women's history",
+      "everyday life",
+      "community memory"
+    ],
+    "decade_start": 2001,
+    "decade_end": null,
+    "summary": "This early-2000s Jewish Women's Archive initiative recorded oral histories with 30 Jewish women each in Baltimore and Seattle, all born in the early 20th century, capturing decades of social change through their working and family lives.",
+    "url": "https://jwa.org/oralhistories",
+    "citation": "Jewish Women's Archive. Weaving Women's Words. Retrieved from https://jwa.org/oralhistories.",
+    "access_notes": "Full audio and transcripts freely available via the Internet Archive.",
+    "related_ids": [
+      "sophia-smith-voices-of-feminism"
+    ]
+  },
+  {
+    "id": "association-cultural-equity-lomax",
+    "title": "Alan Lomax Archive / Global Jukebox",
+    "archive": "Association for Cultural Equity",
+    "country": "United States",
+    "lat": 40.7685,
+    "lng": -73.9645,
+    "languages": [
+      "multiple world languages"
+    ],
+    "themes": [
+      "oral tradition",
+      "folklife",
+      "music"
+    ],
+    "decade_start": 1933,
+    "decade_end": null,
+    "summary": "Housing the life's work of folklorist Alan Lomax, who began field recording in the 1930s across the American South, Britain, Spain, Italy, and the Caribbean, this Hunter College-based archive now streams over 6,000 songs from 1,000 cultures via its Global Jukebox platform.",
+    "url": "https://www.culturalequity.org/",
+    "citation": "Association for Cultural Equity. Alan Lomax Archive / Global Jukebox. Retrieved from https://www.culturalequity.org/.",
+    "access_notes": "Freely accessible online via the Global Jukebox.",
+    "related_ids": [
+      "berlin-phonogramm-archiv",
+      "tobar-an-dualchais"
+    ]
+  },
+  {
+    "id": "the-historymakers",
+    "title": "The HistoryMakers Digital Archive",
+    "archive": "The HistoryMakers",
+    "country": "United States",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "languages": [
+      "English"
+    ],
+    "themes": [
+      "civil rights",
+      "everyday life",
+      "community memory"
+    ],
+    "decade_start": 1999,
+    "decade_end": null,
+    "summary": "Founded in Chicago in 1999, The HistoryMakers has recorded over 11,000 hours of video oral history across more than 400 U.S. cities, forming the single largest collection of African American first-person video testimony in the world, now preserved at the Library of Congress.",
+    "url": "https://www.thehistorymakers.org/",
+    "citation": "The HistoryMakers. Digital Archive. Retrieved from https://www.thehistorymakers.org/.",
+    "related_ids": [
+      "densho-digital-repository"
+    ]
+  },
+  {
+    "id": "sohp-unc",
+    "title": "Southern Oral History Program",
+    "archive": "University of North Carolina at Chapel Hill",
+    "country": "United States",
+    "lat": 35.9132,
+    "lng": -79.0558,
+    "languages": [
+      "English"
+    ],
+    "themes": [
+      "social history",
+      "civil rights",
+      "labor history"
+    ],
+    "decade_start": 1973,
+    "decade_end": null,
+    "summary": "Founded in 1973, the Southern Oral History Program stewards more than 6,000 interviews documenting the U.S. South, from Civil Rights Movement activists and millworkers to educators and community leaders.",
+    "url": "https://sohp.org/",
+    "citation": "Southern Oral History Program, University of North Carolina at Chapel Hill. Retrieved from https://sohp.org/.",
+    "related_ids": [
+      "walter-reuther-library"
+    ]
+  },
+  {
+    "id": "elar-soas",
+    "title": "Endangered Languages Archive (ELAR)",
+    "archive": "SOAS University of London",
+    "country": "United Kingdom",
+    "lat": 51.5222,
+    "lng": -0.13,
+    "languages": [
+      "multiple endangered languages"
+    ],
+    "themes": [
+      "language documentation",
+      "oral tradition",
+      "Indigenous history"
+    ],
+    "decade_start": 2002,
+    "decade_end": null,
+    "summary": "Based at SOAS since the early 2000s, ELAR is a digital repository of endangered-language documentation from around the world, with regional strongholds in Africa, the Middle East, Asia, Australia, and South America, mostly freely accessible after registration.",
+    "url": "https://www.elararchive.org/",
+    "citation": "SOAS University of London. Endangered Languages Archive (ELAR). Retrieved from https://www.elararchive.org/.",
+    "related_ids": [
+      "paradisec-archive",
+      "tla-dobes",
+      "ailla-archive"
+    ]
+  },
+  {
+    "id": "ailla-archive",
+    "title": "Archive of the Indigenous Languages of Latin America (AILLA)",
+    "archive": "University of Texas at Austin",
+    "country": "United States",
+    "lat": 30.2849,
+    "lng": -97.7341,
+    "languages": [
+      "multiple Indigenous Latin American languages"
+    ],
+    "themes": [
+      "language documentation",
+      "Indigenous history",
+      "oral tradition"
+    ],
+    "decade_start": 2000,
+    "decade_end": null,
+    "summary": "Founded in 2000, AILLA is a digital repository preserving field notes, narratives, songs, and oratory recordings documenting Indigenous languages of Latin America, freely accessible online in English, Spanish, and Portuguese.",
+    "url": "https://ailla.utexas.org/",
+    "citation": "University of Texas at Austin. Archive of the Indigenous Languages of Latin America (AILLA). Retrieved from https://ailla.utexas.org/.",
+    "related_ids": [
+      "elar-soas",
+      "tla-dobes"
+    ]
+  },
+  {
+    "id": "tla-dobes",
+    "title": "The Language Archive / DoBeS",
+    "archive": "Max Planck Institute for Psycholinguistics",
+    "country": "Netherlands",
+    "lat": 51.8126,
+    "lng": 5.8372,
+    "languages": [
+      "multiple endangered languages"
+    ],
+    "themes": [
+      "language documentation",
+      "oral tradition",
+      "Indigenous history"
+    ],
+    "decade_start": 2000,
+    "decade_end": null,
+    "summary": "Launched in 2000 with VolkswagenFoundation funding, the DoBeS programme has funded around 50 endangered-language documentation projects worldwide, with annotated recordings stored at Nijmegen's Language Archive; select collections joined UNESCO's Memory of the World register in 2015.",
+    "url": "https://tla.mpi.nl/",
+    "citation": "Max Planck Institute for Psycholinguistics. The Language Archive / DoBeS. Retrieved from https://tla.mpi.nl/.",
+    "related_ids": [
+      "elar-soas",
+      "ailla-archive"
+    ]
+  },
+  {
+    "id": "alaska-native-language-archive",
+    "title": "Michael E. Krauss Alaska Native Language Archive",
+    "archive": "University of Alaska Fairbanks",
+    "country": "United States",
+    "lat": 64.857,
+    "lng": -147.834,
+    "languages": [
+      "multiple Alaska Native languages"
+    ],
+    "themes": [
+      "language documentation",
+      "Indigenous history",
+      "oral tradition"
+    ],
+    "decade_start": 1972,
+    "decade_end": null,
+    "summary": "Created by state legislation in 1972 alongside the Alaska Native Language Center, this Fairbanks archive holds over 15,000 documents and audio recordings dating to the 1940s documenting the twenty Native languages of Alaska.",
+    "url": "https://www.uaf.edu/anla/",
+    "citation": "University of Alaska Fairbanks. Michael E. Krauss Alaska Native Language Archive. Retrieved from https://www.uaf.edu/anla/.",
+    "related_ids": [
+      "project-jukebox-alaska"
+    ]
+  },
+  {
+    "id": "project-jukebox-alaska",
+    "title": "Project Jukebox",
+    "archive": "University of Alaska Fairbanks Oral History Program",
+    "country": "United States",
+    "lat": 64.857,
+    "lng": -147.834,
+    "languages": [
+      "English",
+      "multiple Alaska Native languages"
+    ],
+    "themes": [
+      "oral tradition",
+      "Indigenous history",
+      "everyday life"
+    ],
+    "decade_start": 1985,
+    "decade_end": null,
+    "summary": "Since the mid-1980s, this digital branch of the University of Alaska Fairbanks Oral History Program has shared audio and video recordings, transcripts, and historic photographs from communities across Alaska, including a statewide 1994-96 Communities of Memory project.",
+    "url": "https://jukebox.uaf.edu/",
+    "citation": "University of Alaska Fairbanks Oral History Program. Project Jukebox. Retrieved from https://jukebox.uaf.edu/.",
+    "access_notes": "Freely accessible online.",
+    "related_ids": [
+      "alaska-native-language-archive"
+    ]
+  },
+  {
+    "id": "them-days-archives-labrador",
+    "title": "Them Days Archives",
+    "archive": "Them Days",
+    "country": "Canada",
+    "lat": 53.3018,
+    "lng": -60.3258,
+    "languages": [
+      "English",
+      "Inuktitut",
+      "Innu-aimun"
+    ],
+    "themes": [
+      "oral tradition",
+      "everyday life",
+      "Indigenous history"
+    ],
+    "decade_start": 1984,
+    "decade_end": null,
+    "summary": "Growing out of a quarterly magazine published since 1975, the Them Days Archives in Happy Valley-Goose Bay has since 1984 gathered diaries, letters, and audio and video recordings documenting Labrador history and culture across Inuit, Innu, and settler communities.",
+    "url": "https://www.themdays.com/",
+    "citation": "Them Days. Archives. Retrieved from https://www.themdays.com/."
+  },
+  {
+    "id": "nmai-archive-center",
+    "title": "Archive Center",
+    "archive": "National Museum of the American Indian, Smithsonian Institution",
+    "country": "United States",
+    "lat": 38.8462,
+    "lng": -76.9314,
+    "languages": [
+      "English",
+      "multiple Indigenous languages of the Americas"
+    ],
+    "themes": [
+      "Indigenous history",
+      "oral tradition",
+      "community memory"
+    ],
+    "decade_start": 1989,
+    "decade_end": null,
+    "summary": "The Smithsonian's National Museum of the American Indian, established in 1989, maintains an Archive Center with oral history recordings and records of Native and Indigenous artists, writers, activists, and organizations across the Western Hemisphere.",
+    "url": "https://americanindian.si.edu/explore/collections/archive",
+    "citation": "National Museum of the American Indian, Smithsonian Institution. Archive Center. Retrieved from https://americanindian.si.edu/explore/collections/archive.",
+    "access_notes": "By appointment only, onsite research visits."
+  },
+  {
+    "id": "doris-duke-utah-oral-history",
+    "title": "Doris Duke American Indian Oral History Project",
+    "archive": "University of Utah, J. Willard Marriott Library",
+    "country": "United States",
+    "lat": 40.7649,
+    "lng": -111.8421,
+    "languages": [
+      "English",
+      "multiple Indigenous languages"
+    ],
+    "themes": [
+      "Indigenous history",
+      "oral tradition",
+      "community memory"
+    ],
+    "decade_start": 1966,
+    "decade_end": 1971,
+    "summary": "Funded by the Doris Duke Charitable Foundation, the University of Utah's American West Center conducted interviews across six western U.S. states between 1966 and 1971, ultimately recording 1,458 interviews now being digitized with descendant communities.",
+    "url": "https://lib.utah.edu/collections/multimedia/oralhistory.php",
+    "citation": "University of Utah, J. Willard Marriott Library. Doris Duke American Indian Oral History Project. Retrieved from https://lib.utah.edu/collections/multimedia/oralhistory.php.",
+    "related_ids": [
+      "nmai-archive-center"
+    ]
+  },
+  {
+    "id": "angel-island-immigration-foundation",
+    "title": "Immigrant Voices Oral History Collection",
+    "archive": "Angel Island Immigration Station Foundation",
+    "country": "United States",
+    "lat": 37.8608,
+    "lng": -122.4326,
+    "languages": [
+      "English",
+      "Chinese",
+      "multiple immigrant languages"
+    ],
+    "themes": [
+      "migration",
+      "displacement",
+      "Partition"
+    ],
+    "decade_start": 1983,
+    "decade_end": null,
+    "summary": "Formed in 1983 after Chinese poetry carved into detention-barracks walls was rediscovered, this foundation has curated over 250 oral histories from immigrants detained at Angel Island between 1910 and 1940 and their descendants.",
+    "url": "https://www.aiisf.org/",
+    "citation": "Angel Island Immigration Station Foundation. Immigrant Voices Oral History Collection. Retrieved from https://www.aiisf.org/.",
+    "related_ids": [
+      "saada-archive",
+      "bracero-history-archive"
+    ]
+  },
+  {
+    "id": "saada-archive",
+    "title": "South Asian American Digital Archive (SAADA)",
+    "archive": "South Asian American Digital Archive",
+    "country": "United States",
+    "lat": 39.9526,
+    "lng": -75.1652,
+    "languages": [
+      "English",
+      "multiple South Asian languages"
+    ],
+    "themes": [
+      "migration",
+      "everyday life",
+      "community memory"
+    ],
+    "decade_start": 2008,
+    "decade_end": null,
+    "summary": "Established in Philadelphia in 2008, SAADA preserves the history of South Asian communities in the United States dating to the 1600s, including multiple oral history projects documenting Indo-American, Pakistani, and other South Asian migration experiences.",
+    "url": "https://www.saada.org/browse/type/oral-history",
+    "citation": "South Asian American Digital Archive (SAADA). Oral History Collections. Retrieved from https://www.saada.org/browse/type/oral-history.",
+    "access_notes": "Freely accessible online.",
+    "related_ids": [
+      "angel-island-immigration-foundation",
+      "black-cultural-archives-windrush"
+    ]
+  },
+  {
+    "id": "bracero-history-archive",
+    "title": "Bracero History Archive",
+    "archive": "Institute of Oral History, University of Texas at El Paso",
+    "country": "United States",
+    "lat": 31.7619,
+    "lng": -106.485,
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "themes": [
+      "migration",
+      "labor history",
+      "everyday life"
+    ],
+    "decade_start": 2005,
+    "decade_end": null,
+    "summary": "A partnership begun in late 2005 among the Smithsonian, George Mason University, Brown University, and UTEP's Institute of Oral History, this archive holds the largest collection of oral histories of braceros, Mexican guest workers in mid-20th-century U.S. agriculture.",
+    "url": "https://braceroarchive.org/",
+    "citation": "Institute of Oral History, University of Texas at El Paso. Bracero History Archive. Retrieved from https://braceroarchive.org/.",
+    "access_notes": "Freely accessible online.",
+    "related_ids": [
+      "angel-island-immigration-foundation",
+      "chinese-railroad-workers-stanford"
+    ]
+  },
+  {
+    "id": "domid-migration-museum",
+    "title": "Documentation Center and Museum of Migration in Germany (DOMiD)",
+    "archive": "DOMiD e.V.",
+    "country": "Germany",
+    "lat": 50.9375,
+    "lng": 6.9603,
+    "languages": [
+      "German",
+      "Turkish"
+    ],
+    "themes": [
+      "migration",
+      "labor history",
+      "everyday life"
+    ],
+    "decade_start": 1990,
+    "decade_end": null,
+    "summary": "Founded in 1990 by Turkish 'guest worker' migrants as a self-organized archive, DOMiD now holds more than 150,000 objects and documents, including personal narratives and everyday objects, tracing the history of migration to postwar Germany.",
+    "url": "https://domid.org/en/",
+    "citation": "DOMiD e.V. Documentation Center and Museum of Migration in Germany. Retrieved from https://domid.org/en/.",
+    "related_ids": [
+      "odysseo-generiques-oral-archives",
+      "black-cultural-archives-windrush"
+    ]
+  },
+  {
+    "id": "cuban-heritage-collection-miami",
+    "title": "Cuban Heritage Collection Oral Histories",
+    "archive": "University of Miami Libraries",
+    "country": "United States",
+    "lat": 25.7174,
+    "lng": -80.2762,
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "themes": [
+      "migration",
+      "displacement",
+      "political history"
+    ],
+    "decade_start": 2008,
+    "decade_end": null,
+    "summary": "Since 2008, the University of Miami's Cuban Heritage Collection has recorded oral histories of Cuban exiles and dissidents, including the Luis J. Botifoll Oral History Project and interviews with 2003 Black Spring political prisoners.",
+    "url": "https://www.library.miami.edu/oral-histories.html",
+    "citation": "University of Miami Libraries. Cuban Heritage Collection Oral Histories. Retrieved from https://www.library.miami.edu/oral-histories.html."
+  },
+  {
+    "id": "viet-stories-uci",
+    "title": "Viet Stories: Vietnamese American Oral History Project",
+    "archive": "University of California, Irvine",
+    "country": "United States",
+    "lat": 33.6405,
+    "lng": -117.8443,
+    "languages": [
+      "Vietnamese",
+      "English"
+    ],
+    "themes": [
+      "migration",
+      "displacement",
+      "war and conflict"
+    ],
+    "decade_start": 2011,
+    "decade_end": null,
+    "summary": "Launched in 2011 in UC Irvine's Department of Asian American Studies, Viet Stories documents the life stories of first-generation Vietnamese Americans in Southern California, recording memories of prewar Vietnam, the Vietnam War, and refugee resettlement.",
+    "url": "https://sites.uci.edu/vaohp/",
+    "citation": "University of California, Irvine. Viet Stories: Vietnamese American Oral History Project. Retrieved from https://sites.uci.edu/vaohp/."
+  },
+  {
+    "id": "hmong-archives-stpaul",
+    "title": "Hmong Archives",
+    "archive": "Hmong Archives",
+    "country": "United States",
+    "lat": 44.9537,
+    "lng": -93.09,
+    "languages": [
+      "Hmong",
+      "English"
+    ],
+    "themes": [
+      "migration",
+      "displacement",
+      "everyday life"
+    ],
+    "decade_start": 1999,
+    "decade_end": null,
+    "summary": "Founded in Saint Paul in February 1999 by Hmong professionals, this archive collects materials and oral history documenting Hmong people, including a project recording Hmong immigrants who resettled in Minnesota from Laos and Thailand.",
+    "url": "https://hmongarchives.org/",
+    "citation": "Hmong Archives. Retrieved from https://hmongarchives.org/.",
+    "related_ids": [
+      "viet-stories-uci"
+    ]
+  },
+  {
+    "id": "immigration-history-research-center-umn",
+    "title": "Immigration History Research Center Archives",
+    "archive": "University of Minnesota",
+    "country": "United States",
+    "lat": 44.974,
+    "lng": -93.2277,
+    "languages": [
+      "English",
+      "multiple immigrant languages"
+    ],
+    "themes": [
+      "migration",
+      "everyday life",
+      "community memory"
+    ],
+    "decade_start": 1965,
+    "decade_end": null,
+    "summary": "Founded in 1965, this is the oldest research center devoted to immigrant and refugee life in North America; its Minnesota Immigrant Oral Histories collection holds over 360 interviews recorded between 1967 and 2012.",
+    "url": "https://www.lib.umn.edu/collections/special/ihrca",
+    "citation": "University of Minnesota. Immigration History Research Center Archives. Retrieved from https://www.lib.umn.edu/collections/special/ihrca."
+  },
+  {
+    "id": "fortunoff-video-archive",
+    "title": "Fortunoff Video Archive for Holocaust Testimonies",
+    "archive": "Yale University Library",
+    "country": "United States",
+    "lat": 41.3111,
+    "lng": -72.928,
+    "languages": [
+      "English",
+      "multiple languages"
+    ],
+    "themes": [
+      "Holocaust",
+      "genocide",
+      "human rights"
+    ],
+    "decade_start": 1979,
+    "decade_end": null,
+    "summary": "Begun as a New Haven community project in 1979 and brought to Yale in 1981, the Fortunoff Archive now holds over 4,500 videotaped interviews with Holocaust witnesses and survivors, including Sinti and Roma survivors, resisters, and liberators.",
+    "url": "https://web.library.yale.edu/fortuneoff_1",
+    "citation": "Yale University Library. Fortunoff Video Archive for Holocaust Testimonies. Retrieved from https://web.library.yale.edu/fortuneoff_1.",
+    "related_ids": [
+      "yad-vashem-testimonies",
+      "usc-shoah-foundation-vha"
+    ]
+  },
+  {
+    "id": "national-wwii-museum-oral-history",
+    "title": "Oral History Collection",
+    "archive": "The National WWII Museum",
+    "country": "United States",
+    "lat": 29.9425,
+    "lng": -90.0765,
+    "languages": [
+      "English"
+    ],
+    "themes": [
+      "war and conflict",
+      "military history"
+    ],
+    "decade_start": 2000,
+    "decade_end": null,
+    "summary": "Growing from historian Stephen Ambrose's personal collecting, this New Orleans museum (opened in 2000) holds more than 9,000 personal accounts of World War II veterans, part of over 250,000 artifacts.",
+    "url": "https://www.nationalww2museum.org/oral-history-resources",
+    "citation": "The National WWII Museum. Oral History Collection. Retrieved from https://www.nationalww2museum.org/oral-history-resources.",
+    "related_ids": [
+      "veterans-history-project",
+      "iwm-sound-archive"
+    ]
+  },
+  {
+    "id": "911-memorial-museum-oral-history",
+    "title": "Oral Histories",
+    "archive": "National September 11 Memorial & Museum",
+    "country": "United States",
+    "lat": 40.7115,
+    "lng": -74.0134,
+    "languages": [
+      "English"
+    ],
+    "themes": [
+      "war and conflict",
+      "disaster and survivor testimony",
+      "community memory"
+    ],
+    "decade_start": 2005,
+    "decade_end": null,
+    "summary": "The 9/11 Memorial & Museum's oral history collection, built since its 2005 founding, holds more than 2,500 recorded interviews with responders, survivors, and family members documenting the September 11, 2001 attacks and their aftermath.",
+    "url": "https://www.911memorial.org/learn/resources/oral-histories",
+    "citation": "National September 11 Memorial & Museum. Oral Histories. Retrieved from https://www.911memorial.org/learn/resources/oral-histories.",
+    "access_notes": "Selected audio freely streamable online.",
+    "preview_url": "https://www.911memorial.org/learn/resources/oral-histories"
+  },
+  {
+    "id": "hurricane-digital-memory-bank",
+    "title": "Hurricane Digital Memory Bank",
+    "archive": "Roy Rosenzweig Center for History and New Media, George Mason University",
+    "country": "United States",
+    "lat": 38.8315,
+    "lng": -77.3067,
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "themes": [
+      "disaster and survivor testimony",
+      "everyday life",
+      "community memory"
+    ],
+    "decade_start": 2005,
+    "decade_end": null,
+    "summary": "Organized in 2005 with the University of New Orleans, this is the largest free public archive of Hurricanes Katrina and Rita, with over 25,000 first-hand accounts, images, blog postings, and podcasts documenting the storms and their aftermath.",
+    "url": "https://hurricanearchive.org/",
+    "citation": "Roy Rosenzweig Center for History and New Media, George Mason University. Hurricane Digital Memory Bank. Retrieved from https://hurricanearchive.org/.",
+    "access_notes": "Freely accessible online.",
+    "related_ids": [
+      "michinoku-shinrokuden"
+    ]
+  },
+  {
+    "id": "armenian-film-foundation",
+    "title": "Armenian Film Foundation Genocide Testimony Collection",
+    "archive": "Armenian Film Foundation",
+    "country": "United States",
+    "lat": 34.1706,
+    "lng": -118.8376,
+    "languages": [
+      "Armenian",
+      "English",
+      "multiple languages"
+    ],
+    "themes": [
+      "genocide",
+      "Holocaust",
+      "human rights"
+    ],
+    "decade_start": 1968,
+    "decade_end": 2005,
+    "summary": "Founded in 1979 by filmmaker J. Michael Hagopian, himself a genocide survivor, this Thousand Oaks foundation holds 400 interviews filmed between 1968 and 2005 with Armenian Genocide survivors, witnesses, and their descendants, now integrated into the USC Shoah Foundation's archive.",
+    "url": "http://www.armenianfilm.org/",
+    "citation": "Armenian Film Foundation. Genocide Testimony Collection. Retrieved from http://www.armenianfilm.org/.",
+    "related_ids": [
+      "usc-shoah-foundation-vha",
+      "yad-vashem-testimonies"
+    ]
+  },
+  {
+    "id": "david-boder-voices-of-holocaust",
+    "title": "Voices of the Holocaust",
+    "archive": "Illinois Institute of Technology",
+    "country": "United States",
+    "lat": 41.8356,
+    "lng": -87.6266,
+    "languages": [
+      "Yiddish",
+      "German",
+      "Polish",
+      "multiple languages"
+    ],
+    "themes": [
+      "Holocaust",
+      "genocide",
+      "displacement"
+    ],
+    "decade_start": 1946,
+    "decade_end": 1946,
+    "summary": "In 1946, psychologist David P. Boder traveled to displaced-persons camps across France, Switzerland, Italy, and Germany with a wire recorder, capturing 130 interviews in nine languages that are considered the earliest known recorded oral histories of the Holocaust.",
+    "url": "https://voices.library.iit.edu/",
+    "citation": "Illinois Institute of Technology. Voices of the Holocaust. Retrieved from https://voices.library.iit.edu/.",
+    "access_notes": "Freely accessible online, fully transcribed and translated.",
+    "related_ids": [
+      "fortunoff-video-archive",
+      "yad-vashem-testimonies"
+    ]
+  },
+  {
+    "id": "endangered-archives-programme",
+    "title": "Endangered Archives Programme",
+    "archive": "British Library",
+    "country": "United Kingdom",
+    "lat": 51.5299,
+    "lng": -0.1276,
+    "languages": [
+      "multiple world languages"
+    ],
+    "themes": [
+      "language documentation",
+      "oral tradition",
+      "history"
+    ],
+    "decade_start": 2004,
+    "decade_end": null,
+    "summary": "Funded by Arcadia since 2004, this British Library programme has supported over 500 projects in more than 90 countries, digitizing 16 million images and 35,000 sound recordings of at-risk cultural heritage, including oral and audiovisual materials from Africa, Asia, and Latin America.",
+    "url": "https://eap.bl.uk/",
+    "citation": "British Library. Endangered Archives Programme. Retrieved from https://eap.bl.uk/.",
+    "access_notes": "Digitized collections freely accessible online.",
+    "related_ids": [
+      "ibadan-african-studies-audiovisual",
+      "elar-soas"
+    ]
+  },
+  {
+    "id": "japanese-american-national-museum",
+    "title": "Hirasaki National Resource Center Oral Histories",
+    "archive": "Japanese American National Museum",
+    "country": "United States",
+    "lat": 34.0503,
+    "lng": -118.2404,
+    "languages": [
+      "English",
+      "Japanese"
+    ],
+    "themes": [
+      "migration",
+      "incarceration",
+      "civil rights"
+    ],
+    "decade_start": 1992,
+    "decade_end": null,
+    "summary": "Founded in Los Angeles's Little Tokyo in 1992, JANM preserves oral history interviews, diaries, and military memoirs documenting Japanese American history and wartime incarceration, in long partnership with the Densho Digital Repository.",
+    "url": "https://www.janm.org/hnrc",
+    "citation": "Japanese American National Museum. Hirasaki National Resource Center Oral Histories. Retrieved from https://www.janm.org/hnrc.",
+    "related_ids": [
+      "densho-digital-repository"
+    ]
+  },
+  {
+    "id": "fanhs-national-pinoy-archives",
+    "title": "National Pinoy Archives",
+    "archive": "Filipino American National Historical Society",
+    "country": "United States",
+    "lat": 47.6062,
+    "lng": -122.3321,
+    "languages": [
+      "English",
+      "Tagalog",
+      "Ilocano"
+    ],
+    "themes": [
+      "migration",
+      "labor history",
+      "everyday life"
+    ],
+    "decade_start": 1987,
+    "decade_end": null,
+    "summary": "Founded in Seattle in 1987 by FANHS, the National Pinoy Archives collects historical records of Filipino Americans, including oral history interviews recorded by local chapters such as the Sacramento-Delta chapter's project on farmworker communities.",
+    "url": "https://www.fanhs-national.org/national-pinoy-archives",
+    "citation": "Filipino American National Historical Society. National Pinoy Archives. Retrieved from https://www.fanhs-national.org/national-pinoy-archives.",
+    "related_ids": [
+      "japanese-american-national-museum",
+      "bracero-history-archive"
+    ]
+  },
+  {
+    "id": "gallaudet-university-archives",
+    "title": "Gallaudet University Archives",
+    "archive": "Gallaudet University",
+    "country": "United States",
+    "lat": 38.9072,
+    "lng": -76.9962,
+    "languages": [
+      "American Sign Language",
+      "English"
+    ],
+    "themes": [
+      "Deaf history",
+      "language documentation",
+      "community memory"
+    ],
+    "decade_start": 1864,
+    "decade_end": null,
+    "summary": "Housed at Gallaudet University, founded in 1864 as the world's only university designed for Deaf and hard-of-hearing students, this archive is the largest collection of materials on Deaf culture, history, and signed languages worldwide, including personal papers and recorded interviews.",
+    "url": "https://gallaudet.edu/archives/",
+    "citation": "Gallaudet University. Archives. Retrieved from https://gallaudet.edu/archives/."
+  },
+  {
+    "id": "roho-disability-rights",
+    "title": "Disability Rights and Independent Living Movement Oral History Project",
+    "archive": "Bancroft Library, University of California, Berkeley",
+    "country": "United States",
+    "lat": 37.8721,
+    "lng": -122.2607,
+    "languages": [
+      "English"
+    ],
+    "themes": [
+      "disability rights",
+      "civil rights",
+      "social history"
+    ],
+    "decade_start": 1996,
+    "decade_end": null,
+    "summary": "Launched in 1996 by the Bancroft Library's Regional Oral History Office, this project recorded more than 100 interviews with leaders and participants of the Berkeley-born disability rights and independent living movement of the 1960s-70s and its national growth.",
+    "url": "https://www.lib.berkeley.edu/visit/bancroft/oral-history-center/projects/disability-rights",
+    "citation": "Bancroft Library, University of California, Berkeley. Disability Rights and Independent Living Movement Oral History Project. Retrieved from https://www.lib.berkeley.edu/visit/bancroft/oral-history-center/projects/disability-rights.",
+    "related_ids": [
+      "gallaudet-university-archives"
+    ]
+  },
+  {
+    "id": "chinese-railroad-workers-stanford",
+    "title": "Chinese Railroad Workers in North America Project",
+    "archive": "Stanford University",
+    "country": "United States",
+    "lat": 37.4275,
+    "lng": -122.1697,
+    "languages": [
+      "English",
+      "Cantonese",
+      "Mandarin Chinese"
+    ],
+    "themes": [
+      "labor history",
+      "migration",
+      "everyday life"
+    ],
+    "decade_start": 2012,
+    "decade_end": 2020,
+    "summary": "Active from 2012 to 2020, this Stanford project recorded oral histories with nearly forty descendants of Chinese laborers who built the Transcontinental Railroad, recovering firsthand family memory absent from official records.",
+    "url": "https://web.stanford.edu/group/chineserailroad/cgi-bin/website/",
+    "citation": "Stanford University. Chinese Railroad Workers in North America Project. Retrieved from https://web.stanford.edu/group/chineserailroad/cgi-bin/website/.",
+    "access_notes": "Project concluded in 2020; site maintained as a public research archive."
+  },
+  {
+    "id": "khmer-legacies",
+    "title": "Khmer Legacies",
+    "archive": "Khmer Legacies",
+    "country": "Cambodia",
+    "lat": 11.5564,
+    "lng": 104.9282,
+    "languages": [
+      "Khmer",
+      "English"
+    ],
+    "themes": [
+      "genocide",
+      "migration",
+      "displacement"
+    ],
+    "decade_start": 2007,
+    "decade_end": 2011,
+    "summary": "Founded in 2007 by filmmaker Socheata Poeuv, Khmer Legacies recorded more than one hundred testimonies of Khmer Rouge survivors and former cadres between 2007 and 2011, sixty in Cambodia and forty among the Cambodian diaspora in the United States.",
+    "url": "https://apa.nyu.edu/survey/2015/01/khmer-legacies-records/",
+    "citation": "Khmer Legacies. Retrieved via NYU Asian/Pacific/American Archives Survey: https://apa.nyu.edu/survey/2015/01/khmer-legacies-records/.",
+    "related_ids": [
+      "dccam-oral-history",
+      "genocide-archive-rwanda"
+    ]
+  },
+  {
+    "id": "museo-palabra-imagen-el-salvador",
+    "title": "Museo de la Palabra y la Imagen",
+    "archive": "Museo de la Palabra y la Imagen (MUPI)",
+    "country": "El Salvador",
+    "lat": 13.6929,
+    "lng": -89.2182,
+    "languages": [
+      "Spanish"
+    ],
+    "themes": [
+      "armed conflict",
+      "human rights",
+      "memory and reconciliation"
+    ],
+    "decade_start": 1996,
+    "decade_end": null,
+    "summary": "Founded in San Salvador in 1996 by former clandestine-radio broadcaster Carlos Henriquez Consalvi, MUPI holds El Salvador's most significant audiovisual archive of the 1980-1992 civil war, including the Radio Venceremos collection and oral history programming for younger generations.",
+    "url": "https://www.elsalvadormemory.org/museo-de-la-palabra-es",
+    "citation": "Museo de la Palabra y la Imagen (MUPI). Retrieved from https://www.elsalvadormemory.org/museo-de-la-palabra-es.",
+    "related_ids": [
+      "cnmh-colombia",
+      "memoria-abierta-argentina"
+    ]
+  },
+  {
+    "id": "lugar-de-la-memoria-peru",
+    "title": "Centro de Documentación e Investigación (CVR Testimonies)",
+    "archive": "Lugar de la Memoria, la Tolerancia y la Inclusión Social (LUM)",
+    "country": "Peru",
+    "lat": -12.1247,
+    "lng": -77.03,
+    "languages": [
+      "Spanish",
+      "Quechua"
+    ],
+    "themes": [
+      "armed conflict",
+      "human rights",
+      "memory and reconciliation"
+    ],
+    "decade_start": 2001,
+    "decade_end": 2003,
+    "summary": "Peru's Truth and Reconciliation Commission collected nearly 17,000 testimonies between 2001 and 2003 documenting the country's 1980-2000 internal armed conflict; these video and audio archives are now preserved and digitized at Lima's LUM documentation center.",
+    "url": "https://lum.cultura.pe/content/centro-de-documentaci%C3%B3n-e-investigaci%C3%B3n",
+    "citation": "Lugar de la Memoria, la Tolerancia y la Inclusión Social (LUM). Centro de Documentación e Investigación. Retrieved from https://lum.cultura.pe/content/centro-de-documentaci%C3%B3n-e-investigaci%C3%B3n.",
+    "related_ids": [
+      "museo-memoria-chile",
+      "museo-palabra-imagen-el-salvador"
+    ]
+  },
+  {
+    "id": "museo-memoria-chile",
+    "title": "Archivo Oral",
+    "archive": "Museo de la Memoria y los Derechos Humanos",
+    "country": "Chile",
+    "lat": -33.4372,
+    "lng": -70.6683,
+    "languages": [
+      "Spanish"
+    ],
+    "themes": [
+      "armed conflict",
+      "human rights",
+      "memory and reconciliation"
+    ],
+    "decade_start": 2010,
+    "decade_end": null,
+    "summary": "Opened in Santiago in 2010, this museum's Oral Archive applies recorded-interview methodology to document personal and collective experiences of Chile's 1973-1990 military dictatorship, alongside its wider testimonial and documentary collections.",
+    "url": "https://testimonios.museodelamemoria.cl/category/archivo-oral/",
+    "citation": "Museo de la Memoria y los Derechos Humanos. Archivo Oral. Retrieved from https://testimonios.museodelamemoria.cl/category/archivo-oral/.",
+    "related_ids": [
+      "lugar-de-la-memoria-peru",
+      "memoria-abierta-argentina"
+    ]
+  },
+  {
+    "id": "cavr-chega-timor-leste",
+    "title": "Chega! CAVR Truth Commission Testimonies",
+    "archive": "Comissão de Acolhimento, Verdade e Reconciliação (CAVR)",
+    "country": "Timor-Leste",
+    "lat": -8.5569,
+    "lng": 125.5603,
+    "languages": [
+      "Tetum",
+      "Portuguese",
+      "Indonesian"
+    ],
+    "themes": [
+      "armed conflict",
+      "human rights",
+      "memory and reconciliation"
+    ],
+    "decade_start": 2002,
+    "decade_end": 2005,
+    "summary": "Timor-Leste's Commission for Reception, Truth and Reconciliation operated from 2002 to 2005, relying heavily on eyewitness testimony to document mass killing and displacement during the 1974-1999 Indonesian occupation, published in its final report Chega!.",
+    "url": "https://chegareport.org/",
+    "citation": "Comissão de Acolhimento, Verdade e Reconciliação (CAVR). Chega! Final Report. Retrieved from https://chegareport.org/."
+  },
+  {
+    "id": "cpdoc-fgv-brazil",
+    "title": "Programa de Historia Oral (Oral History Program)",
+    "archive": "CPDOC, Fundação Getulio Vargas",
+    "country": "Brazil",
+    "lat": -22.9399,
+    "lng": -43.1878,
+    "languages": [
+      "Portuguese"
+    ],
+    "themes": [
+      "political history",
+      "history",
+      "national memory"
+    ],
+    "decade_start": 1975,
+    "decade_end": null,
+    "summary": "Created in 1975 within Rio de Janeiro's Centro de Pesquisa e Documentacao de Historia Contemporanea do Brasil, this pioneering oral history program has shaped oral history methodology across Brazil while building interviews with figures central to the country's recent political history.",
+    "url": "https://cpdoc.fgv.br/",
+    "citation": "CPDOC, Fundação Getulio Vargas. Programa de Historia Oral. Retrieved from https://cpdoc.fgv.br/.",
+    "related_ids": [
+      "museu-da-pessoa"
+    ]
+  },
+  {
+    "id": "jamaica-memory-bank",
+    "title": "Jamaica Memory Bank",
+    "archive": "African Caribbean Institute of Jamaica",
+    "country": "Jamaica",
+    "lat": 17.9712,
+    "lng": -76.7936,
+    "languages": [
+      "Jamaican Patois",
+      "English"
+    ],
+    "themes": [
+      "oral tradition",
+      "folklife",
+      "everyday life"
+    ],
+    "decade_start": 1980,
+    "decade_end": null,
+    "summary": "Begun as an independent agency in 1980 and integrated into the African Caribbean Institute of Jamaica in 1990, the Jamaica Memory Bank holds over 2,000 sound recordings and 800 videos of storytelling, folk religion, craft, and oral history from across Jamaica's parishes.",
+    "url": "https://acij-ioj.org.jm/",
+    "citation": "African Caribbean Institute of Jamaica. Jamaica Memory Bank. Retrieved from https://acij-ioj.org.jm/."
   }
 ]

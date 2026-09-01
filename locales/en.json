@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "title": "Mapping Voices — an atlas of oral-history archives",
+    "description": "An interactive atlas of real oral-history and voice-testimony archive collections, filterable by country, theme, language, and decade."
+  },
+  "skipLink": "Skip to map",
+  "header": {
+    "eyebrow": "An atlas of testimony",
+    "note": "Oral-history & voice-testimony collections, plotted",
+    "filtersToggle": "Open filters and index",
+    "languageLabel": "Language"
+  },
+  "filters": {
+    "heading": "Browse the atlas",
+    "closeLabel": "Close filters",
+    "country": "Country",
+    "theme": "Theme",
+    "language": "Language",
+    "decade": "Decade",
+    "allCountries": "All countries",
+    "allThemes": "All themes",
+    "allLanguages": "All languages",
+    "allDecades": "All decades",
+    "reset": "Reset filters"
+  },
+  "results": {
+    "heading": "Index",
+    "empty": "No collections match these filters.",
+    "countOne": "1 collection shown",
+    "countOther": "{n} collections shown"
+  },
+  "map": {
+    "ariaLabel": "Map of oral-history and voice-testimony collections. Each pin is keyboard-focusable and announces the collection it represents.",
+    "hint": "Tab through the map to reach each pin, or use the index to browse by list.",
+    "loading": "Loading collections…",
+    "loadError": "Couldn't load the collections dataset ({url}). If you're running this locally, check that a {url} file exists next to index.html.",
+    "markerLabel": "{label}. Opens details."
+  },
+  "popup": {
+    "languagesPrefix": "Languages:",
+    "viewDetails": "View full details"
+  },
+  "detail": {
+    "heading": "About this collection",
+    "closeLabel": "Close details",
+    "placeholder": "Select a pin on the map, or an entry from the index, to read about it here.",
+    "languages": "Languages",
+    "themes": "Themes",
+    "period": "Period",
+    "visitSource": "Visit source archive",
+    "opensNewTab": "(opens in a new tab)",
+    "selectionAnnounce": "Showing details for {title}.",
+    "decadeUnknown": "unknown",
+    "decadePresent": "present",
+    "decadeFormat": "{n}s",
+    "decadeRange": "{start}–{end}",
+    "decadeToPresent": "{start}–{present}"
+  },
+  "footer": {
+    "template": "Map data & imagery © %LINK% contributors. Mapping Voices is a seed/demo atlas — see the README for how to add a collection.",
+    "osmLinkText": "OpenStreetMap"
+  }
+}

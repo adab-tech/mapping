@@ -21,7 +21,7 @@
 </head>
 <body>
 
-<a class="skip-link" href="#map">Skip to map</a>
+<a class="skip-link" href="#map" data-i18n="skipLink">Skip to map</a>
 
 <div class="app">
 
@@ -32,15 +32,27 @@
         <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
           <path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
         </svg>
-        <span class="visually-hidden">Open filters and index</span>
+        <span class="visually-hidden" data-i18n="header.filtersToggle">Open filters and index</span>
       </button>
 
       <div class="brand">
-        <p class="eyebrow">An atlas of testimony</p>
+        <p class="eyebrow" data-i18n="header.eyebrow">An atlas of testimony</p>
         <h1 class="wordmark">Mapping&nbsp;Voices</h1>
       </div>
 
-      <p class="header-note">Oral-history &amp; voice-testimony collections, plotted</p>
+      <div class="header-end">
+        <p class="header-note" data-i18n="header.note">Oral-history &amp; voice-testimony collections, plotted</p>
+
+        <div class="lang-switch">
+          <label for="lang-select" class="visually-hidden" data-i18n="header.languageLabel">Language</label>
+          <select id="lang-select" class="lang-select">
+            <option value="en">English</option>
+            <option value="ha">Hausa</option>
+            <option value="fr">Français</option>
+            <option value="ar">العربية</option>
+          </select>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -50,8 +62,8 @@
 
     <aside id="filters-drawer" class="panel filters-drawer" aria-label="Filters and collection index">
       <div class="panel-header">
-        <h2>Browse the atlas</h2>
-        <button id="filters-close" class="icon-button" type="button" aria-label="Close filters">
+        <h2 data-i18n="filters.heading">Browse the atlas</h2>
+        <button id="filters-close" class="icon-button" type="button" aria-label="Close filters" data-i18n-aria-label="filters.closeLabel">
           <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
             <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
           </svg>
@@ -60,66 +72,66 @@
 
       <form id="filters-form" class="filters-form" autocomplete="off">
         <div class="field">
-          <label for="filter-country">Country</label>
+          <label for="filter-country" data-i18n="filters.country">Country</label>
           <select id="filter-country" name="country">
             <option value="">All countries</option>
           </select>
         </div>
         <div class="field">
-          <label for="filter-theme">Theme</label>
+          <label for="filter-theme" data-i18n="filters.theme">Theme</label>
           <select id="filter-theme" name="theme">
             <option value="">All themes</option>
           </select>
         </div>
         <div class="field">
-          <label for="filter-language">Language</label>
+          <label for="filter-language" data-i18n="filters.language">Language</label>
           <select id="filter-language" name="language">
             <option value="">All languages</option>
           </select>
         </div>
         <div class="field">
-          <label for="filter-decade">Decade</label>
+          <label for="filter-decade" data-i18n="filters.decade">Decade</label>
           <select id="filter-decade" name="decade">
             <option value="">All decades</option>
           </select>
         </div>
-        <button type="button" id="filters-reset" class="text-button">Reset filters</button>
+        <button type="button" id="filters-reset" class="text-button" data-i18n="filters.reset">Reset filters</button>
       </form>
 
       <div class="results">
         <div class="results-header">
-          <h2>Index</h2>
+          <h2 data-i18n="results.heading">Index</h2>
           <span id="results-count" class="results-count" aria-live="polite"></span>
         </div>
-        <p id="results-empty" class="results-empty" hidden>No collections match these filters.</p>
+        <p id="results-empty" class="results-empty" hidden data-i18n="results.empty">No collections match these filters.</p>
         <ul id="results-list" class="results-list"></ul>
       </div>
     </aside>
 
     <main class="map-wrap">
       <div id="map-status" class="map-status" role="status" hidden></div>
-      <div id="map" class="map" role="region" aria-label="Map of oral-history and voice-testimony collections. Each pin is keyboard-focusable and announces the collection it represents."></div>
-      <p class="map-hint">Tab through the map to reach each pin, or use the index to browse by list.</p>
+      <div id="map" class="map" role="region" aria-label="Map of oral-history and voice-testimony collections. Each pin is keyboard-focusable and announces the collection it represents." data-i18n-aria-label="map.ariaLabel"></div>
+      <p class="map-hint" data-i18n="map.hint">Tab through the map to reach each pin, or use the index to browse by list.</p>
     </main>
 
     <aside id="detail-panel" class="panel detail-panel" aria-label="Collection details">
       <div class="panel-header">
-        <h2 id="detail-heading">About this collection</h2>
-        <button id="detail-close" class="icon-button" type="button" aria-label="Close details">
+        <h2 id="detail-heading" data-i18n="detail.heading">About this collection</h2>
+        <button id="detail-close" class="icon-button" type="button" aria-label="Close details" data-i18n-aria-label="detail.closeLabel">
           <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
             <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
           </svg>
         </button>
       </div>
       <div id="detail-body" class="detail-body">
-        <p class="detail-placeholder">Select a pin on the map, or an entry from the index, to read about it here.</p>
+        <p class="detail-placeholder" data-i18n="detail.placeholder">Select a pin on the map, or an entry from the index, to read about it here.</p>
       </div>
     </aside>
 
   </div>
 
   <footer class="site-footer">
-    <p>Map data &amp; imagery &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors. Mapping Voices is a seed/demo atlas — see the README for how to add a collection.</p>
+    <p id="footer-text">Map data &amp; imagery &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener" id="footer-osm-link">OpenStreetMap</a> contributors. Mapping Voices is a seed/demo atlas — see the README for how to add a collection.</p>
   </footer>
 </div>
 
