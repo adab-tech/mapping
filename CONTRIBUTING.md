@@ -5,6 +5,11 @@ oral-history and voice-testimony collections — which means there needs to be
 a low-friction way to propose new ones, whether or not you're comfortable
 with Git or JSON. There are two paths in. Pick whichever fits you.
 
+All project spaces — issues, pull requests, discussions, code review — are
+governed by [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md). Short version: be
+respectful, be honest, treat disagreements about a collection's description
+as a content question, not a personal one.
+
 ## The honesty rule (read this first)
 
 Every entry in this project must describe a **real, publicly documented**
