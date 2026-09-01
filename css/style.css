@@ -1,0 +1,717 @@
+/* ==========================================================================
+   Mapping Voices — editorial atlas styling
+   ========================================================================== */
+
+:root {
+  --paper: #f3ecdd;
+  --paper-deep: #e9dfc7;
+  --paper-panel: #f8f3e7;
+  --ink: #2a2318;
+  --ink-soft: #635a47;
+  --ink-faint: #8b8168;
+  --rule: #cdbf9c;
+  --rule-soft: #ddd2b3;
+  --accent: #b1401d;
+  --accent-dark: #8c3115;
+  --accent-ink: #fdf6ec;
+  --accent-soft: rgba(177, 64, 29, 0.12);
+  --focus-ring: #1d5c56;
+  --shadow: rgba(42, 35, 24, 0.18);
+
+  --font-display: "Fraunces", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --font-ui: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  --header-h: 4.75rem;
+  --footer-h: 2.5rem;
+  --panel-w: 21rem;
+  --detail-w: 23rem;
+  --radius: 4px;
+  --transition-fast: 180ms ease;
+  --transition-slow: 260ms cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--ink);
+  margin: 0;
+}
+
+a {
+  color: var(--accent-dark);
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+button {
+  font-family: inherit;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: absolute;
+  left: 0.75rem;
+  top: -3rem;
+  background: var(--ink);
+  color: var(--accent-ink);
+  padding: 0.6rem 1rem;
+  border-radius: var(--radius);
+  z-index: 1000;
+  transition: top var(--transition-fast);
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0.75rem;
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+/* ---------------------------------- app ---------------------------------- */
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ---------------------------------- header ---------------------------------- */
+
+.site-header {
+  border-bottom: 1px solid var(--rule);
+  background:
+    linear-gradient(var(--paper-panel), var(--paper-panel)),
+    repeating-linear-gradient(90deg, transparent, transparent 39px, var(--rule-soft) 39px, var(--rule-soft) 40px);
+  background-blend-mode: normal;
+  flex: 0 0 auto;
+}
+
+.header-inner {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0.75rem 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  min-height: var(--header-h);
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.eyebrow {
+  margin: 0;
+  font-family: var(--font-ui);
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-dark);
+  font-weight: 600;
+}
+
+.wordmark {
+  font-size: 1.65rem;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
+.header-note {
+  margin: 0 0 0 auto;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  font-style: italic;
+  font-family: var(--font-display);
+  white-space: nowrap;
+  display: none;
+}
+
+@media (min-width: 700px) {
+  .header-note {
+    display: block;
+  }
+}
+
+/* icon buttons shared by header + drawers */
+
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: var(--radius);
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+  flex: 0 0 auto;
+}
+
+.icon-button:hover {
+  background: var(--paper-deep);
+  border-color: var(--rule);
+}
+
+.icon-button .icon {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.filters-toggle {
+  display: inline-flex;
+}
+
+@media (min-width: 980px) {
+  .filters-toggle {
+    display: none;
+  }
+}
+
+/* ---------------------------------- layout ---------------------------------- */
+
+.layout {
+  position: relative;
+  flex: 1 1 auto;
+  display: grid;
+  grid-template-columns: var(--panel-w) 1fr var(--detail-w);
+  grid-template-areas: "filters map detail";
+  min-height: 0;
+}
+
+@media (max-width: 979px) {
+  .layout {
+    grid-template-columns: 1fr;
+    grid-template-areas: "map";
+  }
+}
+
+/* ---------------------------------- panels (shared) ---------------------------------- */
+
+.panel {
+  background: var(--paper-panel);
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.25rem 0.75rem;
+  border-bottom: 1px solid var(--rule-soft);
+  flex: 0 0 auto;
+}
+
+.panel-header h2 {
+  font-size: 1.1rem;
+}
+
+.panel-header .icon-button {
+  display: none;
+}
+
+@media (max-width: 979px) {
+  .panel-header .icon-button {
+    display: inline-flex;
+  }
+}
+
+/* ---------------------------------- filters drawer ---------------------------------- */
+
+.filters-drawer {
+  grid-area: filters;
+  border-right: 1px solid var(--rule);
+  overflow-y: auto;
+}
+
+.filters-form {
+  padding: 1rem 1.25rem;
+  display: grid;
+  gap: 0.9rem;
+  border-bottom: 1px solid var(--rule-soft);
+  flex: 0 0 auto;
+}
+
+.field {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.field label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.field select {
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: var(--paper);
+  color: var(--ink);
+  appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M6 9l6 6 6-6' fill='none' stroke='%232a2318' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 0.55rem center;
+  background-size: 1rem;
+  padding-right: 1.9rem;
+}
+
+.field select:hover {
+  border-color: var(--ink-faint);
+}
+
+.text-button {
+  justify-self: start;
+  background: none;
+  border: none;
+  padding: 0.15rem 0;
+  color: var(--accent-dark);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.text-button:hover {
+  color: var(--accent);
+}
+
+.results {
+  padding: 0.9rem 1.25rem 1.25rem;
+  overflow-y: auto;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+.results-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.results-header h2 {
+  font-size: 0.95rem;
+}
+
+.results-count {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+}
+
+.results-empty {
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
+.results-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.result-item {
+  width: 100%;
+  text-align: left;
+  background: var(--paper);
+  border: 1px solid var(--rule-soft);
+  border-radius: var(--radius);
+  padding: 0.55rem 0.7rem;
+  cursor: pointer;
+  display: grid;
+  gap: 0.15rem;
+  transition: border-color var(--transition-fast), background var(--transition-fast);
+}
+
+.result-item:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.result-item[aria-current="true"] {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  box-shadow: inset 3px 0 0 var(--accent);
+}
+
+.result-item .result-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.98rem;
+  color: var(--ink);
+  line-height: 1.3;
+}
+
+.result-item .result-meta {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+}
+
+/* ---------------------------------- map ---------------------------------- */
+
+.map-wrap {
+  grid-area: map;
+  position: relative;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--paper-deep);
+}
+
+.map {
+  flex: 1 1 auto;
+  min-height: 320px;
+  width: 100%;
+  background: var(--paper-deep);
+}
+
+.map-hint {
+  margin: 0;
+  font-size: 0.72rem;
+  color: var(--ink-soft);
+  padding: 0.35rem 0.85rem;
+  background: var(--paper-panel);
+  border-top: 1px solid var(--rule-soft);
+  flex: 0 0 auto;
+}
+
+.map-status {
+  position: absolute;
+  top: 0.75rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 900;
+  background: var(--ink);
+  color: var(--accent-ink);
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  font-size: 0.85rem;
+  max-width: 90%;
+  text-align: center;
+}
+
+/* Leaflet marker + popup theming */
+
+.mv-pin {
+  display: block;
+  width: 22px;
+  height: 22px;
+  border-radius: 50% 50% 50% 0;
+  background: var(--accent);
+  border: 2px solid var(--accent-ink);
+  transform: rotate(-45deg);
+  box-shadow: 0 1px 3px var(--shadow);
+}
+
+.mv-pin.is-active {
+  background: var(--focus-ring);
+}
+
+.leaflet-marker-icon.mv-pin-icon {
+  transition: filter var(--transition-fast);
+}
+
+.leaflet-marker-icon.mv-pin-icon:focus,
+.leaflet-marker-icon.mv-pin-icon:focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 3px;
+  border-radius: 50%;
+}
+
+.leaflet-popup-content-wrapper {
+  background: var(--paper-panel);
+  color: var(--ink);
+  border-radius: var(--radius);
+  box-shadow: 0 6px 20px var(--shadow);
+}
+
+.leaflet-popup-tip {
+  background: var(--paper-panel);
+}
+
+.mv-popup h3 {
+  font-size: 1rem;
+  margin-bottom: 0.15rem;
+}
+
+.mv-popup p {
+  margin: 0.15rem 0;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.mv-popup a {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+/* ---------------------------------- detail panel ---------------------------------- */
+
+.detail-panel {
+  grid-area: detail;
+  border-left: 1px solid var(--rule);
+  overflow-y: auto;
+}
+
+.detail-body {
+  padding: 1.1rem 1.25rem 2rem;
+  flex: 1 1 auto;
+  overflow-y: auto;
+}
+
+.detail-placeholder {
+  color: var(--ink-soft);
+  font-style: italic;
+  font-size: 0.92rem;
+}
+
+.detail-title {
+  font-size: 1.4rem;
+  line-height: 1.25;
+  margin-bottom: 0.3rem;
+}
+
+.detail-archive {
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  margin: 0 0 0.9rem;
+}
+
+.detail-row {
+  margin: 0 0 0.85rem;
+}
+
+.detail-row dt {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-faint);
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.detail-row dd {
+  margin: 0;
+  font-size: 0.92rem;
+}
+
+.tag-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.tag {
+  display: inline-block;
+  background: var(--accent-soft);
+  color: var(--accent-dark);
+  border: 1px solid var(--accent-soft);
+  border-radius: 999px;
+  padding: 0.15rem 0.6rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.detail-summary {
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.detail-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.4rem;
+  padding: 0.55rem 1rem;
+  background: var(--accent);
+  color: var(--accent-ink);
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+.detail-link:hover {
+  background: var(--accent-dark);
+  color: var(--accent-ink);
+}
+
+/* ---------------------------------- footer ---------------------------------- */
+
+.site-footer {
+  flex: 0 0 auto;
+  border-top: 1px solid var(--rule);
+  background: var(--paper-panel);
+  padding: 0.5rem 1.25rem;
+  min-height: var(--footer-h);
+  display: flex;
+  align-items: center;
+}
+
+.site-footer p {
+  margin: 0;
+  font-size: 0.74rem;
+  color: var(--ink-soft);
+}
+
+/* ---------------------------------- responsive: drawers ---------------------------------- */
+
+@media (max-width: 979px) {
+  .filters-drawer,
+  .detail-panel {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 1000;
+    width: min(88vw, 22rem);
+    box-shadow: 0 0 30px var(--shadow);
+  }
+
+  .filters-drawer {
+    left: 0;
+    border-right: 1px solid var(--rule);
+    transform: translateX(-100%);
+    transition: transform var(--transition-slow);
+  }
+
+  .filters-drawer.is-open {
+    transform: translateX(0);
+  }
+
+  .detail-panel {
+    right: 0;
+    top: auto;
+    bottom: 0;
+    height: min(80vh, 100%);
+    width: 100%;
+    border-left: none;
+    border-top: 1px solid var(--rule);
+    border-radius: 12px 12px 0 0;
+    transform: translateY(100%);
+    transition: transform var(--transition-slow);
+  }
+
+  .detail-panel.is-open {
+    transform: translateY(0);
+  }
+
+  .drawer-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(20, 16, 8, 0.4);
+    z-index: 999;
+  }
+
+  .drawer-backdrop[hidden] {
+    display: none;
+  }
+}
+
+@media (min-width: 980px) {
+  .drawer-backdrop {
+    display: none !important;
+  }
+}
+
+/* ---------------------------------- small mobile tightening ---------------------------------- */
+
+@media (max-width: 480px) {
+  .header-inner {
+    padding: 0.6rem 0.85rem;
+    gap: 0.6rem;
+  }
+
+  .wordmark {
+    font-size: 1.3rem;
+  }
+
+  .eyebrow {
+    font-size: 0.62rem;
+  }
+
+  .filters-drawer,
+  .detail-panel {
+    width: min(92vw, 20rem);
+  }
+
+  .panel-header,
+  .filters-form,
+  .results,
+  .detail-body {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* ---------------------------------- reduced motion ---------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ---------------------------------- dark-mode-aware ground (host theme) ---------------------------------- */
+/* Mapping Voices intentionally commits to a single warm, paper-like editorial
+   palette regardless of OS theme, per the design brief (not dark-mode-first). */
