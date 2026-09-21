@@ -23,12 +23,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: "20"
+          node-version: "24"
 
       - name: Run link checker
         id: check
@@ -36,7 +36,7 @@ jobs:
 
       - name: Find existing tracking issue
         id: find
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             const { data: issues } = await github.rest.issues.listForRepo({
@@ -49,7 +49,7 @@ jobs:
 
       - name: Open or update tracking issue (failures found)
         if: steps.check.outputs.failure_count != '0'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             const fs = require("fs");
@@ -84,7 +84,7 @@ jobs:
 
       - name: Close tracking issue (all links passing)
         if: steps.check.outputs.failure_count == '0' && steps.find.outputs.result != 'null'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             const existing = ${{ steps.find.outputs.result }};
