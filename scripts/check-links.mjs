@@ -20,8 +20,8 @@ import path from "node:path";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_PATH = path.join(__dirname, "..", "data", "collections.json");
 
-const TIMEOUT_MS = 15_000;
-const CONCURRENCY = 8;
+const TIMEOUT_MS = 30_000;
+const CONCURRENCY = 4;
 // A generic browser UA — some institutional sites block bare `fetch`/curl
 // user agents outright regardless of the request otherwise being fine.
 const USER_AGENT =
@@ -31,10 +31,15 @@ async function checkUrl(url) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), TIMEOUT_MS);
   try {
-    // HEAD first (cheaper), fall back to GET — some servers reject HEAD
-    // outright (405/501) even when the resource is genuinely fine.
+    // HEAD first (cheaper), fall back to GET. Servers reject HEAD for more
+    // reasons than 405/501: institutional sites and WAFs commonly answer 403
+    // (and sometimes 400) to a HEAD they would serve as a GET, and 429 is a
+    // rate-limit that a single retry often clears. Treating any of these as a
+    // dead link produces false positives, so retry once with GET before
+    // believing them.
+    const RETRY_WITH_GET = new Set([400, 403, 405, 429, 501]);
     let res = await fetch(url, { method: "HEAD", redirect: "follow", signal: controller.signal, headers: { "User-Agent": USER_AGENT } });
-    if (res.status === 405 || res.status === 501) {
+    if (RETRY_WITH_GET.has(res.status)) {
       res = await fetch(url, { method: "GET", redirect: "follow", signal: controller.signal, headers: { "User-Agent": USER_AGENT } });
     }
     return { ok: res.ok, status: res.status };
