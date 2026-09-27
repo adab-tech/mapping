@@ -4,10 +4,12 @@
   "version": "0.4.0",
   "released": "2026-09-27",
   "doi": {
+    "concept": "10.5281/zenodo.22996478",
+    "concept_url": "https://doi.org/10.5281/zenodo.22996478",
     "version": "0.4.0",
-    "doi": "10.5281/zenodo.22996479",
-    "url": "https://doi.org/10.5281/zenodo.22996479",
-    "note": "Zenodo DOI of the most recent archived version. Each release gets its own DOI; see the Zenodo record's version list."
+    "version_doi": "10.5281/zenodo.22996479",
+    "version_url": "https://doi.org/10.5281/zenodo.22996479",
+    "note": "The concept DOI covers all versions and resolves to the latest; each release also gets its own version DOI."
   },
   "description": "A curated, openly licensed metadata dataset of real, publicly documented oral-history and voice-testimony collections worldwide, with normalized geographic, linguistic, thematic, and temporal metadata and a link to each holding institution's own page. The dataset describes and links to collections; it does not contain or redistribute their content.",
   "homepage": "https://adamu.tech/mapping/",

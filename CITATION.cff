@@ -7,8 +7,11 @@ message: >-
 title: "Mapping Voices: An Open Atlas of Oral-History and Voice-Testimony Collections"
 type: dataset
 version: 0.4.0
-doi: 10.5281/zenodo.22996479
+doi: 10.5281/zenodo.22996478
 identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22996478
+    description: Concept DOI — all versions; resolves to the latest
   - type: doi
     value: 10.5281/zenodo.22996479
     description: Zenodo archive of dataset v0.4.0
