@@ -5,7 +5,7 @@ its controlled vocabularies, and its exported files. How values are
 *chosen* (inclusion, verification, geolocation, classification) is in
 [`METHODOLOGY.md`](METHODOLOGY.md).
 
-**Schema version:** matches dataset v0.3.0 · **Enforced by:**
+**Schema version:** dataset v0.3.0 plus the Unreleased changes in `CHANGELOG.md` · **Enforced by:**
 `scripts/validate-data.mjs` (runs in CI on every pull request)
 
 ---
@@ -18,6 +18,8 @@ its controlled vocabularies, and its exported files. How values are
 | `data/vocab/countries.json` | Controlled vocabulary for `country` | Yes |
 | `data/vocab/languages.json` | Controlled vocabulary for `languages` | Yes |
 | `data/vocab/themes.json` | Controlled taxonomy for `themes` | Yes |
+| `data/vocab/access.json` | Controlled vocabulary for `access` | Yes |
+| `data/vocab/archive-types.json` | Controlled vocabulary for `archive_type` | Yes |
 | `data/dataset-meta.json` | Dataset title, version, release date, license | Yes, at release |
 | `data/review-log.json` | Append-only log of source checks (see §6) | Via `scripts/apply-review.mjs` or migration scripts |
 | `data/new-entries-provenance.json` | Harvest provenance for the 19 September 2026 audit additions | Historical |
@@ -46,6 +48,7 @@ node scripts/build-data.mjs --check  # what CI runs: fail if stale
 | `id` | string | ✔ | Kebab-case slug, unique. Internal key used by `related_ids` and older links. Keep stable once published; `mv_id` is the identifier to cite. |
 | `title` | string | ✔ | The collection's real name as the holder publishes it (or the archive/fonds name if the institution holds several). |
 | `archive` | string | ✔ | The real name of the holding institution or project. |
+| `archive_type` | string | — | A `name` from `data/vocab/archive-types.json`: the kind of institution named in `archive` (§3). Set only when the name makes the type unambiguous; omitted for joint, renamed, or unclear holders. Current values were derived from the name (METHODOLOGY §4, method `derived`). |
 
 ### Place
 
@@ -77,7 +80,7 @@ are joined from the country vocabulary in the exports.
 |---|---|---|---|
 | `decade_start` | integer | ✔ | Year the collection/recording effort began (a year, despite the name). 1800 – current year. |
 | `decade_end` | integer \| null | ✔ | Year it ended, or `null` if ongoing. Not before `decade_start`; not in the future. |
-| `historical_period_start`, `historical_period_end` | integer \| null | — | *Planned (v1.0).* Years bounding the events the testimony discusses, as distinct from when it was recorded. Validated when present; not yet populated. |
+| `historical_period_start`, `historical_period_end` | integer \| null | — | Years bounding the events the testimony **discusses**, as distinct from when it was recorded. Set only when the collection is principally about one bounded event named in its title or summary; a single-year event has start = end. Integers, end not before start. Current values were derived from the record text; each event → years mapping is listed for checking in [`docs/HISTORICAL-PERIODS.md`](docs/HISTORICAL-PERIODS.md). Absent on most records: absent means “not derived”, not “no historical focus”. |
 
 ### Access and linking
 
@@ -85,6 +88,7 @@ are joined from the country vocabulary in the exports.
 |---|---|---|---|
 | `url` | string | ✔ | `http(s)` URL of the holder's own public page for the collection (or archive). Unique across the dataset, ignoring scheme, `www.`, and trailing slash. `http://` is allowed but flagged. |
 | `access_notes` | string | — | How the collection is actually reached, from the holder's page: e.g. "Freely accessible online", "Reading-room access only", "Partial collection online, full collection by request". Never assumed. |
+| `access` | string | — | A `name` from `data/vocab/access.json`: a coarse, filterable summary of `access_notes`. Set only when `access_notes` clearly support it; never without `access_notes`. `access_notes` remain the authoritative wording. |
 | `preview_url` | string \| null | — | Only when the holder itself provides a listen/watch page. Never a third-party mirror. |
 | `citation` | string | — | A citation for the collection built from verified fields only: `"Institution. Title. Retrieved from URL."` Never invent a DOI, edition, or date. |
 | `related_ids` | string[] | — | `id`s of other records that are genuinely related (same event, region, or programme). Must resolve; must not include the record's own `id`. |
@@ -102,12 +106,12 @@ are joined from the country vocabulary in the exports.
 ### Planned fields (not yet in the data)
 
 These are defined so that contributors and tools use consistent names when
-they arrive. The validator does not check them yet.
+they arrive. The validator does not check them yet. (`access`,
+`archive_type`, and the historical period moved out of this list when they
+were first populated; see above.)
 
 | Field | Planned values |
 |---|---|
-| `archive_type` | `national archive`, `university archive`, `library`, `museum`, `research institute`, `community archive`, `independent project`, `language archive`, `intergovernmental body` |
-| `access` | `open online`, `partial online`, `registration required`, `on request`, `on site only`, `restricted` |
 | `community` | Free text: the community or population represented, in the holder's terms |
 | `region` / `locality` | Sub-national place names, when the source supports them |
 
@@ -143,6 +147,24 @@ a group rather than individual languages: `Multiple languages`,
 languages`, `Aboriginal and Torres Strait Islander languages`. They are
 excluded from "number of languages" statistics and shown in their own group
 in the interface.
+
+### `access.json` and `archive-types.json`
+
+| Key | Definition |
+|---|---|
+| `name` | Canonical term used in records |
+| `definition` | When the term applies; read it before assigning a value |
+
+`access` terms: `open online`, `partial online`, `registration required`,
+`on request`, `on site only`, `restricted`.
+
+`archive_type` terms: `national archive or library`, `university or
+research institute`, `museum`, `community or independent project`,
+`broadcaster`, `intergovernmental body`, `language archive`, `foundation or
+nonprofit`, `government agency`.
+
+Both fields are optional. Omit them rather than guess: a missing value
+means “not recorded”, and the statistics report it as such.
 
 ### `themes.json`
 
@@ -182,7 +204,8 @@ columns in this order:
 
 `mv_id, id, title, archive, country, iso3166_1_alpha2, region, subregion,
 lat, lng, languages, language_note, themes, theme_groups, decade_start,
-decade_end, summary, url, citation, access_notes, related_ids, preview_url,
+decade_end, historical_period_start, historical_period_end, summary, url,
+citation, access_notes, access, archive_type, related_ids, preview_url,
 verification_status, verification_note, provenance, date_added`
 
 Multi-valued fields (`languages`, `themes`, `theme_groups`, `related_ids`)
@@ -199,7 +222,8 @@ per language, and languages per country).
 **`stats.json`** — totals (collections, countries, individual languages,
 themes, institutions, decades), and counts by region, verification status,
 country, language, theme group, and decade (a collection counts once in
-every decade it spans), plus optional-field coverage.
+every decade it spans), by `access` and by `archive_type` (records without
+a value counted as `(not recorded)`), plus optional-field coverage.
 
 ## 6. Review log (`data/review-log.json`)
 
@@ -210,12 +234,13 @@ every decade it spans), plus optional-field coverage.
 | `date` | `YYYY-MM-DD` of the check |
 | `mv_id` | The record checked (must exist) |
 | `check` | What was checked: `link`, `https`, `languages`, `field-by-field`, … |
-| `method` | `field-by-field` (a person compared every core field with the source page), `search-based` (evidence from search results; source page not opened), or `link-check` |
+| `method` | `field-by-field` (a person compared every core field with the source page), `search-based` (evidence from search results; source page not opened), `link-check`, or `derived` (a value derived mechanically from the record's own sourced text — e.g. `access` from `access_notes` — with no new source consulted; `evidence` is the record's own `url`) |
 | `reviewer` | Who did it |
 | `finding` | What was found, in plain language |
 | `evidence` | URLs supporting the finding |
 | `changes` | `{ field: { from, to } }` applied to the record, or `null` |
 | `outcome` | e.g. `corrected`, `flagged`, `unchanged`, or the resulting verification status |
 
-Only `field-by-field` entries can justify `verified`. The validator checks
+Only `field-by-field` entries can justify `verified`; `derived` entries
+never change a record's verification status. The validator checks
 every entry's shape and that its `mv_id` exists.

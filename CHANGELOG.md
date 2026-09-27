@@ -4,6 +4,52 @@ All notable changes to the Mapping Voices dataset and atlas. Dataset
 changes are recorded as additions, removals, corrections, metadata changes,
 broken-source changes, and taxonomy changes (METHODOLOGY §10, §12).
 
+## [Unreleased] — Access, institution type, and period discussed
+
+### Dataset
+- **Metadata changes:** three optional fields, previously listed as
+  planned, are now populated — each value derived mechanically from text
+  already in the record, and omitted wherever that text does not clearly
+  support one. No existing value of any record was changed; no record's
+  verification status changed.
+  - `access` (49 of 61 records with `access_notes`; 22%): 23 open online,
+    12 partial online, 9 on site only, 3 on request, 2 registration
+    required. The 12 notes left without a value are ambiguous or describe
+    custody rather than access; records without `access_notes` get none.
+  - `archive_type` (143 of 221; 65%) from the holding institution's name:
+    76 university or research institute, 21 museum, 20 foundation or
+    nonprofit, 15 national archive or library, 5 intergovernmental body,
+    2 each broadcaster, community or independent project, government
+    agency. 78 left blank (name does not state the type, or a joint or
+    ambiguous holder).
+  - `historical_period_start` / `historical_period_end` (40 of 221; 18%)
+    for collections principally about one bounded event (e.g. Holocaust
+    1933–1945, Korean War 1950–1953, Jeju 4.3 1947–1954). Every mapping is
+    listed for curators in `docs/HISTORICAL-PERIODS.md`.
+- **Taxonomy:** new controlled vocabularies `data/vocab/access.json`
+  (6 terms) and `data/vocab/archive-types.json` (9 terms), each term with a
+  definition. The planned `archive_type` list was consolidated (e.g.
+  `national archive` + `library` → `national archive or library`).
+- **Review log:** new method `derived` (a value derived from the record's
+  own sourced text, no new source consulted); 174 entries, one per record
+  changed. Script: `scripts/migrations/2026-09-28-derived-fields.mjs`
+  (idempotent).
+- **Exports:** the new fields are in `collections.csv` / `.geojson`;
+  `stats.json` adds `by_access`, `by_archive_type`, and their coverage;
+  `datapackage.json` lists the two new vocabularies.
+
+### Atlas
+- New **Access** filter (options from the data; combines with the other
+  filters; kept in the URL as `?access=open+online`).
+- The record panel shows the access category above the holder's access
+  notes, the institution type, and the **Period discussed** (e.g.
+  1939–1945) separately from the recording period.
+- New UI strings translated into Hausa, French, and Arabic.
+
+### Tooling
+- The validator checks `access` and `archive_type` against their
+  vocabularies and accepts review-log method `derived`; tests added.
+
 ## [0.3.0] — 2026-09-27 — Language Explorer, review tooling, source review
 
 ### Dataset

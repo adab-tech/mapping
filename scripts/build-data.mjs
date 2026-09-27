@@ -58,10 +58,12 @@ const header = {
 const CSV_COLUMNS = [
   "mv_id", "id", "title", "archive", "country", "iso3166_1_alpha2", "region", "subregion",
   "lat", "lng", "languages", "language_note", "themes", "theme_groups",
-  "decade_start", "decade_end", "summary", "url", "citation", "access_notes",
+  "decade_start", "decade_end", "historical_period_start", "historical_period_end",
+  "summary", "url", "citation", "access_notes", "access", "archive_type",
   "related_ids", "preview_url", "verification_status", "verification_note",
   "provenance", "date_added",
 ];
+const INTEGER_COLUMNS = ["decade_start", "decade_end", "historical_period_start", "historical_period_end"];
 
 function csvCell(value) {
   if (value === null || value === undefined) return "";
@@ -180,8 +182,11 @@ const stats = {
   by_language: countBy(records.flatMap((r) => r.languages)),
   by_theme_group: Object.fromEntries(themes.groups.map((g) => [g.label, g.collection_count])),
   by_decade: decadeCounts,
+  // Optional derived fields: records without a value are counted as "(not recorded)".
+  by_access: countBy(records.map((r) => r.access || "(not recorded)")),
+  by_archive_type: countBy(records.map((r) => r.archive_type || "(not recorded)")),
   field_coverage: Object.fromEntries(
-    ["language_note", "citation", "access_notes", "related_ids", "preview_url", "verification_note"].map((f) => [f, coverage(f)])
+    ["language_note", "citation", "access_notes", "access", "archive_type", "historical_period_start", "historical_period_end", "related_ids", "preview_url", "verification_note"].map((f) => [f, coverage(f)])
   ),
   url_scheme: countBy(records.map((r) => new URL(r.url).protocol.replace(":", ""))),
 };
@@ -208,7 +213,7 @@ const datapackage = {
         primaryKey: "mv_id",
         fields: CSV_COLUMNS.map((name) => ({
           name,
-          type: ["lat", "lng"].includes(name) ? "number" : ["decade_start", "decade_end"].includes(name) ? "integer" : "string",
+          type: ["lat", "lng"].includes(name) ? "number" : INTEGER_COLUMNS.includes(name) ? "integer" : "string",
         })),
       },
     },
@@ -216,6 +221,8 @@ const datapackage = {
     { name: "languages", path: "languages.json", format: "json", mediatype: "application/json", description: "Language vocabulary with per-language usage." },
     { name: "themes", path: "themes.json", format: "json", mediatype: "application/json", description: "Theme taxonomy with per-theme usage." },
     { name: "countries", path: "countries.json", format: "json", mediatype: "application/json", description: "Country vocabulary with per-country usage." },
+    { name: "vocab-access", path: "vocab/access.json", format: "json", mediatype: "application/json", description: "Controlled vocabulary for the optional access field, with definitions." },
+    { name: "vocab-archive-types", path: "vocab/archive-types.json", format: "json", mediatype: "application/json", description: "Controlled vocabulary for the optional archive_type field, with definitions." },
     { name: "stats", path: "stats.json", format: "json", mediatype: "application/json", description: "Aggregate statistics describing the indexed dataset." },
   ],
 };

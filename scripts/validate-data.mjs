@@ -88,6 +88,10 @@ export function validate(data, vocab, { currentYear = new Date().getFullYear() }
   const countries = validateVocab("countries", vocab.countries, fail);
   const languages = validateVocab("languages", vocab.languages, fail);
   const themes = validateVocab("themes", vocab.themes, fail);
+  // Optional controlled fields: when a vocabulary is not supplied (older
+  // callers), any value is rejected rather than silently accepted.
+  const accessTerms = validateVocab("access", vocab.access || [], fail);
+  const archiveTypes = validateVocab("archive-types", vocab.archiveTypes || [], fail);
   const themeGroups = new Set((vocab.themeGroups || []).map((g) => g.id));
   if (vocab.themeGroups) {
     for (const t of vocab.themes) {
@@ -189,7 +193,15 @@ export function validate(data, vocab, { currentYear = new Date().getFullYear() }
       }
     }
 
-    // --- historical period discussed (optional; planned for v1.0) ---
+    // --- optional controlled fields: access, archive_type ---
+    for (const [field, allowed, file] of [["access", accessTerms, "access"], ["archive_type", archiveTypes, "archive-types"]]) {
+      if (entry[field] === undefined) continue;
+      if (typeof entry[field] !== "string" || !allowed.has(entry[field])) {
+        fail(context, `field "${field}" (${JSON.stringify(entry[field])}) is not in data/vocab/${file}.json — use a listed term or omit the field`);
+      }
+    }
+
+    // --- historical period discussed (optional) ---
     for (const field of ["historical_period_start", "historical_period_end"]) {
       if (entry[field] !== undefined && entry[field] !== null && !Number.isInteger(entry[field])) {
         fail(context, `field "${field}" must be an integer year or null when present`);
@@ -271,7 +283,7 @@ export function validate(data, vocab, { currentYear = new Date().getFullYear() }
   return { errors, warnings };
 }
 
-export const REVIEW_METHODS = ["field-by-field", "search-based", "link-check"];
+export const REVIEW_METHODS = ["field-by-field", "search-based", "link-check", "derived"];
 
 /** Checks data/review-log.json: well-formed entries that point at real records. */
 export function validateReviewLog(log, data) {
@@ -303,6 +315,8 @@ export function loadVocab(root = ROOT) {
     languages: read("languages.json").terms,
     themes: themes.terms,
     themeGroups: themes.groups,
+    access: read("access.json").terms,
+    archiveTypes: read("archive-types.json").terms,
   };
 }
 

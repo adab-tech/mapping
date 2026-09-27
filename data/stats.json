@@ -315,6 +315,25 @@
     "2010": 191,
     "2020": 192
   },
+  "by_access": {
+    "(not recorded)": 172,
+    "open online": 23,
+    "partial online": 12,
+    "on site only": 9,
+    "on request": 3,
+    "registration required": 2
+  },
+  "by_archive_type": {
+    "(not recorded)": 78,
+    "university or research institute": 76,
+    "museum": 21,
+    "foundation or nonprofit": 20,
+    "national archive or library": 15,
+    "intergovernmental body": 5,
+    "broadcaster": 2,
+    "community or independent project": 2,
+    "government agency": 2
+  },
   "field_coverage": {
     "language_note": {
       "records": 49,
@@ -327,6 +346,22 @@
     "access_notes": {
       "records": 61,
       "percent": 27.6
+    },
+    "access": {
+      "records": 49,
+      "percent": 22.2
+    },
+    "archive_type": {
+      "records": 143,
+      "percent": 64.7
+    },
+    "historical_period_start": {
+      "records": 40,
+      "percent": 18.1
+    },
+    "historical_period_end": {
+      "records": 40,
+      "percent": 18.1
     },
     "related_ids": {
       "records": 123,

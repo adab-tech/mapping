@@ -4,7 +4,7 @@
  * Fetches data/collections.json (see DATA_DICTIONARY.md) plus the controlled
  * vocabularies in data/vocab/, and renders:
  *  - a Leaflet map with one accessible, keyboard-focusable pin per collection
- *  - free-text search + country / theme / language / decade filters, all
+ *  - free-text search + country / theme / language / decade / access filters, all
  *    mirrored in the page URL so a filtered view can be shared or cited
  *  - live dataset counts (collections, countries, languages)
  *  - a scrollable text index of the current results (a first-class
@@ -29,7 +29,10 @@
   var SEARCH_DEBOUNCE_MS = 150;
   // Query-string keys for the shareable URL state. "c" holds the selected
   // collection's persistent mv_id (MV-000123).
-  var URL_KEYS = { q: "q", country: "country", theme: "theme", language: "language", decade: "decade", collection: "c" };
+  var URL_KEYS = { q: "q", country: "country", theme: "theme", language: "language", decade: "decade", access: "access", collection: "c" };
+  // Display order for the controlled `access` terms (data/vocab/access.json),
+  // most to least open. Values not listed here sort after these.
+  var ACCESS_ORDER = ["open online", "partial online", "registration required", "on request", "on site only", "restricted"];
   var NARROW_QUERY = "(max-width: 979px)";
 
   // ------------------------------------------------------------------
@@ -85,6 +88,7 @@
     els.themeSelect = document.getElementById("filter-theme");
     els.languageSelect = document.getElementById("filter-language");
     els.decadeSelect = document.getElementById("filter-decade");
+    els.accessSelect = document.getElementById("filter-access");
     els.resultsList = document.getElementById("results-list");
     els.resultsCount = document.getElementById("results-count");
     els.resultsEmpty = document.getElementById("results-empty");
@@ -569,6 +573,13 @@
       return c.languages || [];
     })));
     var decades = uniqueSorted(collectDecades(collections));
+    var accessValues = uniqueSorted(collections.map(function (c) {
+      return c.access;
+    })).sort(function (a, b) {
+      var ia = ACCESS_ORDER.indexOf(a);
+      var ib = ACCESS_ORDER.indexOf(b);
+      return (ia === -1 ? ACCESS_ORDER.length : ia) - (ib === -1 ? ACCESS_ORDER.length : ib);
+    });
 
     fillSelect(els.countrySelect, countries, t("filters.allCountries"));
     fillSelect(els.themeSelect, themes, t("filters.allThemes"), null, themeGroupsFor(themes));
@@ -581,6 +592,40 @@
         return formatDecade(d);
       }
     );
+    fillSelect(els.accessSelect, accessValues, t("filters.allAccess"), accessLabel);
+  }
+
+  /** Translated label for a controlled term (e.g. access "open online" ->
+   *  accessTerms.open_online), falling back to the term itself — the term
+   *  is dataset content, so it is always a meaningful label. */
+  function termLabel(prefix, value) {
+    var key = prefix + "." + String(value).replace(/[^a-z0-9]+/gi, "_");
+    var str = getByPath(activeStrings, key);
+    if (str === undefined) {
+      str = getByPath(fallbackStrings, key);
+    }
+    return str === undefined ? String(value) : str;
+  }
+
+  function accessLabel(value) {
+    return termLabel("accessTerms", value);
+  }
+
+  function archiveTypeLabel(value) {
+    return termLabel("archiveTypes", value);
+  }
+
+  /** "1939–1945", or a single year when the period starts and ends in it. */
+  function historicalPeriodLabel(c) {
+    var start = c.historical_period_start;
+    var end = c.historical_period_end;
+    if (typeof start !== "number" && typeof end !== "number") {
+      return "";
+    }
+    if (typeof start !== "number" || typeof end !== "number" || start === end) {
+      return String(typeof start === "number" ? start : end);
+    }
+    return t("detail.yearRange", { start: start, end: end });
   }
 
   function flatten(arrays) {
@@ -692,6 +737,7 @@
       theme: els.themeSelect.value,
       language: els.languageSelect.value,
       decade: els.decadeSelect.value ? Number(els.decadeSelect.value) : "",
+      access: els.accessSelect.value,
     };
   }
 
@@ -706,6 +752,7 @@
       theme: els.themeSelect.value,
       language: els.languageSelect.value,
       decade: els.decadeSelect.value,
+      access: els.accessSelect.value,
     };
   }
 
@@ -714,6 +761,7 @@
     els.themeSelect.value = values.theme;
     els.languageSelect.value = values.language;
     els.decadeSelect.value = values.decade;
+    els.accessSelect.value = values.access;
   }
 
   /** Lowercase and strip diacritics so "Maori" finds "Māori" and
@@ -764,6 +812,9 @@
         return false;
       }
       if (f.language && (!c.languages || c.languages.indexOf(f.language) === -1)) {
+        return false;
+      }
+      if (f.access && c.access !== f.access) {
         return false;
       }
       if (f.decade !== "") {
@@ -855,6 +906,7 @@
     setSelectIfPresent(els.themeSelect, params.get(URL_KEYS.theme));
     setSelectIfPresent(els.languageSelect, params.get(URL_KEYS.language));
     setSelectIfPresent(els.decadeSelect, params.get(URL_KEYS.decade));
+    setSelectIfPresent(els.accessSelect, params.get(URL_KEYS.access));
     var key = params.get(URL_KEYS.collection);
     var c = key ? findCollection(key) : null;
     return c ? c.id : null;
@@ -878,6 +930,7 @@
     set(URL_KEYS.theme, f.theme);
     set(URL_KEYS.language, f.language);
     set(URL_KEYS.decade, f.decade);
+    set(URL_KEYS.access, f.access);
     var selected = selectedId ? findCollection(selectedId) : null;
     set(URL_KEYS.collection, selected ? selected.mv_id || selected.id : "");
     var query = params.toString();
@@ -1096,8 +1149,28 @@
       dl.appendChild(detailRow(t("detail.themes"), ul));
     }
     dl.appendChild(detailRow(t("detail.period"), decadeLabel(c)));
-    if (c.access_notes) {
-      dl.appendChild(detailRow(t("detail.access"), c.access_notes));
+    var discussed = historicalPeriodLabel(c);
+    if (discussed) {
+      dl.appendChild(detailRow(t("detail.periodDiscussed"), discussed));
+    }
+    if (c.archive_type) {
+      dl.appendChild(detailRow(t("detail.archiveType"), archiveTypeLabel(c.archive_type)));
+    }
+    if (c.access || c.access_notes) {
+      var accessBox = document.createElement("div");
+      if (c.access) {
+        var accessTerm = document.createElement("span");
+        accessTerm.className = "access-term";
+        accessTerm.textContent = accessLabel(c.access);
+        accessBox.appendChild(accessTerm);
+      }
+      if (c.access_notes) {
+        var accessNotes = document.createElement("span");
+        accessNotes.className = "access-notes";
+        accessNotes.textContent = c.access_notes;
+        accessBox.appendChild(accessNotes);
+      }
+      dl.appendChild(detailRow(t("detail.access"), accessBox));
     }
     if (c.verification_status) {
       var verification = t("verification." + c.verification_status);
@@ -1368,7 +1441,7 @@
   // ------------------------------------------------------------------
 
   function bindStaticEvents() {
-    [els.countrySelect, els.themeSelect, els.languageSelect, els.decadeSelect].forEach(
+    [els.countrySelect, els.themeSelect, els.languageSelect, els.decadeSelect, els.accessSelect].forEach(
       function (select) {
         select.addEventListener("change", renderAll);
       }

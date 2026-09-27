@@ -21,6 +21,8 @@
     "allThemes": "Dukkan jigogi",
     "allLanguages": "Dukkan harsuna",
     "allDecades": "Dukkan shekaru goma",
+    "access": "Samun dama",
+    "allAccess": "Dukkan nau'o'in samun dama",
     "reset": "Sake saita tacewa",
     "search": "Nema",
     "searchPlaceholder": "Suna, ma'ajiya, harshe, jigo…",
@@ -53,6 +55,9 @@
     "languages": "Harsuna",
     "themes": "Jigogi",
     "period": "Lokacin rikodi",
+    "periodDiscussed": "Lokacin da aka yi magana a kai",
+    "archiveType": "Nau'in cibiya",
+    "yearRange": "{start}–{end}",
     "visitSource": "Ziyarci asalin ma'ajiya",
     "opensNewTab": "(zai buɗe a wani shafi na daban)",
     "selectionAnnounce": "Ana nuna bayanan {title}.",
@@ -94,5 +99,24 @@
     "partially_verified": "An tabbatar da wani ɓangare",
     "needs_review": "Yana buƙatar dubawa",
     "unavailable": "Ba a samun asalin"
+  },
+  "accessTerms": {
+    "open_online": "A buɗe a intanet",
+    "partial_online": "Wani ɓangare a intanet",
+    "registration_required": "Sai an yi rajista",
+    "on_request": "Sai an nema",
+    "on_site_only": "A wurin kawai",
+    "restricted": "An taƙaita"
+  },
+  "archiveTypes": {
+    "national_archive_or_library": "Ma'ajiyar tarihi ko ɗakin karatu na ƙasa",
+    "university_or_research_institute": "Jami'a ko cibiyar bincike",
+    "museum": "Gidan tarihi",
+    "community_or_independent_project": "Aikin al'umma ko mai zaman kansa",
+    "broadcaster": "Kafar yaɗa labarai",
+    "intergovernmental_body": "Ƙungiyar gwamnatocin ƙasashe",
+    "language_archive": "Ma'ajiyar harsuna",
+    "foundation_or_nonprofit": "Gidauniya ko ƙungiya mai zaman kanta",
+    "government_agency": "Hukumar gwamnati"
   }
 }

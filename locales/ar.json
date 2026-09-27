@@ -21,6 +21,8 @@
     "allThemes": "جميع المواضيع",
     "allLanguages": "جميع اللغات",
     "allDecades": "جميع العقود",
+    "access": "الإتاحة",
+    "allAccess": "جميع أنواع الإتاحة",
     "reset": "إعادة ضبط عوامل التصفية",
     "search": "بحث",
     "searchPlaceholder": "العنوان، الأرشيف، اللغة، الموضوع…",
@@ -57,6 +59,9 @@
     "languages": "اللغات",
     "themes": "المواضيع",
     "period": "فترة التسجيل",
+    "periodDiscussed": "الفترة التي تتناولها الشهادات",
+    "archiveType": "نوع المؤسسة",
+    "yearRange": "{start}–{end}",
     "visitSource": "زيارة الأرشيف المصدر",
     "opensNewTab": "(يفتح في تبويب جديد)",
     "selectionAnnounce": "عرض تفاصيل {title}.",
@@ -98,5 +103,24 @@
     "partially_verified": "موثّقة جزئيًا",
     "needs_review": "بحاجة إلى مراجعة",
     "unavailable": "المصدر غير متاح"
+  },
+  "accessTerms": {
+    "open_online": "متاح مجانًا على الإنترنت",
+    "partial_online": "متاح جزئيًا على الإنترنت",
+    "registration_required": "يتطلب التسجيل",
+    "on_request": "عند الطلب",
+    "on_site_only": "في الموقع فقط",
+    "restricted": "مقيّد"
+  },
+  "archiveTypes": {
+    "national_archive_or_library": "أرشيف أو مكتبة وطنية",
+    "university_or_research_institute": "جامعة أو معهد بحثي",
+    "museum": "متحف",
+    "community_or_independent_project": "مشروع مجتمعي أو مستقل",
+    "broadcaster": "هيئة إذاعية",
+    "intergovernmental_body": "هيئة حكومية دولية",
+    "language_archive": "أرشيف لغوي",
+    "foundation_or_nonprofit": "مؤسسة أو منظمة غير ربحية",
+    "government_agency": "جهة حكومية"
   }
 }

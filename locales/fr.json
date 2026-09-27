@@ -21,6 +21,8 @@
     "allThemes": "Tous les thèmes",
     "allLanguages": "Toutes les langues",
     "allDecades": "Toutes les décennies",
+    "access": "Accès",
+    "allAccess": "Tous les types d'accès",
     "reset": "Réinitialiser les filtres",
     "search": "Rechercher",
     "searchPlaceholder": "Titre, archive, langue, thème…",
@@ -53,6 +55,9 @@
     "languages": "Langues",
     "themes": "Thèmes",
     "period": "Période d'enregistrement",
+    "periodDiscussed": "Période évoquée",
+    "archiveType": "Type d'institution",
+    "yearRange": "{start}–{end}",
     "visitSource": "Consulter l'archive source",
     "opensNewTab": "(s'ouvre dans un nouvel onglet)",
     "selectionAnnounce": "Affichage des détails de {title}.",
@@ -94,5 +99,24 @@
     "partially_verified": "Partiellement vérifiée",
     "needs_review": "À vérifier",
     "unavailable": "Source indisponible"
+  },
+  "accessTerms": {
+    "open_online": "Libre accès en ligne",
+    "partial_online": "Partiellement en ligne",
+    "registration_required": "Inscription requise",
+    "on_request": "Sur demande",
+    "on_site_only": "Sur place uniquement",
+    "restricted": "Accès restreint"
+  },
+  "archiveTypes": {
+    "national_archive_or_library": "Archives ou bibliothèque nationales",
+    "university_or_research_institute": "Université ou institut de recherche",
+    "museum": "Musée",
+    "community_or_independent_project": "Projet communautaire ou indépendant",
+    "broadcaster": "Radiodiffuseur",
+    "intergovernmental_body": "Organisation intergouvernementale",
+    "language_archive": "Archive linguistique",
+    "foundation_or_nonprofit": "Fondation ou organisme à but non lucratif",
+    "government_agency": "Organisme public"
   }
 }
