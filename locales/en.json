@@ -80,7 +80,9 @@
     "methodology": "Methodology",
     "data": "Open data",
     "contribute": "Contribute",
-    "languages": "Languages"
+    "languages": "Languages",
+    "themes": "Themes",
+    "gaps": "Coverage gaps"
   },
   "stats": {
     "label": "Dataset summary",

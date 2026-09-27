@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Theme Explorer — Mapping Voices</title>
+<meta name="description" content="Explore the themes assigned to the oral-history and voice-testimony collections indexed by Mapping Voices: 15 top-level groups, scope notes, collections, countries, and languages." />
+<link rel="canonical" href="https://adab-tech.github.io/mapping/themes.html" />
+<meta name="theme-color" content="#f3ecdd" />
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 1C7.31 1 3.5 4.81 3.5 9.5c0 6.5 8.5 13.5 8.5 13.5s8.5-7 8.5-13.5C20.5 4.81 16.69 1 12 1z' fill='%23b1401d'/%3E%3Ccircle cx='12' cy='9.3' r='3.1' fill='%23f3ecdd'/%3E%3C/svg%3E" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Theme Explorer — Mapping Voices" />
+<meta property="og:description" content="Themes assigned to indexed oral-history and voice-testimony collections, grouped under 15 headings, with the collections, countries, and languages behind each." />
+<meta property="og:url" content="https://adab-tech.github.io/mapping/themes.html" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/about.css" />
+<link rel="stylesheet" href="css/languages.css" />
+<link rel="stylesheet" href="css/themes.css" />
+</head>
+<body class="page">
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <p class="eyebrow">An open atlas of testimony</p>
+      <p class="wordmark"><a href="./">Mapping&nbsp;Voices</a></p>
+    </div>
+    <nav class="page-nav" aria-label="Site">
+      <a href="languages.html">Languages</a>
+      <a href="themes.html" aria-current="page">Themes</a>
+      <a href="gaps.html">Coverage gaps</a>
+      <a href="about.html">About</a>
+      <a href="about.html#data">Open data</a>
+      <a href="./" class="page-nav-cta">Open the atlas</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="page-main lx-main">
+
+  <section class="page-hero" aria-labelledby="page-title">
+    <h1 id="page-title">Theme Explorer</h1>
+    <p class="lede">
+      What do the indexed oral-history and voice-testimony collections document,
+      and where and in which languages is each subject recorded?
+    </p>
+    <dl class="page-stats" aria-label="Themes in the dataset">
+      <div><dt>Themes</dt><dd id="tx-stat-themes">–</dd></div>
+      <div><dt>Top-level groups</dt><dd id="tx-stat-groups">–</dd></div>
+      <div><dt>In only one collection</dt><dd id="tx-stat-single">–</dd></div>
+      <div><dt>Collections indexed</dt><dd id="tx-stat-collections">–</dd></div>
+    </dl>
+    <p class="principle">
+      Themes are discovery aids, not exhaustive descriptions. Each is assigned from
+      what the sources say a collection is principally about; a collection of
+      life-history interviews touches many more subjects than its themes record.
+    </p>
+    <p class="fine">
+      Counts describe the collections indexed in Mapping Voices only — not how much
+      oral history exists on any subject. A group's count is the number of distinct
+      collections with at least one of its themes, so it can be lower than the sum of
+      its themes. Assignment rules: <a href="https://github.com/adab-tech/mapping/blob/main/METHODOLOGY.md#7-how-themes-are-assigned">Methodology §7</a>.
+    </p>
+  </section>
+
+  <section aria-labelledby="tx-browse" class="lx-browse">
+    <h2 id="tx-browse" class="visually-hidden">Browse themes</h2>
+    <form class="lx-controls tx-controls" id="tx-controls" role="search" autocomplete="off">
+      <div class="field lx-search">
+        <label for="tx-q">Find a theme</label>
+        <input id="tx-q" name="q" type="search" placeholder="Theme or scope note (e.g. displacement)" />
+      </div>
+      <div class="field">
+        <label for="tx-sort">Sort</label>
+        <select id="tx-sort" name="sort">
+          <option value="taxonomy">Taxonomy order</option>
+          <option value="count">Most collections</option>
+        </select>
+      </div>
+    </form>
+    <p class="lx-count" id="tx-count" aria-live="polite"></p>
+    <p class="lx-status" id="tx-status" role="status">Loading themes…</p>
+    <ol class="lx-list" id="tx-list"></ol>
+  </section>
+
+</main>
+
+<footer class="site-footer page-footer">
+  <p>Data CC BY 4.0 · <a href="data/themes.json">themes.json</a> ·
+    <a href="data/collections.csv">collections.csv</a> ·
+    <a href="https://github.com/adab-tech/mapping">Source on GitHub</a></p>
+</footer>
+
+<script src="js/themes.js"></script>
+</body>
+</html>

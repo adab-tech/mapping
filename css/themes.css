@@ -1,0 +1,42 @@
+/* ==========================================================================
+   Mapping Voices — Theme Explorer (themes.html).
+   Reuses the Language Explorer's entry styles (languages.css: .lx-*);
+   only the two-field control row and the nested group → theme list differ.
+   ========================================================================== */
+
+@media (min-width: 640px) {
+  .tx-controls {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+.tx-group > summary .lx-name {
+  font-size: 1.2rem;
+}
+
+.tx-themes {
+  margin: 0.75rem 0 0;
+}
+
+.tx-theme {
+  background: var(--paper);
+}
+
+/* languages.css's `.lx-item[open] summary::before` also matches the summaries
+   of closed themes inside an open group; point their chevrons back. */
+.tx-theme:not([open]) > summary::before {
+  transform: rotate(-45deg);
+}
+
+[dir="rtl"] .tx-theme:not([open]) > summary::before {
+  transform: rotate(135deg);
+}
+
+.tx-theme > summary .lx-name {
+  font-size: 1rem;
+}
+
+.tx-scope {
+  margin: 0.75rem 0 0;
+  font-size: 0.95rem;
+}
