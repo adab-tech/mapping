@@ -124,14 +124,37 @@ opened the source page; the validator enforces the date. Search-based
 checks can correct links and flag problems but never promote a record.
 The worksheet workflow is described in `docs/review/README.md`.
 
+### Derived values (method `derived`)
+
+Some optional fields can be filled **mechanically from text a record
+already contains**, without consulting any new source: `access` from
+`access_notes`, `archive_type` from the holding institution's name, and the
+historical period discussed from a bounded event named in the title or
+summary (§8). These are logged with method `derived` (reviewer “Claude
+(derived from record text)” for the first pass, 2026-09), one review-log
+entry per record changed, with the record's own `url` as evidence and the
+quoted phrase that justified each value in the finding. The rules are:
+
+- **Only where the text clearly supports the value.** If a phrase could
+  support two values, or the text describes custody rather than access,
+  the field is left out. Coverage is reported, not maximised.
+- **Never overwrite.** A value set by a curator is kept.
+- **Never promote.** A derived value is no stronger than the text it came
+  from, and does not change `verification_status`. A field-by-field review
+  confirms or corrects it against the source.
+- **Reproducible.** The derivation is a script
+  (`scripts/migrations/2026-09-28-derived-fields.mjs`) listing each rule,
+  each judgement, and each record deliberately left blank.
+
 ### Automated checks
 
 `scripts/validate-data.mjs` runs on every pull request and deployment. It
 rejects missing required fields, malformed or duplicate `id`/`mv_id`,
 duplicate URLs (ignoring scheme, `www.`, and trailing slashes), duplicate
 title + institution pairs, out-of-range or `0,0` coordinates,
-non-http(s) URLs, values outside the controlled vocabularies, impossible
-dates, and dangling `related_ids`. It warns on `http://` URLs.
+non-http(s) URLs, values outside the controlled vocabularies (including
+the optional `access` and `archive_type`), impossible dates, and dangling
+`related_ids`. It warns on `http://` URLs.
 `scripts/check-links.mjs` requests every URL weekly and opens a tracking
 issue for failures. `tests/` holds tests for the validator itself.
 
@@ -206,12 +229,25 @@ Two different periods matter to historians and are kept separate:
 | Period | Field | Status |
 |---|---|---|
 | **Recording / collection period** — when the testimony was gathered | `decade_start`, `decade_end` (`null` = ongoing) | Recorded for every record. Years, not just decades, despite the field name. |
-| **Historical period discussed** — when the events described took place | `historical_period_start`, `historical_period_end` | Defined, not yet populated (planned for v1.0). |
+| **Historical period discussed** — when the events described took place | `historical_period_start`, `historical_period_end` | Partly populated (40 of 221 records): derived, curator-checkable (below). |
 
 Example: a project recording Partition survivors in 2010–2020 has
-recording period 2010–present but discusses 1947. Until the second field is
-populated, filtering by decade filters by **recording** period only, and
-the record panel labels the period shown as the "Recording period".
+recording period 2010–present but discusses 1947.
+
+The historical period is set **only when a collection is principally
+about one bounded event** that its own title or summary names — the
+Holocaust, the Korean War, the 1994 genocide against the Tutsi, the
+1947–54 Jeju uprising. The years are those stated in the summary or, when
+the summary names the event without dates, the event's standard dates.
+Every event → years mapping, and every record considered but left blank,
+is listed in [`docs/HISTORICAL-PERIODS.md`](docs/HISTORICAL-PERIODS.md) so
+a curator can check it. Most records have no value: life-history,
+folklore, and multi-event collections are not reduced to a date range, and
+a blank means “not derived”, not “no historical focus”.
+
+Filtering by decade still filters by **recording** period only. The record
+panel shows the "Recording period" and, when present, the "Period
+discussed" separately.
 
 ## 9. How duplicates are handled
 

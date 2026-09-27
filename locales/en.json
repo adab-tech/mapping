@@ -21,6 +21,8 @@
     "allThemes": "All themes",
     "allLanguages": "All languages",
     "allDecades": "All decades",
+    "access": "Access",
+    "allAccess": "All access types",
     "reset": "Reset filters",
     "search": "Search",
     "searchPlaceholder": "Title, archive, language, theme…",
@@ -53,6 +55,9 @@
     "languages": "Languages",
     "themes": "Themes",
     "period": "Recording period",
+    "periodDiscussed": "Period discussed",
+    "archiveType": "Institution type",
+    "yearRange": "{start}–{end}",
     "visitSource": "Visit source archive",
     "opensNewTab": "(opens in a new tab)",
     "selectionAnnounce": "Showing details for {title}.",
@@ -80,7 +85,9 @@
     "methodology": "Methodology",
     "data": "Open data",
     "contribute": "Contribute",
-    "languages": "Languages"
+    "languages": "Languages",
+    "themes": "Themes",
+    "gaps": "Coverage gaps"
   },
   "stats": {
     "label": "Dataset summary",
@@ -94,5 +101,24 @@
     "partially_verified": "Partially verified",
     "needs_review": "Needs review",
     "unavailable": "Source unavailable"
+  },
+  "accessTerms": {
+    "open_online": "Open online",
+    "partial_online": "Partly online",
+    "registration_required": "Registration required",
+    "on_request": "On request",
+    "on_site_only": "On site only",
+    "restricted": "Restricted"
+  },
+  "archiveTypes": {
+    "national_archive_or_library": "National archive or library",
+    "university_or_research_institute": "University or research institute",
+    "museum": "Museum",
+    "community_or_independent_project": "Community or independent project",
+    "broadcaster": "Broadcaster",
+    "intergovernmental_body": "Intergovernmental body",
+    "language_archive": "Language archive",
+    "foundation_or_nonprofit": "Foundation or nonprofit",
+    "government_agency": "Government agency"
   }
 }

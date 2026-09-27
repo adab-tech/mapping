@@ -1,0 +1,41 @@
+{
+  "$comment": "Controlled vocabulary for the optional `archive_type` field: the kind of institution named in `archive` (the holder), not the kind of collection. `name` is the only value allowed in data/collections.json. A value is recorded only when the institution's own name makes the type unambiguous; joint, renamed, or unclear holders are left without one. See DATA_DICTIONARY.md §2 and METHODOLOGY.md §4.",
+  "terms": [
+    {
+      "name": "national archive or library",
+      "definition": "A national archive, library, or sound archive, as its name says (e.g. \"National Archives of …\", \"Arquivo Nacional …\", \"Fonoteca Nacional …\", \"State Archives of …\")."
+    },
+    {
+      "name": "university or research institute",
+      "definition": "A university, college, or conservatoire, or a unit of one; an academy of sciences or one of its institutes; or an institute or centre whose name describes it as doing research or studies in a discipline."
+    },
+    {
+      "name": "museum",
+      "definition": "A museum, or a department or archive of a museum."
+    },
+    {
+      "name": "community or independent project",
+      "definition": "A collective, people's or community archive, or other independent project not part of a larger institution."
+    },
+    {
+      "name": "broadcaster",
+      "definition": "A radio or television broadcaster, or a broadcasting archive."
+    },
+    {
+      "name": "intergovernmental body",
+      "definition": "An organisation of states (e.g. UNESCO, the African Union) or one of its centres or lists."
+    },
+    {
+      "name": "language archive",
+      "definition": "An archive whose name describes it as dedicated to language documentation."
+    },
+    {
+      "name": "foundation or nonprofit",
+      "definition": "A foundation, association, society, registered association (e.V.), or other nonprofit organisation, as its name says."
+    },
+    {
+      "name": "government agency",
+      "definition": "A ministry, board, or other government body that is not a national archive or library."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Coverage Gaps — Mapping Voices</title>
+<meta name="description" content="Which UN member states have no oral-history or voice-testimony collection indexed in Mapping Voices yet, by UN M49 region — and how to propose one." />
+<link rel="canonical" href="https://adab-tech.github.io/mapping/gaps.html" />
+<meta name="theme-color" content="#f3ecdd" />
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 1C7.31 1 3.5 4.81 3.5 9.5c0 6.5 8.5 13.5 8.5 13.5s8.5-7 8.5-13.5C20.5 4.81 16.69 1 12 1z' fill='%23b1401d'/%3E%3Ccircle cx='12' cy='9.3' r='3.1' fill='%23f3ecdd'/%3E%3C/svg%3E" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Coverage Gaps — Mapping Voices" />
+<meta property="og:description" content="Gaps in the Mapping Voices index, by region: UN member states with and without an indexed oral-history collection." />
+<meta property="og:url" content="https://adab-tech.github.io/mapping/gaps.html" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/about.css" />
+<link rel="stylesheet" href="css/languages.css" />
+<link rel="stylesheet" href="css/gaps.css" />
+</head>
+<body class="page">
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <p class="eyebrow">An open atlas of testimony</p>
+      <p class="wordmark"><a href="./">Mapping&nbsp;Voices</a></p>
+    </div>
+    <nav class="page-nav" aria-label="Site">
+      <a href="languages.html">Languages</a>
+      <a href="themes.html">Themes</a>
+      <a href="gaps.html" aria-current="page">Coverage gaps</a>
+      <a href="about.html">About</a>
+      <a href="about.html#data">Open data</a>
+      <a href="./" class="page-nav-cta">Open the atlas</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="page-main lx-main">
+
+  <section class="page-hero" aria-labelledby="page-title">
+    <h1 id="page-title">Coverage Gaps</h1>
+    <p class="lede">
+      Where does the index not yet reach? This page lists, region by region, the
+      UN member states with at least one indexed oral-history or voice-testimony
+      collection — and those with none yet.
+    </p>
+    <p class="principle gx-principle">
+      This shows gaps in the indexed dataset, not in oral history. The absence of
+      a pin is not evidence of absence: every country listed here as “not yet
+      indexed” has its own oral traditions, and very likely archives that record
+      them, which have not yet been found or verified.
+    </p>
+    <dl class="page-stats" aria-label="Coverage of UN member states">
+      <div><dt>UN member states</dt><dd id="gx-stat-members">–</dd></div>
+      <div><dt>With an indexed collection</dt><dd id="gx-stat-covered">–</dd></div>
+      <div><dt>None indexed yet</dt><dd id="gx-stat-gaps">–</dd></div>
+      <div><dt>Territories &amp; other entities indexed</dt><dd id="gx-stat-other">–</dd></div>
+    </dl>
+    <p class="gx-cta">
+      <strong>Know a collection in one of these countries?</strong>
+      <a href="https://github.com/adab-tech/mapping/issues/new?template=new-collection.yml">Propose it</a>
+      — no Git or JSON needed. It must be a real, publicly documented collection
+      with its own page (<a href="https://github.com/adab-tech/mapping/blob/main/METHODOLOGY.md#1-what-qualifies-for-inclusion">inclusion criteria</a>,
+      <a href="https://github.com/adab-tech/mapping/blob/main/CONTRIBUTING.md">contributing guide</a>).
+    </p>
+    <p class="fine">
+      Counts describe the collections indexed in Mapping Voices<span id="gx-version"></span>,
+      placed by the country each collection's pin belongs to (Methodology
+      <a href="https://github.com/adab-tech/mapping/blob/main/METHODOLOGY.md#5-how-locations-are-assigned">§5</a>).
+      The list of 193 member states and their UN M49 regions is a static reference file,
+      <a href="data/reference/un-m49-countries.json">un-m49-countries.json</a>.
+      Territories and other non-member entities are shown where indexed but not
+      counted as gaps; grouping follows UN M49 and records no political claim.
+    </p>
+  </section>
+
+  <section aria-labelledby="gx-summary-title">
+    <h2 id="gx-summary-title">By region</h2>
+    <p class="lx-status" id="gx-status" role="status">Loading coverage…</p>
+    <div class="gx-table-wrap">
+      <table class="gx-table" id="gx-table" hidden>
+        <caption class="visually-hidden">UN member states with and without an indexed collection, by UN M49 region</caption>
+        <thead>
+          <tr>
+            <th scope="col">Region</th>
+            <th scope="col">Member states indexed</th>
+            <th scope="col" class="gx-num">None yet</th>
+            <th scope="col" class="gx-num">Collections</th>
+          </tr>
+        </thead>
+        <tbody id="gx-table-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <div id="gx-regions"></div>
+
+</main>
+
+<footer class="site-footer page-footer">
+  <p>Data CC BY 4.0 · <a href="data/countries.json">countries.json</a> ·
+    <a href="data/reference/un-m49-countries.json">un-m49-countries.json</a> ·
+    <a href="https://github.com/adab-tech/mapping">Source on GitHub</a></p>
+</footer>
+
+<script src="js/gaps.js"></script>
+</body>
+</html>

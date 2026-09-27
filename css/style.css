@@ -694,6 +694,22 @@ button {
   font-weight: 600;
 }
 
+/* Controlled access term, shown above the holder's own access notes. */
+.access-term {
+  display: inline-block;
+  margin-bottom: 0.3rem;
+  padding: 0.1rem 0.55rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+}
+
+.access-notes {
+  display: block;
+}
+
 .detail-summary {
   font-size: 0.95rem;
   line-height: 1.55;

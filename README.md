@@ -63,7 +63,9 @@ Tanzania, Myanmar, Burkina Faso, and many other places have no entry yet,
 usually because no verifiable public page for a real archive has been
 confirmed, not because the region lacks oral history. The absence of a pin
 is not evidence of absence. See [`docs/AUDIT.md`](docs/AUDIT.md) for the
-gap analysis.
+gap analysis, and the [Coverage Gaps](https://adamu.tech/mapping/gaps.html)
+page (`gaps.html`) for every UN member state with no indexed collection yet,
+by region, each with a link to propose one.
 
 ## How data is verified
 
@@ -95,7 +97,11 @@ The dataset is licensed **CC BY 4.0** and published as:
 Atlas views are addressable: filters, search, and the selected collection
 live in the URL, e.g.
 [`?country=Niger&language=Hausa`](https://adamu.tech/mapping/?country=Niger&language=Hausa)
-or [`?c=MV-000023`](https://adamu.tech/mapping/?c=MV-000023).
+or [`?c=MV-000023`](https://adamu.tech/mapping/?c=MV-000023). The
+[Language Explorer](https://adamu.tech/mapping/languages.html) and the
+[Theme Explorer](https://adamu.tech/mapping/themes.html) (the 15 theme groups,
+scope notes, and the collections, countries, and languages behind each theme)
+browse the same data as lists and link back into these atlas views.
 
 **Mapping an archive does not grant permission to reproduce its
 contents.** Access to and reuse of the collections themselves is governed
@@ -208,14 +214,19 @@ repository" button on the repo page).
 ```
 index.html                       the atlas
 about.html                       project page: question, method, data, ethics, limitations
-css/style.css, css/about.css     styles
+languages.html                   Language Explorer: languages, ISO codes, countries, collections
+themes.html                      Theme Explorer: theme groups, scope notes, collections, countries, languages
+gaps.html                        Coverage Gaps: UN member states with / without an indexed collection
+css/*.css                        styles (style.css tokens; about, languages, themes, gaps pages)
 js/app.js                        map, search, filters, URL state, record panel
+js/{languages,themes,gaps}.js    the explorer and coverage pages
 locales/*.json                   UI translations (en, ha, fr, ar)
 data/collections.json            canonical records (edit this)
 data/vocab/*.json                controlled vocabularies: countries, languages, themes
 data/dataset-meta.json           dataset version, release date, license
 data/collections.{csv,geojson}   generated exports (don't edit by hand)
 data/{languages,themes,countries,stats,datapackage}.json   generated indexes
+data/reference/un-m49-countries.json   static list of the 193 UN member states (UN M49 regions)
 scripts/validate-data.mjs        data validator
 scripts/build-data.mjs           export generator
 scripts/check-links.mjs          weekly link-health check

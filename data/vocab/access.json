@@ -1,0 +1,29 @@
+{
+  "$comment": "Controlled vocabulary for the optional `access` field: a coarse summary of how a collection's content (not just its catalogue) can be reached, as stated by the holder. `name` is the only value allowed in data/collections.json. A value is recorded only when the record's own `access_notes` clearly support it; otherwise the field is omitted. `access_notes` remains the fuller, authoritative wording. See DATA_DICTIONARY.md §2 and METHODOLOGY.md §4.",
+  "terms": [
+    {
+      "name": "open online",
+      "definition": "The access notes state that the collection (or its published content) is freely accessible online, with no registration or request."
+    },
+    {
+      "name": "partial online",
+      "definition": "Some content (selected items, excerpts, many but not all recordings) is freely online; the rest requires a visit, a request, or a partner institution."
+    },
+    {
+      "name": "registration required",
+      "definition": "Full access requires registering an account or going through a registered partner; at most short excerpts are open."
+    },
+    {
+      "name": "on request",
+      "definition": "Access is by application or request to the holder; the notes do not say it is limited to the holder's premises."
+    },
+    {
+      "name": "on site only",
+      "definition": "Content is consulted in person (reading room, research visit, by appointment at the holder's premises); nothing substantive is stated to be online yet."
+    },
+    {
+      "name": "restricted",
+      "definition": "Access is closed or limited to specific people (e.g. by narrator consent, embargo, or community protocol), as stated by the holder."
+    }
+  ]
+}
