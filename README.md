@@ -39,7 +39,7 @@ cultural-heritage organizations.
 
 ## What the dataset contains
 
-**Dataset v0.3.0 (2026-09-27): 221 collections · 120 countries and
+**Dataset v0.4.0 (2026-09-27): 221 collections · 120 countries and
 territories · 125 languages** (live figures in
 [`data/stats.json`](data/stats.json)).
 
@@ -72,7 +72,7 @@ by region, each with a link to propose one.
 Every record passes a documented workflow (discover → identify → verify →
 normalize → geolocate → classify → review → publish) and carries a
 `verification_status`: *verified*, *partially verified*, *needs review*, or
-*source unavailable*. As of v0.3.0 all records are *partially verified*:
+*source unavailable*. As of v0.4.0 all records are *partially verified*:
 institutions, links, and scope are confirmed, but field-by-field review
 against each source has not yet been recorded. Every check is logged in
 [`data/review-log.json`](data/review-log.json); the review workflow is in
@@ -110,7 +110,7 @@ by their holding institutions.
 ## How to cite
 
 > Abubakar, Adamu. *Mapping Voices: An Open Atlas of Oral-History and
-> Voice-Testimony Collections*. Dataset, version 0.3.0, 2026-09-27. CC BY 4.0.
+> Voice-Testimony Collections*. Dataset, version 0.4.0, 2026-09-27. CC BY 4.0.
 > https://adab-tech.github.io/mapping/
 
 To cite one collection, cite its holding institution and give the Mapping

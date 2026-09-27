@@ -5,7 +5,7 @@ its controlled vocabularies, and its exported files. How values are
 *chosen* (inclusion, verification, geolocation, classification) is in
 [`METHODOLOGY.md`](METHODOLOGY.md).
 
-**Schema version:** dataset v0.3.0 plus the Unreleased changes in `CHANGELOG.md` · **Enforced by:**
+**Schema version:** matches dataset v0.4.0 · **Enforced by:**
 `scripts/validate-data.mjs` (runs in CI on every pull request)
 
 ---

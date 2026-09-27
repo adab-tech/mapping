@@ -2,7 +2,7 @@
   "profile": "data-package",
   "name": "mapping-voices",
   "title": "Mapping Voices: An Open Atlas of Oral-History and Voice-Testimony Collections",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "created": "2026-09-27",
   "description": "A curated, openly licensed metadata dataset of real, publicly documented oral-history and voice-testimony collections worldwide, with normalized geographic, linguistic, thematic, and temporal metadata and a link to each holding institution's own page. The dataset describes and links to collections; it does not contain or redistribute their content.",
   "homepage": "https://adamu.tech/mapping/",

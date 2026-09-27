@@ -67,7 +67,7 @@ cultural-heritage organizations.
 
 Every published record has: a stable `mv_id`; source URL to the holder's
 own page; controlled country, languages, and themes; recording period;
-verification status and provenance. v0.3.0 meets all of these for all 221
+verification status and provenance. v0.4.0 meets all of these for all 221
 records. What v1.0 adds: field-by-field verification for a substantial
 share of records (`verified`), historical period discussed, archive type,
 and controlled access level.
@@ -143,8 +143,9 @@ and controlled access level.
 |---|---|---|
 | v0.1 | Seed atlas | Map, filters, 191 records (210 after the September 2026 audit) |
 | v0.2 | Metadata normalization | Stable IDs, controlled vocabularies, verification status, open data, search, URL state, methodology |
-| **v0.3** | **Language explorer & review tooling** | **Language Explorer, review log and worksheet, link fixes, 11 new collections, accessibility audit** |
-| v0.4 | Verification pass | Field-by-field review; archive type; access level; Glottolog/Wikidata identifiers |
+| v0.3 | Language explorer & review tooling | Language Explorer, review log and worksheet, link fixes, 11 new collections, accessibility audit |
+| **v0.4** | **Derived metadata & explorers** | **Access level, institution type, period discussed; Access filter; Theme Explorer; Coverage Gaps; quick-action skills** |
+| v0.5 | Verification pass | Field-by-field review; Glottolog/Wikidata identifiers |
 | v1.0 | Research-grade release | Historical period discussed; accessibility and browser audits |
 | v1.5 | Language atlas | Multilingual analysis |
 | v2.0 | Research infrastructure | API; reviewed contribution workflow |
