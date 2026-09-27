@@ -22,6 +22,7 @@ date-released: "2026-09-27"
 authors:
   - family-names: Abubakar
     given-names: Adamu
+    orcid: "https://orcid.org/0009-0009-4672-4956"
 repository-code: "https://github.com/adab-tech/mapping"
 url: "https://adab-tech.github.io/mapping/"
 license: CC-BY-4.0

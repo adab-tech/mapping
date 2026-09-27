@@ -13,6 +13,9 @@ broken-source changes, and taxonomy changes (METHODOLOGY §10, §12).
   Data Package descriptor (`id`), the atlas JSON-LD, the README (badge and
   citation), and the About page citation.
 
+- The creator's ORCID iD (0009-0009-4672-4956) is in `.zenodo.json`, `CITATION.cff` and
+  the atlas JSON-LD, so DataCite can link future Zenodo versions to ORCID.
+
 ### Tooling
 - `.github/workflows/release.yml` creates a GitHub release `v<version>`
   whenever the dataset version changes on `main` (or on demand), with
