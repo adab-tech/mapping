@@ -69,6 +69,8 @@ async function run() {
     ["atlas, record open", "/?c=MV-000023", ".detail-title"],
     ["about", "/about.html", "#page-title"],
     ["language explorer", "/languages.html#lang-hausa", "#lang-hausa[open]"],
+    ["theme explorer", "/themes.html#theme-nakba", "#theme-nakba[open]"],
+    ["coverage gaps", "/gaps.html", ".gaps-region, main h2"],
   ]) {
     const { context, page } = await newPage(browser);
     await page.goto(BASE + url);
@@ -81,7 +83,7 @@ async function run() {
   // ---- devices (Chromium emulation of viewport, DPR, touch, UA) ----
   for (const name of ["iPhone SE", "iPhone 13", "Pixel 7", "Galaxy S9+", "iPad (gen 7)", "iPad Pro 11 landscape"]) {
     const device = pw.devices[name];
-    for (const [label, url, ready] of [["atlas", "/?c=MV-000001", ".detail-title"], ["languages", "/languages.html", ".lx-item"], ["about", "/about.html", "#page-title"]]) {
+    for (const [label, url, ready] of [["atlas", "/?c=MV-000001", ".detail-title"], ["languages", "/languages.html", ".lx-item"], ["themes", "/themes.html", ".lx-item"], ["gaps", "/gaps.html", "main h2"], ["about", "/about.html", "#page-title"]]) {
       const { context, page } = await newPage(browser, { ...device });
       await page.goto(BASE + url);
       await page.waitForSelector(ready);
@@ -91,7 +93,7 @@ async function run() {
   }
 
   // ---- reflow: 320 CSS px wide (WCAG 1.4.10) ----
-  for (const url of ["/", "/about.html", "/languages.html"]) {
+  for (const url of ["/", "/about.html", "/languages.html", "/themes.html", "/gaps.html"]) {
     const { context, page } = await newPage(browser, { viewport: { width: 320, height: 640 } });
     await page.goto(BASE + url);
     await page.waitForLoadState("networkidle");
