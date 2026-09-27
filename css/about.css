@@ -52,19 +52,72 @@
 @media (max-width: 760px) {
   .page .header-inner {
     flex-wrap: wrap;
+    row-gap: 0.4rem;
+  }
+
+  /* One swipeable row instead of three wrapped rows of links; the
+     "Open the atlas" button leads so it is always visible. */
+  .page-nav {
+    margin-inline: calc(-1 * var(--gutter));
+    padding-inline: var(--gutter);
+    padding-block: 0.15rem;
+    justify-content: flex-start;
+    width: calc(100% + 2 * var(--gutter));
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-mask-image: linear-gradient(to right, #000 85%, transparent);
+    mask-image: linear-gradient(to right, #000 85%, transparent);
+  }
+
+  html[dir="rtl"] .page-nav {
+    -webkit-mask-image: linear-gradient(to left, #000 85%, transparent);
+    mask-image: linear-gradient(to left, #000 85%, transparent);
+  }
+
+  .page-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .page-nav a {
+    white-space: nowrap;
+  }
+
+  .page-nav a:last-child {
+    margin-inline-end: 2rem;
+  }
+
+  .page-nav .page-nav-cta {
+    order: -1;
+    margin-inline-end: 0.25rem;
+  }
+}
+
+/* Wide screens: keep header and footer aligned with a centred frame rather
+   than pinned to the far edges of a 2560/3840px window. */
+.page .header-inner {
+  max-width: 90rem;
+}
+
+/* Touch screens: header links and the Explorer's atlas links become
+   44px-tall targets. */
+@media (pointer: coarse) {
+  .page-nav a,
+  .lx-atlas-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: var(--tap);
   }
 
   .page-nav {
-    margin-inline-start: 0;
-    justify-content: flex-start;
-    width: 100%;
+    row-gap: 0;
   }
 }
 
 .page-main {
   max-width: 44rem;
   margin: 0 auto;
-  padding: 2.5rem 1rem 3rem;
+  padding: clamp(1.5rem, 4vw, 2.5rem) max(1rem, env(safe-area-inset-right, 0px)) 3rem max(1rem, env(safe-area-inset-left, 0px));
   font-size: 1.02rem;
   line-height: 1.65;
 }
@@ -253,7 +306,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 0.25rem;
-  padding: 1rem;
+  padding: 1rem max(var(--pad-right), calc((100% - 90rem) / 2 + var(--gutter))) max(1rem, env(safe-area-inset-bottom, 0px)) max(var(--pad-left), calc((100% - 90rem) / 2 + var(--gutter)));
 }
 
 .page-footer p {

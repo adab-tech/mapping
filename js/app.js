@@ -433,6 +433,20 @@
     zoomControl.addTo(map);
 
     markerLayer = L.layerGroup().addTo(map);
+
+    // Leaflet only re-measures on window resize. The map box also changes
+    // size without one (orientation change, the mobile URL bar collapsing
+    // under 100dvh, the desktop/mobile layout switch), which would leave
+    // grey unrendered strips — so watch the container itself.
+    if (typeof window.ResizeObserver === "function") {
+      var resizeFrame = 0;
+      new window.ResizeObserver(function () {
+        window.cancelAnimationFrame(resizeFrame);
+        resizeFrame = window.requestAnimationFrame(function () {
+          map.invalidateSize({ pan: false });
+        });
+      }).observe(document.getElementById("map"));
+    }
   }
 
   function pinIcon(active) {
@@ -1017,6 +1031,35 @@
   // Selection + detail panel
   // ------------------------------------------------------------------
 
+  // On phones and tablets the record sheet covers part of the map (the
+  // bottom in portrait, the inline-end side in landscape). Return the map
+  // centre that puts `latlng` in the middle of the part still visible, so
+  // the selected pin isn't hidden under the sheet.
+  function centerForUncoveredArea(latlng, zoom) {
+    var mapRect = document.getElementById("map").getBoundingClientRect();
+    var sheetW = els.detailPanel.offsetWidth;
+    var sheetH = els.detailPanel.offsetHeight;
+    var x = mapRect.width / 2;
+    var y = mapRect.height / 2;
+    if (sheetW < window.innerWidth - 1) {
+      // side sheet (landscape)
+      var visibleW = mapRect.width - sheetW;
+      if (visibleW < 80) {
+        return latlng;
+      }
+      x = isRtl(activeLocale) ? sheetW + visibleW / 2 : visibleW / 2;
+    } else {
+      // bottom sheet (portrait)
+      var visibleBottom = Math.min(mapRect.bottom, window.innerHeight - sheetH) - mapRect.top;
+      if (visibleBottom < 80) {
+        return latlng;
+      }
+      y = visibleBottom / 2;
+    }
+    var offset = L.point(x - mapRect.width / 2, y - mapRect.height / 2);
+    return map.unproject(map.project(latlng, zoom).subtract(offset), zoom);
+  }
+
   function selectCollection(id, opts) {
     opts = opts || {};
     var c = findCollection(id);
@@ -1045,7 +1088,12 @@
     writeUrlState();
 
     if (opts.panTo !== false && map) {
-      map.flyTo([c.lat, c.lng], Math.max(map.getZoom(), 5), { duration: 0.6 });
+      var zoom = Math.max(map.getZoom(), 5);
+      var target = L.latLng(c.lat, c.lng);
+      if (opts.openDrawerOnMobile && narrowMQ().matches) {
+        target = centerForUncoveredArea(target, zoom);
+      }
+      map.flyTo(target, zoom, { duration: 0.6 });
     }
     // On mobile the bottom sheet is the full detail surface; skip the tiny
     // map popup there so it doesn't peek out from behind the sheet.

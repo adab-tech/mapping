@@ -16,6 +16,35 @@ broken-source changes, and taxonomy changes (METHODOLOGY §10, §12).
 - The creator's ORCID iD (0009-0009-4672-4956) is in `.zenodo.json`, `CITATION.cff` and
   the atlas JSON-LD, so DataCite can link future Zenodo versions to ORCID.
 
+### Atlas
+- **Every screen size**, checked on a 13-viewport matrix (320×568 phone to
+  3840×2160) plus landscape phones, 200 % / 400 % zoom and Arabic:
+  - Desktop (≥ 980 px): the atlas is now exactly one screen tall and the
+    side panels scroll inside it. Before, the 221-entry index stretched the
+    page — and the map — to about 18,700 px, so the map's centre and the
+    selected pin were far below the fold.
+  - Side panels size with the viewport (18–24 rem filters, 18–30 rem
+    record), so the map gets 448 px instead of 320 px at 1024 wide and
+    panels grow on wide screens; from 1800 px wide the whole UI scales up
+    gently (≈ 19 px text at 2560, 24 px at 3840).
+  - Landscape phones and short windows: compact header, one-line footer,
+    and the record opens as a side sheet (inline-end, mirrored in Arabic)
+    instead of a bottom sheet covering the map. Tablet portrait sheet is
+    62 % tall instead of 80 %. On phones and tablets the map centres a
+    selected pin in the part the sheet leaves visible.
+  - Mobile: Leaflet's zoom buttons no longer paint over the open filters
+    drawer; header nav (reading pages) and atlas footer are single
+    swipeable rows; `dvh` units so browser chrome doesn't hide content;
+    safe-area insets for notched phones (`viewport-fit=cover`).
+  - Touch screens: buttons, selects, map zoom, popup close, footer and
+    header links are ≥ 44 px; pins get a 44 px hit area; form fields are
+    16 px so iOS doesn't zoom on focus.
+  - Reading pages: header and footer align to a centred 90 rem frame on
+    ultra-wide screens.
+  - The map re-measures itself when its box changes size
+    (`ResizeObserver` → `invalidateSize`), e.g. on rotation.
+  - `tests/browser/audit.mjs` gains 9 viewport checks (69 in all).
+
 ### Tooling
 - `.github/workflows/release.yml` creates a GitHub release `v<version>`
   whenever the dataset version changes on `main` (or on demand), with

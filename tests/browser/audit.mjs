@@ -92,6 +92,52 @@ async function run() {
     }
   }
 
+  // ---- viewport matrix: landscape phones, laptops, large/ultra-wide ----
+  for (const [w, h, touch] of [[844, 390, true], [667, 375, true], [1024, 768, true], [1440, 900, false], [2560, 1440, false], [3840, 2160, false]]) {
+    const ctx = { viewport: { width: w, height: h }, hasTouch: touch, isMobile: touch && w < 980 };
+    const { context, page } = await newPage(browser, ctx);
+    await page.goto(BASE + "/?c=MV-000023");
+    await page.waitForSelector(".detail-title");
+    await page.waitForTimeout(400);
+    const m = await page.evaluate(() => {
+      const map = document.getElementById("map").getBoundingClientRect();
+      const sheet = document.getElementById("detail-panel").getBoundingClientRect();
+      return { docH: document.documentElement.scrollHeight, mapH: map.height, mapW: map.width, sheetW: sheet.width };
+    });
+    const ok = (await noOverflow(page)) && m.mapH >= Math.min(260, h * 0.6) && m.mapW >= w * 0.4 &&
+      // desktop: the atlas is exactly one screen tall (panels scroll inside it)
+      (w < 980 || m.docH <= h + 1) &&
+      // landscape phones: the record opens as a side sheet, leaving map visible
+      (w >= 980 || m.sheetW < w * 0.7);
+    record("viewports", `${w}×${h} atlas with a record open: fits, map usable, no overflow`, ok, JSON.stringify(m));
+    await context.close();
+  }
+  for (const [w, h] of [[2560, 1440], [3840, 2160]]) {
+    const { context, page } = await newPage(browser, { viewport: { width: w, height: h } });
+    await page.goto(BASE + "/about.html");
+    await page.waitForSelector("#page-title");
+    const r = await page.evaluate(() => ({
+      fs: parseFloat(getComputedStyle(document.querySelector(".lede")).fontSize),
+      mainW: document.querySelector("main").getBoundingClientRect().width,
+    }));
+    // text scales up on huge screens, but the reading column stays readable
+    record("viewports", `${w}×${h} about: larger text, bounded line length, no overflow`,
+      (await noOverflow(page)) && r.fs > 18.5 && r.mainW / r.fs < 45, JSON.stringify(r));
+    await context.close();
+  }
+  {
+    const { context, page } = await newPage(browser, { ...pw.devices["iPhone 13"] });
+    await page.goto(BASE + "/");
+    await page.waitForSelector(".result-item", { state: "attached" });
+    const small = await page.evaluate(() =>
+      ["#filters-toggle", "#lang-select", ".leaflet-control-zoom-in", ".footer-nav a"]
+        .map((s) => [s, document.querySelector(s).getBoundingClientRect().height])
+        .filter(([, hh]) => hh < 44)
+    );
+    record("viewports", "touch screens: header, map and footer controls are ≥ 44px tall", small.length === 0, JSON.stringify(small));
+    await context.close();
+  }
+
   // ---- reflow: 320 CSS px wide (WCAG 1.4.10) ----
   for (const url of ["/", "/about.html", "/languages.html", "/themes.html", "/gaps.html"]) {
     const { context, page } = await newPage(browser, { viewport: { width: 320, height: 640 } });
