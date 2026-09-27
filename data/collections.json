@@ -27,6 +27,7 @@
       "a-people-s-archive-of-police-violence-in-cleveland",
       "moise-a-khayrallah-center-for-lebanese-diaspora",
       "preserve-the-baltimore-uprising",
+      "queens-memory-project",
       "the-historymakers",
       "the-outwords-archive"
     ],
@@ -59,7 +60,8 @@
       "iwm-sound-archive",
       "korean-war-legacy-foundation",
       "national-wwii-museum-oral-history",
-      "vietnam-center-ttu"
+      "vietnam-center-ttu",
+      "west-point-center-for-oral-history"
     ],
     "verification_status": "partially_verified",
     "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
@@ -1373,8 +1375,8 @@
     "decade_start": 1953,
     "decade_end": null,
     "summary": "Israel's official Holocaust remembrance authority, established by law in 1953, holds over 125,000 survivor testimonies (written, audio, and video) among more than 210 million pages of Holocaust documentation, with thousands available online.",
-    "url": "https://www.yadvashem.org/collections/testimonies.html",
-    "citation": "Yad Vashem. Survivor Testimonies Collection. Retrieved from https://www.yadvashem.org/collections/testimonies.html.",
+    "url": "https://www.yadvashem.org/archive/about/testimonies.html",
+    "citation": "Yad Vashem. Survivor Testimonies Collection. Retrieved from https://www.yadvashem.org/archive/about/testimonies.html.",
     "access_notes": "Thousands of full testimonies freely viewable online; broader archive by researcher request.",
     "related_ids": [
       "armenian-film-foundation",
@@ -1383,7 +1385,7 @@
       "usc-shoah-foundation-vha",
       "yahad-in-unum"
     ],
-    "preview_url": "https://www.yadvashem.org/collections/testimonies.html",
+    "preview_url": "https://www.yadvashem.org/holocaust/video-testimonies.html",
     "verification_status": "partially_verified",
     "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
     "date_added": "2026-09-01"
@@ -1412,7 +1414,10 @@
     "citation": "Harvard University Center for Middle Eastern Studies. Iranian Oral History Project. Retrieved from https://cmes.fas.harvard.edu/projects/iohp.",
     "verification_status": "partially_verified",
     "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
-    "date_added": "2026-09-01"
+    "date_added": "2026-09-01",
+    "related_ids": [
+      "fis-oral-history-of-iran"
+    ]
   },
   {
     "id": "odysseo-generiques-oral-archives",
@@ -1855,8 +1860,8 @@
     "decade_start": 1927,
     "decade_end": null,
     "summary": "Founded in Tartu in 1927, Estonia's central folklore archive holds roughly 1.5 million manuscript pages, 188,000 sound recordings, and 1,700 films documenting Estonian and Seto folk song, storytelling, and oral tradition.",
-    "url": "https://www.folklore.ee/dbases/",
-    "citation": "Estonian Literary Museum. Estonian Folklore Archives. Retrieved from https://www.folklore.ee/dbases/.",
+    "url": "https://www.kirmus.ee/en/about-us/departments/estonian-folklore-archives",
+    "citation": "Estonian Literary Museum. Estonian Folklore Archives. Retrieved from https://www.kirmus.ee/en/about-us/departments/estonian-folklore-archives.",
     "related_ids": [
       "finnish-literature-society-folklore-archive",
       "tobar-an-dualchais"
@@ -2427,8 +2432,8 @@
     "decade_start": 2011,
     "decade_end": null,
     "summary": "Launched in September 2011, this Tohoku University digital archive collects photographs, records, and firsthand testimonies and stories of the thoughts and memories of survivors of the 2011 Great East Japan Earthquake and tsunami, with civic contributions welcomed.",
-    "url": "http://search.shinrokuden.irides.tohoku.ac.jp/shinrokuden/",
-    "citation": "International Research Institute of Disaster Science, Tohoku University. Michinoku Shinrokuden. Retrieved from http://search.shinrokuden.irides.tohoku.ac.jp/shinrokuden/.",
+    "url": "https://search.shinrokuden.irides.tohoku.ac.jp/shinrokuden/",
+    "citation": "International Research Institute of Disaster Science, Tohoku University. Michinoku Shinrokuden. Retrieved from https://search.shinrokuden.irides.tohoku.ac.jp/shinrokuden/.",
     "access_notes": "Freely accessible online; open to public contributions.",
     "related_ids": [
       "hurricane-digital-memory-bank"
@@ -2908,6 +2913,7 @@
     "url": "https://sohp.org/",
     "citation": "Southern Oral History Program, University of North Carolina at Chapel Hill. Retrieved from https://sohp.org/.",
     "related_ids": [
+      "samuel-proctor-oral-history-program",
       "walter-reuther-library"
     ],
     "verification_status": "partially_verified",
@@ -3731,6 +3737,7 @@
     "url": "https://www.lib.berkeley.edu/visit/bancroft/oral-history-center/projects/disability-rights",
     "citation": "Bancroft Library, University of California, Berkeley. Disability Rights and Independent Living Movement Oral History Project. Retrieved from https://www.lib.berkeley.edu/visit/bancroft/oral-history-center/projects/disability-rights.",
     "related_ids": [
+      "bancroft-oral-history-center",
       "gallaudet-university-archives"
     ],
     "verification_status": "partially_verified",
@@ -4304,6 +4311,7 @@
     "url": "https://www.gov.bw/culture/national-archives-research-enquiry",
     "access_notes": "In-person research-room access at the National Archives in Gaborone; researchers submit an enquiry form in advance.",
     "verification_status": "partially_verified",
+    "verification_note": "Source URL returned 404 in the 2026-09-21 link check; no replacement page found yet.",
     "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
     "date_added": "2026-09-01"
   },
@@ -4351,7 +4359,7 @@
     "decade_start": 1979,
     "decade_end": 1984,
     "summary": "The Arquivo Histórico de Moçambique, overseen by Eduardo Mondlane University in Maputo since 1976, holds several hundred cassette-tape interviews and storytelling sessions recorded between 1979 and 1984 in Mozambique's northern provinces, documenting the war of independence, rural social life, rituals and local histories.",
-    "url": "https://ahm.ghost.uem.mz/",
+    "url": "https://ahm.uem.mz/",
     "verification_status": "partially_verified",
     "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
     "date_added": "2026-09-01"
@@ -5113,6 +5121,7 @@
       "Quechua",
       "Spanish"
     ],
+    "language_note": "Also Mosetén, Guarayo, Tacana, Tsimán and Chiquitano, among others (per the archive's own description).",
     "themes": [
       "oral tradition",
       "community memory",
@@ -5494,6 +5503,7 @@
     "url": "http://www.natlib.lk/index.php/folklore-collection",
     "access_notes": "Located in Colombo; materials accessible on-site as part of the library's reference collection.",
     "verification_status": "partially_verified",
+    "verification_note": "Source URL returned 404 in the 2026-09-21 link check; site restructured. Scope (manuscripts vs. recordings) needs curator review.",
     "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
     "date_added": "2026-09-01"
   },
@@ -5635,8 +5645,8 @@
     "decade_start": 2012,
     "decade_end": null,
     "summary": "Freedom Collection is a digital repository documenting major human rights and freedom movement figures from the 20th and 21st centuries through video interviews and documents. Launched in March 2012 with 56 interviews, it features contributors including former national leaders and civil rights activists from multiple countries. As of 2022, the website had not been updated since 2016 and the YouTube channel since October 2015, with unclear current status.",
-    "url": "http://www.freedomcollection.org/",
-    "citation": "Freedom Collection. Retrieved from http://www.freedomcollection.org/.",
+    "url": "https://www.bushcenter.org/freedom-collection",
+    "citation": "Freedom Collection. Retrieved from https://www.bushcenter.org/freedom-collection.",
     "related_ids": [
       "usc-shoah-foundation-vha",
       "fortunoff-video-archive",
@@ -5691,8 +5701,8 @@
     "decade_start": 1956,
     "decade_end": null,
     "summary": "The J. S. Battye Library is a division of the State Library of Western Australia that holds historical records including oral history tapes, photographs, artworks, films, videos, and non-government records. The library provides reference, copying, genealogical, consultancy, and reader education services.",
-    "url": "http://slwa.wa.gov.au/dead_reckoning/battye_library",
-    "citation": "J S Battye Library. J. S. Battye Library of West Australian History. Retrieved from http://slwa.wa.gov.au/dead_reckoning/battye_library.",
+    "url": "https://slwa.wa.gov.au/dead_reckoning/battye_library",
+    "citation": "J S Battye Library. J. S. Battye Library of West Australian History. Retrieved from https://slwa.wa.gov.au/dead_reckoning/battye_library.",
     "related_ids": [],
     "preview_url": null,
     "verification_status": "partially_verified",
@@ -5720,8 +5730,8 @@
     "decade_start": 2010,
     "decade_end": null,
     "summary": "A research center at North Carolina State University that supports oral history collection and maintains a digital archive of material about the Lebanese diaspora in the US and worldwide. The center has produced documentary and museum exhibition work on Lebanese-American history in North Carolina.",
-    "url": "http://lebanesestudies.ncsu.edu/",
-    "citation": "Moise A. Khayrallah Center for Lebanese Diaspora Studies. Retrieved from http://lebanesestudies.ncsu.edu/.",
+    "url": "https://lebanesestudies.ncsu.edu/",
+    "citation": "Moise A. Khayrallah Center for Lebanese Diaspora Studies. Retrieved from https://lebanesestudies.ncsu.edu/.",
     "related_ids": [
       "saada-archive",
       "immigration-history-research-center-umn",
@@ -5799,21 +5809,20 @@
     "languages": [
       "Multiple languages"
     ],
-    "language_note": "various endangered languages",
+    "language_note": "about 170 languages, mostly of small, often endangered speech communities",
     "themes": [
       "language documentation"
     ],
     "decade_start": 1996,
     "decade_end": null,
     "summary": "The Pangloss Collection is a digital library developed by the LACITO centre of CNRS in Paris that stores audio recordings in endangered languages from all continents. It provides free online access to documents of connected, spontaneous speech in little-documented languages.",
-    "url": "http://lacito.vjf.cnrs.fr/pangloss/",
-    "citation": "Pangloss Collection. Retrieved from http://lacito.vjf.cnrs.fr/pangloss/.",
+    "url": "https://pangloss.cnrs.fr/",
+    "citation": "Pangloss Collection. Retrieved from https://pangloss.cnrs.fr/.",
     "related_ids": [
       "institut-kurde-paris"
     ],
     "preview_url": null,
     "verification_status": "partially_verified",
-    "verification_note": "Languages inferred from country and subject; not stated by the source.",
     "provenance": "Wikipedia/Wikidata harvest, September 2026 audit (Wikidata Q6468667; URL from wikidata:P856). See data/new-entries-provenance.json.",
     "date_added": "2026-09-20"
   },
@@ -5926,8 +5935,8 @@
     "decade_start": 2010,
     "decade_end": null,
     "summary": "The War Childhood Museum in Sarajevo collects and presents the memories of children who lived through the Bosnian war, gathered initially through an online platform that received over 1,000 submissions from young adults. The museum displays these recollections through objects, video testimonies, and oral history excerpts.",
-    "url": "http://museum.warchildhood.com",
-    "citation": "War Childhood Museum. Retrieved from http://museum.warchildhood.com.",
+    "url": "https://warchildhood.org/",
+    "citation": "War Childhood Museum. Retrieved from https://warchildhood.org/.",
     "related_ids": [],
     "preview_url": null,
     "verification_status": "partially_verified",
@@ -5952,8 +5961,8 @@
     "decade_start": 1960,
     "decade_end": null,
     "summary": "The Österreichische Mediathek is the Austrian archive for sound recordings and videos documenting cultural and contemporary history. Founded in 1960 as the Österreichische Phonothek by the Ministry of Education, it has been a branch of the Vienna Technical Museum since 2001. It is responsible for preserving Austrian audio-visual cultural heritage, excluding film on photographic carrier material and photography.",
-    "url": "http://www.mediathek.at",
-    "citation": "Österreichische Mediathek. Retrieved from http://www.mediathek.at.",
+    "url": "https://www.mediathek.at/",
+    "citation": "Österreichische Mediathek. Retrieved from https://www.mediathek.at/.",
     "related_ids": [],
     "preview_url": null,
     "verification_status": "partially_verified",
@@ -5978,8 +5987,8 @@
     "decade_start": 1969,
     "decade_end": null,
     "summary": "An oral history project and archive of audio and video recordings consisting mainly of interviews with American classical and jazz musicians. Currently holds approximately 3,000 interviews with more than 900 subjects and is considered the definitive collection of its kind. Housed as a special collection of the Irving S. Gilmore Music Library at Yale University.",
-    "url": "http://web.library.yale.edu/oham/about",
-    "citation": "Oral History of American Music. Retrieved from http://web.library.yale.edu/oham/about.",
+    "url": "https://library.yale.edu/visit-and-study/libraries-locations/gilmore-music-library/oral-history-american-music",
+    "citation": "Oral History of American Music. Retrieved from https://library.yale.edu/visit-and-study/libraries-locations/gilmore-music-library/oral-history-american-music.",
     "related_ids": [
       "ralph-rinzler-folklife-archives",
       "association-cultural-equity-lomax"
@@ -6032,8 +6041,10 @@
     "lat": -26.4667,
     "lng": 31.2,
     "languages": [
-      "Swazi"
+      "Swazi",
+      "English"
     ],
+    "language_note": "Interviews mainly in siSwati; a selection transcribed and translated into English.",
     "themes": [
       "oral tradition",
       "history",
@@ -6047,8 +6058,330 @@
     "related_ids": [],
     "preview_url": null,
     "verification_status": "partially_verified",
-    "verification_note": "Languages inferred from country and subject; not stated by the source.",
     "provenance": "Wikipedia/Wikidata harvest, September 2026 audit (Wikidata Q137572000; URL from wikipedia:infobox). See data/new-entries-provenance.json.",
     "date_added": "2026-09-20"
+  },
+  {
+    "id": "schweizerisches-volksliedarchiv",
+    "mv_id": "MV-000211",
+    "title": "Schweizerisches Volksliedarchiv (Swiss Folk Song Archive)",
+    "archive": "Empirische Kulturwissenschaft Schweiz (formerly Swiss Society for Folklore), Basel",
+    "country": "Switzerland",
+    "lat": 47.5596,
+    "lng": 7.5886,
+    "languages": [
+      "Multiple languages"
+    ],
+    "language_note": "Swiss folk song; the source does not list the languages or dialects of the recordings.",
+    "themes": [
+      "music",
+      "folklore",
+      "oral tradition"
+    ],
+    "decade_start": 1906,
+    "decade_end": null,
+    "summary": "Founded in 1906 by the Swiss Society for Folklore to collect and study Swiss folk song, the archive in Basel holds song collections alongside sound recordings, including historical field recordings and some 400 records and tapes from the Armin Breu collection; its tape recordings were transferred to digital formats between 1998 and 2000.",
+    "url": "https://volksliedarchiv.ch/",
+    "citation": "Empirische Kulturwissenschaft Schweiz (formerly Swiss Society for Folklore), Basel. Schweizerisches Volksliedarchiv (Swiss Folk Song Archive). Retrieved from https://volksliedarchiv.ch/.",
+    "verification_status": "partially_verified",
+    "verification_note": "Recording languages not stated by the source.",
+    "provenance": "Review-queue lead from the September 2026 Wikipedia/Wikidata harvest (docs/review-queue.csv), completed by search-based research on 2026-09-27; evidence in data/review-log.json.",
+    "date_added": "2026-09-27"
+  },
+  {
+    "id": "uysal-walker-archive-turkish-oral-narrative",
+    "mv_id": "MV-000212",
+    "title": "Uysal–Walker Archive of Turkish Oral Narrative",
+    "archive": "Southwest Collection/Special Collections Library, Texas Tech University",
+    "country": "Turkey",
+    "lat": 39.9334,
+    "lng": 32.8597,
+    "languages": [
+      "Turkish",
+      "English"
+    ],
+    "language_note": "Tales recorded in Turkish; about 2,000 translated into English by native Turkish speakers.",
+    "themes": [
+      "oral tradition",
+      "folklore",
+      "music"
+    ],
+    "decade_start": 1961,
+    "decade_end": null,
+    "summary": "Folktales and other oral narratives collected in Turkey from 1961 by Ahmet E. Uysal, Warren S. Walker and Barbara K. Walker and donated to Texas Tech University in 1980. The archive's site offers transcriptions and English translations of some 2,000 tales, audio recordings, and over forty hours of Turkish folk music.",
+    "url": "https://www.aton.ttu.edu/",
+    "citation": "Southwest Collection/Special Collections Library, Texas Tech University. Uysal–Walker Archive of Turkish Oral Narrative. Retrieved from https://www.aton.ttu.edu/.",
+    "verification_status": "partially_verified",
+    "verification_note": "End year of collecting not stated by the source; decade_end left open.",
+    "provenance": "Review-queue lead from the September 2026 Wikipedia/Wikidata harvest (docs/review-queue.csv), completed by search-based research on 2026-09-27; evidence in data/review-log.json.",
+    "date_added": "2026-09-27"
+  },
+  {
+    "id": "bc-archives-sound-heritage-series",
+    "mv_id": "MV-000213",
+    "title": "Sound Heritage Series sound programs",
+    "archive": "BC Archives, Royal BC Museum",
+    "country": "Canada",
+    "lat": 48.4198,
+    "lng": -123.3675,
+    "languages": [
+      "English"
+    ],
+    "themes": [
+      "history",
+      "social history",
+      "community memory"
+    ],
+    "decade_start": 1976,
+    "decade_end": 1983,
+    "summary": "Twenty documentary sound programs produced by the Provincial Archives of British Columbia's Aural History Programme to accompany its Sound Heritage publications (1976–1983), built from excerpts of oral history interviews in the archives' collection. The materials are held by the Royal BC Museum, which merged with the provincial archives in 2003.",
+    "url": "https://search-bcarchives.royalbcmuseum.bc.ca/sound-heritage-series-sound-programs",
+    "citation": "BC Archives, Royal BC Museum. Sound Heritage Series sound programs. Retrieved from https://search-bcarchives.royalbcmuseum.bc.ca/sound-heritage-series-sound-programs.",
+    "verification_status": "partially_verified",
+    "verification_note": "Languages inferred from country and subject; not stated by the source.",
+    "provenance": "Review-queue lead from the September 2026 Wikipedia/Wikidata harvest (docs/review-queue.csv), completed by search-based research on 2026-09-27; evidence in data/review-log.json.",
+    "date_added": "2026-09-27"
+  },
+  {
+    "id": "fis-oral-history-of-iran",
+    "mv_id": "MV-000214",
+    "title": "Oral History of Iran",
+    "archive": "Foundation for Iranian Studies",
+    "country": "Iran",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "languages": [
+      "Persian",
+      "English"
+    ],
+    "language_note": "The foundation lists interviews by language; English interviews were conducted jointly with Columbia University.",
+    "themes": [
+      "political history",
+      "history",
+      "national memory"
+    ],
+    "decade_start": 1982,
+    "decade_end": null,
+    "summary": "Begun in 1982 by the Bethesda-based Foundation for Iranian Studies, the program recorded structured interviews with about 180 political, diplomatic, cultural and economic figures of Pahlavi-era Iran, both proponents and opponents of the state's decisions. Tapes and transcripts are kept by the foundation; copies of the English interviews are held in Columbia University's Oral History Archives.",
+    "url": "https://fis-iran.org/oralhistory/",
+    "citation": "Foundation for Iranian Studies. Oral History of Iran. Retrieved from https://fis-iran.org/oralhistory/.",
+    "related_ids": [
+      "columbia-oral-history-archives",
+      "harvard-iranian-oral-history"
+    ],
+    "verification_status": "partially_verified",
+    "verification_note": "Persian inferred from the foundation's by-language listing; end year not stated by the source.",
+    "provenance": "Review-queue lead from the September 2026 Wikipedia/Wikidata harvest (docs/review-queue.csv), completed by search-based research on 2026-09-27; evidence in data/review-log.json.",
+    "date_added": "2026-09-27"
+  },
+  {
+    "id": "samuel-proctor-oral-history-program",
+    "mv_id": "MV-000215",
+    "title": "Samuel Proctor Oral History Program",
+    "archive": "University of Florida",
+    "country": "United States",
+    "lat": 29.6436,
+    "lng": -82.3549,
+    "languages": [
+      "English"
+    ],
+    "themes": [
+      "history",
+      "social history",
+      "indigenous history",
+      "military history"
+    ],
+    "decade_start": 1967,
+    "decade_end": null,
+    "summary": "Founded at the University of Florida in 1967, the program holds more than 10,000 interviews and sound recordings documenting Florida, the U.S. Southeast and beyond, with major projects on Native American, African American, military and county history; about 8,000 are publicly available through UF Digital Collections. Its projects include the Mississippi Freedom Project interviews with civil rights veterans.",
+    "url": "https://oral.history.ufl.edu/",
+    "citation": "University of Florida. Samuel Proctor Oral History Program. Retrieved from https://oral.history.ufl.edu/.",
+    "access_notes": "About 8,000 interviews freely accessible online through UF Digital Collections.",
+    "related_ids": [
+      "sohp-unc"
+    ],
+    "verification_status": "partially_verified",
+    "verification_note": "Languages inferred from country and subject; not stated by the source.",
+    "provenance": "Review-queue lead from the September 2026 Wikipedia/Wikidata harvest (docs/review-queue.csv), completed by search-based research on 2026-09-27; evidence in data/review-log.json.",
+    "date_added": "2026-09-27"
+  },
+  {
+    "id": "columbia-oral-history-archives",
+    "mv_id": "MV-000216",
+    "title": "Oral History Archives at Columbia",
+    "archive": "Rare Book & Manuscript Library, Columbia University",
+    "country": "United States",
+    "lat": 40.8064,
+    "lng": -73.9632,
+    "languages": [
+      "English"
+    ],
+    "themes": [
+      "history",
+      "political history",
+      "social history"
+    ],
+    "decade_start": 1948,
+    "decade_end": null,
+    "summary": "Founded by historian Allan Nevins, who recorded his first interview on 18 May 1948, the archive is widely credited with starting the modern oral history movement. It now holds over 10,000 interviews with people in politics, philanthropy, business, media, medicine, science, law, the military, architecture and the arts, and is open to all at the Rare Book & Manuscript Library.",
+    "url": "https://library.columbia.edu/libraries/rbml/collecting/oral-history.html",
+    "citation": "Rare Book & Manuscript Library, Columbia University. Oral History Archives at Columbia. Retrieved from https://library.columbia.edu/libraries/rbml/collecting/oral-history.html.",
+    "access_notes": "Open to all researchers at the Rare Book & Manuscript Library, Butler Library.",
+    "related_ids": [
+      "fis-oral-history-of-iran"
+    ],
+    "verification_status": "partially_verified",
+    "verification_note": "Languages inferred from country and subject; not stated by the source.",
+    "provenance": "Review-queue lead from the September 2026 Wikipedia/Wikidata harvest (docs/review-queue.csv), completed by search-based research on 2026-09-27; evidence in data/review-log.json.",
+    "date_added": "2026-09-27"
+  },
+  {
+    "id": "bancroft-oral-history-center",
+    "mv_id": "MV-000217",
+    "title": "Oral History Center of The Bancroft Library",
+    "archive": "Bancroft Library, University of California, Berkeley",
+    "country": "United States",
+    "lat": 37.8721,
+    "lng": -122.2585,
+    "languages": [
+      "English"
+    ],
+    "themes": [
+      "history",
+      "political history",
+      "social history"
+    ],
+    "decade_start": 1954,
+    "decade_end": null,
+    "summary": "Established in 1954 as the Regional Oral History Office to interview leading figures of the American West — the second university oral history office in the U.S. after Columbia — and renamed the Oral History Center in 2014. Its collection holds over 5,000 interviews with governors, industrialists, artists, activists and scholars, most of them available online.",
+    "url": "https://www.lib.berkeley.edu/visit/bancroft/oral-history-center",
+    "citation": "Bancroft Library, University of California, Berkeley. Oral History Center of The Bancroft Library. Retrieved from https://www.lib.berkeley.edu/visit/bancroft/oral-history-center.",
+    "access_notes": "Most interviews available online.",
+    "related_ids": [
+      "roho-disability-rights"
+    ],
+    "verification_status": "partially_verified",
+    "verification_note": "Languages inferred from country and subject; not stated by the source.",
+    "provenance": "Review-queue lead from the September 2026 Wikipedia/Wikidata harvest (docs/review-queue.csv), completed by search-based research on 2026-09-27; evidence in data/review-log.json.",
+    "date_added": "2026-09-27"
+  },
+  {
+    "id": "black-women-oral-history-project",
+    "mv_id": "MV-000218",
+    "title": "Black Women Oral History Project",
+    "archive": "Schlesinger Library, Harvard Radcliffe Institute",
+    "country": "United States",
+    "lat": 42.3764,
+    "lng": -71.1226,
+    "languages": [
+      "English"
+    ],
+    "themes": [
+      "women's history",
+      "social history",
+      "civil rights"
+    ],
+    "decade_start": 1976,
+    "decade_end": 1981,
+    "summary": "Between 1976 and 1981 the project interviewed 72 African American women, many then in their 70s to 90s, who had made significant contributions to American life in the first half of the 20th century, covering family, education, careers, voluntary and union work, and how race and gender shaped their choices.",
+    "url": "https://www.radcliffe.harvard.edu/schlesinger-library/collections/black-women-oral-history-project",
+    "citation": "Schlesinger Library, Harvard Radcliffe Institute. Black Women Oral History Project. Retrieved from https://www.radcliffe.harvard.edu/schlesinger-library/collections/black-women-oral-history-project.",
+    "access_notes": "Transcripts and audio are fully digitized and available online through the library's research guide.",
+    "verification_status": "partially_verified",
+    "verification_note": "Languages inferred from country and subject; not stated by the source.",
+    "provenance": "Review-queue lead from the September 2026 Wikipedia/Wikidata harvest (docs/review-queue.csv), completed by search-based research on 2026-09-27; evidence in data/review-log.json.",
+    "date_added": "2026-09-27"
+  },
+  {
+    "id": "queens-memory-project",
+    "mv_id": "MV-000219",
+    "title": "Queens Memory Project",
+    "archive": "Queens Public Library and Queens College Libraries (CUNY)",
+    "country": "United States",
+    "lat": 40.7057,
+    "lng": -73.7967,
+    "languages": [
+      "English",
+      "Bengali",
+      "Hindi",
+      "Korean",
+      "Mandarin Chinese",
+      "Nepali",
+      "Tagalog",
+      "Tibetan",
+      "Urdu"
+    ],
+    "language_note": "The project has produced bilingual episodes in Bangla, Hindi, Korean, Mandarin, Nepali, Tagalog, Tibetan and Urdu, widely spoken Asian languages in Queens.",
+    "themes": [
+      "community memory",
+      "migration",
+      "everyday life"
+    ],
+    "decade_start": 2010,
+    "decade_end": null,
+    "summary": "A community archive founded in 2010 by Queens College and Queens Public Library that records oral histories with residents of Queens, New York — one of the most linguistically diverse places in the world — about their neighborhoods, migrations and everyday lives.",
+    "url": "https://www.queensmemory.org/",
+    "citation": "Queens Public Library and Queens College Libraries (CUNY). Queens Memory Project. Retrieved from https://www.queensmemory.org/.",
+    "related_ids": [
+      "storycorps-national-archive"
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "Review-queue lead from the September 2026 Wikipedia/Wikidata harvest (docs/review-queue.csv), completed by search-based research on 2026-09-27; evidence in data/review-log.json.",
+    "date_added": "2026-09-27"
+  },
+  {
+    "id": "voices-of-oklahoma",
+    "mv_id": "MV-000220",
+    "title": "Voices of Oklahoma",
+    "archive": "Voices of Oklahoma, in partnership with the Oklahoma Historical Society",
+    "country": "United States",
+    "lat": 36.154,
+    "lng": -95.9928,
+    "languages": [
+      "English"
+    ],
+    "themes": [
+      "history",
+      "community memory",
+      "political history"
+    ],
+    "decade_start": 2009,
+    "decade_end": null,
+    "summary": "An oral history website founded in Tulsa by radio broadcaster John Erling, recording in-depth interviews with Oklahomans including political and tribal leaders, entertainers, business figures and survivors of the Tulsa Race Massacre; it works in partnership with the Oklahoma Historical Society.",
+    "url": "https://voicesofoklahoma.com/",
+    "citation": "Voices of Oklahoma, in partnership with the Oklahoma Historical Society. Voices of Oklahoma. Retrieved from https://voicesofoklahoma.com/.",
+    "access_notes": "Interviews freely available online, with audio and transcripts.",
+    "verification_status": "partially_verified",
+    "verification_note": "Sources give 2009 or 2010 as the start year; languages inferred.",
+    "provenance": "Review-queue lead from the September 2026 Wikipedia/Wikidata harvest (docs/review-queue.csv), completed by search-based research on 2026-09-27; evidence in data/review-log.json.",
+    "date_added": "2026-09-27"
+  },
+  {
+    "id": "west-point-center-for-oral-history",
+    "mv_id": "MV-000221",
+    "title": "West Point Center for Oral History",
+    "archive": "United States Military Academy",
+    "country": "United States",
+    "lat": 41.3915,
+    "lng": -73.9565,
+    "languages": [
+      "English"
+    ],
+    "themes": [
+      "war and conflict",
+      "military history"
+    ],
+    "decade_start": 2008,
+    "decade_end": null,
+    "summary": "A video oral history archive founded at the U.S. Military Academy in 2008 to record the experiences of soldiers, statesmen and others who have shaped the profession of arms, with collections on Vietnam, the wars in Iraq and Afghanistan, the African-American military experience, and women in the military.",
+    "url": "https://www.westpoint.edu/directory/center-for-oral-history",
+    "citation": "United States Military Academy. West Point Center for Oral History. Retrieved from https://www.westpoint.edu/directory/center-for-oral-history.",
+    "related_ids": [
+      "veterans-history-project"
+    ],
+    "verification_status": "partially_verified",
+    "verification_note": "Languages inferred from country and subject; not stated by the source.",
+    "provenance": "Review-queue lead from the September 2026 Wikipedia/Wikidata harvest (docs/review-queue.csv), completed by search-based research on 2026-09-27; evidence in data/review-log.json.",
+    "date_added": "2026-09-27"
   }
 ]

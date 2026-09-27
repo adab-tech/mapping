@@ -1,6 +1,6 @@
 {
   "dataset": "Mapping Voices: An Open Atlas of Oral-History and Voice-Testimony Collections",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "released": "2026-09-27",
   "license": "CC-BY-4.0",
   "homepage": "https://adamu.tech/mapping/",
@@ -10,12 +10,12 @@
     {
       "id": "oral-tradition",
       "label": "Oral tradition & folklore",
-      "collection_count": 105
+      "collection_count": 107
     },
     {
       "id": "music",
       "label": "Music, performance & broadcasting",
-      "collection_count": 45
+      "collection_count": 47
     },
     {
       "id": "language",
@@ -25,7 +25,7 @@
     {
       "id": "war",
       "label": "War & conflict",
-      "collection_count": 40
+      "collection_count": 42
     },
     {
       "id": "mass-violence",
@@ -35,27 +35,27 @@
     {
       "id": "rights",
       "label": "Human rights & justice",
-      "collection_count": 44
+      "collection_count": 45
     },
     {
       "id": "migration",
       "label": "Migration & displacement",
-      "collection_count": 32
+      "collection_count": 33
     },
     {
       "id": "colonialism",
       "label": "Colonialism & Indigenous histories",
-      "collection_count": 24
+      "collection_count": 25
     },
     {
       "id": "memory",
       "label": "Memory & community",
-      "collection_count": 63
+      "collection_count": 67
     },
     {
       "id": "history",
       "label": "History & politics",
-      "collection_count": 52
+      "collection_count": 59
     },
     {
       "id": "labor",
@@ -65,7 +65,7 @@
     {
       "id": "gender",
       "label": "Gender & sexuality",
-      "collection_count": 12
+      "collection_count": 13
     },
     {
       "id": "disability",
@@ -88,7 +88,7 @@
       "name": "oral tradition",
       "group": "oral-tradition",
       "scope_note": "Transmitted verbal art, narrative, and knowledge: epics, genealogies, proverbs, tales.",
-      "collection_count": 96,
+      "collection_count": 98,
       "collections": [
         "MV-000005",
         "MV-000011",
@@ -185,14 +185,16 @@
         "MV-000192",
         "MV-000200",
         "MV-000209",
-        "MV-000210"
+        "MV-000210",
+        "MV-000211",
+        "MV-000212"
       ]
     },
     {
       "name": "folklore",
       "group": "oral-tradition",
       "scope_note": "Folk narrative, belief, and custom as documented by folklorists.",
-      "collection_count": 19,
+      "collection_count": 21,
       "collections": [
         "MV-000011",
         "MV-000012",
@@ -212,7 +214,9 @@
         "MV-000177",
         "MV-000182",
         "MV-000184",
-        "MV-000191"
+        "MV-000191",
+        "MV-000211",
+        "MV-000212"
       ]
     },
     {
@@ -305,7 +309,7 @@
       "name": "music",
       "group": "music",
       "scope_note": "Recorded music, song, and musical performance.",
-      "collection_count": 32,
+      "collection_count": 34,
       "collections": [
         "MV-000005",
         "MV-000011",
@@ -338,7 +342,9 @@
         "MV-000183",
         "MV-000186",
         "MV-000188",
-        "MV-000208"
+        "MV-000208",
+        "MV-000211",
+        "MV-000212"
       ]
     },
     {
@@ -436,7 +442,7 @@
       "name": "war and conflict",
       "group": "war",
       "scope_note": "Experiences of war and armed conflict, combatant and civilian.",
-      "collection_count": 36,
+      "collection_count": 37,
       "collections": [
         "MV-000002",
         "MV-000008",
@@ -473,21 +479,24 @@
         "MV-000172",
         "MV-000175",
         "MV-000180",
-        "MV-000206"
+        "MV-000206",
+        "MV-000221"
       ]
     },
     {
       "name": "military history",
       "group": "war",
       "scope_note": "Military service and institutions.",
-      "collection_count": 6,
+      "collection_count": 8,
       "collections": [
         "MV-000002",
         "MV-000048",
         "MV-000075",
         "MV-000077",
         "MV-000115",
-        "MV-000167"
+        "MV-000167",
+        "MV-000215",
+        "MV-000221"
       ]
     },
     {
@@ -626,7 +635,7 @@
       "name": "civil rights",
       "group": "rights",
       "scope_note": "Civil-rights movements and struggles for legal equality.",
-      "collection_count": 7,
+      "collection_count": 8,
       "collections": [
         "MV-000003",
         "MV-000092",
@@ -634,7 +643,8 @@
         "MV-000096",
         "MV-000097",
         "MV-000121",
-        "MV-000124"
+        "MV-000124",
+        "MV-000218"
       ]
     },
     {
@@ -695,7 +705,7 @@
       "name": "migration",
       "group": "migration",
       "scope_note": "Voluntary and economic migration, immigration, diaspora.",
-      "collection_count": 25,
+      "collection_count": 26,
       "collections": [
         "MV-000003",
         "MV-000007",
@@ -721,7 +731,8 @@
         "MV-000138",
         "MV-000155",
         "MV-000168",
-        "MV-000199"
+        "MV-000199",
+        "MV-000219"
       ]
     },
     {
@@ -810,7 +821,7 @@
       "name": "indigenous history",
       "group": "colonialism",
       "scope_note": "Histories told by and about Indigenous peoples.",
-      "collection_count": 18,
+      "collection_count": 19,
       "collections": [
         "MV-000006",
         "MV-000018",
@@ -829,7 +840,8 @@
         "MV-000105",
         "MV-000171",
         "MV-000200",
-        "MV-000210"
+        "MV-000210",
+        "MV-000215"
       ]
     },
     {
@@ -845,7 +857,7 @@
       "name": "community memory",
       "group": "memory",
       "scope_note": "Local and community-level remembrance.",
-      "collection_count": 30,
+      "collection_count": 33,
       "collections": [
         "MV-000001",
         "MV-000086",
@@ -876,14 +888,17 @@
         "MV-000203",
         "MV-000205",
         "MV-000206",
-        "MV-000209"
+        "MV-000209",
+        "MV-000213",
+        "MV-000219",
+        "MV-000220"
       ]
     },
     {
       "name": "national memory",
       "group": "memory",
       "scope_note": "Nationally framed memory projects.",
-      "collection_count": 9,
+      "collection_count": 10,
       "collections": [
         "MV-000019",
         "MV-000033",
@@ -893,7 +908,8 @@
         "MV-000071",
         "MV-000078",
         "MV-000131",
-        "MV-000133"
+        "MV-000133",
+        "MV-000214"
       ]
     },
     {
@@ -911,7 +927,7 @@
       "name": "everyday life",
       "group": "memory",
       "scope_note": "Ordinary lives and daily experience.",
-      "collection_count": 30,
+      "collection_count": 31,
       "collections": [
         "MV-000001",
         "MV-000007",
@@ -942,7 +958,8 @@
         "MV-000173",
         "MV-000175",
         "MV-000176",
-        "MV-000206"
+        "MV-000206",
+        "MV-000219"
       ]
     },
     {
@@ -969,7 +986,7 @@
       "name": "history",
       "group": "history",
       "scope_note": "General historical documentation with no narrower theme recorded.",
-      "collection_count": 30,
+      "collection_count": 36,
       "collections": [
         "MV-000023",
         "MV-000024",
@@ -1000,14 +1017,20 @@
         "MV-000203",
         "MV-000207",
         "MV-000209",
-        "MV-000210"
+        "MV-000210",
+        "MV-000213",
+        "MV-000214",
+        "MV-000215",
+        "MV-000216",
+        "MV-000217",
+        "MV-000220"
       ]
     },
     {
       "name": "social history",
       "group": "history",
       "scope_note": "Social structures and experience of ordinary people.",
-      "collection_count": 11,
+      "collection_count": 16,
       "collections": [
         "MV-000010",
         "MV-000051",
@@ -1019,14 +1042,19 @@
         "MV-000090",
         "MV-000092",
         "MV-000097",
-        "MV-000124"
+        "MV-000124",
+        "MV-000213",
+        "MV-000215",
+        "MV-000216",
+        "MV-000217",
+        "MV-000218"
       ]
     },
     {
       "name": "political history",
       "group": "history",
       "scope_note": "Political life, movements, and institutions.",
-      "collection_count": 17,
+      "collection_count": 21,
       "collections": [
         "MV-000013",
         "MV-000036",
@@ -1044,7 +1072,11 @@
         "MV-000180",
         "MV-000195",
         "MV-000196",
-        "MV-000203"
+        "MV-000203",
+        "MV-000214",
+        "MV-000216",
+        "MV-000217",
+        "MV-000220"
       ]
     },
     {
@@ -1072,7 +1104,7 @@
       "name": "women's history",
       "group": "gender",
       "scope_note": "Women's lives and experiences.",
-      "collection_count": 8,
+      "collection_count": 9,
       "collections": [
         "MV-000028",
         "MV-000070",
@@ -1081,7 +1113,8 @@
         "MV-000089",
         "MV-000093",
         "MV-000094",
-        "MV-000192"
+        "MV-000192",
+        "MV-000218"
       ]
     },
     {

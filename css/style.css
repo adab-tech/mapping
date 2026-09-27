@@ -746,6 +746,19 @@ button {
   color: var(--accent-dark);
 }
 
+.inline-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem 0.35rem;
+}
+
+.inline-list li:not(:last-child)::after {
+  content: ",";
+}
+
 .detail-citation {
   font-style: normal;
   font-size: 0.85rem;

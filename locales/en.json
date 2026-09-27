@@ -69,7 +69,8 @@
     "related": "Related collections",
     "copyLink": "Copy link to this record",
     "copied": "Link copied",
-    "contentNotice": "Mapping Voices links to this collection; access and reuse are governed by the holding institution."
+    "contentNotice": "Mapping Voices links to this collection; access and reuse are governed by the holding institution.",
+    "languageExplorer": "Open in the Language Explorer"
   },
   "footer": {
     "template": "Map data & imagery © %LINK% contributors.",
@@ -78,7 +79,8 @@
     "about": "About",
     "methodology": "Methodology",
     "data": "Open data",
-    "contribute": "Contribute"
+    "contribute": "Contribute",
+    "languages": "Languages"
   },
   "stats": {
     "label": "Dataset summary",

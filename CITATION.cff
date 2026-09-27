@@ -6,7 +6,7 @@ message: >-
   MV-000023) as the finding aid.
 title: "Mapping Voices: An Open Atlas of Oral-History and Voice-Testimony Collections"
 type: dataset
-version: 0.2.0
+version: 0.3.0
 date-released: "2026-09-27"
 authors:
   - family-names: Abubakar

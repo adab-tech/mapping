@@ -1,0 +1,190 @@
+/* ==========================================================================
+   Mapping Voices — Language Explorer (languages.html).
+   Builds on style.css (tokens, .field, .tag, .detail-row) and about.css
+   (page header, .page-main, .page-stats, .principle).
+   ========================================================================== */
+
+.lx-main {
+  max-width: 52rem;
+}
+
+.lx-controls {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.9rem;
+  margin: 0 0 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .lx-controls {
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: end;
+  }
+}
+
+.lx-count,
+.lx-status {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  margin: 0 0 0.75rem;
+}
+
+.lx-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.lx-item {
+  background: var(--paper-panel);
+  border: 1px solid var(--rule-soft);
+  border-radius: var(--radius);
+  scroll-margin-top: 1rem;
+}
+
+.lx-item[open] {
+  border-color: var(--rule);
+}
+
+.lx-item.is-collective {
+  border-style: dashed;
+}
+
+.lx-item summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.3rem 0.6rem;
+  padding: 0.7rem 0.9rem;
+}
+
+.lx-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.lx-item summary::before {
+  content: "";
+  width: 0.45rem;
+  height: 0.45rem;
+  border-right: 2px solid var(--accent-dark);
+  border-bottom: 2px solid var(--accent-dark);
+  transform: rotate(-45deg);
+  transition: transform var(--transition-fast);
+  align-self: center;
+  flex: 0 0 auto;
+}
+
+[dir="rtl"] .lx-item summary::before {
+  transform: rotate(135deg);
+}
+
+.lx-item[open] summary::before {
+  transform: rotate(45deg);
+}
+
+.lx-item summary:hover .lx-name {
+  color: var(--accent-dark);
+}
+
+.lx-name {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.lx-code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  background: var(--paper-deep);
+  padding: 0.05rem 0.35rem;
+  border-radius: 3px;
+}
+
+.lx-type {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent-dark);
+}
+
+.lx-meta {
+  margin-inline-start: auto;
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+}
+
+.lx-body {
+  padding: 0.25rem 0.9rem 1rem 1.95rem;
+  border-top: 1px solid var(--rule-soft);
+}
+
+.lx-body dl {
+  margin: 0.75rem 0 0;
+}
+
+.lx-inline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 0.9rem;
+}
+
+.lx-body .tag a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.lx-body .tag a:hover {
+  text-decoration: underline;
+}
+
+.lx-sub {
+  font-size: 0.95rem;
+  margin: 0.5rem 0 0.4rem;
+}
+
+.lx-collections {
+  margin: 0;
+  padding-inline-start: 1.1rem;
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.92rem;
+}
+
+.lx-col-meta,
+.lx-col-note {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+}
+
+.lx-col-note {
+  font-style: italic;
+}
+
+.lx-atlas-link {
+  display: inline-block;
+  margin-top: 0.85rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--accent-dark);
+}
+
+@media (max-width: 480px) {
+  .lx-body {
+    padding-inline-start: 0.9rem;
+  }
+
+  .lx-meta {
+    margin-inline-start: 0;
+    width: 100%;
+  }
+}

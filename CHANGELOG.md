@@ -4,6 +4,48 @@ All notable changes to the Mapping Voices dataset and atlas. Dataset
 changes are recorded as additions, removals, corrections, metadata changes,
 broken-source changes, and taxonomy changes (METHODOLOGY §10, §12).
 
+## [0.3.0] — 2026-09-27 — Language Explorer, review tooling, source review
+
+### Dataset
+- **Additions:** 11 collections completed from the review queue
+  (MV-000211–MV-000221): Swiss Folk Song Archive; Uysal–Walker Archive of
+  Turkish Oral Narrative; BC Archives' Sound Heritage programs; Foundation
+  for Iranian Studies' Oral History of Iran; Samuel Proctor Oral History
+  Program; Columbia's Oral History Archives; Bancroft Oral History Center;
+  Black Women Oral History Project; Queens Memory Project; Voices of
+  Oklahoma; West Point Center for Oral History. Now 221 collections.
+- **Broken-source changes:** new URLs for Yad Vashem (404), the Estonian
+  Folklore Archives (404), and the Arquivo Histórico de Moçambique (410);
+  Botswana and Sri Lanka flagged for a curator.
+- **Corrections:** 8 `http://` URLs moved to the holders' current https
+  pages (Michinoku Shinrokuden, Freedom Collection, Battye Library,
+  Khayrallah Center, Pangloss, War Childhood Museum, Österreichische
+  Mediathek, OHAM); citations updated with them. Languages sourced for the
+  Swaziland Oral History Project (siSwati + English), Pangloss, and the UMSA
+  oral archive.
+- **Taxonomy:** added Tibetan (`bod`).
+- **Review log:** new `data/review-log.json`, 38 entries, all
+  search-based. No record promoted to `verified`.
+- Review queue triaged: 11 added, 14 duplicates, 1 merged, 5 out of scope,
+  3 need a curator decision, 1 needs a URL, 20 still open.
+
+### Atlas
+- New **Language Explorer** (`languages.html`): every language with its
+  ISO 639-3 code, alternate names, countries, collections, frequent
+  themes, recording span, and multilingual share; searchable, sortable,
+  deep-linkable (`#lang-hausa`), and linked both ways with the atlas.
+- Languages in the record panel link to the Explorer.
+
+### Tooling and testing
+- `scripts/review-worksheet.mjs` and `scripts/apply-review.mjs` for the
+  field-by-field verification pass (`docs/review/README.md`).
+- Validator: `verified` requires `last_reviewed`; the review log is
+  validated.
+- `tests/browser/audit.mjs`: axe-core WCAG 2.1 AA, device emulation, reflow,
+  keyboard, reduced motion, RTL — 42/42 pass in Chromium. Results and a
+  manual checklist for Safari, Firefox and real devices in
+  `docs/testing/BROWSER-TESTING.md`.
+
 ## [0.2.0] — 2026-09-27 — Metadata normalization
 
 No collection was added or removed, and no title, institution, pin, date,

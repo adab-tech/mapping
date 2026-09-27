@@ -8,7 +8,7 @@
 //
 // Usage: node scripts/validate-data.mjs
 
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 
@@ -221,6 +221,14 @@ export function validate(data, vocab, { currentYear = new Date().getFullYear() }
     if (typeof entry.verification_status === "string" && !VERIFICATION_STATUSES.includes(entry.verification_status)) {
       fail(context, `field "verification_status" ("${entry.verification_status}") must be one of ${VERIFICATION_STATUSES.join(", ")}`);
     }
+    for (const field of ["last_reviewed"]) {
+      if (entry[field] !== undefined && (typeof entry[field] !== "string" || !ISO_DATE.test(entry[field]) || Number.isNaN(Date.parse(entry[field])))) {
+        fail(context, `field "${field}" must be a YYYY-MM-DD date when present`);
+      }
+    }
+    if (entry.verification_status === "verified" && !entry.last_reviewed) {
+      fail(context, `"verified" requires "last_reviewed" (the date of the field-by-field review) — see METHODOLOGY.md §4`);
+    }
     if (entry.date_added !== undefined && entry.date_added !== null) {
       if (typeof entry.date_added !== "string" || !ISO_DATE.test(entry.date_added) || Number.isNaN(Date.parse(entry.date_added))) {
         fail(context, `field "date_added" must be a YYYY-MM-DD date or null, got ${JSON.stringify(entry.date_added)}`);
@@ -263,6 +271,30 @@ export function validate(data, vocab, { currentYear = new Date().getFullYear() }
   return { errors, warnings };
 }
 
+export const REVIEW_METHODS = ["field-by-field", "search-based", "link-check"];
+
+/** Checks data/review-log.json: well-formed entries that point at real records. */
+export function validateReviewLog(log, data) {
+  const errors = [];
+  const mvIds = new Set(Array.isArray(data) ? data.map((r) => r && r.mv_id) : []);
+  if (!log || !Array.isArray(log.entries)) {
+    return ["data/review-log.json: must be an object with an \"entries\" array"];
+  }
+  log.entries.forEach((e, i) => {
+    const ctx = `review-log entry #${i} (${e && e.mv_id})`;
+    if (!e || typeof e !== "object") return errors.push(`${ctx}: is not an object`);
+    if (!ISO_DATE.test(e.date || "")) errors.push(`${ctx}: "date" must be YYYY-MM-DD`);
+    if (!mvIds.has(e.mv_id)) errors.push(`${ctx}: "mv_id" does not match any record`);
+    if (!REVIEW_METHODS.includes(e.method)) errors.push(`${ctx}: "method" must be one of ${REVIEW_METHODS.join(", ")}`);
+    for (const f of ["check", "reviewer", "finding"]) {
+      if (typeof e[f] !== "string" || !e[f].trim()) errors.push(`${ctx}: "${f}" must be a non-empty string`);
+    }
+    if (!Array.isArray(e.evidence)) errors.push(`${ctx}: "evidence" must be an array of URLs`);
+    else if (!e.evidence.every(validUrl)) errors.push(`${ctx}: "evidence" contains a non-http(s) URL`);
+  });
+  return errors;
+}
+
 export function loadVocab(root = ROOT) {
   const read = (f) => JSON.parse(readFileSync(path.join(root, "data", "vocab", f), "utf8"));
   const themes = read("themes.json");
@@ -291,6 +323,14 @@ function main() {
   }
 
   const { errors, warnings } = validate(data, vocab);
+  const logPath = path.join(ROOT, "data", "review-log.json");
+  if (existsSync(logPath)) {
+    try {
+      errors.push(...validateReviewLog(JSON.parse(readFileSync(logPath, "utf8")), data));
+    } catch (err) {
+      errors.push(`data/review-log.json could not be parsed: ${err.message}`);
+    }
+  }
 
   if (warnings.length) {
     console.warn(`\n${warnings.length} warning(s):\n`);

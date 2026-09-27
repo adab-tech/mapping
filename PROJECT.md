@@ -67,7 +67,7 @@ cultural-heritage organizations.
 
 Every published record has: a stable `mv_id`; source URL to the holder's
 own page; controlled country, languages, and themes; recording period;
-verification status and provenance. v0.2.0 meets all of these for all 210
+verification status and provenance. v0.3.0 meets all of these for all 221
 records. What v1.0 adds: field-by-field verification for a substantial
 share of records (`verified`), historical period discussed, archive type,
 and controlled access level.
@@ -90,8 +90,10 @@ and controlled access level.
 
 ### Phase 2 — Data collection & verification
 - ✅ Verification workflow and levels defined
-- 🟡 Field-by-field review to promote records to `verified` — not yet started
-- 🟡 72 research leads in `docs/review-queue.csv` awaiting completion
+- ✅ Review tooling: prioritized worksheet, importer, append-only review log (`docs/review/`, `data/review-log.json`); `verified` requires a recorded field-by-field review
+- ✅ Search-based source review (v0.3): 5 hard link failures and 16 `http://` URLs followed up; 11 URLs corrected, 2 records flagged
+- 🟡 Field-by-field review to promote records to `verified` — tooling ready, review not yet started (73 priority-1 records in the worksheet)
+- 🟡 Review queue: 11 leads added as records, 24 triaged (duplicate / out of scope / curator decision); 20 US/UK leads still open
 
 ### Phase 3 — Quality control
 - ✅ Automated checks: required fields, duplicate IDs/URLs/records, vocabularies, coordinates, dates, links between records (`scripts/validate-data.mjs`, tested in `tests/`)
@@ -107,7 +109,9 @@ and controlled access level.
 - ⬜ Filters for archive type, access, institution, region
 
 ### Phase 6–8 — Language, theme, and timeline explorers
-- 🟡 Data ready (`data/languages.json`, `data/themes.json`, `data/stats.json` by decade); dedicated explorer views not built
+- ✅ Language Explorer (`languages.html`): ISO 639-3 codes, alternate names, countries, collections, themes, recording span, multilingual share; linked both ways with the atlas
+- ⬜ Glottolog / Wikidata identifiers for languages
+- ⬜ Theme explorer and timeline views (data ready in `data/themes.json`, `data/stats.json`)
 
 ### Phase 9 — Open data
 - ✅ CSV, JSON, GeoJSON, languages, themes, countries, stats, Data Package descriptor — with version, date, license, methodology link
@@ -118,11 +122,15 @@ and controlled access level.
 ### Phase 11 — Accessibility
 - ✅ Keyboard-operable pins, filters, and drawers; screen-reader labels; skip link; reduced-motion; RTL
 - ✅ Index is a first-class alternative to the map; no map-only information
-- 🟡 Formal audit (screen readers, contrast tooling) not yet done; label contrast raised in v0.2
+- ✅ Automated audit: axe-core WCAG 2.1 AA, zero violations on every page, including RTL (`docs/testing/BROWSER-TESTING.md`)
+- ✅ Reflow at 320 px, keyboard-only operation, focus trapping, reduced motion
+- 🟡 Real screen-reader testing (VoiceOver, NVDA/JAWS, TalkBack) — checklist ready, not yet done
 
 ### Phase 12–13 — Performance & testing
-- ✅ Data tests; headless-browser smoke test of search, filters, URL state, mobile layout, locale switching
-- ⬜ Cross-browser (Safari, Firefox, iOS, Android) and performance measurement
+- ✅ Data tests (`tests/`); repeatable browser audit (`tests/browser/audit.mjs`, 42 checks)
+- ✅ Chromium with device emulation: iPhone SE/13, Pixel 7, Galaxy S9+, iPad, iPad Pro
+- 🟡 Real Safari, Firefox, iOS and Android devices — manual checklist ready, not yet done
+- ⬜ Performance measurement
 
 ### Phase 14–15 — Documentation & academic positioning
 - ✅ README, METHODOLOGY, DATA_DICTIONARY, CONTRIBUTING, LICENSE, CHANGELOG, CITATION.cff
@@ -133,9 +141,9 @@ and controlled access level.
 | Version | Name | Adds |
 |---|---|---|
 | v0.1 | Seed atlas | Map, filters, 191 records (210 after the September 2026 audit) |
-| **v0.2** | **Metadata normalization** | **Stable IDs, controlled vocabularies, verification status, open data, search, URL state, methodology** |
-| v0.3 | Language explorer | Language view; Glottolog/Wikidata identifiers |
-| v0.4 | Verification pass | Field-by-field review; archive type; access level |
+| v0.2 | Metadata normalization | Stable IDs, controlled vocabularies, verification status, open data, search, URL state, methodology |
+| **v0.3** | **Language explorer & review tooling** | **Language Explorer, review log and worksheet, link fixes, 11 new collections, accessibility audit** |
+| v0.4 | Verification pass | Field-by-field review; archive type; access level; Glottolog/Wikidata identifiers |
 | v1.0 | Research-grade release | Historical period discussed; accessibility and browser audits |
 | v1.5 | Language atlas | Multilingual analysis |
 | v2.0 | Research infrastructure | API; reviewed contribution workflow |
