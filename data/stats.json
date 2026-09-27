@@ -148,7 +148,7 @@
     "Zimbabwe": 1
   },
   "by_language": {
-    "English": 102,
+    "English": 103,
     "Multiple languages": 33,
     "Spanish": 22,
     "French": 21,
@@ -316,8 +316,8 @@
   },
   "field_coverage": {
     "language_note": {
-      "records": 43,
-      "percent": 20.5
+      "records": 45,
+      "percent": 21.4
     },
     "citation": {
       "records": 177,
@@ -341,7 +341,7 @@
     }
   },
   "url_scheme": {
-    "https": 194,
-    "http": 16
+    "https": 202,
+    "http": 8
   }
 }

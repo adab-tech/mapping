@@ -3,7 +3,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import { validate, loadVocab, canonicalUrl } from "../scripts/validate-data.mjs";
+import { validate, validateReviewLog, loadVocab, canonicalUrl } from "../scripts/validate-data.mjs";
 
 const vocab = loadVocab();
 const dataset = JSON.parse(readFileSync(new URL("../data/collections.json", import.meta.url), "utf8"));
@@ -108,4 +108,23 @@ test("historical period: optional, integer years, ordered", () => {
   assert.deepEqual(errorsFor([{ ...base(), historical_period_start: 1947, historical_period_end: 1947 }]), []);
   assert.ok(errorsFor([{ ...base(), historical_period_start: "1940s" }]).some((e) => e.includes("historical_period_start")));
   assert.ok(errorsFor([{ ...base(), historical_period_start: 1960, historical_period_end: 1950 }]).some((e) => e.includes("precedes")));
+});
+
+test("'verified' requires last_reviewed", () => {
+  assert.ok(errorsFor([{ ...base(), verification_status: "verified" }]).some((e) => e.includes("last_reviewed")));
+  assert.deepEqual(errorsFor([{ ...base(), verification_status: "verified", last_reviewed: "2026-09-27" }]), []);
+  assert.ok(errorsFor([{ ...base(), last_reviewed: "27/09/2026" }]).some((e) => e.includes("last_reviewed")));
+});
+
+test("review log: committed log is valid", () => {
+  const log = JSON.parse(readFileSync(new URL("../data/review-log.json", import.meta.url), "utf8"));
+  assert.deepEqual(validateReviewLog(log, dataset), []);
+});
+
+test("review log: rejects unknown mv_id, bad method, bad evidence", () => {
+  const entry = { date: "2026-09-27", mv_id: "MV-000001", check: "link", method: "search-based", reviewer: "x", finding: "y", evidence: ["https://example.org"] };
+  assert.deepEqual(validateReviewLog({ entries: [entry] }, dataset), []);
+  assert.equal(validateReviewLog({ entries: [{ ...entry, mv_id: "MV-999999" }] }, dataset).length, 1);
+  assert.equal(validateReviewLog({ entries: [{ ...entry, method: "vibes" }] }, dataset).length, 1);
+  assert.equal(validateReviewLog({ entries: [{ ...entry, evidence: ["ftp://x"] }] }, dataset).length, 1);
 });

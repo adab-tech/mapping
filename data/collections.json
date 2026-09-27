@@ -1373,8 +1373,8 @@
     "decade_start": 1953,
     "decade_end": null,
     "summary": "Israel's official Holocaust remembrance authority, established by law in 1953, holds over 125,000 survivor testimonies (written, audio, and video) among more than 210 million pages of Holocaust documentation, with thousands available online.",
-    "url": "https://www.yadvashem.org/collections/testimonies.html",
-    "citation": "Yad Vashem. Survivor Testimonies Collection. Retrieved from https://www.yadvashem.org/collections/testimonies.html.",
+    "url": "https://www.yadvashem.org/archive/about/testimonies.html",
+    "citation": "Yad Vashem. Survivor Testimonies Collection. Retrieved from https://www.yadvashem.org/archive/about/testimonies.html.",
     "access_notes": "Thousands of full testimonies freely viewable online; broader archive by researcher request.",
     "related_ids": [
       "armenian-film-foundation",
@@ -1383,7 +1383,7 @@
       "usc-shoah-foundation-vha",
       "yahad-in-unum"
     ],
-    "preview_url": "https://www.yadvashem.org/collections/testimonies.html",
+    "preview_url": "https://www.yadvashem.org/holocaust/video-testimonies.html",
     "verification_status": "partially_verified",
     "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
     "date_added": "2026-09-01"
@@ -1855,8 +1855,8 @@
     "decade_start": 1927,
     "decade_end": null,
     "summary": "Founded in Tartu in 1927, Estonia's central folklore archive holds roughly 1.5 million manuscript pages, 188,000 sound recordings, and 1,700 films documenting Estonian and Seto folk song, storytelling, and oral tradition.",
-    "url": "https://www.folklore.ee/dbases/",
-    "citation": "Estonian Literary Museum. Estonian Folklore Archives. Retrieved from https://www.folklore.ee/dbases/.",
+    "url": "https://www.kirmus.ee/en/about-us/departments/estonian-folklore-archives",
+    "citation": "Estonian Literary Museum. Estonian Folklore Archives. Retrieved from https://www.kirmus.ee/en/about-us/departments/estonian-folklore-archives.",
     "related_ids": [
       "finnish-literature-society-folklore-archive",
       "tobar-an-dualchais"
@@ -2427,8 +2427,8 @@
     "decade_start": 2011,
     "decade_end": null,
     "summary": "Launched in September 2011, this Tohoku University digital archive collects photographs, records, and firsthand testimonies and stories of the thoughts and memories of survivors of the 2011 Great East Japan Earthquake and tsunami, with civic contributions welcomed.",
-    "url": "http://search.shinrokuden.irides.tohoku.ac.jp/shinrokuden/",
-    "citation": "International Research Institute of Disaster Science, Tohoku University. Michinoku Shinrokuden. Retrieved from http://search.shinrokuden.irides.tohoku.ac.jp/shinrokuden/.",
+    "url": "https://search.shinrokuden.irides.tohoku.ac.jp/shinrokuden/",
+    "citation": "International Research Institute of Disaster Science, Tohoku University. Michinoku Shinrokuden. Retrieved from https://search.shinrokuden.irides.tohoku.ac.jp/shinrokuden/.",
     "access_notes": "Freely accessible online; open to public contributions.",
     "related_ids": [
       "hurricane-digital-memory-bank"
@@ -4304,6 +4304,7 @@
     "url": "https://www.gov.bw/culture/national-archives-research-enquiry",
     "access_notes": "In-person research-room access at the National Archives in Gaborone; researchers submit an enquiry form in advance.",
     "verification_status": "partially_verified",
+    "verification_note": "Source URL returned 404 in the 2026-09-21 link check; no replacement page found yet.",
     "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
     "date_added": "2026-09-01"
   },
@@ -4351,7 +4352,7 @@
     "decade_start": 1979,
     "decade_end": 1984,
     "summary": "The Arquivo Histórico de Moçambique, overseen by Eduardo Mondlane University in Maputo since 1976, holds several hundred cassette-tape interviews and storytelling sessions recorded between 1979 and 1984 in Mozambique's northern provinces, documenting the war of independence, rural social life, rituals and local histories.",
-    "url": "https://ahm.ghost.uem.mz/",
+    "url": "https://ahm.uem.mz/",
     "verification_status": "partially_verified",
     "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
     "date_added": "2026-09-01"
@@ -5113,6 +5114,7 @@
       "Quechua",
       "Spanish"
     ],
+    "language_note": "Also Mosetén, Guarayo, Tacana, Tsimán and Chiquitano, among others (per the archive's own description).",
     "themes": [
       "oral tradition",
       "community memory",
@@ -5494,6 +5496,7 @@
     "url": "http://www.natlib.lk/index.php/folklore-collection",
     "access_notes": "Located in Colombo; materials accessible on-site as part of the library's reference collection.",
     "verification_status": "partially_verified",
+    "verification_note": "Source URL returned 404 in the 2026-09-21 link check; site restructured. Scope (manuscripts vs. recordings) needs curator review.",
     "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
     "date_added": "2026-09-01"
   },
@@ -5635,8 +5638,8 @@
     "decade_start": 2012,
     "decade_end": null,
     "summary": "Freedom Collection is a digital repository documenting major human rights and freedom movement figures from the 20th and 21st centuries through video interviews and documents. Launched in March 2012 with 56 interviews, it features contributors including former national leaders and civil rights activists from multiple countries. As of 2022, the website had not been updated since 2016 and the YouTube channel since October 2015, with unclear current status.",
-    "url": "http://www.freedomcollection.org/",
-    "citation": "Freedom Collection. Retrieved from http://www.freedomcollection.org/.",
+    "url": "https://www.bushcenter.org/freedom-collection",
+    "citation": "Freedom Collection. Retrieved from https://www.bushcenter.org/freedom-collection.",
     "related_ids": [
       "usc-shoah-foundation-vha",
       "fortunoff-video-archive",
@@ -5691,8 +5694,8 @@
     "decade_start": 1956,
     "decade_end": null,
     "summary": "The J. S. Battye Library is a division of the State Library of Western Australia that holds historical records including oral history tapes, photographs, artworks, films, videos, and non-government records. The library provides reference, copying, genealogical, consultancy, and reader education services.",
-    "url": "http://slwa.wa.gov.au/dead_reckoning/battye_library",
-    "citation": "J S Battye Library. J. S. Battye Library of West Australian History. Retrieved from http://slwa.wa.gov.au/dead_reckoning/battye_library.",
+    "url": "https://slwa.wa.gov.au/dead_reckoning/battye_library",
+    "citation": "J S Battye Library. J. S. Battye Library of West Australian History. Retrieved from https://slwa.wa.gov.au/dead_reckoning/battye_library.",
     "related_ids": [],
     "preview_url": null,
     "verification_status": "partially_verified",
@@ -5720,8 +5723,8 @@
     "decade_start": 2010,
     "decade_end": null,
     "summary": "A research center at North Carolina State University that supports oral history collection and maintains a digital archive of material about the Lebanese diaspora in the US and worldwide. The center has produced documentary and museum exhibition work on Lebanese-American history in North Carolina.",
-    "url": "http://lebanesestudies.ncsu.edu/",
-    "citation": "Moise A. Khayrallah Center for Lebanese Diaspora Studies. Retrieved from http://lebanesestudies.ncsu.edu/.",
+    "url": "https://lebanesestudies.ncsu.edu/",
+    "citation": "Moise A. Khayrallah Center for Lebanese Diaspora Studies. Retrieved from https://lebanesestudies.ncsu.edu/.",
     "related_ids": [
       "saada-archive",
       "immigration-history-research-center-umn",
@@ -5799,21 +5802,20 @@
     "languages": [
       "Multiple languages"
     ],
-    "language_note": "various endangered languages",
+    "language_note": "about 170 languages, mostly of small, often endangered speech communities",
     "themes": [
       "language documentation"
     ],
     "decade_start": 1996,
     "decade_end": null,
     "summary": "The Pangloss Collection is a digital library developed by the LACITO centre of CNRS in Paris that stores audio recordings in endangered languages from all continents. It provides free online access to documents of connected, spontaneous speech in little-documented languages.",
-    "url": "http://lacito.vjf.cnrs.fr/pangloss/",
-    "citation": "Pangloss Collection. Retrieved from http://lacito.vjf.cnrs.fr/pangloss/.",
+    "url": "https://pangloss.cnrs.fr/",
+    "citation": "Pangloss Collection. Retrieved from https://pangloss.cnrs.fr/.",
     "related_ids": [
       "institut-kurde-paris"
     ],
     "preview_url": null,
     "verification_status": "partially_verified",
-    "verification_note": "Languages inferred from country and subject; not stated by the source.",
     "provenance": "Wikipedia/Wikidata harvest, September 2026 audit (Wikidata Q6468667; URL from wikidata:P856). See data/new-entries-provenance.json.",
     "date_added": "2026-09-20"
   },
@@ -5926,8 +5928,8 @@
     "decade_start": 2010,
     "decade_end": null,
     "summary": "The War Childhood Museum in Sarajevo collects and presents the memories of children who lived through the Bosnian war, gathered initially through an online platform that received over 1,000 submissions from young adults. The museum displays these recollections through objects, video testimonies, and oral history excerpts.",
-    "url": "http://museum.warchildhood.com",
-    "citation": "War Childhood Museum. Retrieved from http://museum.warchildhood.com.",
+    "url": "https://warchildhood.org/",
+    "citation": "War Childhood Museum. Retrieved from https://warchildhood.org/.",
     "related_ids": [],
     "preview_url": null,
     "verification_status": "partially_verified",
@@ -5952,8 +5954,8 @@
     "decade_start": 1960,
     "decade_end": null,
     "summary": "The Österreichische Mediathek is the Austrian archive for sound recordings and videos documenting cultural and contemporary history. Founded in 1960 as the Österreichische Phonothek by the Ministry of Education, it has been a branch of the Vienna Technical Museum since 2001. It is responsible for preserving Austrian audio-visual cultural heritage, excluding film on photographic carrier material and photography.",
-    "url": "http://www.mediathek.at",
-    "citation": "Österreichische Mediathek. Retrieved from http://www.mediathek.at.",
+    "url": "https://www.mediathek.at/",
+    "citation": "Österreichische Mediathek. Retrieved from https://www.mediathek.at/.",
     "related_ids": [],
     "preview_url": null,
     "verification_status": "partially_verified",
@@ -5978,8 +5980,8 @@
     "decade_start": 1969,
     "decade_end": null,
     "summary": "An oral history project and archive of audio and video recordings consisting mainly of interviews with American classical and jazz musicians. Currently holds approximately 3,000 interviews with more than 900 subjects and is considered the definitive collection of its kind. Housed as a special collection of the Irving S. Gilmore Music Library at Yale University.",
-    "url": "http://web.library.yale.edu/oham/about",
-    "citation": "Oral History of American Music. Retrieved from http://web.library.yale.edu/oham/about.",
+    "url": "https://library.yale.edu/visit-and-study/libraries-locations/gilmore-music-library/oral-history-american-music",
+    "citation": "Oral History of American Music. Retrieved from https://library.yale.edu/visit-and-study/libraries-locations/gilmore-music-library/oral-history-american-music.",
     "related_ids": [
       "ralph-rinzler-folklife-archives",
       "association-cultural-equity-lomax"
@@ -6032,8 +6034,10 @@
     "lat": -26.4667,
     "lng": 31.2,
     "languages": [
-      "Swazi"
+      "Swazi",
+      "English"
     ],
+    "language_note": "Interviews mainly in siSwati; a selection transcribed and translated into English.",
     "themes": [
       "oral tradition",
       "history",
@@ -6047,7 +6051,6 @@
     "related_ids": [],
     "preview_url": null,
     "verification_status": "partially_verified",
-    "verification_note": "Languages inferred from country and subject; not stated by the source.",
     "provenance": "Wikipedia/Wikidata harvest, September 2026 audit (Wikidata Q137572000; URL from wikipedia:infobox). See data/new-entries-provenance.json.",
     "date_added": "2026-09-20"
   }

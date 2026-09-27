@@ -358,7 +358,7 @@
       "iso639_3": "eng",
       "type": "language",
       "alt_names": [],
-      "collection_count": 102,
+      "collection_count": 103,
       "countries": [
         "Australia",
         "Bangladesh",
@@ -368,6 +368,7 @@
         "Cook Islands",
         "Czech Republic",
         "Egypt",
+        "Eswatini",
         "Fiji",
         "Germany",
         "Ghana",
@@ -500,7 +501,8 @@
         "MV-000204",
         "MV-000205",
         "MV-000208",
-        "MV-000209"
+        "MV-000209",
+        "MV-000210"
       ]
     },
     {

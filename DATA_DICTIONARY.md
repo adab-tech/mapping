@@ -19,6 +19,7 @@ its controlled vocabularies, and its exported files. How values are
 | `data/vocab/languages.json` | Controlled vocabulary for `languages` | Yes |
 | `data/vocab/themes.json` | Controlled taxonomy for `themes` | Yes |
 | `data/dataset-meta.json` | Dataset title, version, release date, license | Yes, at release |
+| `data/review-log.json` | Append-only log of source checks (see §6) | Via `scripts/apply-review.mjs` or migration scripts |
 | `data/new-entries-provenance.json` | Harvest provenance for the 19 September 2026 audit additions | Historical |
 | `data/collections.csv` | Flattened export (see §5) | **No — generated** |
 | `data/collections.geojson` | GeoJSON export | **No — generated** |
@@ -96,6 +97,7 @@ are joined from the country vocabulary in the exports.
 | `verification_note` | string | — | Which fields are inferred or unchecked, or why a source is unavailable. |
 | `provenance` | string | ✔ | How the record entered the dataset (e.g. maintainer curation, a named harvest with its Wikidata QID, a contributor issue number). |
 | `date_added` | string \| null | — | `YYYY-MM-DD` the record was first published. For v0.1 records, taken from git history. |
+| `last_reviewed` | string | — | `YYYY-MM-DD` of the most recent **field-by-field** review against the source. **Required** when `verification_status` is `verified`. Set by `scripts/apply-review.mjs`. |
 
 ### Planned fields (not yet in the data)
 
@@ -108,7 +110,6 @@ they arrive. The validator does not check them yet.
 | `access` | `open online`, `partial online`, `registration required`, `on request`, `on site only`, `restricted` |
 | `community` | Free text: the community or population represented, in the holder's terms |
 | `region` / `locality` | Sub-national place names, when the source supports them |
-| `last_reviewed` | `YYYY-MM-DD` of the most recent field-by-field review (required for `verified`) |
 
 ## 3. Controlled vocabularies (`data/vocab/`)
 
@@ -199,3 +200,22 @@ per language, and languages per country).
 themes, institutions, decades), and counts by region, verification status,
 country, language, theme group, and decade (a collection counts once in
 every decade it spans), plus optional-field coverage.
+
+## 6. Review log (`data/review-log.json`)
+
+`{ "$comment": …, "entries": [ … ] }`, append-only, one entry per check:
+
+| Key | Definition |
+|---|---|
+| `date` | `YYYY-MM-DD` of the check |
+| `mv_id` | The record checked (must exist) |
+| `check` | What was checked: `link`, `https`, `languages`, `field-by-field`, … |
+| `method` | `field-by-field` (a person compared every core field with the source page), `search-based` (evidence from search results; source page not opened), or `link-check` |
+| `reviewer` | Who did it |
+| `finding` | What was found, in plain language |
+| `evidence` | URLs supporting the finding |
+| `changes` | `{ field: { from, to } }` applied to the record, or `null` |
+| `outcome` | e.g. `corrected`, `flagged`, `unchanged`, or the resulting verification status |
+
+Only `field-by-field` entries can justify `verified`. The validator checks
+every entry's shape and that its `mv_id` exists.

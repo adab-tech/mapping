@@ -110,9 +110,19 @@ DISCOVER → IDENTIFY → VERIFY → NORMALIZE → GEOLOCATE → CLASSIFY → RE
 | `needs_review` | A candidate that has not cleared verification. Not normally published; used for records under active correction. |
 | `unavailable` | A previously verified source is no longer reachable. **The record is kept, not deleted**, with the date and a note, so citations to it remain resolvable. |
 
-As of v0.2.0 all records are `partially_verified`: no field-by-field review
-has yet been recorded (see `docs/NORMALIZATION-v0.2.md` §2). Promoting a
-record to `verified` is done in a pull request that states what was checked.
+As of v0.2.0 all records were `partially_verified`: no field-by-field review
+had been recorded (see `docs/NORMALIZATION-v0.2.md` §2).
+
+### Recording reviews
+
+Every check on a record — a curator's field-by-field review, a
+search-based source check, a link-check follow-up — is appended to
+`data/review-log.json` with its date, method, reviewer, finding, evidence
+URLs, and resulting changes. A record may be `verified` only if it has a
+`last_reviewed` date from a **field-by-field** review by a person who
+opened the source page; the validator enforces the date. Search-based
+checks can correct links and flag problems but never promote a record.
+The worksheet workflow is described in `docs/review/README.md`.
 
 ### Automated checks
 

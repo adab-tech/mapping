@@ -1,0 +1,455 @@
+{
+  "$comment": "Append-only log of source checks on data/collections.json records. One entry per check. `method` says how the check was done; only a `field-by-field` check by a curator can promote a record to `verified` (METHODOLOGY.md §4).",
+  "entries": [
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000045",
+      "check": "link",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "Old URL returns 404; the archive's testimonies page and video-testimonies page are indexed on yadvashem.org.",
+      "evidence": [
+        "https://www.yadvashem.org/archive/about/testimonies.html",
+        "https://www.yadvashem.org/holocaust/video-testimonies.html"
+      ],
+      "changes": {
+        "url": {
+          "from": "https://www.yadvashem.org/collections/testimonies.html",
+          "to": "https://www.yadvashem.org/archive/about/testimonies.html"
+        },
+        "preview_url": {
+          "from": "https://www.yadvashem.org/collections/testimonies.html",
+          "to": "https://www.yadvashem.org/holocaust/video-testimonies.html"
+        }
+      },
+      "outcome": "corrected"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000061",
+      "check": "link",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "Old database URL returns 404. The Estonian Literary Museum (parent institution) publishes an English department page for the archives.",
+      "evidence": [
+        "https://www.kirmus.ee/en/about-us/departments/estonian-folklore-archives",
+        "https://www.folklore.ee/era/"
+      ],
+      "changes": {
+        "url": {
+          "from": "https://www.folklore.ee/dbases/",
+          "to": "https://www.kirmus.ee/en/about-us/departments/estonian-folklore-archives"
+        }
+      },
+      "outcome": "corrected"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000147",
+      "check": "link",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "ahm.ghost.uem.mz returns 410 Gone; the archive's site is indexed at ahm.uem.mz.",
+      "evidence": [
+        "https://ahm.uem.mz/"
+      ],
+      "changes": {
+        "url": {
+          "from": "https://ahm.ghost.uem.mz/",
+          "to": "https://ahm.uem.mz/"
+        }
+      },
+      "outcome": "corrected"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000145",
+      "check": "link",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "URL returned 404 in the link check but is still indexed by search engines; no replacement page from BNARS found. Needs a manual check.",
+      "evidence": [
+        "https://www.gov.bw/culture/national-archives-research-enquiry"
+      ],
+      "changes": {
+        "verification_note": {
+          "from": null,
+          "to": "Source URL returned 404 in the 2026-09-21 link check; no replacement page found yet."
+        }
+      },
+      "outcome": "flagged"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000191",
+      "check": "link",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "URL returns 404; natlib.lk has been restructured (e.g. /collections/ich.php, /collections/special_collection.php). Search snippets describe the folklore collection as manuscripts; whether it holds recordings (in scope) or the Intangible Cultural Heritage collection is the better target needs a curator's decision.",
+      "evidence": [
+        "https://www.natlib.lk/collections/ich.php",
+        "https://www.natlib.lk/collections/special_collection.php"
+      ],
+      "changes": {
+        "verification_note": {
+          "from": null,
+          "to": "Source URL returned 404 in the 2026-09-21 link check; site restructured. Scope (manuscripts vs. recordings) needs curator review."
+        }
+      },
+      "outcome": "flagged"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000081",
+      "check": "https",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "Search index lists the archive under https on the same host and path.",
+      "evidence": [
+        "https://search.shinrokuden.irides.tohoku.ac.jp/shinrokuden/result"
+      ],
+      "changes": {
+        "url": {
+          "from": "http://search.shinrokuden.irides.tohoku.ac.jp/shinrokuden/",
+          "to": "https://search.shinrokuden.irides.tohoku.ac.jp/shinrokuden/"
+        }
+      },
+      "outcome": "corrected"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000196",
+      "check": "https",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "freedomcollection.org is superseded by the George W. Bush Presidential Center's own Freedom Collection page.",
+      "evidence": [
+        "https://www.bushcenter.org/freedom-collection"
+      ],
+      "changes": {
+        "url": {
+          "from": "http://www.freedomcollection.org/",
+          "to": "https://www.bushcenter.org/freedom-collection"
+        }
+      },
+      "outcome": "corrected"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000198",
+      "check": "https",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "Same page indexed under https.",
+      "evidence": [
+        "https://slwa.wa.gov.au/dead_reckoning/battye_library"
+      ],
+      "changes": {
+        "url": {
+          "from": "http://slwa.wa.gov.au/dead_reckoning/battye_library",
+          "to": "https://slwa.wa.gov.au/dead_reckoning/battye_library"
+        }
+      },
+      "outcome": "corrected"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000199",
+      "check": "https",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "Site indexed under https.",
+      "evidence": [
+        "https://lebanesestudies.ncsu.edu/news/category/archive-spotlights/"
+      ],
+      "changes": {
+        "url": {
+          "from": "http://lebanesestudies.ncsu.edu/",
+          "to": "https://lebanesestudies.ncsu.edu/"
+        }
+      },
+      "outcome": "corrected"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000202",
+      "check": "https",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "The collection has moved from lacito.vjf.cnrs.fr to its own domain.",
+      "evidence": [
+        "https://pangloss.cnrs.fr/",
+        "https://pangloss.cnrs.fr/about-us"
+      ],
+      "changes": {
+        "url": {
+          "from": "http://lacito.vjf.cnrs.fr/pangloss/",
+          "to": "https://pangloss.cnrs.fr/"
+        }
+      },
+      "outcome": "corrected"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000206",
+      "check": "https",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "The museum's site is now warchildhood.org (https).",
+      "evidence": [
+        "https://warchildhood.org/"
+      ],
+      "changes": {
+        "url": {
+          "from": "http://museum.warchildhood.com",
+          "to": "https://warchildhood.org/"
+        }
+      },
+      "outcome": "corrected"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000207",
+      "check": "https",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "Site indexed under https.",
+      "evidence": [
+        "https://www.mediathek.at/",
+        "https://www.mediathek.at/forschungsprojekte/menschenleben"
+      ],
+      "changes": {
+        "url": {
+          "from": "http://www.mediathek.at",
+          "to": "https://www.mediathek.at/"
+        }
+      },
+      "outcome": "corrected"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000208",
+      "check": "https",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "OHAM's page has moved to library.yale.edu (https).",
+      "evidence": [
+        "https://library.yale.edu/visit-and-study/libraries-locations/gilmore-music-library/oral-history-american-music"
+      ],
+      "changes": {
+        "url": {
+          "from": "http://web.library.yale.edu/oham/about",
+          "to": "https://library.yale.edu/visit-and-study/libraries-locations/gilmore-music-library/oral-history-american-music"
+        }
+      },
+      "outcome": "corrected"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000073",
+      "check": "https",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "Only http:// pages of jeju43peace.org are indexed; the foundation also runs jeju43peace.or.kr and an online archive at 43archives.or.kr. Left unchanged pending a manual check of which is the right target.",
+      "evidence": [
+        "http://jeju43peace.org/historytruth/archives/"
+      ],
+      "changes": null,
+      "outcome": "unchanged"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000074",
+      "check": "https",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "Only http:// pages of nanum.org are indexed. Left unchanged.",
+      "evidence": [
+        "http://www.nanum.org/eng/sub1/sub2.php"
+      ],
+      "changes": null,
+      "outcome": "unchanged"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000118",
+      "check": "https",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "Only http://www.armenianfilm.org/ is indexed (a separate https subdomain exists for film sales). Left unchanged.",
+      "evidence": [
+        "http://www.armenianfilm.org/"
+      ],
+      "changes": null,
+      "outcome": "unchanged"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000133",
+      "check": "https",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "No https evidence found for kfdz.kz. Left unchanged.",
+      "evidence": [],
+      "changes": null,
+      "outcome": "unchanged"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000154",
+      "check": "https",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "Only http://www.icbsa.it/ is indexed. Left unchanged.",
+      "evidence": [
+        "http://www.icbsa.it/"
+      ],
+      "changes": null,
+      "outcome": "unchanged"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000177",
+      "check": "https",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "Only http:// pages are indexed. Left unchanged.",
+      "evidence": [
+        "http://www.literatura.edu.bo/archivo_oral/"
+      ],
+      "changes": null,
+      "outcome": "unchanged"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000178",
+      "check": "https",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "Only http:// pages are indexed. Left unchanged.",
+      "evidence": [
+        "http://www.diversidadcultural.gob.ve/"
+      ],
+      "changes": null,
+      "outcome": "unchanged"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000210",
+      "check": "languages",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "Holder's platform and project description: interviews mainly in siSwati, with English transcriptions/translations for a selection.",
+      "evidence": [
+        "https://emandulo.apc.uct.ac.za/metadata/SWOHP/index.html",
+        "https://emandulo.apc.uct.ac.za/collection/SWOHP/Institutional_Materials/Historical_Papers_SWOHP_Finding_Aid.pdf"
+      ],
+      "changes": {
+        "languages": {
+          "from": [
+            "Swazi"
+          ],
+          "to": [
+            "Swazi",
+            "English"
+          ]
+        },
+        "language_note": {
+          "from": null,
+          "to": "Interviews mainly in siSwati; a selection transcribed and translated into English."
+        },
+        "verification_note": {
+          "from": "Languages inferred from country and subject; not stated by the source.",
+          "to": null
+        }
+      },
+      "outcome": "corrected"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000202",
+      "check": "languages",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "The collection's own site: recordings in about 170 languages, mostly spoken by small communities.",
+      "evidence": [
+        "https://pangloss.cnrs.fr/about-us"
+      ],
+      "changes": {
+        "language_note": {
+          "from": "various endangered languages",
+          "to": "about 170 languages, mostly of small, often endangered speech communities"
+        },
+        "verification_note": {
+          "from": "Languages inferred from country and subject; not stated by the source.",
+          "to": null
+        }
+      },
+      "outcome": "corrected"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000177",
+      "check": "languages",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "The archive's own pages name further recording languages beyond Aymara and Quechua.",
+      "evidence": [
+        "http://www.literatura.edu.bo/archivo_oral/index.php/archivo/sobre-el-archivo"
+      ],
+      "changes": {
+        "language_note": {
+          "from": null,
+          "to": "Also Mosetén, Guarayo, Tacana, Tsimán and Chiquitano, among others (per the archive's own description)."
+        }
+      },
+      "outcome": "corrected"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000196",
+      "check": "languages",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "No source states the interview languages; the four listed remain inferred.",
+      "evidence": [],
+      "changes": null,
+      "outcome": "unchanged"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000201",
+      "check": "languages",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "No source states the interview languages; English remains inferred.",
+      "evidence": [],
+      "changes": null,
+      "outcome": "unchanged"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000197",
+      "check": "languages",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "Holdings are German broadcasting (Weimar, Nazi-era, GDR radio and television); German is consistent with the holder's description but not stated as such.",
+      "evidence": [
+        "https://www.dra.de/de/bestaende"
+      ],
+      "changes": null,
+      "outcome": "unchanged"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000200",
+      "check": "languages",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "No source states the languages of the oral-tradition holdings. Left inferred.",
+      "evidence": [],
+      "changes": null,
+      "outcome": "unchanged"
+    }
+  ]
+}
