@@ -4,7 +4,8 @@
   "description": "<p>A curated, openly licensed metadata dataset of real, publicly documented oral-history and voice-testimony collections worldwide, with normalized geographic, linguistic, thematic, and temporal metadata and a link to each holding institution's own page. The dataset describes and links to collections; it does not contain or redistribute their content.</p><p>Counts and statistics describe the collections currently indexed in Mapping Voices, not the global distribution of oral history. Absence of an indexed archive for a place or language is not evidence that no oral-history tradition or collection exists.</p><p>Methodology: <a href=\"https://github.com/adab-tech/mapping/blob/main/METHODOLOGY.md\">METHODOLOGY.md</a> · Data dictionary: <a href=\"https://github.com/adab-tech/mapping/blob/main/DATA_DICTIONARY.md\">DATA_DICTIONARY.md</a> · Atlas: <a href=\"https://adamu.tech/mapping/\">https://adamu.tech/mapping/</a></p>",
   "creators": [
     {
-      "name": "Abubakar, Adamu"
+      "name": "Abubakar, Adamu",
+      "orcid": "0009-0009-4672-4956"
     }
   ],
   "license": "cc-by-4.0",
