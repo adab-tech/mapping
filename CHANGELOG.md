@@ -4,7 +4,7 @@ All notable changes to the Mapping Voices dataset and atlas. Dataset
 changes are recorded as additions, removals, corrections, metadata changes,
 broken-source changes, and taxonomy changes (METHODOLOGY §10, §12).
 
-## [Unreleased] — Access, institution type, period discussed; Theme Explorer; Coverage Gaps
+## [0.4.0] — 2026-09-27 — Access, institution type, period discussed; Theme Explorer; Coverage Gaps
 
 ### Dataset
 - **Metadata changes:** three optional fields, previously listed as
@@ -64,6 +64,11 @@ broken-source changes, and taxonomy changes (METHODOLOGY §10, §12).
   UN member states, ISO 3166-1 alpha-2, M49 region/subregion), with a test
   (`tests/un-m49-countries.test.mjs`) that it agrees with
   `data/vocab/countries.json`.
+- Project skills for quick actions in `.claude/skills/` (`add-collection`,
+  `triage-leads`, `verify-records`, `fix-broken-links`, `release-dataset`,
+  `site-audit`) and a `CLAUDE.md` with the ground rules and checks.
+- The browser audit covers the Theme Explorer and Coverage Gaps pages
+  (60/60 checks in Chromium).
 
 ## [0.3.0] — 2026-09-27 — Language Explorer, review tooling, source review
 
