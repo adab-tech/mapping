@@ -7,6 +7,14 @@ message: >-
 title: "Mapping Voices: An Open Atlas of Oral-History and Voice-Testimony Collections"
 type: dataset
 version: 0.4.0
+doi: 10.5281/zenodo.22996479
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22996479
+    description: Zenodo archive of dataset v0.4.0
+  - type: url
+    value: "https://github.com/adab-tech/mapping/releases/tag/v0.4.0"
+    description: GitHub release v0.4.0
 date-released: "2026-09-27"
 authors:
   - family-names: Abubakar

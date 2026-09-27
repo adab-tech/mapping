@@ -195,6 +195,7 @@ const stats = {
 
 const datapackage = {
   profile: "data-package",
+  ...(meta.doi ? { id: meta.doi.url } : {}),
   name: meta.name,
   title: meta.title,
   version: meta.version,
