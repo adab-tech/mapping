@@ -7,22 +7,108 @@
 **Live:** [adamu.tech/mapping](https://adamu.tech/mapping/) ·
 [adab-tech.github.io/mapping](https://adab-tech.github.io/mapping/) (GitHub Pages, canonical)
 
-Mapping Voices is an open, interactive atlas of oral-history and
-voice-testimony archives. It's a single map, filterable by country, theme,
-language, and decade, that puts a pin on every collection in its dataset:
-click a pin (or use the filters) and you get a plain-language summary plus a
-link straight through to the real archive holding that collection.
+Mapping Voices is an open digital-humanities research infrastructure for
+discovering oral-history and voice-testimony collections through geography,
+language, theme, and period. It pairs an interactive, searchable atlas with
+an openly licensed, documented dataset: every collection has a persistent
+identifier, controlled geographic, linguistic, and thematic metadata, a
+verification status, and a link straight through to the real institution
+that holds it.
 
-It exists because oral history is scattered. National sound archives,
-university folklore centers, UNESCO-listed oral-tradition programs,
-grassroots memory projects, and things like StoryCorps or the Genocide
-Archive of Rwanda each publish their own holdings on their own site, with no
-shared, geographic way to see what's out there across all of them at once.
-This project is a single entry point for browsing that landscape spatially —
-built for digital humanities researchers, oral historians, students, and
-anyone else curious about oral history and voice-testimony archives, and
-useful today because nothing like it currently exists. It's a standalone
-static web app, deployed on GitHub Pages, with no backend and no build step.
+**The map is the interface; the research contribution is the metadata layer
+behind it.** → [About the project](https://adamu.tech/mapping/about.html) ·
+[Methodology](METHODOLOGY.md) · [Data dictionary](DATA_DICTIONARY.md) ·
+[Project plan & status](PROJECT.md) · [Changelog](CHANGELOG.md)
+
+## Why it exists
+
+Oral history is scattered. National sound archives, university folklore
+centres, UNESCO-recognised oral-tradition programmes, grassroots memory
+projects, and testimony foundations such as StoryCorps or the Genocide
+Archive of Rwanda each publish their holdings on their own site, with no
+shared, geographic, multilingual way to see what exists across all of them.
+Mapping Voices is a common discovery layer for that landscape — and makes
+the limits of that layer explicit.
+
+## Who it's for
+
+Digital-humanities researchers, oral historians, linguists and
+language-resource researchers, anthropologists, African Studies scholars,
+archivists and librarians, students, journalists, and community and
+cultural-heritage organizations.
+
+## What the dataset contains
+
+**Dataset v0.2.0 (2026-09-27): 210 collections · 120 countries and
+territories · 124 languages** (live figures in
+[`data/stats.json`](data/stats.json)).
+
+Each record describes one real, publicly documented collection: its title
+and holding institution, a map pin, the languages the recordings are in,
+themes from a controlled taxonomy, the recording period, access notes, a
+citation, related collections, verification status, and provenance. Field
+definitions are in [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md). No
+recordings or testimony are included — only metadata and links.
+
+Coverage gives particular attention to Niger and the wider Sahel/West Africa
+region (CELHTO and IRSH in Niger, Mali's Sunjata-epic field recordings,
+Guinea's Sosso-Bala griot tradition, Nigeria's Ifá corpus, Senegal's IFAN
+sound archives, Ghana's Nketia Archives), a region under-represented in most
+general oral-history tools; this project grew out of Hausa/Sahel-region
+digital-humanities research.
+
+**What the counts mean.** They describe the collections indexed here, not
+the global distribution of oral history. Coverage is uneven — Russia,
+Tanzania, Myanmar, Burkina Faso, and many other places have no entry yet,
+usually because no verifiable public page for a real archive has been
+confirmed, not because the region lacks oral history. The absence of a pin
+is not evidence of absence. See [`docs/AUDIT.md`](docs/AUDIT.md) for the
+gap analysis.
+
+## How data is verified
+
+Every record passes a documented workflow (discover → identify → verify →
+normalize → geolocate → classify → review → publish) and carries a
+`verification_status`: *verified*, *partially verified*, *needs review*, or
+*source unavailable*. As of v0.2.0 all records are *partially verified*:
+institutions, links, and scope are confirmed, but field-by-field review
+against each source has not yet been recorded. Countries, languages, and
+themes come from controlled vocabularies in [`data/vocab/`](data/vocab/);
+languages are never inferred from geography. Full rules:
+[`METHODOLOGY.md`](METHODOLOGY.md).
+
+## How to reuse the data
+
+The dataset is licensed **CC BY 4.0** and published as:
+
+| File | For |
+|---|---|
+| [`data/collections.csv`](data/collections.csv) | Spreadsheets, R, pandas |
+| [`data/collections.json`](data/collections.json) | Canonical records |
+| [`data/collections.geojson`](data/collections.geojson) | QGIS, ArcGIS, web maps |
+| [`data/languages.json`](data/languages.json), [`themes.json`](data/themes.json), [`countries.json`](data/countries.json) | Vocabularies with usage counts, ISO 639-3 / ISO 3166 / UN M49 codes |
+| [`data/stats.json`](data/stats.json) | Aggregate counts |
+| [`data/datapackage.json`](data/datapackage.json) | Frictionless Data Package descriptor |
+
+Atlas views are addressable: filters, search, and the selected collection
+live in the URL, e.g.
+[`?country=Niger&language=Hausa`](https://adamu.tech/mapping/?country=Niger&language=Hausa)
+or [`?c=MV-000023`](https://adamu.tech/mapping/?c=MV-000023).
+
+**Mapping an archive does not grant permission to reproduce its
+contents.** Access to and reuse of the collections themselves is governed
+by their holding institutions.
+
+## How to cite
+
+> Abubakar, Adamu. *Mapping Voices: An Open Atlas of Oral-History and
+> Voice-Testimony Collections*. Dataset, version 0.2.0, 2026-09-27. CC BY 4.0.
+> https://adab-tech.github.io/mapping/
+
+To cite one collection, cite its holding institution and give the Mapping
+Voices identifier (e.g. `MV-000023`) as the finding aid. Machine-readable
+metadata is in [`CITATION.cff`](CITATION.cff) (GitHub shows it as "Cite
+this repository").
 
 ## For institutions, researchers & universities
 
@@ -70,70 +156,34 @@ Then open `http://localhost:8080`. Opening `index.html` directly via
 `file://` won't work — the app fetches `data/collections.json` at runtime,
 and browsers block `fetch()` against `file://` URLs.
 
-## The seed dataset
-
-`data/collections.json` holds the map's data: 190+ entries spanning 115+
-countries across every inhabited continent — Africa, Asia, Europe, North and
-South America, and Oceania all represented in real strength, not just a
-token pin per continent — with real institutions and a real, working link to
-each collection's own public page. No fictional archives, testimonies, or
-recordings are included — if an entry couldn't be verified as real, it isn't
-here. Coverage includes particular attention to Niger and the wider
-Sahel/West Africa region (Niger's CELHTO and IRSH, Mali's Sunjata-epic field
-recordings, Guinea's Sosso-Bala griot tradition, Nigeria's Ifa corpus,
-Benin/Nigeria/Togo's Gelede heritage, Senegal's IFAN sound archives, Ghana's
-Nketia Archives), since that region is under-represented in most general
-oral-history tool demos and this project grew out of Hausa/Sahel-region
-digital humanities research.
-
-**This is a growing, curated set — not a finished or exhaustive index.**
-There are still hundreds of oral-history and voice-archive collections
-worldwide that aren't in here yet, and coverage is still uneven in specific
-places even within well-represented regions — Myanmar, Laos, Panama,
-Honduras, the Dominican Republic, Ecuador, Paraguay, North Macedonia,
-Albania, Belarus, Zambia, Tanzania, and several Gulf states have no entry
-yet, usually because a real institution exists but no verifiable, citable
-archive page for it could be confirmed, not because the region lacks oral
-history worth mapping. That's exactly the gap the
-[institutions & researchers](#for-institutions-researchers--universities)
-section above is asking for help closing. See `data/schema-notes.md` for the full field
-reference and the exact steps for adding a new entry (in short: confirm it's
-real, add an object matching the schema, run
-`node scripts/validate-data.mjs`, and fix anything it flags before opening a
-PR).
-
-## Validating the data
+## Validating and building the data
 
 ```bash
-node scripts/validate-data.mjs
+node scripts/validate-data.mjs     # schema, vocabularies, duplicates, coordinates, dates
+node --test tests/*.test.mjs       # tests for the validator itself
+node scripts/build-data.mjs        # regenerate CSV/GeoJSON/stats exports
+node scripts/validate-locales.mjs  # UI translations stay in sync
 ```
 
-Zero dependencies — plain Node built-ins only, no `npm install` needed. It
-checks that every entry has its required fields, that `lat`/`lng` are real
-coordinates, that every `id` is unique, that `url` is well-formed, and that
-array fields aren't empty, and exits non-zero with a specific message per
-problem found. The same check runs in CI on every push (via
-`.github/workflows/deploy-pages.yml`) and on every pull request (via
-`.github/workflows/ci.yml`, which also runs `node
-scripts/validate-locales.mjs` — checks that every `locales/*.json` file
-defines the same UI-chrome keys as `locales/en.json`, so a new string added
-to one locale doesn't silently drift out of sync with the others).
+All zero-dependency — plain Node built-ins, no `npm install`. The validator
+exits non-zero with one message per problem and prints warnings (e.g. for
+`http://` URLs) without failing. CI runs all four on every pull request
+(`.github/workflows/ci.yml`) and before every deployment, and fails if the
+generated exports are out of date.
 
-A separate, unrelated check — `node scripts/check-links.mjs` — actually
-requests every entry's `url` (and `preview_url`, where set) and reports any
-that fail. This runs weekly via `.github/workflows/check-links.yml`, not on
-every PR (a source rate-limiting or briefly down isn't a reason to block a
-contribution), and opens or updates a tracking issue automatically when it
-finds a failure, closing it again once every link passes.
+A separate check — `node scripts/check-links.mjs` — requests every entry's
+`url` (and `preview_url`, where set). It runs weekly via
+`.github/workflows/check-links.yml`, not on every PR (a source briefly down
+isn't a reason to block a contribution), and opens or updates a tracking
+issue when it finds a failure, closing it once every link passes.
 
 ## Contributing
 
 Know about a real oral-history or voice-testimony collection that belongs on
-this map? You don't need to know Git or JSON to suggest it — see
-[`CONTRIBUTING.md`](CONTRIBUTING.md) for the low-friction issue-form path, as
-well as the direct pull-request path for anyone comfortable editing
-`data/collections.json` themselves. Same honesty rule either way: real
-institutions, real URLs, nothing invented.
+this map, or spotted something wrong in a record? You don't need to know Git
+or JSON — see [`CONTRIBUTING.md`](CONTRIBUTING.md) for the issue forms (new
+collection, correction) and the direct pull-request path. Same honesty rule
+either way: real institutions, real URLs, nothing invented.
 
 ## Deployment
 
@@ -144,8 +194,8 @@ build step is involved.
 
 ## License & citation
 
-The application code is MIT-licensed. The dataset in `data/collections.json`
-is licensed separately under CC BY 4.0, so it stays easy to reuse in
+The application code is MIT-licensed. The dataset (`data/`) is licensed
+separately under CC BY 4.0, so it stays easy to reuse in
 research while crediting the project that compiled it — see `LICENSE` for
 the full split and its rationale. If you use or reference this project,
 `CITATION.cff` has the details (GitHub also surfaces this as a "Cite this
@@ -154,18 +204,26 @@ repository" button on the repo page).
 ## Project layout
 
 ```
-index.html                       entry point
-css/style.css                    styles
-js/app.js                        map + filtering logic
-locales/*.json                   UI-chrome translations (en, ha, fr, ar)
-data/collections.json            the seed dataset (see above)
-data/schema-notes.md             schema reference + how to add an entry
-scripts/validate-data.mjs        zero-dependency data validator
-scripts/validate-locales.mjs     checks locale files stay structurally in sync
-scripts/check-links.mjs          weekly external-link health check
-.github/workflows/deploy-pages.yml   GitHub Pages deployment
-.github/workflows/ci.yml         validation on every pull request
-.github/workflows/check-links.yml    weekly link-rot check
-LICENSE                          code (MIT) + dataset (CC BY 4.0) licensing
-CITATION.cff                     how to cite this project
+index.html                       the atlas
+about.html                       project page: question, method, data, ethics, limitations
+css/style.css, css/about.css     styles
+js/app.js                        map, search, filters, URL state, record panel
+locales/*.json                   UI translations (en, ha, fr, ar)
+data/collections.json            canonical records (edit this)
+data/vocab/*.json                controlled vocabularies: countries, languages, themes
+data/dataset-meta.json           dataset version, release date, license
+data/collections.{csv,geojson}   generated exports (don't edit by hand)
+data/{languages,themes,countries,stats,datapackage}.json   generated indexes
+scripts/validate-data.mjs        data validator
+scripts/build-data.mjs           export generator
+scripts/check-links.mjs          weekly link-health check
+scripts/validate-locales.mjs     locale key parity check
+scripts/migrations/              reproducible record of dataset migrations
+tests/                           data tests (node --test)
+docs/                            audits, normalization report, review queue
+PROJECT.md                       scope, users, roadmap, status against the work plan
+METHODOLOGY.md                   inclusion, verification, classification, ethics
+DATA_DICTIONARY.md               every field, vocabulary, and export
+CHANGELOG.md                     dataset and atlas releases
+LICENSE, CITATION.cff            licensing and citation
 ```

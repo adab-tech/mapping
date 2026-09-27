@@ -1,0 +1,71 @@
+name: Correct or update a collection
+description: >-
+  Report a wrong detail, a dead or moved link, a naming problem, or ask for
+  a record to be changed or removed. No Git or JSON knowledge needed.
+title: "[Correction]: "
+labels:
+  - correction
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you — corrections are as valuable as new collections. If you
+        represent the holding institution or a community with standing over
+        this collection, please say so below: custodians' requests take
+        priority (see [METHODOLOGY.md §10](https://github.com/adab-tech/mapping/blob/main/METHODOLOGY.md#10-how-corrections-are-made)).
+
+  - type: input
+    id: record
+    attributes:
+      label: Which collection?
+      description: >-
+        The identifier shown in the record panel (e.g. MV-000023), a link to
+        it in the atlas, or its title.
+      placeholder: e.g. MV-000023
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of correction?
+      options:
+        - A field is wrong or incomplete
+        - The link is dead or has moved
+        - A name (institution, language, place) should be changed
+        - The pin is in the wrong place
+        - This is a duplicate of another record
+        - This collection should not be listed / should be removed
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: What should change?
+      description: What is wrong now, and what it should say instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: How do you know?
+      description: >-
+        A link to the institution's page, "I work there", a publication —
+        anything that lets a maintainer confirm the change.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: role
+    attributes:
+      label: Your relationship to the collection (optional)
+      options:
+        - Staff of the holding institution
+        - Member of the community represented
+        - Researcher / user of the collection
+        - Other
+    validations:
+      required: false

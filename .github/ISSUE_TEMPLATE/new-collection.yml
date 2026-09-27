@@ -17,8 +17,9 @@ body:
         source for — if you're not sure a field is accurate, leave it blank
         rather than guess.
 
-        See [`CONTRIBUTING.md`](https://github.com/adab-tech/mapping/blob/main/CONTRIBUTING.md)
-        and [`data/schema-notes.md`](https://github.com/adab-tech/mapping/blob/main/data/schema-notes.md)
+        See [`CONTRIBUTING.md`](https://github.com/adab-tech/mapping/blob/main/CONTRIBUTING.md),
+        the [inclusion criteria](https://github.com/adab-tech/mapping/blob/main/METHODOLOGY.md#1-what-qualifies-for-inclusion),
+        and the [data dictionary](https://github.com/adab-tech/mapping/blob/main/DATA_DICTIONARY.md)
         for the full field reference. Prefer opening a pull request directly?
         You can do that instead — this form is just the no-Git path.
 
@@ -79,13 +80,17 @@ body:
         linguist and held at a US university library), give the country and
         coordinates of the subject, not the archive building — the `archive`
         field above still names the real physical holder. See
-        `data/schema-notes.md` for more on this.
+        METHODOLOGY.md §5 for more on this.
 
   - type: input
     id: languages
     attributes:
       label: Languages
-      description: Comma-separated list of languages the recordings/materials are actually in.
+      description: >-
+        Comma-separated list of languages the recordings/materials are
+        actually in, as the source states them. If the source only says
+        something like "many Ghanaian languages", write exactly that —
+        please don't guess individual languages from the country.
       placeholder: e.g. Hausa, Zarma, Fulfulde, Tamasheq, French
     validations:
       required: true
@@ -95,9 +100,11 @@ body:
     attributes:
       label: Themes
       description: >-
-        Comma-separated free-text tags for filtering. Reuse an existing theme
-        where it genuinely fits (e.g. "oral tradition", "migration",
-        "women's history") rather than coining a near-duplicate.
+        Comma-separated. Use terms from the theme list
+        (https://github.com/adab-tech/mapping/blob/main/data/vocab/themes.json)
+        where they fit, e.g. "oral tradition", "migration", "women's
+        history". If nothing fits, describe the topic and a maintainer will
+        map it.
       placeholder: e.g. oral tradition, history, linguistics
     validations:
       required: true
@@ -176,6 +183,16 @@ body:
         blank if you're at all unsure — no preview is better than a wrong
         one.
       placeholder: https://www.example.org/collection/listen
+    validations:
+      required: false
+
+  - type: textarea
+    id: confirmation-source
+    attributes:
+      label: Where did you confirm this is real?
+      description: >-
+        Informal is fine — "I work there", "found via their official site",
+        "cited in [paper]". This becomes the record's provenance.
     validations:
       required: false
 

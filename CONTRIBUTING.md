@@ -25,6 +25,18 @@ URL is real — an informal source is completely fine (e.g. "I work there,"
 "found via their official site," "cited in [some paper]"). The point is a
 paper trail, not gatekeeping.
 
+## Corrections count as much as new entries
+
+Spotted a wrong detail, a dead link, a naming problem, or a record that
+shouldn't be listed? [Open a **correction** issue][correction-issue] — give
+the record's identifier (e.g. `MV-000023`, shown in its panel in the atlas)
+and what should change. If you work for the holding institution, or belong
+to a community with standing over a collection, say so: custodians'
+requests take priority, including requests for removal. See
+[`METHODOLOGY.md` §10](METHODOLOGY.md#10-how-corrections-are-made).
+
+[correction-issue]: ../../issues/new?template=correction.yml
+
 ## Path 1: Open an issue (no Git or JSON needed)
 
 If you know about a collection that should be on the map but don't want to
@@ -41,32 +53,40 @@ into a proper data entry from there.
 If you're comfortable with Git and JSON, you can add the entry yourself:
 
 1. Confirm the collection is real (see the honesty rule above).
-2. Add a new object to the array in `data/collections.json`, following the
-   schema. Full field-by-field reference, including what `country`/`lat`/
-   `lng` should point to when the collection's cultural subject differs
-   from its physical holding institution: [`data/schema-notes.md`](data/schema-notes.md).
-3. Pick a new `id` in kebab-case that isn't already used.
-4. Run the validator and fix everything it flags:
+2. Add a new object to the array in `data/collections.json`. Every field
+   is defined in [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md); how to choose
+   values (where the pin goes, which languages and themes) is in
+   [`METHODOLOGY.md`](METHODOLOGY.md).
+3. Give it a new kebab-case `id` and the **next unused `mv_id`**
+   (`MV-000211`, …). Never change an existing `mv_id`.
+4. Use only terms from the controlled vocabularies in
+   [`data/vocab/`](data/vocab/) for `country`, `languages`, and `themes`.
+   If a language or theme is genuinely missing, add it to the vocabulary
+   file in the same PR. Don't guess individual languages from a country: if
+   the source says "many Ghanaian languages", use `Multiple languages` and
+   put the source's wording in `language_note`.
+5. Set `verification_status` honestly (usually `partially_verified`) and
+   say in `provenance` how you found the collection.
+6. Run the checks and regenerate the exports:
    ```bash
    node scripts/validate-data.mjs
+   node scripts/build-data.mjs
    ```
-   This is a zero-dependency Node script — no `npm install` needed — and it
-   must pass before a PR is considered. The same check runs in CI on every
-   push.
-5. Open a PR. Fill in the pull request template, including where you
+   Both are zero-dependency Node scripts — no `npm install` needed. The
+   validator must pass, and the regenerated `data/*.csv|geojson|json`
+   exports must be committed; CI checks both.
+7. Open a PR. Fill in the pull request template, including where you
    confirmed the institution/URL is real.
 
 ## Schema quick reference
 
-The full field-by-field reference lives in [`data/schema-notes.md`](data/schema-notes.md)
-— worth reading before you add or propose an entry. In short, each entry
-needs a stable kebab-case `id`, the collection's real `title` and holding
-`archive`, a `country` + `lat`/`lng` pin, non-empty `languages` and `themes`
-arrays, a `decade_start`/`decade_end`, and a plain-language `summary`, and a
-real `url`. A few fields (`citation`, `access_notes`, `preview_url`) are
-optional — fill them in only where genuinely known and, for `preview_url`
-especially, only when the archive itself officially provides the link; leave
-optional fields out entirely rather than guess.
+Each record needs: `mv_id`, `id`, `title`, `archive`, `country`, `lat`/`lng`,
+non-empty `languages` and `themes` (from the vocabularies), `decade_start`/
+`decade_end`, a plain-language `summary`, a real `url`,
+`verification_status`, and `provenance`. `citation`, `access_notes`,
+`related_ids`, `preview_url`, `language_note`, and `verification_note` are
+optional — fill them in only where genuinely known, and leave them out
+rather than guess. Full reference: [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md).
 
 ## Other ways to help
 
