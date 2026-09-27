@@ -1,12 +1,16 @@
 /**
  * Mapping Voices — app.js
  *
- * Fetches data/collections.json (see SPEC.md "Data schema") and renders:
+ * Fetches data/collections.json (see DATA_DICTIONARY.md) plus the controlled
+ * vocabularies in data/vocab/, and renders:
  *  - a Leaflet map with one accessible, keyboard-focusable pin per collection
- *  - country / theme / language / decade filters (native <select>s)
- *  - a scrollable text index of the current results (the accessible
+ *  - free-text search + country / theme / language / decade filters, all
+ *    mirrored in the page URL so a filtered view can be shared or cited
+ *  - live dataset counts (collections, countries, languages)
+ *  - a scrollable text index of the current results (a first-class
  *    alternative to "reading" pins on the map)
- *  - a detail panel with the selected collection's summary + source link
+ *  - a detail panel with the selected collection's metadata, verification
+ *    status, citation, related collections, and source link
  *
  * All UI chrome text (as opposed to the dataset's own content — entry
  * summaries, archive names, themes/languages as authored in the data) is
@@ -20,6 +24,12 @@
   "use strict";
 
   var DATA_URL = "data/collections.json";
+  var THEMES_URL = "data/vocab/themes.json";
+  var LANGUAGES_URL = "data/vocab/languages.json";
+  var SEARCH_DEBOUNCE_MS = 150;
+  // Query-string keys for the shareable URL state. "c" holds the selected
+  // collection's persistent mv_id (MV-000123).
+  var URL_KEYS = { q: "q", country: "country", theme: "theme", language: "language", decade: "decade", collection: "c" };
   var NARROW_QUERY = "(max-width: 979px)";
 
   // ------------------------------------------------------------------
@@ -46,6 +56,11 @@
   var selectedId = null;
   var lastFocusedBeforeDrawer = null;
   var activeDrawer = null; // 'filters' | 'detail' | null
+  // Controlled vocabularies (optional: the app degrades to flat option
+  // lists if they fail to load).
+  var themeVocab = null; // { groups: [{id,label}], terms: [{name,group}] }
+  var collectiveLanguages = new Set(["Multiple languages"]);
+  var searchTimer = null;
 
   var els = {};
 
@@ -79,6 +94,11 @@
     els.backdrop = document.getElementById("drawer-backdrop");
     els.liveRegion = document.getElementById("live-region");
     els.langSelect = document.getElementById("lang-select");
+    els.searchInput = document.getElementById("filter-search");
+    els.stats = document.getElementById("dataset-stats");
+    els.statCollections = document.getElementById("stat-collections");
+    els.statCountries = document.getElementById("stat-countries");
+    els.statLanguages = document.getElementById("stat-languages");
   }
 
   function narrowMQ() {
@@ -186,6 +206,9 @@
     Array.prototype.forEach.call(document.querySelectorAll("[data-i18n-aria-label]"), function (el) {
       el.setAttribute("aria-label", t(el.getAttribute("data-i18n-aria-label")));
     });
+    Array.prototype.forEach.call(document.querySelectorAll("[data-i18n-placeholder]"), function (el) {
+      el.setAttribute("placeholder", t(el.getAttribute("data-i18n-placeholder")));
+    });
   }
 
   function updateFooterI18n() {
@@ -284,6 +307,7 @@
     var prevFilters = captureFilterValues();
     buildFilterOptions();
     restoreFilterValues(prevFilters);
+    renderStats();
     renderAll();
 
     if (selectedId) {
@@ -302,16 +326,44 @@
   // Data loading
   // ------------------------------------------------------------------
 
+  function fetchJson(url) {
+    return fetch(url).then(function (res) {
+      if (!res.ok) {
+        throw new Error("HTTP " + res.status);
+      }
+      return res.json();
+    });
+  }
+
+  /** The vocabularies only improve how filter options are grouped, so a
+   *  failure to load them is logged and otherwise ignored. */
+  function loadVocab() {
+    return Promise.all([
+      fetchJson(THEMES_URL).catch(function (err) {
+        console.warn("Mapping Voices: theme vocabulary unavailable; using a flat theme list.", err);
+        return null;
+      }),
+      fetchJson(LANGUAGES_URL).catch(function (err) {
+        console.warn("Mapping Voices: language vocabulary unavailable.", err);
+        return null;
+      }),
+    ]).then(function (results) {
+      themeVocab = results[0];
+      if (results[1] && Array.isArray(results[1].terms)) {
+        results[1].terms.forEach(function (term) {
+          if (term.type === "collective") {
+            collectiveLanguages.add(term.name);
+          }
+        });
+      }
+    });
+  }
+
   function loadData() {
     setMapStatus(t("map.loading"));
-    fetch(DATA_URL)
-      .then(function (res) {
-        if (!res.ok) {
-          throw new Error("HTTP " + res.status);
-        }
-        return res.json();
-      })
-      .then(function (data) {
+    Promise.all([fetchJson(DATA_URL), loadVocab()])
+      .then(function (results) {
+        var data = results[0];
         if (!Array.isArray(data)) {
           throw new Error("Expected an array of collections.");
         }
@@ -319,7 +371,13 @@
         clearMapStatus();
         buildMap();
         buildFilterOptions();
+        renderStats();
+        var selectFromUrl = readUrlState();
         renderAll();
+        if (selectFromUrl && isShown(selectFromUrl)) {
+          selectCollection(selectFromUrl, { openDrawerOnMobile: true, panTo: true });
+        }
+        window.addEventListener("popstate", onPopState);
       })
       .catch(function (err) {
         console.error("Mapping Voices: failed to load " + DATA_URL, err);
@@ -513,8 +571,8 @@
     var decades = uniqueSorted(collectDecades(collections));
 
     fillSelect(els.countrySelect, countries, t("filters.allCountries"));
-    fillSelect(els.themeSelect, themes, t("filters.allThemes"));
-    fillSelect(els.languageSelect, languages, t("filters.allLanguages"));
+    fillSelect(els.themeSelect, themes, t("filters.allThemes"), null, themeGroupsFor(themes));
+    fillSelect(els.languageSelect, languages, t("filters.allLanguages"), null, languageGroupsFor(languages));
     fillSelect(
       els.decadeSelect,
       decades,
@@ -547,22 +605,89 @@
     return Array.from(set);
   }
 
-  function fillSelect(select, values, allLabel, labelFn) {
+  /** Themes grouped under the taxonomy's top-level headings, in taxonomy
+   *  order. Returns null (flat list) if the vocabulary didn't load. */
+  function themeGroupsFor(themes) {
+    if (!themeVocab || !Array.isArray(themeVocab.groups) || !Array.isArray(themeVocab.terms)) {
+      return null;
+    }
+    var groupOf = {};
+    themeVocab.terms.forEach(function (term) {
+      groupOf[term.name] = term.group;
+    });
+    var groups = themeVocab.groups
+      .map(function (g) {
+        return {
+          label: g.label,
+          values: themes.filter(function (name) {
+            return groupOf[name] === g.id;
+          }),
+        };
+      })
+      .filter(function (g) {
+        return g.values.length;
+      });
+    var ungrouped = themes.filter(function (name) {
+      return !groupOf[name];
+    });
+    if (ungrouped.length) {
+      groups.push({ label: "—", values: ungrouped });
+    }
+    return groups;
+  }
+
+  /** Individual languages first, then collective terms ("Multiple
+   *  languages", "Mayan languages", …) in their own group. */
+  function languageGroupsFor(languages) {
+    return [
+      {
+        label: t("filters.individualLanguages"),
+        values: languages.filter(function (l) {
+          return !collectiveLanguages.has(l);
+        }),
+      },
+      {
+        label: t("filters.languageGroups"),
+        values: languages.filter(function (l) {
+          return collectiveLanguages.has(l);
+        }),
+      },
+    ].filter(function (g) {
+      return g.values.length;
+    });
+  }
+
+  function fillSelect(select, values, allLabel, labelFn, groups) {
     select.innerHTML = "";
     var allOpt = document.createElement("option");
     allOpt.value = "";
     allOpt.textContent = allLabel;
     select.appendChild(allOpt);
-    values.forEach(function (v) {
+    var makeOption = function (v) {
       var opt = document.createElement("option");
       opt.value = String(v);
       opt.textContent = labelFn ? labelFn(v) : String(v);
-      select.appendChild(opt);
+      return opt;
+    };
+    if (groups) {
+      groups.forEach(function (g) {
+        var optgroup = document.createElement("optgroup");
+        optgroup.label = g.label;
+        g.values.forEach(function (v) {
+          optgroup.appendChild(makeOption(v));
+        });
+        select.appendChild(optgroup);
+      });
+      return;
+    }
+    values.forEach(function (v) {
+      select.appendChild(makeOption(v));
     });
   }
 
   function currentFilters() {
     return {
+      q: els.searchInput.value,
       country: els.countrySelect.value,
       theme: els.themeSelect.value,
       language: els.languageSelect.value,
@@ -591,9 +716,47 @@
     els.decadeSelect.value = values.decade;
   }
 
+  /** Lowercase and strip diacritics so "Maori" finds "Māori" and
+   *  "cote d'ivoire" finds "Côte d'Ivoire". */
+  function fold(str) {
+    return String(str)
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase();
+  }
+
+  function searchText(c) {
+    if (!c._searchText) {
+      c._searchText = fold(
+        [
+          c.title,
+          c.archive,
+          c.country,
+          c.mv_id,
+          (c.languages || []).join(" "),
+          c.language_note,
+          (c.themes || []).join(" "),
+          c.summary,
+        ]
+          .filter(Boolean)
+          .join(" \n ")
+      );
+    }
+    return c._searchText;
+  }
+
   function applyFilters() {
     var f = currentFilters();
+    var terms = fold(f.q).split(/\s+/).filter(Boolean);
     return collections.filter(function (c) {
+      if (terms.length) {
+        var haystack = searchText(c);
+        for (var i = 0; i < terms.length; i++) {
+          if (haystack.indexOf(terms[i]) === -1) {
+            return false;
+          }
+        }
+      }
       if (f.country && c.country !== f.country) {
         return false;
       }
@@ -626,6 +789,116 @@
 
     if (selectedId && !filtered.some(function (c) { return c.id === selectedId; })) {
       clearSelection();
+    }
+    writeUrlState();
+  }
+
+  // ------------------------------------------------------------------
+  // Dataset statistics (computed live from the loaded records)
+  // ------------------------------------------------------------------
+
+  function renderStats() {
+    if (!els.stats || !collections.length) {
+      return;
+    }
+    var countries = new Set();
+    var languages = new Set();
+    collections.forEach(function (c) {
+      countries.add(c.country);
+      (c.languages || []).forEach(function (l) {
+        if (!collectiveLanguages.has(l)) {
+          languages.add(l);
+        }
+      });
+    });
+    var nf;
+    try {
+      nf = new Intl.NumberFormat(activeLocale);
+    } catch (e) {
+      nf = { format: String };
+    }
+    els.statCollections.textContent = nf.format(collections.length);
+    els.statCountries.textContent = nf.format(countries.size);
+    els.statLanguages.textContent = nf.format(languages.size);
+    els.stats.hidden = false;
+  }
+
+  // ------------------------------------------------------------------
+  // URL state: filters, search, and selection live in the query string
+  // (e.g. ?country=Niger&language=Hausa&c=MV-000012) so any view can be
+  // bookmarked, shared, or cited.
+  // ------------------------------------------------------------------
+
+  function findCollection(key) {
+    return collections.find(function (x) {
+      return x.mv_id === key || x.id === key;
+    });
+  }
+
+  function setSelectIfPresent(select, value) {
+    if (value == null) {
+      select.value = "";
+      return;
+    }
+    var exists = Array.prototype.some.call(select.options, function (opt) {
+      return opt.value === value;
+    });
+    select.value = exists ? value : "";
+  }
+
+  /** Applies the query string to the form controls. Returns the id of a
+   *  collection to select, if the URL names one that exists. */
+  function readUrlState() {
+    var params = new URLSearchParams(window.location.search);
+    els.searchInput.value = params.get(URL_KEYS.q) || "";
+    setSelectIfPresent(els.countrySelect, params.get(URL_KEYS.country));
+    setSelectIfPresent(els.themeSelect, params.get(URL_KEYS.theme));
+    setSelectIfPresent(els.languageSelect, params.get(URL_KEYS.language));
+    setSelectIfPresent(els.decadeSelect, params.get(URL_KEYS.decade));
+    var key = params.get(URL_KEYS.collection);
+    var c = key ? findCollection(key) : null;
+    return c ? c.id : null;
+  }
+
+  function writeUrlState() {
+    if (!window.history || !window.history.replaceState) {
+      return;
+    }
+    var params = new URLSearchParams(window.location.search);
+    var f = captureFilterValues();
+    var set = function (key, value) {
+      if (value) {
+        params.set(key, value);
+      } else {
+        params.delete(key);
+      }
+    };
+    set(URL_KEYS.q, els.searchInput.value.trim());
+    set(URL_KEYS.country, f.country);
+    set(URL_KEYS.theme, f.theme);
+    set(URL_KEYS.language, f.language);
+    set(URL_KEYS.decade, f.decade);
+    var selected = selectedId ? findCollection(selectedId) : null;
+    set(URL_KEYS.collection, selected ? selected.mv_id || selected.id : "");
+    var query = params.toString();
+    var next = window.location.pathname + (query ? "?" + query : "") + window.location.hash;
+    if (next !== window.location.pathname + window.location.search + window.location.hash) {
+      window.history.replaceState(null, "", next);
+    }
+  }
+
+  /** True if the collection passes the current search and filters. */
+  function isShown(id) {
+    return applyFilters().some(function (c) {
+      return c.id === id;
+    });
+  }
+
+  function onPopState() {
+    var id = readUrlState();
+    renderAll();
+    if (id && isShown(id)) {
+      selectCollection(id, { panTo: true });
     }
   }
 
@@ -693,12 +966,11 @@
 
   function selectCollection(id, opts) {
     opts = opts || {};
-    var c = collections.find(function (x) {
-      return x.id === id;
-    });
+    var c = findCollection(id);
     if (!c) {
       return;
     }
+    id = c.id;
     selectedId = id;
 
     // refresh marker highlight + result highlight without a full re-render
@@ -717,6 +989,7 @@
     );
 
     renderDetail(c);
+    writeUrlState();
 
     if (opts.panTo !== false && map) {
       map.flyTo([c.lat, c.lng], Math.max(map.getZoom(), 5), { duration: 0.6 });
@@ -752,6 +1025,7 @@
       }
     );
     renderDetailPlaceholder();
+    writeUrlState();
   }
 
   function renderDetailPlaceholder() {
@@ -768,6 +1042,7 @@
 
     var h3 = document.createElement("h3");
     h3.className = "detail-title";
+    h3.tabIndex = -1; // focus target when moving between related collections
     h3.textContent = c.title;
     els.detailBody.appendChild(h3);
 
@@ -776,15 +1051,29 @@
     archive.textContent = [c.archive, c.country].filter(Boolean).join(" — ");
     els.detailBody.appendChild(archive);
 
+    if (c.verification_status) {
+      var badge = document.createElement("p");
+      badge.className = "verification-badge is-" + c.verification_status.replace(/_/g, "-");
+      badge.textContent = t("verification." + c.verification_status);
+      els.detailBody.appendChild(badge);
+    }
+
+    if (c.summary) {
+      var summary = document.createElement("p");
+      summary.className = "detail-summary";
+      summary.textContent = c.summary;
+      els.detailBody.appendChild(summary);
+    }
+
     var dl = document.createElement("dl");
 
     if (c.languages && c.languages.length) {
       dl.appendChild(detailRow(t("detail.languages"), c.languages.join(", ")));
     }
+    if (c.language_note) {
+      dl.appendChild(detailRow(t("detail.languageNote"), c.language_note));
+    }
     if (c.themes && c.themes.length) {
-      var dt = document.createElement("dt");
-      dt.textContent = t("detail.themes");
-      var dd = document.createElement("dd");
       var ul = document.createElement("ul");
       ul.className = "tag-list";
       c.themes.forEach(function (tag) {
@@ -793,23 +1082,59 @@
         li.textContent = tag;
         ul.appendChild(li);
       });
-      dd.appendChild(ul);
-      var row = document.createElement("div");
-      row.className = "detail-row";
-      row.appendChild(dt);
-      row.appendChild(dd);
-      dl.appendChild(row);
+      dl.appendChild(detailRow(t("detail.themes"), ul));
     }
     dl.appendChild(detailRow(t("detail.period"), decadeLabel(c)));
+    if (c.access_notes) {
+      dl.appendChild(detailRow(t("detail.access"), c.access_notes));
+    }
+    if (c.verification_status) {
+      var verification = t("verification." + c.verification_status);
+      if (c.verification_note) {
+        verification += " — " + c.verification_note;
+      }
+      dl.appendChild(detailRow(t("detail.verification"), verification));
+    }
+    if (c.mv_id) {
+      dl.appendChild(detailRow(t("detail.identifier"), c.mv_id));
+    }
+    if (c.citation) {
+      var cite = document.createElement("cite");
+      cite.className = "detail-citation";
+      cite.textContent = c.citation;
+      dl.appendChild(detailRow(t("detail.citation"), cite));
+    }
+
+    var related = (c.related_ids || []).map(findCollection).filter(Boolean);
+    if (related.length) {
+      var relList = document.createElement("ul");
+      relList.className = "related-list";
+      related.forEach(function (r) {
+        var li = document.createElement("li");
+        var btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "text-button";
+        btn.textContent = r.title;
+        btn.addEventListener("click", function () {
+          // A related collection may be outside the current filters; clear
+          // them so the map, index, and URL stay consistent with the panel.
+          if (!isShown(r.id)) {
+            els.filtersForm.reset();
+            renderAll();
+          }
+          selectCollection(r.id, { panTo: true });
+          var heading = els.detailBody.querySelector(".detail-title");
+          if (heading) {
+            heading.focus();
+          }
+        });
+        li.appendChild(btn);
+        relList.appendChild(li);
+      });
+      dl.appendChild(detailRow(t("detail.related"), relList));
+    }
 
     els.detailBody.appendChild(dl);
-
-    if (c.summary) {
-      var summary = document.createElement("p");
-      summary.className = "detail-summary";
-      summary.textContent = c.summary;
-      els.detailBody.appendChild(summary);
-    }
 
     if (c.url && /^https?:\/\//i.test(c.url)) {
       var link = document.createElement("a");
@@ -824,15 +1149,66 @@
       link.appendChild(visually);
       els.detailBody.appendChild(link);
     }
+
+    var copy = document.createElement("button");
+    copy.type = "button";
+    copy.className = "text-button detail-copy";
+    copy.textContent = t("detail.copyLink");
+    copy.addEventListener("click", function () {
+      copyText(window.location.href).then(function () {
+        els.liveRegion.textContent = t("detail.copied");
+        copy.textContent = t("detail.copied");
+        window.setTimeout(function () {
+          copy.textContent = t("detail.copyLink");
+        }, 2000);
+      });
+    });
+    els.detailBody.appendChild(copy);
+
+    var notice = document.createElement("p");
+    notice.className = "detail-notice";
+    notice.textContent = t("detail.contentNotice");
+    els.detailBody.appendChild(notice);
   }
 
+  function copyText(text) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      return navigator.clipboard.writeText(text).catch(function () {
+        return legacyCopy(text);
+      });
+    }
+    return legacyCopy(text);
+  }
+
+  function legacyCopy(text) {
+    var area = document.createElement("textarea");
+    area.value = text;
+    area.setAttribute("readonly", "");
+    area.style.position = "absolute";
+    area.style.left = "-9999px";
+    document.body.appendChild(area);
+    area.select();
+    try {
+      document.execCommand("copy");
+    } catch (e) {
+      // Nothing else to try; the URL is still in the address bar.
+    }
+    document.body.removeChild(area);
+    return Promise.resolve();
+  }
+
+  /** value is either plain text or a DOM node to place inside the <dd>. */
   function detailRow(label, value) {
     var row = document.createElement("div");
     row.className = "detail-row";
     var dt = document.createElement("dt");
     dt.textContent = label;
     var dd = document.createElement("dd");
-    dd.textContent = value;
+    if (typeof value === "string") {
+      dd.textContent = value;
+    } else {
+      dd.appendChild(value);
+    }
     row.appendChild(dt);
     row.appendChild(dd);
     return row;
@@ -976,6 +1352,11 @@
         select.addEventListener("change", renderAll);
       }
     );
+
+    els.searchInput.addEventListener("input", function () {
+      window.clearTimeout(searchTimer);
+      searchTimer = window.setTimeout(renderAll, SEARCH_DEBOUNCE_MS);
+    });
 
     els.filtersReset.addEventListener("click", function () {
       els.filtersForm.reset();

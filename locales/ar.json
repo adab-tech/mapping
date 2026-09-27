@@ -21,7 +21,11 @@
     "allThemes": "جميع المواضيع",
     "allLanguages": "جميع اللغات",
     "allDecades": "جميع العقود",
-    "reset": "إعادة ضبط عوامل التصفية"
+    "reset": "إعادة ضبط عوامل التصفية",
+    "search": "بحث",
+    "searchPlaceholder": "العنوان، الأرشيف، اللغة، الموضوع…",
+    "individualLanguages": "اللغات",
+    "languageGroups": "مجموعات لغوية"
   },
   "results": {
     "heading": "الفهرس",
@@ -52,7 +56,7 @@
     "placeholder": "اختر علامة على الخريطة، أو عنصرًا من الفهرس، لقراءة تفاصيله هنا.",
     "languages": "اللغات",
     "themes": "المواضيع",
-    "period": "الفترة الزمنية",
+    "period": "فترة التسجيل",
     "visitSource": "زيارة الأرشيف المصدر",
     "opensNewTab": "(يفتح في تبويب جديد)",
     "selectionAnnounce": "عرض تفاصيل {title}.",
@@ -60,10 +64,37 @@
     "decadePresent": "الوقت الحاضر",
     "decadeFormat": "عقد {n}",
     "decadeRange": "{start} – {end}",
-    "decadeToPresent": "{start} – {present}"
+    "decadeToPresent": "{start} – {present}",
+    "identifier": "المعرّف",
+    "access": "الإتاحة",
+    "verification": "التحقق",
+    "languageNote": "ملاحظة لغوية",
+    "citation": "الاستشهاد",
+    "related": "مجموعات ذات صلة",
+    "copyLink": "نسخ رابط هذا السجل",
+    "copied": "تم نسخ الرابط",
+    "contentNotice": "يربط Mapping Voices بهذه المجموعة فقط؛ وتخضع الإتاحة وإعادة الاستخدام لشروط المؤسسة الحافظة لها."
   },
   "footer": {
-    "template": "بيانات الخريطة والصور © مساهمو %LINK%. Mapping Voices أطلس أولي/تجريبي — راجع ملف README لمعرفة كيفية إضافة مجموعة جديدة.",
-    "osmLinkText": "OpenStreetMap"
+    "template": "بيانات الخريطة والصور © مساهمو %LINK%.",
+    "osmLinkText": "OpenStreetMap",
+    "navLabel": "المشروع",
+    "about": "عن المشروع",
+    "methodology": "المنهجية",
+    "data": "البيانات المفتوحة",
+    "contribute": "المساهمة"
+  },
+  "stats": {
+    "label": "ملخص البيانات",
+    "collections": "المجموعات",
+    "countries": "البلدان",
+    "languages": "اللغات",
+    "scope": "تصف هذه الأرقام المجموعات المفهرسة هنا فقط، لا التاريخ الشفوي كله."
+  },
+  "verification": {
+    "verified": "موثّقة",
+    "partially_verified": "موثّقة جزئيًا",
+    "needs_review": "بحاجة إلى مراجعة",
+    "unavailable": "المصدر غير متاح"
   }
 }

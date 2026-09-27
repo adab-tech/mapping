@@ -21,7 +21,11 @@
     "allThemes": "All themes",
     "allLanguages": "All languages",
     "allDecades": "All decades",
-    "reset": "Reset filters"
+    "reset": "Reset filters",
+    "search": "Search",
+    "searchPlaceholder": "Title, archive, language, theme…",
+    "individualLanguages": "Languages",
+    "languageGroups": "Language groups"
   },
   "results": {
     "heading": "Index",
@@ -48,7 +52,7 @@
     "placeholder": "Select a pin on the map, or an entry from the index, to read about it here.",
     "languages": "Languages",
     "themes": "Themes",
-    "period": "Period",
+    "period": "Recording period",
     "visitSource": "Visit source archive",
     "opensNewTab": "(opens in a new tab)",
     "selectionAnnounce": "Showing details for {title}.",
@@ -56,10 +60,37 @@
     "decadePresent": "present",
     "decadeFormat": "{n}s",
     "decadeRange": "{start}–{end}",
-    "decadeToPresent": "{start}–{present}"
+    "decadeToPresent": "{start}–{present}",
+    "identifier": "Identifier",
+    "access": "Access",
+    "verification": "Verification",
+    "languageNote": "Language note",
+    "citation": "Cite",
+    "related": "Related collections",
+    "copyLink": "Copy link to this record",
+    "copied": "Link copied",
+    "contentNotice": "Mapping Voices links to this collection; access and reuse are governed by the holding institution."
   },
   "footer": {
-    "template": "Map data & imagery © %LINK% contributors. Mapping Voices is a seed/demo atlas — see the README for how to add a collection.",
-    "osmLinkText": "OpenStreetMap"
+    "template": "Map data & imagery © %LINK% contributors.",
+    "osmLinkText": "OpenStreetMap",
+    "navLabel": "Project",
+    "about": "About",
+    "methodology": "Methodology",
+    "data": "Open data",
+    "contribute": "Contribute"
+  },
+  "stats": {
+    "label": "Dataset summary",
+    "collections": "Collections",
+    "countries": "Countries",
+    "languages": "Languages",
+    "scope": "Counts describe the collections indexed here, not all oral history."
+  },
+  "verification": {
+    "verified": "Verified",
+    "partially_verified": "Partially verified",
+    "needs_review": "Needs review",
+    "unavailable": "Source unavailable"
   }
 }

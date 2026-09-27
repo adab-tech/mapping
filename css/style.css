@@ -326,6 +326,15 @@ button {
 .field {
   display: grid;
   gap: 0.3rem;
+  min-width: 0;
+}
+
+/* Without this, a <select> sizes itself to its longest option label and
+   pushes the whole filter column wider than the panel. */
+.field select,
+.field input {
+  width: 100%;
+  min-width: 0;
 }
 
 .field label {
@@ -354,6 +363,76 @@ button {
 
 .field select:hover {
   border-color: var(--ink-faint);
+}
+
+.field input[type="search"] {
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: var(--paper);
+  color: var(--ink);
+  width: 100%;
+}
+
+.field input[type="search"]::placeholder {
+  color: var(--ink-soft);
+  opacity: 0.8;
+}
+
+.field input[type="search"]:hover {
+  border-color: var(--ink-faint);
+}
+
+/* ---------------------------------- dataset stats ---------------------------------- */
+
+.dataset-stats {
+  padding: 0.85rem 1.25rem 0.75rem;
+  border-bottom: 1px solid var(--rule-soft);
+  flex: 0 0 auto;
+}
+
+.dataset-stats[hidden] {
+  display: none;
+}
+
+.dataset-stats dl {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  margin: 0;
+}
+
+.dataset-stats dl > div {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end; /* packs to the top in column-reverse */
+}
+
+.dataset-stats dt {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-soft);
+}
+
+.dataset-stats dd {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  font-weight: 600;
+  line-height: 1.1;
+  color: var(--accent-dark);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.dataset-stats-scope {
+  margin: 0.5rem 0 0;
+  font-size: 0.74rem;
+  color: var(--ink-soft);
+  font-style: italic;
 }
 
 .text-button {
@@ -585,7 +664,7 @@ button {
   font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: var(--ink-faint);
+  color: var(--ink-soft);
   font-weight: 600;
   margin-bottom: 0.25rem;
 }
@@ -639,6 +718,66 @@ button {
   color: var(--accent-ink);
 }
 
+.detail-title:focus {
+  outline: none;
+}
+
+.detail-title:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.verification-badge {
+  display: inline-block;
+  margin: 0 0 0.9rem;
+  padding: 0.1rem 0.55rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+}
+
+.verification-badge.is-verified {
+  color: var(--focus-ring);
+}
+
+.verification-badge.is-unavailable {
+  color: var(--accent-dark);
+}
+
+.detail-citation {
+  font-style: normal;
+  font-size: 0.85rem;
+  overflow-wrap: anywhere;
+}
+
+.related-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.2rem;
+}
+
+.related-list .text-button {
+  text-align: start;
+  font-weight: 500;
+}
+
+.detail-copy {
+  display: block;
+  margin-top: 0.8rem;
+}
+
+.detail-notice {
+  margin: 1rem 0 0;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--rule-soft);
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+}
+
 /* ---------------------------------- footer ---------------------------------- */
 
 .site-footer {
@@ -648,7 +787,21 @@ button {
   padding: 0.5rem 1.25rem;
   min-height: var(--footer-h);
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  gap: 0.25rem 1.25rem;
+}
+
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.9rem;
+}
+
+.footer-nav a {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent-dark);
 }
 
 .site-footer p {
@@ -732,8 +885,7 @@ button {
     font-size: 0.62rem;
   }
 
-  .filters-drawer,
-  .detail-panel {
+  .filters-drawer {
     width: min(92vw, 20rem);
   }
 

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>About Mapping Voices — research question, method, data, ethics</title>
+<meta name="description" content="Mapping Voices is an open digital-humanities research infrastructure that makes dispersed oral-history and voice-testimony collections discoverable through structured metadata, interactive mapping, and an openly licensed dataset." />
+<link rel="canonical" href="https://adab-tech.github.io/mapping/about.html" />
+<meta name="theme-color" content="#f3ecdd" />
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 1C7.31 1 3.5 4.81 3.5 9.5c0 6.5 8.5 13.5 8.5 13.5s8.5-7 8.5-13.5C20.5 4.81 16.69 1 12 1z' fill='%23b1401d'/%3E%3Ccircle cx='12' cy='9.3' r='3.1' fill='%23f3ecdd'/%3E%3C/svg%3E" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="About Mapping Voices" />
+<meta property="og:description" content="An open atlas of oral-history and voice-testimony collections: research question, method, data, ethics, and limitations." />
+<meta property="og:url" content="https://adab-tech.github.io/mapping/about.html" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/about.css" />
+</head>
+<body class="page">
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <p class="eyebrow">An open atlas of testimony</p>
+      <p class="wordmark"><a href="./">Mapping&nbsp;Voices</a></p>
+    </div>
+    <nav class="page-nav" aria-label="Sections">
+      <a href="#question">Question</a>
+      <a href="#method">Method</a>
+      <a href="#data">Data</a>
+      <a href="#ethics">Ethics</a>
+      <a href="#limitations">Limitations</a>
+      <a href="#cite">Cite</a>
+      <a href="./" class="page-nav-cta">Open the atlas</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="page-main">
+
+  <section class="page-hero" aria-labelledby="page-title">
+    <h1 id="page-title">An open atlas of oral-history and voice-testimony collections</h1>
+    <p class="lede">
+      Mapping Voices is an open digital-humanities research infrastructure that makes
+      geographically and linguistically dispersed oral-history and voice-testimony
+      collections discoverable through structured metadata, interactive mapping,
+      and an openly licensed dataset.
+    </p>
+    <p class="principle">The map is the interface. The research contribution is the documented, searchable, reusable metadata layer behind it.</p>
+
+    <dl class="page-stats" id="page-stats" aria-label="Current dataset">
+      <div><dt>Collections</dt><dd data-stat="collections">210</dd></div>
+      <div><dt>Countries &amp; territories</dt><dd data-stat="countries">120</dd></div>
+      <div><dt>Languages</dt><dd data-stat="languages">124</dd></div>
+      <div><dt>Dataset version</dt><dd data-stat="version">0.2.0</dd></div>
+    </dl>
+    <p class="fine">
+      Counts describe the collections currently indexed in Mapping Voices, not the
+      global distribution of oral history.
+    </p>
+  </section>
+
+  <section id="question" aria-labelledby="h-question">
+    <h2 id="h-question"><span class="num">01</span> Research question</h2>
+    <blockquote class="question">
+      Where are oral-history and voice-testimony collections located, which languages
+      and communities do they represent, what themes and historical periods do they
+      document, and how can this information be made more discoverable through an
+      open digital research infrastructure?
+    </blockquote>
+    <p>
+      Oral history is held by national sound archives, university folklore centres,
+      UNESCO-recognised oral-tradition programmes, community memory projects, and
+      testimony foundations. Each publishes its holdings on its own site, in its own
+      language, with its own metadata. There is no shared, geographic, multilingual
+      way to see what exists across them. Mapping Voices builds that common discovery
+      layer and, just as importantly, makes the limits of that layer explicit.
+    </p>
+  </section>
+
+  <section id="method" aria-labelledby="h-method">
+    <h2 id="h-method"><span class="num">02</span> Method</h2>
+    <p>
+      A collection is included when it is a real, publicly documented body of
+      recorded speech, song, or testimony held by an identifiable institution or
+      project, with a public page of its own that the record can link to.
+      Secondary write-ups, private holdings, and anything that cannot be verified
+      are excluded.
+    </p>
+    <ol class="workflow" aria-label="Verification workflow">
+      <li>Discover</li><li>Identify</li><li>Verify</li><li>Normalize</li>
+      <li>Geolocate</li><li>Classify</li><li>Review</li><li>Publish</li>
+    </ol>
+    <p>
+      Countries, languages, and themes come from controlled vocabularies, so
+      “USA”, “US”, and “United States” can never become three countries. Languages
+      carry ISO&nbsp;639-3 codes where the mapping is unambiguous; when a source
+      names only a group (“multiple Kenyan languages”) the record says so rather
+      than guessing individual languages. Language identity is never inferred from
+      geography. Every record has a persistent identifier (<code>MV-000123</code>)
+      and a verification status:
+    </p>
+    <dl class="status-list">
+      <div><dt>Verified</dt><dd>A curator has checked the source page and every core field against it.</dd></div>
+      <div><dt>Partially verified</dt><dd>The institution, link, and scope are confirmed; one or more fields are inferred or not yet checked field-by-field.</dd></div>
+      <div><dt>Needs review</dt><dd>A lead that has not yet cleared verification.</dd></div>
+      <div><dt>Source unavailable</dt><dd>A previously verified source that is no longer reachable. Kept, not deleted.</dd></div>
+    </dl>
+    <p>
+      The full methodology — inclusion and exclusion criteria, geolocation rules,
+      language and theme classification, duplicate handling, and corrections — is
+      public: <a href="https://github.com/adab-tech/mapping/blob/main/METHODOLOGY.md">METHODOLOGY.md</a>.
+      Every field is defined in the
+      <a href="https://github.com/adab-tech/mapping/blob/main/DATA_DICTIONARY.md">data dictionary</a>.
+    </p>
+  </section>
+
+  <section id="data" aria-labelledby="h-data">
+    <h2 id="h-data"><span class="num">03</span> Open data</h2>
+    <p>
+      The dataset is licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC&nbsp;BY&nbsp;4.0</a>
+      and versioned. It describes and links to collections; it does not contain or
+      redistribute their recordings.
+    </p>
+    <ul class="downloads">
+      <li><a href="data/collections.csv" download>collections.csv</a><span>Spreadsheet-ready, one row per collection</span></li>
+      <li><a href="data/collections.json">collections.json</a><span>Canonical records</span></li>
+      <li><a href="data/collections.geojson">collections.geojson</a><span>For QGIS, ArcGIS, and web maps</span></li>
+      <li><a href="data/languages.json">languages.json</a><span>Language vocabulary, ISO&nbsp;639-3 codes, usage</span></li>
+      <li><a href="data/themes.json">themes.json</a><span>Theme taxonomy and usage</span></li>
+      <li><a href="data/countries.json">countries.json</a><span>Countries with ISO&nbsp;3166 codes and UN&nbsp;M49 regions</span></li>
+      <li><a href="data/stats.json">stats.json</a><span>Aggregate counts for the indexed dataset</span></li>
+      <li><a href="data/datapackage.json">datapackage.json</a><span>Frictionless Data Package descriptor</span></li>
+    </ul>
+    <p>
+      Filtered views of the atlas are addressable, e.g.
+      <a href="./?country=Niger&amp;language=Hausa"><code>?country=Niger&amp;language=Hausa</code></a>,
+      and each collection has a stable link via its identifier, e.g.
+      <a href="./?c=MV-000023"><code>?c=MV-000023</code></a>.
+    </p>
+  </section>
+
+  <section id="ethics" aria-labelledby="h-ethics">
+    <h2 id="h-ethics"><span class="num">04</span> Ethics &amp; representation</h2>
+    <p class="principle">Mapping an archive does not grant permission to reproduce or redistribute its contents.</p>
+    <ul class="bullets">
+      <li><strong>Link, don't host.</strong> Every record points to the holding institution's own page, and the institution's access conditions govern everything behind it.</li>
+      <li><strong>Discoverability is not exposure.</strong> Testimony about genocide, incarceration, displacement, and violence is sensitive. Records describe collections at the level their custodians already publish, never individual testimonies or narrators.</li>
+      <li><strong>Community and Indigenous ownership.</strong> Where a collection belongs to, or is governed by, a community, that governance takes precedence over this project's convenience. Custodians can ask for a record to be corrected or removed.</li>
+      <li><strong>Naming.</strong> Institutional and language names follow the custodians' own usage where known; alternate names (including older or colonial exonyms) are recorded so they can be found, not so they can be preferred.</li>
+      <li><strong>Pins are a choice.</strong> A pin marks where the voices come from when that differs from where the tapes are stored. That choice is documented per collection type in the methodology.</li>
+    </ul>
+  </section>
+
+  <section id="technology" aria-labelledby="h-technology">
+    <h2 id="h-technology"><span class="num">05</span> Technology</h2>
+    <p>
+      A deliberately small static stack: plain HTML, CSS, and JavaScript with
+      Leaflet and OpenStreetMap, no build step and no backend, deployed on GitHub
+      Pages. The data are JSON files validated in continuous integration against
+      the schema and controlled vocabularies, with a weekly link-rot check. The
+      interface is available in English, Hausa, French, and Arabic (with
+      right-to-left layout), is keyboard-operable, and treats the text index as a
+      first-class alternative to the map. The technology stays subordinate to the
+      research purpose.
+    </p>
+  </section>
+
+  <section id="applications" aria-labelledby="h-applications">
+    <h2 id="h-applications"><span class="num">06</span> Research applications</h2>
+    <ul class="bullets">
+      <li>Locating testimony collections for a region, language, or theme before fieldwork or archival visits.</li>
+      <li>Comparing how languages and communities are represented across indexed archives.</li>
+      <li>Teaching archival research methods: verifying and contributing a real collection is a well-scoped exercise.</li>
+      <li>Reusing the dataset in GIS, bibliometric, or digital-humanities analyses, with citation.</li>
+    </ul>
+  </section>
+
+  <section id="limitations" aria-labelledby="h-limitations">
+    <h2 id="h-limitations"><span class="num">07</span> Limitations</h2>
+    <p class="principle">The atlas measures discoverable, indexed archival representation — not the existence or importance of oral traditions.</p>
+    <ul class="bullets">
+      <li>Coverage is uneven. Institutions with English-language web presences are easier to find and verify, which skews the dataset toward them.</li>
+      <li>The absence of a pin for a place or language is not evidence that no oral-history collection or tradition exists there.</li>
+      <li>Most records are currently <em>partially verified</em>: institutions and links are confirmed, but a field-by-field review against each source is still under way. In 19 records, languages are inferred from subject and place and flagged as such.</li>
+      <li>The <code>decade_start</code>/<code>decade_end</code> fields record when a collection was gathered, not the historical period its testimony discusses; the second is not yet captured.</li>
+      <li>Themes are discovery aids, not exhaustive descriptions of a collection.</li>
+    </ul>
+  </section>
+
+  <section id="future" aria-labelledby="h-future">
+    <h2 id="h-future"><span class="num">08</span> Future directions</h2>
+    <ol class="roadmap">
+      <li><strong>v1.0 Research Atlas</strong> — field-by-field verification, historical-period metadata, archive type and access level.</li>
+      <li><strong>v1.5 Language Atlas</strong> — a Language Explorer, Glottolog and Wikidata identifiers, multilingual analysis.</li>
+      <li><strong>v2.0 Research Infrastructure</strong> — a read-only API and a reviewed contribution workflow.</li>
+      <li><strong>v2.5 Temporal Atlas</strong> — timeline views separating recording period from period discussed.</li>
+      <li><strong>v3.0 Collaborative Atlas</strong> — institutional and community contributions with attribution.</li>
+    </ol>
+  </section>
+
+  <section id="cite" aria-labelledby="h-cite">
+    <h2 id="h-cite"><span class="num">09</span> Cite</h2>
+    <p class="citation" id="citation-text">
+      Abubakar, Adamu. <em>Mapping Voices: An Open Atlas of Oral-History and
+      Voice-Testimony Collections</em>. Dataset, version <span data-stat="version">0.2.0</span>,
+      <span data-stat="released">2026-09-27</span>. CC BY 4.0. https://adab-tech.github.io/mapping/
+    </p>
+    <p>
+      To cite a single collection, cite the holding institution first, and give the
+      Mapping Voices identifier (e.g. <code>MV-000023</code>) as the finding aid.
+      Machine-readable citation metadata:
+      <a href="https://github.com/adab-tech/mapping/blob/main/CITATION.cff">CITATION.cff</a>.
+    </p>
+  </section>
+
+  <section id="contribute" aria-labelledby="h-contribute">
+    <h2 id="h-contribute"><span class="num">10</span> Contribute or correct</h2>
+    <p>
+      Institutions, researchers, and communities can propose a collection, correct a
+      record, or ask for one to be changed or removed — no Git required. See
+      <a href="https://github.com/adab-tech/mapping/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a>.
+      Corrections are as valuable as new entries.
+    </p>
+  </section>
+
+</main>
+
+<footer class="site-footer page-footer">
+  <p>Map the archive. Preserve the context. Respect the source. Make the voices discoverable.</p>
+  <p>Code MIT · Data CC BY 4.0 · <a href="https://github.com/adab-tech/mapping">Source on GitHub</a></p>
+</footer>
+
+<script>
+  // Replace the fallback figures above with the live values from the
+  // generated stats file, so this page never drifts from the dataset.
+  fetch("data/stats.json")
+    .then(function (res) { return res.ok ? res.json() : Promise.reject(res.status); })
+    .then(function (s) {
+      var values = {
+        collections: s.totals.collections,
+        countries: s.totals.countries,
+        languages: s.totals.languages,
+        version: s.version,
+        released: s.released
+      };
+      document.querySelectorAll("[data-stat]").forEach(function (el) {
+        var v = values[el.getAttribute("data-stat")];
+        if (v !== undefined) el.textContent = v;
+      });
+    })
+    .catch(function () { /* keep the fallback figures */ });
+</script>
+</body>
+</html>

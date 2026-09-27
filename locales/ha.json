@@ -21,7 +21,11 @@
     "allThemes": "Dukkan jigogi",
     "allLanguages": "Dukkan harsuna",
     "allDecades": "Dukkan shekaru goma",
-    "reset": "Sake saita tacewa"
+    "reset": "Sake saita tacewa",
+    "search": "Nema",
+    "searchPlaceholder": "Suna, ma'ajiya, harshe, jigo…",
+    "individualLanguages": "Harsuna",
+    "languageGroups": "Rukunonin harsuna"
   },
   "results": {
     "heading": "Jerin abubuwa",
@@ -48,7 +52,7 @@
     "placeholder": "Zaɓi alama a kan taswira, ko wani abu daga jerin, don karanta bayaninsa a nan.",
     "languages": "Harsuna",
     "themes": "Jigogi",
-    "period": "Lokaci",
+    "period": "Lokacin rikodi",
     "visitSource": "Ziyarci asalin ma'ajiya",
     "opensNewTab": "(zai buɗe a wani shafi na daban)",
     "selectionAnnounce": "Ana nuna bayanan {title}.",
@@ -56,10 +60,37 @@
     "decadePresent": "yanzu",
     "decadeFormat": "shekarun {n}",
     "decadeRange": "{start} – {end}",
-    "decadeToPresent": "{start} – {present}"
+    "decadeToPresent": "{start} – {present}",
+    "identifier": "Lambar shaida",
+    "access": "Samun dama",
+    "verification": "Tabbatarwa",
+    "languageNote": "Bayani kan harshe",
+    "citation": "Yadda ake ambato",
+    "related": "Tarin da ke da alaƙa",
+    "copyLink": "Kwafi mahaɗin wannan bayani",
+    "copied": "An kwafi mahaɗin",
+    "contentNotice": "Mapping Voices tana haɗa ka da wannan tari ne kawai; samun dama da sake amfani suna ƙarƙashin dokokin ma'ajiyar da ke riƙe da shi."
   },
   "footer": {
-    "template": "Bayanan taswira da hotuna © na masu bayarwa ga %LINK%. Mapping Voices taswira ce ta gwaji/nuni — duba README domin sanin yadda ake ƙara sabon tari.",
-    "osmLinkText": "OpenStreetMap"
+    "template": "Bayanan taswira da hotuna © na masu bayarwa ga %LINK%.",
+    "osmLinkText": "OpenStreetMap",
+    "navLabel": "Aikin",
+    "about": "Game da aikin",
+    "methodology": "Hanyar aiki",
+    "data": "Buɗaɗɗun bayanai",
+    "contribute": "Ba da gudummawa"
+  },
+  "stats": {
+    "label": "Taƙaitaccen bayanan",
+    "collections": "Tari",
+    "countries": "Ƙasashe",
+    "languages": "Harsuna",
+    "scope": "Waɗannan adadi suna bayyana tarin da aka tattara a nan ne kawai, ba dukkan tarihin baka ba."
+  },
+  "verification": {
+    "verified": "An tabbatar",
+    "partially_verified": "An tabbatar da wani ɓangare",
+    "needs_review": "Yana buƙatar dubawa",
+    "unavailable": "Ba a samun asalin"
   }
 }
