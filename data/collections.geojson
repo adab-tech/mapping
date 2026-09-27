@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "dataset": "Mapping Voices: An Open Atlas of Oral-History and Voice-Testimony Collections",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "released": "2026-09-27",
     "license": "CC-BY-4.0",
     "homepage": "https://adamu.tech/mapping/",
