@@ -273,7 +273,7 @@
       "subregion": "Northern America",
       "un_member": true,
       "alt_names": [],
-      "collection_count": 2,
+      "collection_count": 3,
       "languages": [
         "English",
         "French",
@@ -283,7 +283,8 @@
       ],
       "collections": [
         "MV-000006",
-        "MV-000103"
+        "MV-000103",
+        "MV-000213"
       ]
     },
     {
@@ -842,13 +843,14 @@
       "alt_names": [
         "Islamic Republic of Iran"
       ],
-      "collection_count": 1,
+      "collection_count": 2,
       "languages": [
         "English",
         "Persian"
       ],
       "collections": [
-        "MV-000046"
+        "MV-000046",
+        "MV-000214"
       ]
     },
     {
@@ -1707,15 +1709,17 @@
       "subregion": "Western Europe",
       "un_member": true,
       "alt_names": [],
-      "collection_count": 1,
+      "collection_count": 2,
       "languages": [
         "French",
         "German",
         "Italian",
+        "Multiple languages",
         "Romansh"
       ],
       "collections": [
-        "MV-000160"
+        "MV-000160",
+        "MV-000211"
       ]
     },
     {
@@ -1809,12 +1813,14 @@
       "alt_names": [
         "Türkiye"
       ],
-      "collection_count": 1,
+      "collection_count": 2,
       "languages": [
+        "English",
         "Turkish"
       ],
       "collections": [
-        "MV-000137"
+        "MV-000137",
+        "MV-000212"
       ]
     },
     {
@@ -1909,17 +1915,19 @@
         "US",
         "United States of America"
       ],
-      "collection_count": 51,
+      "collection_count": 58,
       "languages": [
         "American Sign Language",
         "Arabic",
         "Armenian",
+        "Bengali",
         "Cantonese",
         "Chinese",
         "Czech",
         "English",
         "German",
         "Hebrew",
+        "Hindi",
         "Hmong",
         "Ilocano",
         "Indigenous languages of the Americas",
@@ -1927,10 +1935,13 @@
         "Korean",
         "Mandarin Chinese",
         "Multiple languages",
+        "Nepali",
         "Polish",
         "Russian",
         "Spanish",
         "Tagalog",
+        "Tibetan",
+        "Urdu",
         "Vietnamese",
         "Yiddish"
       ],
@@ -1985,7 +1996,14 @@
         "MV-000204",
         "MV-000205",
         "MV-000208",
-        "MV-000209"
+        "MV-000209",
+        "MV-000215",
+        "MV-000216",
+        "MV-000217",
+        "MV-000218",
+        "MV-000219",
+        "MV-000220",
+        "MV-000221"
       ]
     },
     {

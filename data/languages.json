@@ -190,14 +190,16 @@
       "alt_names": [
         "Bangla"
       ],
-      "collection_count": 2,
+      "collection_count": 3,
       "countries": [
         "Bangladesh",
-        "India"
+        "India",
+        "United States"
       ],
       "collections": [
         "MV-000014",
-        "MV-000078"
+        "MV-000078",
+        "MV-000219"
       ]
     },
     {
@@ -358,7 +360,7 @@
       "iso639_3": "eng",
       "type": "language",
       "alt_names": [],
-      "collection_count": 103,
+      "collection_count": 113,
       "countries": [
         "Australia",
         "Bangladesh",
@@ -393,6 +395,7 @@
         "Singapore",
         "South Africa",
         "South Korea",
+        "Turkey",
         "Uganda",
         "United Kingdom",
         "United States",
@@ -502,7 +505,17 @@
         "MV-000205",
         "MV-000208",
         "MV-000209",
-        "MV-000210"
+        "MV-000210",
+        "MV-000212",
+        "MV-000213",
+        "MV-000214",
+        "MV-000215",
+        "MV-000216",
+        "MV-000217",
+        "MV-000218",
+        "MV-000219",
+        "MV-000220",
+        "MV-000221"
       ]
     },
     {
@@ -788,14 +801,16 @@
       "iso639_3": "hin",
       "type": "language",
       "alt_names": [],
-      "collection_count": 3,
+      "collection_count": 4,
       "countries": [
-        "India"
+        "India",
+        "United States"
       ],
       "collections": [
         "MV-000014",
         "MV-000069",
-        "MV-000070"
+        "MV-000070",
+        "MV-000219"
       ]
     },
     {
@@ -1053,7 +1068,7 @@
       "iso639_3": "kor",
       "type": "language",
       "alt_names": [],
-      "collection_count": 3,
+      "collection_count": 4,
       "countries": [
         "South Korea",
         "United States"
@@ -1061,7 +1076,8 @@
       "collections": [
         "MV-000073",
         "MV-000074",
-        "MV-000075"
+        "MV-000075",
+        "MV-000219"
       ]
     },
     {
@@ -1184,7 +1200,7 @@
       "alt_names": [
         "Mandarin"
       ],
-      "collection_count": 4,
+      "collection_count": 5,
       "countries": [
         "China",
         "Singapore",
@@ -1195,7 +1211,8 @@
         "MV-000067",
         "MV-000072",
         "MV-000076",
-        "MV-000125"
+        "MV-000125",
+        "MV-000219"
       ]
     },
     {
@@ -1243,19 +1260,6 @@
       ]
     },
     {
-      "name": "Nepali",
-      "iso639_3": "nep",
-      "type": "macrolanguage",
-      "alt_names": [],
-      "collection_count": 1,
-      "countries": [
-        "Nepal"
-      ],
-      "collections": [
-        "MV-000190"
-      ]
-    },
-    {
       "name": "Ndebele",
       "iso639_3": "nde",
       "type": "language",
@@ -1269,6 +1273,21 @@
       ],
       "collections": [
         "MV-000033"
+      ]
+    },
+    {
+      "name": "Nepali",
+      "iso639_3": "nep",
+      "type": "macrolanguage",
+      "alt_names": [],
+      "collection_count": 2,
+      "countries": [
+        "Nepal",
+        "United States"
+      ],
+      "collections": [
+        "MV-000190",
+        "MV-000219"
       ]
     },
     {
@@ -1350,12 +1369,13 @@
       "alt_names": [
         "Farsi"
       ],
-      "collection_count": 1,
+      "collection_count": 2,
       "countries": [
         "Iran"
       ],
       "collections": [
-        "MV-000046"
+        "MV-000046",
+        "MV-000214"
       ]
     },
     {
@@ -1739,12 +1759,13 @@
       "iso639_3": "tgl",
       "type": "language",
       "alt_names": [],
-      "collection_count": 1,
+      "collection_count": 2,
       "countries": [
         "United States"
       ],
       "collections": [
-        "MV-000122"
+        "MV-000122",
+        "MV-000219"
       ]
     },
     {
@@ -1857,6 +1878,22 @@
       ]
     },
     {
+      "name": "Tibetan",
+      "iso639_3": "bod",
+      "type": "language",
+      "alt_names": [
+        "Standard Tibetan",
+        "Central Tibetan"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "United States"
+      ],
+      "collections": [
+        "MV-000219"
+      ]
+    },
+    {
       "name": "Tshiluba",
       "iso639_3": "lua",
       "type": "language",
@@ -1877,14 +1914,15 @@
       "iso639_3": "tur",
       "type": "language",
       "alt_names": [],
-      "collection_count": 2,
+      "collection_count": 3,
       "countries": [
         "Germany",
         "Turkey"
       ],
       "collections": [
         "MV-000109",
-        "MV-000137"
+        "MV-000137",
+        "MV-000212"
       ]
     },
     {
@@ -1935,14 +1973,16 @@
       "iso639_3": "urd",
       "type": "language",
       "alt_names": [],
-      "collection_count": 2,
+      "collection_count": 3,
       "countries": [
         "India",
-        "Pakistan"
+        "Pakistan",
+        "United States"
       ],
       "collections": [
         "MV-000014",
-        "MV-000068"
+        "MV-000068",
+        "MV-000219"
       ]
     },
     {
@@ -2147,27 +2187,11 @@
       ]
     },
     {
-      "name": "Sámi languages",
-      "iso639_3": null,
-      "type": "collective",
-      "alt_names": [
-        "Sami",
-        "Saami"
-      ],
-      "collection_count": 1,
-      "countries": [
-        "Sweden"
-      ],
-      "collections": [
-        "MV-000064"
-      ]
-    },
-    {
       "name": "Multiple languages",
       "iso639_3": null,
       "type": "collective",
       "alt_names": [],
-      "collection_count": 33,
+      "collection_count": 34,
       "countries": [
         "Australia",
         "Austria",
@@ -2184,6 +2208,7 @@
         "Papua New Guinea",
         "Senegal",
         "Solomon Islands",
+        "Switzerland",
         "Thailand",
         "United Kingdom",
         "United States",
@@ -2223,7 +2248,24 @@
         "MV-000186",
         "MV-000187",
         "MV-000188",
-        "MV-000202"
+        "MV-000202",
+        "MV-000211"
+      ]
+    },
+    {
+      "name": "Sámi languages",
+      "iso639_3": null,
+      "type": "collective",
+      "alt_names": [
+        "Sami",
+        "Saami"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Sweden"
+      ],
+      "collections": [
+        "MV-000064"
       ]
     }
   ]

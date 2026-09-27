@@ -450,6 +450,164 @@
       "evidence": [],
       "changes": null,
       "outcome": "unchanged"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000211",
+      "check": "new record",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "Completed from a review-queue lead: holder's page, location, dates, and scope confirmed from search results pointing to the holder's own pages.",
+      "evidence": [
+        "https://volksliedarchiv.ch/",
+        "https://volksliedarchiv.ch/collection/sva-01",
+        "https://www.unibas.ch/de/Universitaet/Administration-Services/Generalsekretariat/Archive-Sammlungen/Wissenschaftliche-Sammlungen/Alphabetisch-sortiert/Volkskunde--Fotosammlung-der-Schweizerischen-Gesellschaft-f-r-Volkskunde1.html"
+      ],
+      "changes": null,
+      "outcome": "added"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000212",
+      "check": "new record",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "Completed from a review-queue lead: holder's page, location, dates, and scope confirmed from search results pointing to the holder's own pages.",
+      "evidence": [
+        "https://www.aton.ttu.edu/",
+        "https://swco-ir.tdl.org/communities/73d85258-5c2f-4bb7-901a-fb5da9628605",
+        "https://www.asianstudies.org/publications/eaa/archives/archive-of-turkish-oral-narrative-an-introduction/"
+      ],
+      "changes": null,
+      "outcome": "added"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000213",
+      "check": "new record",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "Completed from a review-queue lead: holder's page, location, dates, and scope confirmed from search results pointing to the holder's own pages.",
+      "evidence": [
+        "https://search-bcarchives.royalbcmuseum.bc.ca/sound-heritage-series-sound-programs",
+        "https://search-bcarchives.royalbcmuseum.bc.ca/oral-history"
+      ],
+      "changes": null,
+      "outcome": "added"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000214",
+      "check": "new record",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "Completed from a review-queue lead: holder's page, location, dates, and scope confirmed from search results pointing to the holder's own pages.",
+      "evidence": [
+        "https://fis-iran.org/oralhistory/",
+        "https://fis-iran.org/oralhistory/background/",
+        "https://fis-iran.org/en/oralhistory/listbylang/eng/e"
+      ],
+      "changes": null,
+      "outcome": "added"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000215",
+      "check": "new record",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "Completed from a review-queue lead: holder's page, location, dates, and scope confirmed from search results pointing to the holder's own pages.",
+      "evidence": [
+        "https://oral.history.ufl.edu/",
+        "https://ufdc.ufl.edu/oral",
+        "https://oral.history.ufl.edu/welcome/staff/dr-samuel-proctor"
+      ],
+      "changes": null,
+      "outcome": "added"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000216",
+      "check": "new record",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "Completed from a review-queue lead: holder's page, location, dates, and scope confirmed from search results pointing to the holder's own pages.",
+      "evidence": [
+        "https://library.columbia.edu/libraries/rbml/collecting/oral-history.html",
+        "https://www.ccohr.incite.columbia.edu/"
+      ],
+      "changes": null,
+      "outcome": "added"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000217",
+      "check": "new record",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "Completed from a review-queue lead: holder's page, location, dates, and scope confirmed from search results pointing to the holder's own pages.",
+      "evidence": [
+        "https://www.lib.berkeley.edu/visit/bancroft/oral-history-center",
+        "https://www.lib.berkeley.edu/visit/bancroft/oral-history-center/about"
+      ],
+      "changes": null,
+      "outcome": "added"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000218",
+      "check": "new record",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "Completed from a review-queue lead: holder's page, location, dates, and scope confirmed from search results pointing to the holder's own pages.",
+      "evidence": [
+        "https://www.radcliffe.harvard.edu/schlesinger-library/collections/black-women-oral-history-project",
+        "https://guides.library.harvard.edu/schlesinger_bwohp/interviews"
+      ],
+      "changes": null,
+      "outcome": "added"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000219",
+      "check": "new record",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "Completed from a review-queue lead: holder's page, location, dates, and scope confirmed from search results pointing to the holder's own pages.",
+      "evidence": [
+        "https://www.queensmemory.org/about-us/",
+        "https://en.wikipedia.org/wiki/Queens_Memory_Project"
+      ],
+      "changes": null,
+      "outcome": "added"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000220",
+      "check": "new record",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "Completed from a review-queue lead: holder's page, location, dates, and scope confirmed from search results pointing to the holder's own pages.",
+      "evidence": [
+        "https://voicesofoklahoma.com/about/",
+        "https://voicesofoklahoma.com/interviews/"
+      ],
+      "changes": null,
+      "outcome": "added"
+    },
+    {
+      "date": "2026-09-27",
+      "mv_id": "MV-000221",
+      "check": "new record",
+      "method": "search-based",
+      "reviewer": "Claude (AI-assisted, search-based; source pages not opened)",
+      "finding": "Completed from a review-queue lead: holder's page, location, dates, and scope confirmed from search results pointing to the holder's own pages.",
+      "evidence": [
+        "https://www.westpoint.edu/directory/center-for-oral-history",
+        "https://en.wikipedia.org/wiki/West_Point_Center_for_Oral_History"
+      ],
+      "changes": null,
+      "outcome": "added"
     }
   ]
 }

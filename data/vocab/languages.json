@@ -477,12 +477,6 @@
       "alt_names": []
     },
     {
-      "name": "Nepali",
-      "iso639_3": "nep",
-      "type": "macrolanguage",
-      "alt_names": []
-    },
-    {
       "name": "Ndebele",
       "iso639_3": "nde",
       "type": "language",
@@ -490,6 +484,12 @@
         "North Ndebele",
         "isiNdebele"
       ]
+    },
+    {
+      "name": "Nepali",
+      "iso639_3": "nep",
+      "type": "macrolanguage",
+      "alt_names": []
     },
     {
       "name": "Northern Sámi",
@@ -745,6 +745,15 @@
       "alt_names": []
     },
     {
+      "name": "Tibetan",
+      "iso639_3": "bod",
+      "type": "language",
+      "alt_names": [
+        "Standard Tibetan",
+        "Central Tibetan"
+      ]
+    },
+    {
       "name": "Tshiluba",
       "iso639_3": "lua",
       "type": "language",
@@ -873,6 +882,12 @@
       "alt_names": []
     },
     {
+      "name": "Multiple languages",
+      "iso639_3": null,
+      "type": "collective",
+      "alt_names": []
+    },
+    {
       "name": "Sámi languages",
       "iso639_3": null,
       "type": "collective",
@@ -880,12 +895,6 @@
         "Sami",
         "Saami"
       ]
-    },
-    {
-      "name": "Multiple languages",
-      "iso639_3": null,
-      "type": "collective",
-      "alt_names": []
     }
   ]
 }
