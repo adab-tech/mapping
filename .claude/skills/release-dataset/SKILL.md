@@ -30,5 +30,8 @@ description: Cut a new Mapping Voices dataset version — bump the version every
    `v<version>` automatically (notes from the CHANGELOG section, via
    `scripts/release-notes.mjs`). With the Zenodo–GitHub integration on,
    Zenodo archives it and mints a DOI (metadata in `.zenodo.json`). Once the
-   user reports the DOI, add it to CITATION.cff (`doi:` / `identifiers`),
-   the README citation, and the About page citation.
+   user reports the DOI, update `data/dataset-meta.json` → `doi`
+   (version, doi, url), CITATION.cff (`doi:` / `identifiers`), the README
+   badge and citation, the About page citation, and the `identifier` in the
+   index.html JSON-LD; then `node scripts/build-data.mjs`. The release
+   workflow re-runs on that commit and does nothing (the release exists).

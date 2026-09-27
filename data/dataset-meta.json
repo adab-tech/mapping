@@ -3,6 +3,12 @@
   "title": "Mapping Voices: An Open Atlas of Oral-History and Voice-Testimony Collections",
   "version": "0.4.0",
   "released": "2026-09-27",
+  "doi": {
+    "version": "0.4.0",
+    "doi": "10.5281/zenodo.22996479",
+    "url": "https://doi.org/10.5281/zenodo.22996479",
+    "note": "Zenodo DOI of the most recent archived version. Each release gets its own DOI; see the Zenodo record's version list."
+  },
   "description": "A curated, openly licensed metadata dataset of real, publicly documented oral-history and voice-testimony collections worldwide, with normalized geographic, linguistic, thematic, and temporal metadata and a link to each holding institution's own page. The dataset describes and links to collections; it does not contain or redistribute their content.",
   "homepage": "https://adamu.tech/mapping/",
   "repository": "https://github.com/adab-tech/mapping",

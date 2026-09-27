@@ -6,6 +6,13 @@ broken-source changes, and taxonomy changes (METHODOLOGY §10, §12).
 
 ## [Unreleased]
 
+### Dataset
+- v0.4.0 is archived on Zenodo with DOI
+  [10.5281/zenodo.22996479](https://doi.org/10.5281/zenodo.22996479); the
+  DOI is recorded in `data/dataset-meta.json` (`doi`), `CITATION.cff`, the
+  Data Package descriptor (`id`), the atlas JSON-LD, the README (badge and
+  citation), and the About page citation.
+
 ### Tooling
 - `.github/workflows/release.yml` creates a GitHub release `v<version>`
   whenever the dataset version changes on `main` (or on demand), with
