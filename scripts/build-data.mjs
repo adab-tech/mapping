@@ -195,7 +195,7 @@ const stats = {
 
 const datapackage = {
   profile: "data-package",
-  ...(meta.doi ? { id: meta.doi.url } : {}),
+  ...(meta.doi ? { id: meta.doi.concept_url } : {}),
   name: meta.name,
   title: meta.title,
   version: meta.version,

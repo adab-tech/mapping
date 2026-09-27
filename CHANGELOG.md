@@ -7,9 +7,9 @@ broken-source changes, and taxonomy changes (METHODOLOGY §10, §12).
 ## [Unreleased]
 
 ### Dataset
-- v0.4.0 is archived on Zenodo with DOI
-  [10.5281/zenodo.22996479](https://doi.org/10.5281/zenodo.22996479); the
-  DOI is recorded in `data/dataset-meta.json` (`doi`), `CITATION.cff`, the
+- The dataset is archived on Zenodo: concept DOI
+  [10.5281/zenodo.22996478](https://doi.org/10.5281/zenodo.22996478) (all versions, resolves to the latest) and v0.4.0 DOI
+  [10.5281/zenodo.22996479](https://doi.org/10.5281/zenodo.22996479). The DOIs are recorded in `data/dataset-meta.json` (`doi`), `CITATION.cff`, the
   Data Package descriptor (`id`), the atlas JSON-LD, the README (badge and
   citation), and the About page citation.
 

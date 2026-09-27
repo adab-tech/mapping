@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
 [![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey.svg)](LICENSE)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22996479.svg)](https://doi.org/10.5281/zenodo.22996479)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22996478.svg)](https://doi.org/10.5281/zenodo.22996478)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 **Live:** [adamu.tech/mapping](https://adamu.tech/mapping/) ·
@@ -112,7 +112,10 @@ by their holding institutions.
 
 > Abubakar, Adamu. *Mapping Voices: An Open Atlas of Oral-History and
 > Voice-Testimony Collections* (v0.4.0) [Data set]. Zenodo, 2026.
-> https://doi.org/10.5281/zenodo.22996479
+> https://doi.org/10.5281/zenodo.22996478
+
+That DOI always resolves to the latest version. To cite v0.4.0 exactly, use
+[10.5281/zenodo.22996479](https://doi.org/10.5281/zenodo.22996479).
 
 Every dataset version is published as a GitHub release (created
 automatically when the version changes; see `.github/workflows/release.yml`)
