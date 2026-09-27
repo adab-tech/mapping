@@ -1,0 +1,56 @@
+name: Release dataset
+
+# Creates a GitHub release (tag v<version>) whenever the dataset version in
+# data/dataset-meta.json changes on main and no release exists for it yet.
+# With the Zenodo–GitHub integration enabled for this repository, Zenodo
+# archives each release and mints a DOI for it (metadata: .zenodo.json).
+
+on:
+  push:
+    branches: [main]
+    paths: [data/dataset-meta.json]
+  workflow_dispatch:
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: "24"
+
+      - name: Validate before releasing
+        run: |
+          node scripts/validate-data.mjs
+          node --test tests/*.test.mjs
+          node scripts/build-data.mjs --check
+
+      - name: Read version
+        id: meta
+        run: echo "version=$(node -p 'require("./data/dataset-meta.json").version')" >> "$GITHUB_OUTPUT"
+
+      - name: Create release if missing
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.meta.outputs.version }}
+        run: |
+          if gh release view "v$VERSION" >/dev/null 2>&1; then
+            echo "Release v$VERSION already exists — nothing to do."
+            exit 0
+          fi
+          node scripts/release-notes.mjs "$VERSION" > notes.md
+          gh release create "v$VERSION" \
+            --target "$GITHUB_SHA" \
+            --title "Mapping Voices dataset v$VERSION" \
+            --notes-file notes.md

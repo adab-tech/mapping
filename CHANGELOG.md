@@ -4,6 +4,15 @@ All notable changes to the Mapping Voices dataset and atlas. Dataset
 changes are recorded as additions, removals, corrections, metadata changes,
 broken-source changes, and taxonomy changes (METHODOLOGY §10, §12).
 
+## [Unreleased]
+
+### Tooling
+- `.github/workflows/release.yml` creates a GitHub release `v<version>`
+  whenever the dataset version changes on `main` (or on demand), with
+  release notes taken from this changelog by `scripts/release-notes.mjs`
+  (tested). With the Zenodo–GitHub integration enabled, each release is
+  archived with a DOI; `.zenodo.json` describes it as a CC BY 4.0 dataset.
+
 ## [0.4.0] — 2026-09-27 — Access, institution type, period discussed; Theme Explorer; Coverage Gaps
 
 ### Dataset
