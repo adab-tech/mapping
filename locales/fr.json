@@ -69,7 +69,8 @@
     "related": "Collections liées",
     "copyLink": "Copier le lien vers cette fiche",
     "copied": "Lien copié",
-    "contentNotice": "Mapping Voices renvoie vers cette collection ; l'accès et la réutilisation relèvent de l'institution qui la conserve."
+    "contentNotice": "Mapping Voices renvoie vers cette collection ; l'accès et la réutilisation relèvent de l'institution qui la conserve.",
+    "languageExplorer": "Ouvrir dans l'explorateur de langues"
   },
   "footer": {
     "template": "Données et imagerie cartographiques © %LINK%, ses contributeurs.",
@@ -78,7 +79,8 @@
     "about": "À propos",
     "methodology": "Méthodologie",
     "data": "Données ouvertes",
-    "contribute": "Contribuer"
+    "contribute": "Contribuer",
+    "languages": "Langues"
   },
   "stats": {
     "label": "Résumé du jeu de données",

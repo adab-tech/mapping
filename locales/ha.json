@@ -69,7 +69,8 @@
     "related": "Tarin da ke da alaƙa",
     "copyLink": "Kwafi mahaɗin wannan bayani",
     "copied": "An kwafi mahaɗin",
-    "contentNotice": "Mapping Voices tana haɗa ka da wannan tari ne kawai; samun dama da sake amfani suna ƙarƙashin dokokin ma'ajiyar da ke riƙe da shi."
+    "contentNotice": "Mapping Voices tana haɗa ka da wannan tari ne kawai; samun dama da sake amfani suna ƙarƙashin dokokin ma'ajiyar da ke riƙe da shi.",
+    "languageExplorer": "Buɗe a cikin Mai Binciken Harsuna"
   },
   "footer": {
     "template": "Bayanan taswira da hotuna © na masu bayarwa ga %LINK%.",
@@ -78,7 +79,8 @@
     "about": "Game da aikin",
     "methodology": "Hanyar aiki",
     "data": "Buɗaɗɗun bayanai",
-    "contribute": "Ba da gudummawa"
+    "contribute": "Ba da gudummawa",
+    "languages": "Harsuna"
   },
   "stats": {
     "label": "Taƙaitaccen bayanan",

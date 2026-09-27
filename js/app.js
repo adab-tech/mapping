@@ -1068,7 +1068,18 @@
     var dl = document.createElement("dl");
 
     if (c.languages && c.languages.length) {
-      dl.appendChild(detailRow(t("detail.languages"), c.languages.join(", ")));
+      var langList = document.createElement("ul");
+      langList.className = "inline-list";
+      c.languages.forEach(function (name) {
+        var li = document.createElement("li");
+        var a = document.createElement("a");
+        a.href = "languages.html#" + languageSlug(name);
+        a.textContent = name;
+        a.title = t("detail.languageExplorer");
+        li.appendChild(a);
+        langList.appendChild(li);
+      });
+      dl.appendChild(detailRow(t("detail.languages"), langList));
     }
     if (c.language_note) {
       dl.appendChild(detailRow(t("detail.languageNote"), c.language_note));
@@ -1169,6 +1180,16 @@
     notice.className = "detail-notice";
     notice.textContent = t("detail.contentNotice");
     els.detailBody.appendChild(notice);
+  }
+
+  /** Must match the anchor ids generated in js/languages.js. */
+  function languageSlug(name) {
+    return (
+      "lang-" +
+      fold(name)
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-|-$/g, "")
+    );
   }
 
   function copyText(text) {
