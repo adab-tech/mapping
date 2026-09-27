@@ -1,9 +1,13 @@
 cff-version: 1.2.0
 message: >-
   If you use or reference Mapping Voices in research, teaching, or another
-  project, please cite it as below.
-title: "Mapping Voices: An Atlas of Oral-History and Voice-Testimony Archives"
+  project, please cite it as below. To cite a single collection, cite its
+  holding institution and give the Mapping Voices identifier (e.g.
+  MV-000023) as the finding aid.
+title: "Mapping Voices: An Open Atlas of Oral-History and Voice-Testimony Collections"
 type: dataset
+version: 0.2.0
+date-released: "2026-09-27"
 authors:
   - family-names: Abubakar
     given-names: Adamu
@@ -16,11 +20,16 @@ keywords:
   - voice testimony
   - archives
   - cultural heritage
+  - language resources
   - open data
 abstract: >-
-  Mapping Voices is an open, interactive atlas of real, publicly documented
-  oral-history and voice-testimony archive collections worldwide, filterable
-  by country, theme, language, and decade. Each entry links directly to its
-  holding institution's own public page. The application source code is
-  MIT-licensed; the underlying dataset (data/collections.json) is licensed
-  under CC BY 4.0 — see LICENSE for the split and its rationale.
+  Mapping Voices is an open digital-humanities research infrastructure that
+  makes geographically and linguistically dispersed oral-history and
+  voice-testimony collections discoverable. Its dataset describes real,
+  publicly documented collections with persistent identifiers, controlled
+  geographic, linguistic, and thematic metadata, verification status, and
+  provenance, and links each to its holding institution's own page. It is
+  published as JSON, CSV, and GeoJSON with a documented methodology. Counts
+  describe the indexed collections, not the global distribution of oral
+  history. The application source code is MIT-licensed; the dataset is
+  licensed under CC BY 4.0 — see LICENSE.

@@ -1,0 +1,188 @@
+{
+  "profile": "data-package",
+  "name": "mapping-voices",
+  "title": "Mapping Voices: An Open Atlas of Oral-History and Voice-Testimony Collections",
+  "version": "0.2.0",
+  "created": "2026-09-27",
+  "description": "A curated, openly licensed metadata dataset of real, publicly documented oral-history and voice-testimony collections worldwide, with normalized geographic, linguistic, thematic, and temporal metadata and a link to each holding institution's own page. The dataset describes and links to collections; it does not contain or redistribute their content.",
+  "homepage": "https://adamu.tech/mapping/",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Adamu Abubakar",
+      "role": "author"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Holding institutions' own public pages; see each record's url and provenance fields."
+    }
+  ],
+  "resources": [
+    {
+      "name": "collections",
+      "path": "collections.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "description": "Canonical records."
+    },
+    {
+      "name": "collections-csv",
+      "path": "collections.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "description": "Flattened records. Multi-valued fields are joined with '; '.",
+      "schema": {
+        "primaryKey": "mv_id",
+        "fields": [
+          {
+            "name": "mv_id",
+            "type": "string"
+          },
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "archive",
+            "type": "string"
+          },
+          {
+            "name": "country",
+            "type": "string"
+          },
+          {
+            "name": "iso3166_1_alpha2",
+            "type": "string"
+          },
+          {
+            "name": "region",
+            "type": "string"
+          },
+          {
+            "name": "subregion",
+            "type": "string"
+          },
+          {
+            "name": "lat",
+            "type": "number"
+          },
+          {
+            "name": "lng",
+            "type": "number"
+          },
+          {
+            "name": "languages",
+            "type": "string"
+          },
+          {
+            "name": "language_note",
+            "type": "string"
+          },
+          {
+            "name": "themes",
+            "type": "string"
+          },
+          {
+            "name": "theme_groups",
+            "type": "string"
+          },
+          {
+            "name": "decade_start",
+            "type": "integer"
+          },
+          {
+            "name": "decade_end",
+            "type": "integer"
+          },
+          {
+            "name": "summary",
+            "type": "string"
+          },
+          {
+            "name": "url",
+            "type": "string"
+          },
+          {
+            "name": "citation",
+            "type": "string"
+          },
+          {
+            "name": "access_notes",
+            "type": "string"
+          },
+          {
+            "name": "related_ids",
+            "type": "string"
+          },
+          {
+            "name": "preview_url",
+            "type": "string"
+          },
+          {
+            "name": "verification_status",
+            "type": "string"
+          },
+          {
+            "name": "verification_note",
+            "type": "string"
+          },
+          {
+            "name": "provenance",
+            "type": "string"
+          },
+          {
+            "name": "date_added",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "collections-geojson",
+      "path": "collections.geojson",
+      "format": "geojson",
+      "mediatype": "application/geo+json",
+      "description": "One Point feature per record (RFC 7946, [lng, lat])."
+    },
+    {
+      "name": "languages",
+      "path": "languages.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "description": "Language vocabulary with per-language usage."
+    },
+    {
+      "name": "themes",
+      "path": "themes.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "description": "Theme taxonomy with per-theme usage."
+    },
+    {
+      "name": "countries",
+      "path": "countries.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "description": "Country vocabulary with per-country usage."
+    },
+    {
+      "name": "stats",
+      "path": "stats.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "description": "Aggregate statistics describing the indexed dataset."
+    }
+  ]
+}

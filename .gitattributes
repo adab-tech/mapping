@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.png binary
+# RFC 4180: the generated CSV uses CRLF; keep it that way on checkout so
+# `node scripts/build-data.mjs --check` matches byte-for-byte.
+data/collections.csv text eol=crlf

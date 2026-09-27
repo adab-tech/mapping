@@ -1,0 +1,18 @@
+{
+  "name": "mapping-voices",
+  "title": "Mapping Voices: An Open Atlas of Oral-History and Voice-Testimony Collections",
+  "version": "0.2.0",
+  "released": "2026-09-27",
+  "description": "A curated, openly licensed metadata dataset of real, publicly documented oral-history and voice-testimony collections worldwide, with normalized geographic, linguistic, thematic, and temporal metadata and a link to each holding institution's own page. The dataset describes and links to collections; it does not contain or redistribute their content.",
+  "homepage": "https://adamu.tech/mapping/",
+  "repository": "https://github.com/adab-tech/mapping",
+  "methodology": "https://github.com/adab-tech/mapping/blob/main/METHODOLOGY.md",
+  "data_dictionary": "https://github.com/adab-tech/mapping/blob/main/DATA_DICTIONARY.md",
+  "license": {
+    "name": "CC-BY-4.0",
+    "path": "https://creativecommons.org/licenses/by/4.0/",
+    "title": "Creative Commons Attribution 4.0"
+  },
+  "creator": "Adamu Abubakar",
+  "scope_statement": "Counts and statistics describe the collections currently indexed in Mapping Voices, not the global distribution of oral history. Absence of an indexed archive for a place or language is not evidence that no oral-history tradition or collection exists."
+}

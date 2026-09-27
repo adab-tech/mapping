@@ -1,0 +1,337 @@
+{
+  "$comment": "Controlled thematic taxonomy for the `themes` field. `name` is the only value allowed in data/collections.json; `group` is the top-level heading. Themes are metadata classifications for discovery, not exhaustive descriptions of a collection. See METHODOLOGY.md §7.",
+  "groups": [
+    {
+      "id": "oral-tradition",
+      "label": "Oral tradition & folklore"
+    },
+    {
+      "id": "music",
+      "label": "Music, performance & broadcasting"
+    },
+    {
+      "id": "language",
+      "label": "Language & linguistics"
+    },
+    {
+      "id": "war",
+      "label": "War & conflict"
+    },
+    {
+      "id": "mass-violence",
+      "label": "Genocide & mass violence"
+    },
+    {
+      "id": "rights",
+      "label": "Human rights & justice"
+    },
+    {
+      "id": "migration",
+      "label": "Migration & displacement"
+    },
+    {
+      "id": "colonialism",
+      "label": "Colonialism & Indigenous histories"
+    },
+    {
+      "id": "memory",
+      "label": "Memory & community"
+    },
+    {
+      "id": "history",
+      "label": "History & politics"
+    },
+    {
+      "id": "labor",
+      "label": "Labor"
+    },
+    {
+      "id": "gender",
+      "label": "Gender & sexuality"
+    },
+    {
+      "id": "disability",
+      "label": "Disability & Deaf histories"
+    },
+    {
+      "id": "religion",
+      "label": "Religion & belief"
+    },
+    {
+      "id": "science",
+      "label": "Science, environment & disaster"
+    }
+  ],
+  "terms": [
+    {
+      "name": "oral tradition",
+      "group": "oral-tradition",
+      "scope_note": "Transmitted verbal art, narrative, and knowledge: epics, genealogies, proverbs, tales."
+    },
+    {
+      "name": "folklore",
+      "group": "oral-tradition",
+      "scope_note": "Folk narrative, belief, and custom as documented by folklorists."
+    },
+    {
+      "name": "folklife",
+      "group": "oral-tradition",
+      "scope_note": "Everyday traditional culture — crafts, foodways, occupations — as a documentation field."
+    },
+    {
+      "name": "epic performance",
+      "group": "oral-tradition",
+      "scope_note": "Recorded performances of long-form oral epics."
+    },
+    {
+      "name": "griot heritage",
+      "group": "oral-tradition",
+      "scope_note": "West African jeli/griot hereditary oral-historian traditions."
+    },
+    {
+      "name": "divination",
+      "group": "oral-tradition",
+      "scope_note": "Divinatory corpora and their oral transmission (e.g. Ifá)."
+    },
+    {
+      "name": "masquerade",
+      "group": "oral-tradition",
+      "scope_note": "Masquerade performance traditions and their oral/sung components."
+    },
+    {
+      "name": "manuscripts",
+      "group": "oral-tradition",
+      "scope_note": "Collections where manuscript holdings sit alongside oral materials."
+    },
+    {
+      "name": "music",
+      "group": "music",
+      "scope_note": "Recorded music, song, and musical performance."
+    },
+    {
+      "name": "ethnomusicology",
+      "group": "music",
+      "scope_note": "Field recordings made within ethnomusicological research."
+    },
+    {
+      "name": "broadcast history",
+      "group": "music",
+      "scope_note": "Radio/TV archives and the history of broadcasting."
+    },
+    {
+      "name": "language documentation",
+      "group": "language",
+      "scope_note": "Recordings made to document a language, often endangered."
+    },
+    {
+      "name": "linguistics",
+      "group": "language",
+      "scope_note": "Collections created for or used in linguistic research."
+    },
+    {
+      "name": "war and conflict",
+      "group": "war",
+      "scope_note": "Experiences of war and armed conflict, combatant and civilian."
+    },
+    {
+      "name": "military history",
+      "group": "war",
+      "scope_note": "Military service and institutions."
+    },
+    {
+      "name": "resistance history",
+      "group": "war",
+      "scope_note": "Resistance movements, partisan and underground activity."
+    },
+    {
+      "name": "nuclear history",
+      "group": "war",
+      "scope_note": "Nuclear weapons, testing, and atomic-bombing survivors."
+    },
+    {
+      "name": "peace",
+      "group": "war",
+      "scope_note": "Peace-building and peace movements."
+    },
+    {
+      "name": "genocide",
+      "group": "mass-violence",
+      "scope_note": "Genocide and its survivors, perpetrators, and witnesses."
+    },
+    {
+      "name": "Holocaust",
+      "group": "mass-violence",
+      "scope_note": "The Holocaust/Shoah."
+    },
+    {
+      "name": "state terrorism",
+      "group": "mass-violence",
+      "scope_note": "State violence against civilian populations."
+    },
+    {
+      "name": "totalitarianism",
+      "group": "mass-violence",
+      "scope_note": "Life under totalitarian and authoritarian regimes."
+    },
+    {
+      "name": "human rights",
+      "group": "rights",
+      "scope_note": "Human-rights violations and advocacy."
+    },
+    {
+      "name": "civil rights",
+      "group": "rights",
+      "scope_note": "Civil-rights movements and struggles for legal equality."
+    },
+    {
+      "name": "transitional justice",
+      "group": "rights",
+      "scope_note": "Truth commissions, trials, and post-conflict justice processes."
+    },
+    {
+      "name": "memory and reconciliation",
+      "group": "rights",
+      "scope_note": "Post-conflict memory work and reconciliation."
+    },
+    {
+      "name": "incarceration",
+      "group": "rights",
+      "scope_note": "Imprisonment, internment, and detention."
+    },
+    {
+      "name": "apartheid",
+      "group": "rights",
+      "scope_note": "Apartheid in South Africa and its legacy."
+    },
+    {
+      "name": "migration",
+      "group": "migration",
+      "scope_note": "Voluntary and economic migration, immigration, diaspora."
+    },
+    {
+      "name": "displacement",
+      "group": "migration",
+      "scope_note": "Forced displacement of people from their homes or lands."
+    },
+    {
+      "name": "refugees",
+      "group": "migration",
+      "scope_note": "Refugee experience and asylum."
+    },
+    {
+      "name": "forced removal",
+      "group": "migration",
+      "scope_note": "State-directed removals and relocations."
+    },
+    {
+      "name": "Partition",
+      "group": "migration",
+      "scope_note": "The 1947 Partition of British India."
+    },
+    {
+      "name": "Nakba",
+      "group": "migration",
+      "scope_note": "The 1948 Palestinian displacement."
+    },
+    {
+      "name": "colonial history",
+      "group": "colonialism",
+      "scope_note": "Colonial rule and its aftermath."
+    },
+    {
+      "name": "indigenous history",
+      "group": "colonialism",
+      "scope_note": "Histories told by and about Indigenous peoples."
+    },
+    {
+      "name": "residential schools",
+      "group": "colonialism",
+      "scope_note": "Residential/boarding school systems for Indigenous children."
+    },
+    {
+      "name": "community memory",
+      "group": "memory",
+      "scope_note": "Local and community-level remembrance."
+    },
+    {
+      "name": "national memory",
+      "group": "memory",
+      "scope_note": "Nationally framed memory projects."
+    },
+    {
+      "name": "memory",
+      "group": "memory",
+      "scope_note": "Memory studies framing not captured by a narrower term."
+    },
+    {
+      "name": "everyday life",
+      "group": "memory",
+      "scope_note": "Ordinary lives and daily experience."
+    },
+    {
+      "name": "family history",
+      "group": "memory",
+      "scope_note": "Family and intergenerational history."
+    },
+    {
+      "name": "urban history",
+      "group": "memory",
+      "scope_note": "Cities, neighborhoods, and urban change."
+    },
+    {
+      "name": "history",
+      "group": "history",
+      "scope_note": "General historical documentation with no narrower theme recorded."
+    },
+    {
+      "name": "social history",
+      "group": "history",
+      "scope_note": "Social structures and experience of ordinary people."
+    },
+    {
+      "name": "political history",
+      "group": "history",
+      "scope_note": "Political life, movements, and institutions."
+    },
+    {
+      "name": "labor history",
+      "group": "labor",
+      "scope_note": "Work, workers, and labor movements."
+    },
+    {
+      "name": "women's history",
+      "group": "gender",
+      "scope_note": "Women's lives and experiences."
+    },
+    {
+      "name": "LGBTQ+ history",
+      "group": "gender",
+      "scope_note": "LGBTQ+ lives, communities, and activism."
+    },
+    {
+      "name": "Deaf history",
+      "group": "disability",
+      "scope_note": "Deaf communities and signed-language history."
+    },
+    {
+      "name": "disability rights",
+      "group": "disability",
+      "scope_note": "Disability experience and rights movements."
+    },
+    {
+      "name": "religion",
+      "group": "religion",
+      "scope_note": "Religious life, practice, and institutions."
+    },
+    {
+      "name": "science",
+      "group": "science",
+      "scope_note": "Science and scientists."
+    },
+    {
+      "name": "disaster and survivor testimony",
+      "group": "science",
+      "scope_note": "Natural and industrial disasters and survivors' accounts."
+    }
+  ]
+}

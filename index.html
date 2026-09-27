@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Mapping Voices — an atlas of oral-history archives</title>
-<meta name="description" content="An interactive atlas of real oral-history and voice-testimony archive collections, filterable by country, theme, language, and decade." />
+<meta name="description" content="An open atlas of real oral-history and voice-testimony collections worldwide, searchable and filterable by country, language, theme, and decade, with an openly licensed dataset." />
 <link rel="canonical" href="https://adab-tech.github.io/mapping/" />
 <meta name="theme-color" content="#f3ecdd" />
 
@@ -24,8 +24,10 @@
   "@context": "https://schema.org",
   "@type": "Dataset",
   "name": "Mapping Voices",
-  "description": "An open, curated dataset of real, publicly documented oral-history and voice-testimony archive collections worldwide, with geographic, thematic, and linguistic metadata for each entry.",
+  "description": "An open, curated dataset of real, publicly documented oral-history and voice-testimony collections worldwide, with normalized geographic, linguistic, thematic, and temporal metadata and a link to each holding institution's own page.",
   "url": "https://adab-tech.github.io/mapping/",
+  "version": "0.2.0",
+  "dateModified": "2026-09-27",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "creator": {
     "@type": "Person",
@@ -39,11 +41,23 @@
     "cultural heritage"
   ],
   "isAccessibleForFree": true,
-  "distribution": {
-    "@type": "DataDownload",
-    "encodingFormat": "application/json",
-    "contentUrl": "https://adab-tech.github.io/mapping/data/collections.json"
-  }
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://adab-tech.github.io/mapping/data/collections.json"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://adab-tech.github.io/mapping/data/collections.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/geo+json",
+      "contentUrl": "https://adab-tech.github.io/mapping/data/collections.geojson"
+    }
+  ]
 }
 </script>
 
@@ -111,7 +125,20 @@
         </button>
       </div>
 
-      <form id="filters-form" class="filters-form" autocomplete="off">
+      <div id="dataset-stats" class="dataset-stats" hidden>
+        <dl aria-label="Dataset summary" data-i18n-aria-label="stats.label">
+          <div><dt data-i18n="stats.collections">Collections</dt><dd id="stat-collections"></dd></div>
+          <div><dt data-i18n="stats.countries">Countries</dt><dd id="stat-countries"></dd></div>
+          <div><dt data-i18n="stats.languages">Languages</dt><dd id="stat-languages"></dd></div>
+        </dl>
+        <p class="dataset-stats-scope" data-i18n="stats.scope">Counts describe the collections indexed here, not all oral history.</p>
+      </div>
+
+      <form id="filters-form" class="filters-form" autocomplete="off" role="search">
+        <div class="field">
+          <label for="filter-search" data-i18n="filters.search">Search</label>
+          <input id="filter-search" name="q" type="search" placeholder="Title, archive, language, theme…" data-i18n-placeholder="filters.searchPlaceholder" />
+        </div>
         <div class="field">
           <label for="filter-country" data-i18n="filters.country">Country</label>
           <select id="filter-country" name="country">
@@ -172,7 +199,13 @@
   </div>
 
   <footer class="site-footer">
-    <p id="footer-text">Map data &amp; imagery &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener" id="footer-osm-link">OpenStreetMap</a> contributors. Mapping Voices is a seed/demo atlas — see the README for how to add a collection.</p>
+    <nav class="footer-nav" aria-label="Project" data-i18n-aria-label="footer.navLabel">
+      <a href="about.html" data-i18n="footer.about">About</a>
+      <a href="about.html#method" data-i18n="footer.methodology">Methodology</a>
+      <a href="about.html#data" data-i18n="footer.data">Open data</a>
+      <a href="https://github.com/adab-tech/mapping/blob/main/CONTRIBUTING.md" data-i18n="footer.contribute">Contribute</a>
+    </nav>
+    <p id="footer-text">Map data &amp; imagery &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener" id="footer-osm-link">OpenStreetMap</a> contributors.</p>
   </footer>
 </div>
 

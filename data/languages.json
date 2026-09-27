@@ -1,0 +1,2228 @@
+{
+  "dataset": "Mapping Voices: An Open Atlas of Oral-History and Voice-Testimony Collections",
+  "version": "0.2.0",
+  "released": "2026-09-27",
+  "license": "CC-BY-4.0",
+  "homepage": "https://adamu.tech/mapping/",
+  "methodology": "https://github.com/adab-tech/mapping/blob/main/METHODOLOGY.md",
+  "scope_statement": "Counts and statistics describe the collections currently indexed in Mapping Voices, not the global distribution of oral history. Absence of an indexed archive for a place or language is not evidence that no oral-history tradition or collection exists.",
+  "terms": [
+    {
+      "name": "Acholi",
+      "iso639_3": "ach",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Uganda"
+      ],
+      "collections": [
+        "MV-000040"
+      ]
+    },
+    {
+      "name": "Afrikaans",
+      "iso639_3": "afr",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 4,
+      "countries": [
+        "Namibia",
+        "South Africa"
+      ],
+      "collections": [
+        "MV-000020",
+        "MV-000021",
+        "MV-000087",
+        "MV-000146"
+      ]
+    },
+    {
+      "name": "Ainu",
+      "iso639_3": "ain",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Japan"
+      ],
+      "collections": [
+        "MV-000082"
+      ]
+    },
+    {
+      "name": "American Sign Language",
+      "iso639_3": "ase",
+      "type": "sign language",
+      "alt_names": [
+        "ASL"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "United States"
+      ],
+      "collections": [
+        "MV-000123"
+      ]
+    },
+    {
+      "name": "Amharic",
+      "iso639_3": "amh",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Ethiopia"
+      ],
+      "collections": [
+        "MV-000035"
+      ]
+    },
+    {
+      "name": "Arabic",
+      "iso639_3": "ara",
+      "type": "macrolanguage",
+      "alt_names": [],
+      "collection_count": 20,
+      "countries": [
+        "Algeria",
+        "Egypt",
+        "France",
+        "Iraq",
+        "Israel",
+        "Kuwait",
+        "Lebanon",
+        "Libya",
+        "Morocco",
+        "Niger",
+        "Nigeria",
+        "Saudi Arabia",
+        "Sudan",
+        "Tunisia",
+        "United Arab Emirates",
+        "United States"
+      ],
+      "collections": [
+        "MV-000017",
+        "MV-000024",
+        "MV-000031",
+        "MV-000032",
+        "MV-000036",
+        "MV-000037",
+        "MV-000041",
+        "MV-000042",
+        "MV-000043",
+        "MV-000047",
+        "MV-000139",
+        "MV-000140",
+        "MV-000141",
+        "MV-000142",
+        "MV-000143",
+        "MV-000144",
+        "MV-000152",
+        "MV-000153",
+        "MV-000196",
+        "MV-000199"
+      ]
+    },
+    {
+      "name": "Armenian",
+      "iso639_3": "hye",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "United States"
+      ],
+      "collections": [
+        "MV-000118"
+      ]
+    },
+    {
+      "name": "Aymara",
+      "iso639_3": "aym",
+      "type": "macrolanguage",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Bolivia"
+      ],
+      "collections": [
+        "MV-000177"
+      ]
+    },
+    {
+      "name": "Bambara",
+      "iso639_3": "bam",
+      "type": "language",
+      "alt_names": [
+        "Bamanankan"
+      ],
+      "collection_count": 2,
+      "countries": [
+        "Côte d'Ivoire",
+        "Mali"
+      ],
+      "collections": [
+        "MV-000025",
+        "MV-000038"
+      ]
+    },
+    {
+      "name": "Basque",
+      "iso639_3": "eus",
+      "type": "language",
+      "alt_names": [
+        "Euskara"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Spain"
+      ],
+      "collections": [
+        "MV-000063"
+      ]
+    },
+    {
+      "name": "Bengali",
+      "iso639_3": "ben",
+      "type": "language",
+      "alt_names": [
+        "Bangla"
+      ],
+      "collection_count": 2,
+      "countries": [
+        "Bangladesh",
+        "India"
+      ],
+      "collections": [
+        "MV-000014",
+        "MV-000078"
+      ]
+    },
+    {
+      "name": "Bislama",
+      "iso639_3": "bis",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Vanuatu"
+      ],
+      "collections": [
+        "MV-000083"
+      ]
+    },
+    {
+      "name": "Bosnian",
+      "iso639_3": "bos",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 2,
+      "countries": [
+        "Bosnia and Herzegovina"
+      ],
+      "collections": [
+        "MV-000056",
+        "MV-000206"
+      ]
+    },
+    {
+      "name": "Bulgarian",
+      "iso639_3": "bul",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Bulgaria"
+      ],
+      "collections": [
+        "MV-000163"
+      ]
+    },
+    {
+      "name": "Cantonese",
+      "iso639_3": "yue",
+      "type": "language",
+      "alt_names": [
+        "Yue Chinese"
+      ],
+      "collection_count": 2,
+      "countries": [
+        "Hong Kong",
+        "United States"
+      ],
+      "collections": [
+        "MV-000071",
+        "MV-000125"
+      ]
+    },
+    {
+      "name": "Chinese",
+      "iso639_3": "zho",
+      "type": "macrolanguage",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "United States"
+      ],
+      "collections": [
+        "MV-000106"
+      ]
+    },
+    {
+      "name": "Cook Islands Māori",
+      "iso639_3": "rar",
+      "type": "language",
+      "alt_names": [
+        "Rarotongan",
+        "Cook Islands Maori"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Cook Islands"
+      ],
+      "collections": [
+        "MV-000200"
+      ]
+    },
+    {
+      "name": "Croatian",
+      "iso639_3": "hrv",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Croatia"
+      ],
+      "collections": [
+        "MV-000164"
+      ]
+    },
+    {
+      "name": "Czech",
+      "iso639_3": "ces",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 2,
+      "countries": [
+        "Czech Republic",
+        "United States"
+      ],
+      "collections": [
+        "MV-000013",
+        "MV-000196"
+      ]
+    },
+    {
+      "name": "Danish",
+      "iso639_3": "dan",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Denmark"
+      ],
+      "collections": [
+        "MV-000161"
+      ]
+    },
+    {
+      "name": "Dari",
+      "iso639_3": "prs",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Afghanistan"
+      ],
+      "collections": [
+        "MV-000138"
+      ]
+    },
+    {
+      "name": "Dutch",
+      "iso639_3": "nld",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Belgium"
+      ],
+      "collections": [
+        "MV-000167"
+      ]
+    },
+    {
+      "name": "English",
+      "iso639_3": "eng",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 102,
+      "countries": [
+        "Australia",
+        "Bangladesh",
+        "Botswana",
+        "Cambodia",
+        "Canada",
+        "Cook Islands",
+        "Czech Republic",
+        "Egypt",
+        "Fiji",
+        "Germany",
+        "Ghana",
+        "Haiti",
+        "Hong Kong",
+        "Hungary",
+        "India",
+        "Iran",
+        "Ireland",
+        "Israel",
+        "Jamaica",
+        "Japan",
+        "Kenya",
+        "Kuwait",
+        "Lebanon",
+        "Namibia",
+        "New Zealand",
+        "Nigeria",
+        "Pakistan",
+        "Poland",
+        "Rwanda",
+        "Singapore",
+        "South Africa",
+        "South Korea",
+        "Uganda",
+        "United Kingdom",
+        "United States",
+        "Vanuatu",
+        "Zimbabwe"
+      ],
+      "collections": [
+        "MV-000001",
+        "MV-000002",
+        "MV-000003",
+        "MV-000004",
+        "MV-000005",
+        "MV-000006",
+        "MV-000010",
+        "MV-000011",
+        "MV-000012",
+        "MV-000013",
+        "MV-000014",
+        "MV-000015",
+        "MV-000016",
+        "MV-000018",
+        "MV-000019",
+        "MV-000020",
+        "MV-000021",
+        "MV-000022",
+        "MV-000030",
+        "MV-000032",
+        "MV-000033",
+        "MV-000034",
+        "MV-000036",
+        "MV-000040",
+        "MV-000042",
+        "MV-000043",
+        "MV-000045",
+        "MV-000046",
+        "MV-000048",
+        "MV-000049",
+        "MV-000050",
+        "MV-000051",
+        "MV-000052",
+        "MV-000053",
+        "MV-000055",
+        "MV-000059",
+        "MV-000067",
+        "MV-000068",
+        "MV-000069",
+        "MV-000070",
+        "MV-000071",
+        "MV-000074",
+        "MV-000075",
+        "MV-000077",
+        "MV-000078",
+        "MV-000079",
+        "MV-000080",
+        "MV-000081",
+        "MV-000083",
+        "MV-000084",
+        "MV-000086",
+        "MV-000087",
+        "MV-000088",
+        "MV-000089",
+        "MV-000090",
+        "MV-000091",
+        "MV-000092",
+        "MV-000093",
+        "MV-000094",
+        "MV-000096",
+        "MV-000097",
+        "MV-000102",
+        "MV-000103",
+        "MV-000104",
+        "MV-000105",
+        "MV-000106",
+        "MV-000107",
+        "MV-000108",
+        "MV-000110",
+        "MV-000111",
+        "MV-000112",
+        "MV-000113",
+        "MV-000114",
+        "MV-000115",
+        "MV-000116",
+        "MV-000117",
+        "MV-000118",
+        "MV-000121",
+        "MV-000122",
+        "MV-000123",
+        "MV-000124",
+        "MV-000125",
+        "MV-000126",
+        "MV-000132",
+        "MV-000142",
+        "MV-000145",
+        "MV-000146",
+        "MV-000175",
+        "MV-000192",
+        "MV-000193",
+        "MV-000194",
+        "MV-000195",
+        "MV-000196",
+        "MV-000198",
+        "MV-000199",
+        "MV-000200",
+        "MV-000201",
+        "MV-000203",
+        "MV-000204",
+        "MV-000205",
+        "MV-000208",
+        "MV-000209"
+      ]
+    },
+    {
+      "name": "Estonian",
+      "iso639_3": "est",
+      "type": "macrolanguage",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Estonia"
+      ],
+      "collections": [
+        "MV-000061"
+      ]
+    },
+    {
+      "name": "Ewe",
+      "iso639_3": "ewe",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Ghana"
+      ],
+      "collections": [
+        "MV-000030"
+      ]
+    },
+    {
+      "name": "Fijian",
+      "iso639_3": "fij",
+      "type": "language",
+      "alt_names": [
+        "iTaukei"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Fiji"
+      ],
+      "collections": [
+        "MV-000084"
+      ]
+    },
+    {
+      "name": "Finnish",
+      "iso639_3": "fin",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 2,
+      "countries": [
+        "Finland",
+        "Sweden"
+      ],
+      "collections": [
+        "MV-000060",
+        "MV-000064"
+      ]
+    },
+    {
+      "name": "French",
+      "iso639_3": "fra",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 21,
+      "countries": [
+        "Belgium",
+        "Cameroon",
+        "Canada",
+        "Côte d'Ivoire",
+        "Democratic Republic of the Congo",
+        "France",
+        "Guinea",
+        "Haiti",
+        "Lebanon",
+        "Morocco",
+        "Niger",
+        "Rwanda",
+        "Senegal",
+        "Spain",
+        "Switzerland",
+        "Tunisia",
+        "Vanuatu"
+      ],
+      "collections": [
+        "MV-000006",
+        "MV-000022",
+        "MV-000023",
+        "MV-000024",
+        "MV-000026",
+        "MV-000029",
+        "MV-000031",
+        "MV-000037",
+        "MV-000038",
+        "MV-000042",
+        "MV-000044",
+        "MV-000047",
+        "MV-000057",
+        "MV-000063",
+        "MV-000083",
+        "MV-000144",
+        "MV-000149",
+        "MV-000151",
+        "MV-000160",
+        "MV-000167",
+        "MV-000175"
+      ]
+    },
+    {
+      "name": "Fulfulde",
+      "iso639_3": "ful",
+      "type": "macrolanguage",
+      "alt_names": [
+        "Fula",
+        "Fulani",
+        "Pulaar"
+      ],
+      "collection_count": 2,
+      "countries": [
+        "Côte d'Ivoire",
+        "Niger"
+      ],
+      "collections": [
+        "MV-000023",
+        "MV-000038"
+      ]
+    },
+    {
+      "name": "Ga",
+      "iso639_3": "gaa",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Ghana"
+      ],
+      "collections": [
+        "MV-000030"
+      ]
+    },
+    {
+      "name": "Ge'ez",
+      "iso639_3": "gez",
+      "type": "language",
+      "alt_names": [
+        "Geez",
+        "Classical Ethiopic"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Ethiopia"
+      ],
+      "collections": [
+        "MV-000035"
+      ]
+    },
+    {
+      "name": "Georgian",
+      "iso639_3": "kat",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Georgia"
+      ],
+      "collections": [
+        "MV-000062"
+      ]
+    },
+    {
+      "name": "German",
+      "iso639_3": "deu",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 7,
+      "countries": [
+        "Austria",
+        "Germany",
+        "Switzerland",
+        "United Kingdom",
+        "United States"
+      ],
+      "collections": [
+        "MV-000050",
+        "MV-000059",
+        "MV-000109",
+        "MV-000119",
+        "MV-000160",
+        "MV-000197",
+        "MV-000207"
+      ]
+    },
+    {
+      "name": "Greek",
+      "iso639_3": "ell",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Greece"
+      ],
+      "collections": [
+        "MV-000155"
+      ]
+    },
+    {
+      "name": "Gujarati",
+      "iso639_3": "guj",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "India"
+      ],
+      "collections": [
+        "MV-000014"
+      ]
+    },
+    {
+      "name": "Haitian Creole",
+      "iso639_3": "hat",
+      "type": "language",
+      "alt_names": [
+        "Kreyòl ayisyen"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Haiti"
+      ],
+      "collections": [
+        "MV-000175"
+      ]
+    },
+    {
+      "name": "Hassaniya Arabic",
+      "iso639_3": "mey",
+      "type": "language",
+      "alt_names": [
+        "Hassaniya"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Mauritania"
+      ],
+      "collections": [
+        "MV-000039"
+      ]
+    },
+    {
+      "name": "Hausa",
+      "iso639_3": "hau",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 4,
+      "countries": [
+        "Niger",
+        "Nigeria"
+      ],
+      "collections": [
+        "MV-000023",
+        "MV-000024",
+        "MV-000031",
+        "MV-000032"
+      ]
+    },
+    {
+      "name": "Hebrew",
+      "iso639_3": "heb",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 3,
+      "countries": [
+        "Israel",
+        "United States"
+      ],
+      "collections": [
+        "MV-000004",
+        "MV-000041",
+        "MV-000045"
+      ]
+    },
+    {
+      "name": "Hindi",
+      "iso639_3": "hin",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 3,
+      "countries": [
+        "India"
+      ],
+      "collections": [
+        "MV-000014",
+        "MV-000069",
+        "MV-000070"
+      ]
+    },
+    {
+      "name": "Hmong",
+      "iso639_3": "hmn",
+      "type": "macrolanguage",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "United States"
+      ],
+      "collections": [
+        "MV-000112"
+      ]
+    },
+    {
+      "name": "Hungarian",
+      "iso639_3": "hun",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Hungary"
+      ],
+      "collections": [
+        "MV-000055"
+      ]
+    },
+    {
+      "name": "Icelandic",
+      "iso639_3": "isl",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Iceland"
+      ],
+      "collections": [
+        "MV-000162"
+      ]
+    },
+    {
+      "name": "Ilocano",
+      "iso639_3": "ilo",
+      "type": "language",
+      "alt_names": [
+        "Ilokano"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "United States"
+      ],
+      "collections": [
+        "MV-000122"
+      ]
+    },
+    {
+      "name": "Indonesian",
+      "iso639_3": "ind",
+      "type": "language",
+      "alt_names": [
+        "Bahasa Indonesia"
+      ],
+      "collection_count": 2,
+      "countries": [
+        "Indonesia",
+        "Timor-Leste"
+      ],
+      "collections": [
+        "MV-000130",
+        "MV-000183"
+      ]
+    },
+    {
+      "name": "Innu-aimun",
+      "iso639_3": "moe",
+      "type": "language",
+      "alt_names": [
+        "Innu",
+        "Montagnais"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Canada"
+      ],
+      "collections": [
+        "MV-000103"
+      ]
+    },
+    {
+      "name": "Inuktitut",
+      "iso639_3": "iku",
+      "type": "macrolanguage",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Canada"
+      ],
+      "collections": [
+        "MV-000103"
+      ]
+    },
+    {
+      "name": "Irish",
+      "iso639_3": "gle",
+      "type": "language",
+      "alt_names": [
+        "Irish Gaelic"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Ireland"
+      ],
+      "collections": [
+        "MV-000012"
+      ]
+    },
+    {
+      "name": "Italian",
+      "iso639_3": "ita",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 2,
+      "countries": [
+        "Italy",
+        "Switzerland"
+      ],
+      "collections": [
+        "MV-000154",
+        "MV-000160"
+      ]
+    },
+    {
+      "name": "Jamaican Patois",
+      "iso639_3": "jam",
+      "type": "language",
+      "alt_names": [
+        "Jamaican Creole"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Jamaica"
+      ],
+      "collections": [
+        "MV-000132"
+      ]
+    },
+    {
+      "name": "Japanese",
+      "iso639_3": "jpn",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 8,
+      "countries": [
+        "Japan",
+        "South Korea",
+        "United States"
+      ],
+      "collections": [
+        "MV-000003",
+        "MV-000015",
+        "MV-000074",
+        "MV-000079",
+        "MV-000080",
+        "MV-000081",
+        "MV-000082",
+        "MV-000121"
+      ]
+    },
+    {
+      "name": "Karay-a",
+      "iso639_3": "krj",
+      "type": "language",
+      "alt_names": [
+        "Kinaray-a"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Philippines"
+      ],
+      "collections": [
+        "MV-000184"
+      ]
+    },
+    {
+      "name": "Karelian",
+      "iso639_3": "krl",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Finland"
+      ],
+      "collections": [
+        "MV-000060"
+      ]
+    },
+    {
+      "name": "Kazakh",
+      "iso639_3": "kaz",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Kazakhstan"
+      ],
+      "collections": [
+        "MV-000133"
+      ]
+    },
+    {
+      "name": "Khmer",
+      "iso639_3": "khm",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 2,
+      "countries": [
+        "Cambodia"
+      ],
+      "collections": [
+        "MV-000016",
+        "MV-000126"
+      ]
+    },
+    {
+      "name": "Kikongo",
+      "iso639_3": "kon",
+      "type": "macrolanguage",
+      "alt_names": [
+        "Kongo"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Democratic Republic of the Congo"
+      ],
+      "collections": [
+        "MV-000149"
+      ]
+    },
+    {
+      "name": "Kinyarwanda",
+      "iso639_3": "kin",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Rwanda"
+      ],
+      "collections": [
+        "MV-000022"
+      ]
+    },
+    {
+      "name": "Korean",
+      "iso639_3": "kor",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 3,
+      "countries": [
+        "South Korea",
+        "United States"
+      ],
+      "collections": [
+        "MV-000073",
+        "MV-000074",
+        "MV-000075"
+      ]
+    },
+    {
+      "name": "Kurdish",
+      "iso639_3": "kur",
+      "type": "macrolanguage",
+      "alt_names": [
+        "Kurmanji",
+        "Sorani"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "France"
+      ],
+      "collections": [
+        "MV-000044"
+      ]
+    },
+    {
+      "name": "Kyrgyz",
+      "iso639_3": "kir",
+      "type": "language",
+      "alt_names": [
+        "Kirghiz"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Kyrgyzstan"
+      ],
+      "collections": [
+        "MV-000135"
+      ]
+    },
+    {
+      "name": "Latvian",
+      "iso639_3": "lav",
+      "type": "macrolanguage",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Latvia"
+      ],
+      "collections": [
+        "MV-000158"
+      ]
+    },
+    {
+      "name": "Lingala",
+      "iso639_3": "lin",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Democratic Republic of the Congo"
+      ],
+      "collections": [
+        "MV-000149"
+      ]
+    },
+    {
+      "name": "Lithuanian",
+      "iso639_3": "lit",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Lithuania"
+      ],
+      "collections": [
+        "MV-000159"
+      ]
+    },
+    {
+      "name": "Luo",
+      "iso639_3": "luo",
+      "type": "language",
+      "alt_names": [
+        "Dholuo"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Uganda"
+      ],
+      "collections": [
+        "MV-000040"
+      ]
+    },
+    {
+      "name": "Malagasy",
+      "iso639_3": "mlg",
+      "type": "macrolanguage",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Madagascar"
+      ],
+      "collections": [
+        "MV-000150"
+      ]
+    },
+    {
+      "name": "Malay",
+      "iso639_3": "msa",
+      "type": "macrolanguage",
+      "alt_names": [],
+      "collection_count": 2,
+      "countries": [
+        "Malaysia",
+        "Singapore"
+      ],
+      "collections": [
+        "MV-000067",
+        "MV-000185"
+      ]
+    },
+    {
+      "name": "Mandarin Chinese",
+      "iso639_3": "cmn",
+      "type": "language",
+      "alt_names": [
+        "Mandarin"
+      ],
+      "collection_count": 4,
+      "countries": [
+        "China",
+        "Singapore",
+        "Taiwan",
+        "United States"
+      ],
+      "collections": [
+        "MV-000067",
+        "MV-000072",
+        "MV-000076",
+        "MV-000125"
+      ]
+    },
+    {
+      "name": "Maninka",
+      "iso639_3": null,
+      "type": "language",
+      "alt_names": [
+        "Malinke"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Guinea"
+      ],
+      "collections": [
+        "MV-000026"
+      ]
+    },
+    {
+      "name": "Māori",
+      "iso639_3": "mri",
+      "type": "language",
+      "alt_names": [
+        "Maori",
+        "te reo Māori"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "New Zealand"
+      ],
+      "collections": [
+        "MV-000019"
+      ]
+    },
+    {
+      "name": "Marshallese",
+      "iso639_3": "mah",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Marshall Islands"
+      ],
+      "collections": [
+        "MV-000189"
+      ]
+    },
+    {
+      "name": "Nepali",
+      "iso639_3": "nep",
+      "type": "macrolanguage",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Nepal"
+      ],
+      "collections": [
+        "MV-000190"
+      ]
+    },
+    {
+      "name": "Ndebele",
+      "iso639_3": "nde",
+      "type": "language",
+      "alt_names": [
+        "North Ndebele",
+        "isiNdebele"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Zimbabwe"
+      ],
+      "collections": [
+        "MV-000033"
+      ]
+    },
+    {
+      "name": "Northern Sámi",
+      "iso639_3": "sme",
+      "type": "language",
+      "alt_names": [
+        "Northern Sami"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Norway"
+      ],
+      "collections": [
+        "MV-000066"
+      ]
+    },
+    {
+      "name": "Norwegian",
+      "iso639_3": "nor",
+      "type": "macrolanguage",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Norway"
+      ],
+      "collections": [
+        "MV-000066"
+      ]
+    },
+    {
+      "name": "Okinawan",
+      "iso639_3": "ryu",
+      "type": "language",
+      "alt_names": [
+        "Central Okinawan",
+        "Uchinaaguchi"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Japan"
+      ],
+      "collections": [
+        "MV-000080"
+      ]
+    },
+    {
+      "name": "Oromo",
+      "iso639_3": "orm",
+      "type": "macrolanguage",
+      "alt_names": [
+        "Afaan Oromoo"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Ethiopia"
+      ],
+      "collections": [
+        "MV-000035"
+      ]
+    },
+    {
+      "name": "Pashto",
+      "iso639_3": "pus",
+      "type": "macrolanguage",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Afghanistan"
+      ],
+      "collections": [
+        "MV-000138"
+      ]
+    },
+    {
+      "name": "Persian",
+      "iso639_3": "fas",
+      "type": "macrolanguage",
+      "alt_names": [
+        "Farsi"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Iran"
+      ],
+      "collections": [
+        "MV-000046"
+      ]
+    },
+    {
+      "name": "Polish",
+      "iso639_3": "pol",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 6,
+      "countries": [
+        "France",
+        "Poland",
+        "Ukraine",
+        "United States"
+      ],
+      "collections": [
+        "MV-000004",
+        "MV-000053",
+        "MV-000054",
+        "MV-000057",
+        "MV-000119",
+        "MV-000168"
+      ]
+    },
+    {
+      "name": "Portuguese",
+      "iso639_3": "por",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 6,
+      "countries": [
+        "Angola",
+        "Brazil",
+        "Mozambique",
+        "Portugal",
+        "Timor-Leste"
+      ],
+      "collections": [
+        "MV-000007",
+        "MV-000130",
+        "MV-000131",
+        "MV-000147",
+        "MV-000148",
+        "MV-000166"
+      ]
+    },
+    {
+      "name": "Punjabi",
+      "iso639_3": "pan",
+      "type": "language",
+      "alt_names": [
+        "Panjabi"
+      ],
+      "collection_count": 2,
+      "countries": [
+        "India",
+        "Pakistan"
+      ],
+      "collections": [
+        "MV-000014",
+        "MV-000068"
+      ]
+    },
+    {
+      "name": "Quechua",
+      "iso639_3": "que",
+      "type": "macrolanguage",
+      "alt_names": [],
+      "collection_count": 2,
+      "countries": [
+        "Bolivia",
+        "Peru"
+      ],
+      "collections": [
+        "MV-000128",
+        "MV-000177"
+      ]
+    },
+    {
+      "name": "Romani",
+      "iso639_3": "rom",
+      "type": "macrolanguage",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Germany"
+      ],
+      "collections": [
+        "MV-000059"
+      ]
+    },
+    {
+      "name": "Romanian",
+      "iso639_3": "ron",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Romania"
+      ],
+      "collections": [
+        "MV-000157"
+      ]
+    },
+    {
+      "name": "Romansh",
+      "iso639_3": "roh",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Switzerland"
+      ],
+      "collections": [
+        "MV-000160"
+      ]
+    },
+    {
+      "name": "Russian",
+      "iso639_3": "rus",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 6,
+      "countries": [
+        "France",
+        "Hungary",
+        "Kazakhstan",
+        "Poland",
+        "Ukraine",
+        "United States"
+      ],
+      "collections": [
+        "MV-000004",
+        "MV-000054",
+        "MV-000055",
+        "MV-000057",
+        "MV-000133",
+        "MV-000168"
+      ]
+    },
+    {
+      "name": "Scots",
+      "iso639_3": "sco",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "United Kingdom"
+      ],
+      "collections": [
+        "MV-000011"
+      ]
+    },
+    {
+      "name": "Scottish Gaelic",
+      "iso639_3": "gla",
+      "type": "language",
+      "alt_names": [
+        "Gàidhlig"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "United Kingdom"
+      ],
+      "collections": [
+        "MV-000011"
+      ]
+    },
+    {
+      "name": "Serbian",
+      "iso639_3": "srp",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Serbia"
+      ],
+      "collections": [
+        "MV-000165"
+      ]
+    },
+    {
+      "name": "Seto",
+      "iso639_3": null,
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Estonia"
+      ],
+      "collections": [
+        "MV-000061"
+      ]
+    },
+    {
+      "name": "Setswana",
+      "iso639_3": "tsn",
+      "type": "language",
+      "alt_names": [
+        "Tswana"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Botswana"
+      ],
+      "collections": [
+        "MV-000145"
+      ]
+    },
+    {
+      "name": "Shona",
+      "iso639_3": "sna",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Zimbabwe"
+      ],
+      "collections": [
+        "MV-000033"
+      ]
+    },
+    {
+      "name": "Sindhi",
+      "iso639_3": "snd",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 2,
+      "countries": [
+        "India",
+        "Pakistan"
+      ],
+      "collections": [
+        "MV-000014",
+        "MV-000068"
+      ]
+    },
+    {
+      "name": "Sinhala",
+      "iso639_3": "sin",
+      "type": "language",
+      "alt_names": [
+        "Sinhalese"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Sri Lanka"
+      ],
+      "collections": [
+        "MV-000191"
+      ]
+    },
+    {
+      "name": "Slovak",
+      "iso639_3": "slk",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 2,
+      "countries": [
+        "Czech Republic",
+        "Slovakia"
+      ],
+      "collections": [
+        "MV-000013",
+        "MV-000169"
+      ]
+    },
+    {
+      "name": "Slovenian",
+      "iso639_3": "slv",
+      "type": "language",
+      "alt_names": [
+        "Slovene"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Slovenia"
+      ],
+      "collections": [
+        "MV-000156"
+      ]
+    },
+    {
+      "name": "Spanish",
+      "iso639_3": "spa",
+      "type": "language",
+      "alt_names": [
+        "Castilian"
+      ],
+      "collection_count": 22,
+      "countries": [
+        "Argentina",
+        "Bolivia",
+        "Chile",
+        "Colombia",
+        "Costa Rica",
+        "Cuba",
+        "El Salvador",
+        "Guatemala",
+        "Mexico",
+        "Nicaragua",
+        "Peru",
+        "Puerto Rico",
+        "Spain",
+        "United States",
+        "Uruguay",
+        "Venezuela"
+      ],
+      "collections": [
+        "MV-000001",
+        "MV-000008",
+        "MV-000009",
+        "MV-000063",
+        "MV-000093",
+        "MV-000108",
+        "MV-000110",
+        "MV-000117",
+        "MV-000127",
+        "MV-000128",
+        "MV-000129",
+        "MV-000170",
+        "MV-000171",
+        "MV-000172",
+        "MV-000173",
+        "MV-000174",
+        "MV-000176",
+        "MV-000177",
+        "MV-000178",
+        "MV-000179",
+        "MV-000180",
+        "MV-000196"
+      ]
+    },
+    {
+      "name": "Swahili",
+      "iso639_3": "swa",
+      "type": "macrolanguage",
+      "alt_names": [
+        "Kiswahili"
+      ],
+      "collection_count": 2,
+      "countries": [
+        "Democratic Republic of the Congo",
+        "Kenya"
+      ],
+      "collections": [
+        "MV-000034",
+        "MV-000149"
+      ]
+    },
+    {
+      "name": "Swazi",
+      "iso639_3": "ssw",
+      "type": "language",
+      "alt_names": [
+        "siSwati",
+        "Swati"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Eswatini"
+      ],
+      "collections": [
+        "MV-000210"
+      ]
+    },
+    {
+      "name": "Swedish",
+      "iso639_3": "swe",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Sweden"
+      ],
+      "collections": [
+        "MV-000064"
+      ]
+    },
+    {
+      "name": "Tagalog",
+      "iso639_3": "tgl",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "United States"
+      ],
+      "collections": [
+        "MV-000122"
+      ]
+    },
+    {
+      "name": "Taiwanese Hokkien",
+      "iso639_3": "nan",
+      "type": "language",
+      "alt_names": [
+        "Taiwanese",
+        "Min Nan"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Taiwan"
+      ],
+      "collections": [
+        "MV-000076"
+      ]
+    },
+    {
+      "name": "Tajik",
+      "iso639_3": "tgk",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Tajikistan"
+      ],
+      "collections": [
+        "MV-000136"
+      ]
+    },
+    {
+      "name": "Tamasheq",
+      "iso639_3": "tmh",
+      "type": "macrolanguage",
+      "alt_names": [
+        "Tamashek",
+        "Tuareg"
+      ],
+      "collection_count": 2,
+      "countries": [
+        "Niger"
+      ],
+      "collections": [
+        "MV-000023",
+        "MV-000031"
+      ]
+    },
+    {
+      "name": "Tamazight",
+      "iso639_3": null,
+      "type": "language",
+      "alt_names": [
+        "Berber",
+        "Amazigh"
+      ],
+      "collection_count": 2,
+      "countries": [
+        "Algeria",
+        "Morocco"
+      ],
+      "collections": [
+        "MV-000037",
+        "MV-000152"
+      ]
+    },
+    {
+      "name": "Tamil",
+      "iso639_3": "tam",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 3,
+      "countries": [
+        "India",
+        "Singapore",
+        "Sri Lanka"
+      ],
+      "collections": [
+        "MV-000067",
+        "MV-000070",
+        "MV-000191"
+      ]
+    },
+    {
+      "name": "Tetum",
+      "iso639_3": "tet",
+      "type": "language",
+      "alt_names": [
+        "Tetun"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Timor-Leste"
+      ],
+      "collections": [
+        "MV-000130"
+      ]
+    },
+    {
+      "name": "Thai",
+      "iso639_3": "tha",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Thailand"
+      ],
+      "collections": [
+        "MV-000182"
+      ]
+    },
+    {
+      "name": "Tshiluba",
+      "iso639_3": "lua",
+      "type": "language",
+      "alt_names": [
+        "Luba-Kasai",
+        "Luba-Lulua"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Democratic Republic of the Congo"
+      ],
+      "collections": [
+        "MV-000149"
+      ]
+    },
+    {
+      "name": "Turkish",
+      "iso639_3": "tur",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 2,
+      "countries": [
+        "Germany",
+        "Turkey"
+      ],
+      "collections": [
+        "MV-000109",
+        "MV-000137"
+      ]
+    },
+    {
+      "name": "Twi",
+      "iso639_3": "twi",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Ghana"
+      ],
+      "collections": [
+        "MV-000030"
+      ]
+    },
+    {
+      "name": "Ukrainian",
+      "iso639_3": "ukr",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 3,
+      "countries": [
+        "France",
+        "Poland",
+        "Ukraine"
+      ],
+      "collections": [
+        "MV-000054",
+        "MV-000057",
+        "MV-000168"
+      ]
+    },
+    {
+      "name": "Umbundu",
+      "iso639_3": "umb",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Angola"
+      ],
+      "collections": [
+        "MV-000148"
+      ]
+    },
+    {
+      "name": "Urdu",
+      "iso639_3": "urd",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 2,
+      "countries": [
+        "India",
+        "Pakistan"
+      ],
+      "collections": [
+        "MV-000014",
+        "MV-000068"
+      ]
+    },
+    {
+      "name": "Uzbek",
+      "iso639_3": "uzb",
+      "type": "macrolanguage",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Uzbekistan"
+      ],
+      "collections": [
+        "MV-000134"
+      ]
+    },
+    {
+      "name": "Vietnamese",
+      "iso639_3": "vie",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 3,
+      "countries": [
+        "United States",
+        "Vietnam"
+      ],
+      "collections": [
+        "MV-000077",
+        "MV-000111",
+        "MV-000181"
+      ]
+    },
+    {
+      "name": "Võro",
+      "iso639_3": "vro",
+      "type": "language",
+      "alt_names": [
+        "Voro"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Estonia"
+      ],
+      "collections": [
+        "MV-000061"
+      ]
+    },
+    {
+      "name": "Welsh",
+      "iso639_3": "cym",
+      "type": "language",
+      "alt_names": [
+        "Cymraeg"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "United Kingdom"
+      ],
+      "collections": [
+        "MV-000052"
+      ]
+    },
+    {
+      "name": "Wolof",
+      "iso639_3": "wol",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Senegal"
+      ],
+      "collections": [
+        "MV-000029"
+      ]
+    },
+    {
+      "name": "Xhosa",
+      "iso639_3": "xho",
+      "type": "language",
+      "alt_names": [
+        "isiXhosa"
+      ],
+      "collection_count": 2,
+      "countries": [
+        "South Africa"
+      ],
+      "collections": [
+        "MV-000020",
+        "MV-000087"
+      ]
+    },
+    {
+      "name": "Yiddish",
+      "iso639_3": "yid",
+      "type": "macrolanguage",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "United States"
+      ],
+      "collections": [
+        "MV-000119"
+      ]
+    },
+    {
+      "name": "Yoruba",
+      "iso639_3": "yor",
+      "type": "language",
+      "alt_names": [],
+      "collection_count": 3,
+      "countries": [
+        "Benin",
+        "Nigeria"
+      ],
+      "collections": [
+        "MV-000027",
+        "MV-000028",
+        "MV-000032"
+      ]
+    },
+    {
+      "name": "Zarma",
+      "iso639_3": "dje",
+      "type": "language",
+      "alt_names": [
+        "Djerma",
+        "Zarmaciine"
+      ],
+      "collection_count": 3,
+      "countries": [
+        "Niger"
+      ],
+      "collections": [
+        "MV-000023",
+        "MV-000024",
+        "MV-000031"
+      ]
+    },
+    {
+      "name": "Zulu",
+      "iso639_3": "zul",
+      "type": "language",
+      "alt_names": [
+        "isiZulu"
+      ],
+      "collection_count": 2,
+      "countries": [
+        "South Africa"
+      ],
+      "collections": [
+        "MV-000020",
+        "MV-000087"
+      ]
+    },
+    {
+      "name": "Aboriginal and Torres Strait Islander languages",
+      "iso639_3": null,
+      "type": "collective",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Australia"
+      ],
+      "collections": [
+        "MV-000018"
+      ]
+    },
+    {
+      "name": "Indigenous languages of the Americas",
+      "iso639_3": null,
+      "type": "collective",
+      "alt_names": [],
+      "collection_count": 9,
+      "countries": [
+        "Canada",
+        "Mexico",
+        "United States",
+        "Venezuela"
+      ],
+      "collections": [
+        "MV-000006",
+        "MV-000099",
+        "MV-000101",
+        "MV-000102",
+        "MV-000104",
+        "MV-000105",
+        "MV-000170",
+        "MV-000171",
+        "MV-000178"
+      ]
+    },
+    {
+      "name": "Mayan languages",
+      "iso639_3": null,
+      "type": "collective",
+      "alt_names": [],
+      "collection_count": 1,
+      "countries": [
+        "Guatemala"
+      ],
+      "collections": [
+        "MV-000172"
+      ]
+    },
+    {
+      "name": "Sámi languages",
+      "iso639_3": null,
+      "type": "collective",
+      "alt_names": [
+        "Sami",
+        "Saami"
+      ],
+      "collection_count": 1,
+      "countries": [
+        "Sweden"
+      ],
+      "collections": [
+        "MV-000064"
+      ]
+    },
+    {
+      "name": "Multiple languages",
+      "iso639_3": null,
+      "type": "collective",
+      "alt_names": [],
+      "collection_count": 33,
+      "countries": [
+        "Australia",
+        "Austria",
+        "Ethiopia",
+        "Federated States of Micronesia",
+        "France",
+        "Germany",
+        "Ghana",
+        "India",
+        "Indonesia",
+        "Israel",
+        "Kenya",
+        "Netherlands",
+        "Papua New Guinea",
+        "Senegal",
+        "Solomon Islands",
+        "Thailand",
+        "United Kingdom",
+        "United States",
+        "Vanuatu",
+        "Vietnam"
+      ],
+      "collections": [
+        "MV-000004",
+        "MV-000005",
+        "MV-000029",
+        "MV-000030",
+        "MV-000034",
+        "MV-000035",
+        "MV-000045",
+        "MV-000047",
+        "MV-000048",
+        "MV-000057",
+        "MV-000058",
+        "MV-000065",
+        "MV-000070",
+        "MV-000075",
+        "MV-000083",
+        "MV-000085",
+        "MV-000095",
+        "MV-000098",
+        "MV-000100",
+        "MV-000106",
+        "MV-000107",
+        "MV-000113",
+        "MV-000114",
+        "MV-000118",
+        "MV-000119",
+        "MV-000120",
+        "MV-000181",
+        "MV-000182",
+        "MV-000183",
+        "MV-000186",
+        "MV-000187",
+        "MV-000188",
+        "MV-000202"
+      ]
+    }
+  ]
+}

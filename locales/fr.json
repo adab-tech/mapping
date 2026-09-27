@@ -21,7 +21,11 @@
     "allThemes": "Tous les thèmes",
     "allLanguages": "Toutes les langues",
     "allDecades": "Toutes les décennies",
-    "reset": "Réinitialiser les filtres"
+    "reset": "Réinitialiser les filtres",
+    "search": "Rechercher",
+    "searchPlaceholder": "Titre, archive, langue, thème…",
+    "individualLanguages": "Langues",
+    "languageGroups": "Groupes de langues"
   },
   "results": {
     "heading": "Index",
@@ -48,7 +52,7 @@
     "placeholder": "Sélectionnez un repère sur la carte, ou une entrée dans l'index, pour en lire le détail ici.",
     "languages": "Langues",
     "themes": "Thèmes",
-    "period": "Période",
+    "period": "Période d'enregistrement",
     "visitSource": "Consulter l'archive source",
     "opensNewTab": "(s'ouvre dans un nouvel onglet)",
     "selectionAnnounce": "Affichage des détails de {title}.",
@@ -56,10 +60,37 @@
     "decadePresent": "aujourd'hui",
     "decadeFormat": "années {n}",
     "decadeRange": "{start} – {end}",
-    "decadeToPresent": "{start} – {present}"
+    "decadeToPresent": "{start} – {present}",
+    "identifier": "Identifiant",
+    "access": "Accès",
+    "verification": "Vérification",
+    "languageNote": "Note sur les langues",
+    "citation": "Citer",
+    "related": "Collections liées",
+    "copyLink": "Copier le lien vers cette fiche",
+    "copied": "Lien copié",
+    "contentNotice": "Mapping Voices renvoie vers cette collection ; l'accès et la réutilisation relèvent de l'institution qui la conserve."
   },
   "footer": {
-    "template": "Données et imagerie cartographiques © %LINK%, ses contributeurs. Mapping Voices est un atlas de démonstration — voir le README pour savoir comment ajouter une collection.",
-    "osmLinkText": "OpenStreetMap"
+    "template": "Données et imagerie cartographiques © %LINK%, ses contributeurs.",
+    "osmLinkText": "OpenStreetMap",
+    "navLabel": "Projet",
+    "about": "À propos",
+    "methodology": "Méthodologie",
+    "data": "Données ouvertes",
+    "contribute": "Contribuer"
+  },
+  "stats": {
+    "label": "Résumé du jeu de données",
+    "collections": "Collections",
+    "countries": "Pays",
+    "languages": "Langues",
+    "scope": "Ces chiffres décrivent les collections indexées ici, et non l'ensemble de l'histoire orale."
+  },
+  "verification": {
+    "verified": "Vérifiée",
+    "partially_verified": "Partiellement vérifiée",
+    "needs_review": "À vérifier",
+    "unavailable": "Source indisponible"
   }
 }
