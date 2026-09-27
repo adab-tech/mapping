@@ -80,7 +80,9 @@
     "methodology": "Méthodologie",
     "data": "Données ouvertes",
     "contribute": "Contribuer",
-    "languages": "Langues"
+    "languages": "Langues",
+    "themes": "Thèmes",
+    "gaps": "Lacunes de couverture"
   },
   "stats": {
     "label": "Résumé du jeu de données",

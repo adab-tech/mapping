@@ -1,0 +1,189 @@
+/* ==========================================================================
+   Mapping Voices — Coverage Gaps (gaps.html).
+   Builds on style.css (tokens), about.css (page layout, .principle,
+   .page-stats) and languages.css (.lx-main, .lx-status).
+   ========================================================================== */
+
+.gx-principle {
+  font-size: 1.2rem;
+  margin: 1.5rem 0;
+}
+
+.gx-cta {
+  padding: 0.8rem 1rem;
+  background: var(--paper-panel);
+  border: 1px solid var(--rule);
+  border-inline-start: 3px solid var(--accent);
+  border-radius: var(--radius);
+}
+
+.gx-cta a {
+  color: var(--accent-dark);
+  font-weight: 600;
+}
+
+/* Summary table ---------------------------------------------------------- */
+
+.gx-table-wrap {
+  overflow-x: auto;
+}
+
+.gx-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+.gx-table th,
+.gx-table td {
+  text-align: start;
+  padding: 0.55rem 0.5rem;
+  border-bottom: 1px solid var(--rule-soft);
+  vertical-align: middle;
+}
+
+.gx-table thead th {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-soft);
+  border-bottom-color: var(--rule);
+}
+
+.gx-table tbody th a {
+  color: var(--accent-dark);
+  font-weight: 600;
+}
+
+.gx-table .gx-num {
+  text-align: end;
+  font-variant-numeric: tabular-nums;
+}
+
+.gx-share {
+  width: 45%;
+}
+
+.gx-share-text {
+  display: block;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Proportion bar (decorative; figures are always given in text) ---------- */
+
+.gx-bar {
+  display: block;
+  height: 0.5rem;
+  margin-top: 0.3rem;
+  background: var(--paper-deep);
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.gx-bar-fill {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+}
+
+/* Region sections ---------------------------------------------------------- */
+
+.gx-region-summary {
+  margin: 0;
+}
+
+.gx-region > .gx-bar {
+  max-width: 24rem;
+  margin: 0.4rem 0 1.25rem;
+}
+
+.gx-sub {
+  margin: 0 0 1.5rem;
+}
+
+.gx-sub-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.2rem 0.75rem;
+  font-size: 1.05rem;
+  margin: 0 0 0.5rem;
+}
+
+.gx-sub-meta {
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--ink-soft);
+}
+
+.gx-cols {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .gx-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.gx-col {
+  padding: 0.6rem 0.8rem;
+  background: var(--paper-panel);
+  border: 1px solid var(--rule-soft);
+  border-radius: var(--radius);
+}
+
+.gx-col-gaps {
+  border-style: dashed;
+  border-color: var(--rule);
+  background: transparent;
+}
+
+.gx-label {
+  margin: 0 0 0.4rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-soft);
+}
+
+.gx-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.2rem;
+  font-size: 0.92rem;
+}
+
+.gx-list li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0 0.75rem;
+}
+
+.gx-count {
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+
+.gx-propose {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent-dark);
+}
+
+.gx-other {
+  margin: 0.5rem 0 0;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}

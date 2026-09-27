@@ -4,6 +4,26 @@ All notable changes to the Mapping Voices dataset and atlas. Dataset
 changes are recorded as additions, removals, corrections, metadata changes,
 broken-source changes, and taxonomy changes (METHODOLOGY §10, §12).
 
+## [Unreleased]
+
+### Atlas
+- New **Theme Explorer** (`themes.html`): the 15 top-level theme groups,
+  each theme with its scope note and count, the collections it is assigned
+  to, and the countries and languages they span, linking back into filtered
+  atlas views. Search, sort, and the open theme live in the URL
+  (`?q=…&sort=…#theme-…`).
+- New **Coverage Gaps** page (`gaps.html`): per UN M49 region and subregion,
+  which UN member states have an indexed collection and which have none
+  yet, each gap with a link to propose a collection. States plainly that it
+  shows gaps in the indexed dataset, not in oral history.
+- New static reference file `data/reference/un-m49-countries.json` (the 193
+  UN member states, ISO 3166-1 alpha-2, M49 region/subregion), with a test
+  (`tests/un-m49-countries.test.mjs`) that it agrees with
+  `data/vocab/countries.json`.
+- "Themes" and "Coverage gaps" added to the site navigation and the atlas
+  footer (new locale keys `footer.themes`, `footer.gaps` in en, ha, fr, ar).
+- No dataset changes.
+
 ## [0.3.0] — 2026-09-27 — Language Explorer, review tooling, source review
 
 ### Dataset
