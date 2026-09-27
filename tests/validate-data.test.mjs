@@ -116,6 +116,21 @@ test("'verified' requires last_reviewed", () => {
   assert.ok(errorsFor([{ ...base(), last_reviewed: "27/09/2026" }]).some((e) => e.includes("last_reviewed")));
 });
 
+test("access and archive_type: optional, controlled by their vocabularies", () => {
+  assert.deepEqual(errorsFor([{ ...base(), access: "open online", archive_type: "museum" }]), []);
+  assert.ok(errorsFor([{ ...base(), access: "free" }]).some((e) => e.includes("access.json")));
+  assert.ok(errorsFor([{ ...base(), access: "Open online" }]).some((e) => e.includes('"access"')));
+  assert.ok(errorsFor([{ ...base(), archive_type: "library" }]).some((e) => e.includes("archive-types.json")));
+  assert.ok(errorsFor([{ ...base(), archive_type: ["museum"] }]).some((e) => e.includes('"archive_type"')));
+});
+
+test("access and archive_type vocabularies load and define every term", () => {
+  assert.deepEqual(vocab.access.map((t) => t.name).sort(),
+    ["on request", "on site only", "open online", "partial online", "registration required", "restricted"]);
+  assert.equal(vocab.archiveTypes.length, 9);
+  for (const term of [...vocab.access, ...vocab.archiveTypes]) assert.ok(term.definition, term.name);
+});
+
 test("review log: committed log is valid", () => {
   const log = JSON.parse(readFileSync(new URL("../data/review-log.json", import.meta.url), "utf8"));
   assert.deepEqual(validateReviewLog(log, dataset), []);
@@ -126,5 +141,6 @@ test("review log: rejects unknown mv_id, bad method, bad evidence", () => {
   assert.deepEqual(validateReviewLog({ entries: [entry] }, dataset), []);
   assert.equal(validateReviewLog({ entries: [{ ...entry, mv_id: "MV-999999" }] }, dataset).length, 1);
   assert.equal(validateReviewLog({ entries: [{ ...entry, method: "vibes" }] }, dataset).length, 1);
+  assert.deepEqual(validateReviewLog({ entries: [{ ...entry, method: "derived" }] }, dataset), []);
   assert.equal(validateReviewLog({ entries: [{ ...entry, evidence: ["ftp://x"] }] }, dataset).length, 1);
 });

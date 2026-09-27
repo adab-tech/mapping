@@ -107,6 +107,14 @@
             "type": "integer"
           },
           {
+            "name": "historical_period_start",
+            "type": "integer"
+          },
+          {
+            "name": "historical_period_end",
+            "type": "integer"
+          },
+          {
             "name": "summary",
             "type": "string"
           },
@@ -120,6 +128,14 @@
           },
           {
             "name": "access_notes",
+            "type": "string"
+          },
+          {
+            "name": "access",
+            "type": "string"
+          },
+          {
+            "name": "archive_type",
             "type": "string"
           },
           {
@@ -176,6 +192,20 @@
       "format": "json",
       "mediatype": "application/json",
       "description": "Country vocabulary with per-country usage."
+    },
+    {
+      "name": "vocab-access",
+      "path": "vocab/access.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "description": "Controlled vocabulary for the optional access field, with definitions."
+    },
+    {
+      "name": "vocab-archive-types",
+      "path": "vocab/archive-types.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "description": "Controlled vocabulary for the optional archive_type field, with definitions."
     },
     {
       "name": "stats",

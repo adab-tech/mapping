@@ -86,7 +86,7 @@ and controlled access level.
 ### Phase 1 — Dataset architecture
 - ✅ Canonical record structure; stable `MV-` identifiers
 - ✅ Controlled vocabularies: countries (ISO 3166, UN M49), languages (ISO 639-3), themes (15 groups), verification status
-- 🟡 Archive type, access level, historical period: defined, not populated
+- 🟡 Archive type (143 records), access level (49), historical period discussed (40): partly populated, derived from each record's own text (`derived` review-log method); curator check pending (`docs/HISTORICAL-PERIODS.md`)
 
 ### Phase 2 — Data collection & verification
 - ✅ Verification workflow and levels defined
@@ -106,7 +106,8 @@ and controlled access level.
 - ✅ Combined filters; grouped theme and language options
 - ✅ URL state for filters, search, and selected collection (shareable, citable views)
 - ✅ Collection panel: identifier, verification status, languages + note, themes, recording period, access, citation, related collections, source link, copy-link
-- ⬜ Filters for archive type, access, institution, region
+- ✅ Access filter; record panel shows access category, institution type, and period discussed
+- ⬜ Filters for archive type, institution, region
 
 ### Phase 6–8 — Language, theme, and timeline explorers
 - ✅ Language Explorer (`languages.html`): ISO 639-3 codes, alternate names, countries, collections, themes, recording span, multilingual share; linked both ways with the atlas
