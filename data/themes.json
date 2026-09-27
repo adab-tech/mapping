@@ -1,0 +1,1150 @@
+{
+  "dataset": "Mapping Voices: An Open Atlas of Oral-History and Voice-Testimony Collections",
+  "version": "0.2.0",
+  "released": "2026-09-27",
+  "license": "CC-BY-4.0",
+  "homepage": "https://adamu.tech/mapping/",
+  "methodology": "https://github.com/adab-tech/mapping/blob/main/METHODOLOGY.md",
+  "scope_statement": "Counts and statistics describe the collections currently indexed in Mapping Voices, not the global distribution of oral history. Absence of an indexed archive for a place or language is not evidence that no oral-history tradition or collection exists.",
+  "groups": [
+    {
+      "id": "oral-tradition",
+      "label": "Oral tradition & folklore",
+      "collection_count": 105
+    },
+    {
+      "id": "music",
+      "label": "Music, performance & broadcasting",
+      "collection_count": 45
+    },
+    {
+      "id": "language",
+      "label": "Language & linguistics",
+      "collection_count": 29
+    },
+    {
+      "id": "war",
+      "label": "War & conflict",
+      "collection_count": 40
+    },
+    {
+      "id": "mass-violence",
+      "label": "Genocide & mass violence",
+      "collection_count": 18
+    },
+    {
+      "id": "rights",
+      "label": "Human rights & justice",
+      "collection_count": 44
+    },
+    {
+      "id": "migration",
+      "label": "Migration & displacement",
+      "collection_count": 32
+    },
+    {
+      "id": "colonialism",
+      "label": "Colonialism & Indigenous histories",
+      "collection_count": 24
+    },
+    {
+      "id": "memory",
+      "label": "Memory & community",
+      "collection_count": 63
+    },
+    {
+      "id": "history",
+      "label": "History & politics",
+      "collection_count": 52
+    },
+    {
+      "id": "labor",
+      "label": "Labor",
+      "collection_count": 13
+    },
+    {
+      "id": "gender",
+      "label": "Gender & sexuality",
+      "collection_count": 12
+    },
+    {
+      "id": "disability",
+      "label": "Disability & Deaf histories",
+      "collection_count": 2
+    },
+    {
+      "id": "religion",
+      "label": "Religion & belief",
+      "collection_count": 3
+    },
+    {
+      "id": "science",
+      "label": "Science, environment & disaster",
+      "collection_count": 4
+    }
+  ],
+  "terms": [
+    {
+      "name": "oral tradition",
+      "group": "oral-tradition",
+      "scope_note": "Transmitted verbal art, narrative, and knowledge: epics, genealogies, proverbs, tales.",
+      "collection_count": 96,
+      "collections": [
+        "MV-000005",
+        "MV-000011",
+        "MV-000012",
+        "MV-000018",
+        "MV-000019",
+        "MV-000023",
+        "MV-000024",
+        "MV-000025",
+        "MV-000026",
+        "MV-000027",
+        "MV-000028",
+        "MV-000029",
+        "MV-000030",
+        "MV-000031",
+        "MV-000032",
+        "MV-000033",
+        "MV-000034",
+        "MV-000035",
+        "MV-000037",
+        "MV-000038",
+        "MV-000039",
+        "MV-000043",
+        "MV-000044",
+        "MV-000048",
+        "MV-000052",
+        "MV-000058",
+        "MV-000059",
+        "MV-000060",
+        "MV-000061",
+        "MV-000062",
+        "MV-000063",
+        "MV-000064",
+        "MV-000065",
+        "MV-000066",
+        "MV-000070",
+        "MV-000071",
+        "MV-000082",
+        "MV-000083",
+        "MV-000084",
+        "MV-000085",
+        "MV-000095",
+        "MV-000098",
+        "MV-000099",
+        "MV-000100",
+        "MV-000101",
+        "MV-000102",
+        "MV-000103",
+        "MV-000104",
+        "MV-000105",
+        "MV-000120",
+        "MV-000132",
+        "MV-000134",
+        "MV-000135",
+        "MV-000136",
+        "MV-000140",
+        "MV-000141",
+        "MV-000142",
+        "MV-000145",
+        "MV-000146",
+        "MV-000147",
+        "MV-000148",
+        "MV-000150",
+        "MV-000151",
+        "MV-000152",
+        "MV-000153",
+        "MV-000154",
+        "MV-000155",
+        "MV-000156",
+        "MV-000157",
+        "MV-000158",
+        "MV-000159",
+        "MV-000160",
+        "MV-000161",
+        "MV-000162",
+        "MV-000163",
+        "MV-000164",
+        "MV-000166",
+        "MV-000167",
+        "MV-000168",
+        "MV-000170",
+        "MV-000171",
+        "MV-000176",
+        "MV-000177",
+        "MV-000178",
+        "MV-000181",
+        "MV-000182",
+        "MV-000184",
+        "MV-000185",
+        "MV-000187",
+        "MV-000189",
+        "MV-000190",
+        "MV-000191",
+        "MV-000192",
+        "MV-000200",
+        "MV-000209",
+        "MV-000210"
+      ]
+    },
+    {
+      "name": "folklore",
+      "group": "oral-tradition",
+      "scope_note": "Folk narrative, belief, and custom as documented by folklorists.",
+      "collection_count": 19,
+      "collections": [
+        "MV-000011",
+        "MV-000012",
+        "MV-000134",
+        "MV-000136",
+        "MV-000137",
+        "MV-000143",
+        "MV-000150",
+        "MV-000152",
+        "MV-000157",
+        "MV-000158",
+        "MV-000159",
+        "MV-000161",
+        "MV-000162",
+        "MV-000165",
+        "MV-000169",
+        "MV-000177",
+        "MV-000182",
+        "MV-000184",
+        "MV-000191"
+      ]
+    },
+    {
+      "name": "folklife",
+      "group": "oral-tradition",
+      "scope_note": "Everyday traditional culture — crafts, foodways, occupations — as a documentation field.",
+      "collection_count": 26,
+      "collections": [
+        "MV-000005",
+        "MV-000060",
+        "MV-000061",
+        "MV-000064",
+        "MV-000083",
+        "MV-000095",
+        "MV-000132",
+        "MV-000141",
+        "MV-000144",
+        "MV-000148",
+        "MV-000154",
+        "MV-000156",
+        "MV-000163",
+        "MV-000164",
+        "MV-000170",
+        "MV-000173",
+        "MV-000174",
+        "MV-000176",
+        "MV-000178",
+        "MV-000181",
+        "MV-000186",
+        "MV-000187",
+        "MV-000188",
+        "MV-000189",
+        "MV-000190",
+        "MV-000209"
+      ]
+    },
+    {
+      "name": "epic performance",
+      "group": "oral-tradition",
+      "scope_note": "Recorded performances of long-form oral epics.",
+      "collection_count": 4,
+      "collections": [
+        "MV-000025",
+        "MV-000134",
+        "MV-000135",
+        "MV-000184"
+      ]
+    },
+    {
+      "name": "griot heritage",
+      "group": "oral-tradition",
+      "scope_note": "West African jeli/griot hereditary oral-historian traditions.",
+      "collection_count": 4,
+      "collections": [
+        "MV-000026",
+        "MV-000031",
+        "MV-000038",
+        "MV-000039"
+      ]
+    },
+    {
+      "name": "divination",
+      "group": "oral-tradition",
+      "scope_note": "Divinatory corpora and their oral transmission (e.g. Ifá).",
+      "collection_count": 1,
+      "collections": [
+        "MV-000027"
+      ]
+    },
+    {
+      "name": "masquerade",
+      "group": "oral-tradition",
+      "scope_note": "Masquerade performance traditions and their oral/sung components.",
+      "collection_count": 1,
+      "collections": [
+        "MV-000028"
+      ]
+    },
+    {
+      "name": "manuscripts",
+      "group": "oral-tradition",
+      "scope_note": "Collections where manuscript holdings sit alongside oral materials.",
+      "collection_count": 2,
+      "collections": [
+        "MV-000024",
+        "MV-000035"
+      ]
+    },
+    {
+      "name": "music",
+      "group": "music",
+      "scope_note": "Recorded music, song, and musical performance.",
+      "collection_count": 32,
+      "collections": [
+        "MV-000005",
+        "MV-000011",
+        "MV-000025",
+        "MV-000026",
+        "MV-000029",
+        "MV-000030",
+        "MV-000031",
+        "MV-000058",
+        "MV-000060",
+        "MV-000062",
+        "MV-000095",
+        "MV-000137",
+        "MV-000143",
+        "MV-000144",
+        "MV-000149",
+        "MV-000150",
+        "MV-000154",
+        "MV-000156",
+        "MV-000157",
+        "MV-000158",
+        "MV-000159",
+        "MV-000162",
+        "MV-000165",
+        "MV-000166",
+        "MV-000169",
+        "MV-000173",
+        "MV-000174",
+        "MV-000176",
+        "MV-000183",
+        "MV-000186",
+        "MV-000188",
+        "MV-000208"
+      ]
+    },
+    {
+      "name": "ethnomusicology",
+      "group": "music",
+      "scope_note": "Field recordings made within ethnomusicological research.",
+      "collection_count": 25,
+      "collections": [
+        "MV-000030",
+        "MV-000035",
+        "MV-000058",
+        "MV-000062",
+        "MV-000065",
+        "MV-000134",
+        "MV-000137",
+        "MV-000143",
+        "MV-000144",
+        "MV-000149",
+        "MV-000152",
+        "MV-000156",
+        "MV-000157",
+        "MV-000163",
+        "MV-000164",
+        "MV-000165",
+        "MV-000169",
+        "MV-000170",
+        "MV-000171",
+        "MV-000174",
+        "MV-000178",
+        "MV-000181",
+        "MV-000183",
+        "MV-000186",
+        "MV-000188"
+      ]
+    },
+    {
+      "name": "broadcast history",
+      "group": "music",
+      "scope_note": "Radio/TV archives and the history of broadcasting.",
+      "collection_count": 3,
+      "collections": [
+        "MV-000019",
+        "MV-000197",
+        "MV-000204"
+      ]
+    },
+    {
+      "name": "language documentation",
+      "group": "language",
+      "scope_note": "Recordings made to document a language, often endangered.",
+      "collection_count": 22,
+      "collections": [
+        "MV-000018",
+        "MV-000032",
+        "MV-000037",
+        "MV-000044",
+        "MV-000061",
+        "MV-000063",
+        "MV-000064",
+        "MV-000065",
+        "MV-000066",
+        "MV-000082",
+        "MV-000084",
+        "MV-000085",
+        "MV-000098",
+        "MV-000099",
+        "MV-000100",
+        "MV-000101",
+        "MV-000120",
+        "MV-000123",
+        "MV-000151",
+        "MV-000160",
+        "MV-000187",
+        "MV-000202"
+      ]
+    },
+    {
+      "name": "linguistics",
+      "group": "language",
+      "scope_note": "Collections created for or used in linguistic research.",
+      "collection_count": 9,
+      "collections": [
+        "MV-000023",
+        "MV-000136",
+        "MV-000151",
+        "MV-000160",
+        "MV-000170",
+        "MV-000171",
+        "MV-000177",
+        "MV-000182",
+        "MV-000190"
+      ]
+    },
+    {
+      "name": "war and conflict",
+      "group": "war",
+      "scope_note": "Experiences of war and armed conflict, combatant and civilian.",
+      "collection_count": 36,
+      "collections": [
+        "MV-000002",
+        "MV-000008",
+        "MV-000013",
+        "MV-000015",
+        "MV-000016",
+        "MV-000033",
+        "MV-000036",
+        "MV-000040",
+        "MV-000042",
+        "MV-000048",
+        "MV-000049",
+        "MV-000054",
+        "MV-000056",
+        "MV-000057",
+        "MV-000072",
+        "MV-000073",
+        "MV-000074",
+        "MV-000075",
+        "MV-000077",
+        "MV-000078",
+        "MV-000079",
+        "MV-000080",
+        "MV-000111",
+        "MV-000115",
+        "MV-000116",
+        "MV-000127",
+        "MV-000128",
+        "MV-000129",
+        "MV-000130",
+        "MV-000138",
+        "MV-000147",
+        "MV-000167",
+        "MV-000172",
+        "MV-000175",
+        "MV-000180",
+        "MV-000206"
+      ]
+    },
+    {
+      "name": "military history",
+      "group": "war",
+      "scope_note": "Military service and institutions.",
+      "collection_count": 6,
+      "collections": [
+        "MV-000002",
+        "MV-000048",
+        "MV-000075",
+        "MV-000077",
+        "MV-000115",
+        "MV-000167"
+      ]
+    },
+    {
+      "name": "resistance history",
+      "group": "war",
+      "scope_note": "Resistance movements, partisan and underground activity.",
+      "collection_count": 6,
+      "collections": [
+        "MV-000020",
+        "MV-000146",
+        "MV-000153",
+        "MV-000175",
+        "MV-000179",
+        "MV-000180"
+      ]
+    },
+    {
+      "name": "nuclear history",
+      "group": "war",
+      "scope_note": "Nuclear weapons, testing, and atomic-bombing survivors.",
+      "collection_count": 2,
+      "collections": [
+        "MV-000015",
+        "MV-000079"
+      ]
+    },
+    {
+      "name": "peace",
+      "group": "war",
+      "scope_note": "Peace-building and peace movements.",
+      "collection_count": 3,
+      "collections": [
+        "MV-000015",
+        "MV-000079",
+        "MV-000080"
+      ]
+    },
+    {
+      "name": "genocide",
+      "group": "mass-violence",
+      "scope_note": "Genocide and its survivors, perpetrators, and witnesses.",
+      "collection_count": 11,
+      "collections": [
+        "MV-000004",
+        "MV-000016",
+        "MV-000022",
+        "MV-000045",
+        "MV-000057",
+        "MV-000059",
+        "MV-000114",
+        "MV-000118",
+        "MV-000119",
+        "MV-000126",
+        "MV-000172"
+      ]
+    },
+    {
+      "name": "Holocaust",
+      "group": "mass-violence",
+      "scope_note": "The Holocaust/Shoah.",
+      "collection_count": 7,
+      "collections": [
+        "MV-000004",
+        "MV-000045",
+        "MV-000050",
+        "MV-000057",
+        "MV-000114",
+        "MV-000118",
+        "MV-000119"
+      ]
+    },
+    {
+      "name": "state terrorism",
+      "group": "mass-violence",
+      "scope_note": "State violence against civilian populations.",
+      "collection_count": 3,
+      "collections": [
+        "MV-000009",
+        "MV-000172",
+        "MV-000179"
+      ]
+    },
+    {
+      "name": "totalitarianism",
+      "group": "mass-violence",
+      "scope_note": "Life under totalitarian and authoritarian regimes.",
+      "collection_count": 4,
+      "collections": [
+        "MV-000013",
+        "MV-000053",
+        "MV-000054",
+        "MV-000055"
+      ]
+    },
+    {
+      "name": "human rights",
+      "group": "rights",
+      "scope_note": "Human-rights violations and advocacy.",
+      "collection_count": 32,
+      "collections": [
+        "MV-000004",
+        "MV-000006",
+        "MV-000008",
+        "MV-000009",
+        "MV-000020",
+        "MV-000022",
+        "MV-000036",
+        "MV-000040",
+        "MV-000042",
+        "MV-000045",
+        "MV-000049",
+        "MV-000055",
+        "MV-000056",
+        "MV-000059",
+        "MV-000072",
+        "MV-000073",
+        "MV-000074",
+        "MV-000076",
+        "MV-000087",
+        "MV-000114",
+        "MV-000118",
+        "MV-000127",
+        "MV-000128",
+        "MV-000129",
+        "MV-000130",
+        "MV-000172",
+        "MV-000175",
+        "MV-000179",
+        "MV-000193",
+        "MV-000196",
+        "MV-000203",
+        "MV-000205"
+      ]
+    },
+    {
+      "name": "civil rights",
+      "group": "rights",
+      "scope_note": "Civil-rights movements and struggles for legal equality.",
+      "collection_count": 7,
+      "collections": [
+        "MV-000003",
+        "MV-000092",
+        "MV-000093",
+        "MV-000096",
+        "MV-000097",
+        "MV-000121",
+        "MV-000124"
+      ]
+    },
+    {
+      "name": "transitional justice",
+      "group": "rights",
+      "scope_note": "Truth commissions, trials, and post-conflict justice processes.",
+      "collection_count": 4,
+      "collections": [
+        "MV-000016",
+        "MV-000022",
+        "MV-000040",
+        "MV-000172"
+      ]
+    },
+    {
+      "name": "memory and reconciliation",
+      "group": "rights",
+      "scope_note": "Post-conflict memory work and reconciliation.",
+      "collection_count": 15,
+      "collections": [
+        "MV-000008",
+        "MV-000041",
+        "MV-000042",
+        "MV-000046",
+        "MV-000049",
+        "MV-000056",
+        "MV-000073",
+        "MV-000076",
+        "MV-000080",
+        "MV-000081",
+        "MV-000127",
+        "MV-000128",
+        "MV-000129",
+        "MV-000130",
+        "MV-000172"
+      ]
+    },
+    {
+      "name": "incarceration",
+      "group": "rights",
+      "scope_note": "Imprisonment, internment, and detention.",
+      "collection_count": 2,
+      "collections": [
+        "MV-000003",
+        "MV-000121"
+      ]
+    },
+    {
+      "name": "apartheid",
+      "group": "rights",
+      "scope_note": "Apartheid in South Africa and its legacy.",
+      "collection_count": 1,
+      "collections": [
+        "MV-000020"
+      ]
+    },
+    {
+      "name": "migration",
+      "group": "migration",
+      "scope_note": "Voluntary and economic migration, immigration, diaspora.",
+      "collection_count": 25,
+      "collections": [
+        "MV-000003",
+        "MV-000007",
+        "MV-000014",
+        "MV-000047",
+        "MV-000050",
+        "MV-000052",
+        "MV-000068",
+        "MV-000077",
+        "MV-000091",
+        "MV-000106",
+        "MV-000107",
+        "MV-000108",
+        "MV-000109",
+        "MV-000110",
+        "MV-000111",
+        "MV-000112",
+        "MV-000113",
+        "MV-000121",
+        "MV-000122",
+        "MV-000125",
+        "MV-000126",
+        "MV-000138",
+        "MV-000155",
+        "MV-000168",
+        "MV-000199"
+      ]
+    },
+    {
+      "name": "displacement",
+      "group": "migration",
+      "scope_note": "Forced displacement of people from their homes or lands.",
+      "collection_count": 18,
+      "collections": [
+        "MV-000014",
+        "MV-000017",
+        "MV-000041",
+        "MV-000043",
+        "MV-000047",
+        "MV-000050",
+        "MV-000068",
+        "MV-000078",
+        "MV-000091",
+        "MV-000106",
+        "MV-000110",
+        "MV-000111",
+        "MV-000112",
+        "MV-000119",
+        "MV-000126",
+        "MV-000138",
+        "MV-000139",
+        "MV-000155"
+      ]
+    },
+    {
+      "name": "refugees",
+      "group": "migration",
+      "scope_note": "Refugee experience and asylum.",
+      "collection_count": 3,
+      "collections": [
+        "MV-000017",
+        "MV-000138",
+        "MV-000155"
+      ]
+    },
+    {
+      "name": "forced removal",
+      "group": "migration",
+      "scope_note": "State-directed removals and relocations.",
+      "collection_count": 1,
+      "collections": [
+        "MV-000021"
+      ]
+    },
+    {
+      "name": "Partition",
+      "group": "migration",
+      "scope_note": "The 1947 Partition of British India.",
+      "collection_count": 3,
+      "collections": [
+        "MV-000014",
+        "MV-000068",
+        "MV-000106"
+      ]
+    },
+    {
+      "name": "Nakba",
+      "group": "migration",
+      "scope_note": "The 1948 Palestinian displacement.",
+      "collection_count": 3,
+      "collections": [
+        "MV-000017",
+        "MV-000041",
+        "MV-000043"
+      ]
+    },
+    {
+      "name": "colonial history",
+      "group": "colonialism",
+      "scope_note": "Colonial rule and its aftermath.",
+      "collection_count": 6,
+      "collections": [
+        "MV-000029",
+        "MV-000034",
+        "MV-000146",
+        "MV-000149",
+        "MV-000153",
+        "MV-000183"
+      ]
+    },
+    {
+      "name": "indigenous history",
+      "group": "colonialism",
+      "scope_note": "Histories told by and about Indigenous peoples.",
+      "collection_count": 18,
+      "collections": [
+        "MV-000006",
+        "MV-000018",
+        "MV-000066",
+        "MV-000082",
+        "MV-000083",
+        "MV-000084",
+        "MV-000085",
+        "MV-000098",
+        "MV-000099",
+        "MV-000100",
+        "MV-000101",
+        "MV-000102",
+        "MV-000103",
+        "MV-000104",
+        "MV-000105",
+        "MV-000171",
+        "MV-000200",
+        "MV-000210"
+      ]
+    },
+    {
+      "name": "residential schools",
+      "group": "colonialism",
+      "scope_note": "Residential/boarding school systems for Indigenous children.",
+      "collection_count": 1,
+      "collections": [
+        "MV-000006"
+      ]
+    },
+    {
+      "name": "community memory",
+      "group": "memory",
+      "scope_note": "Local and community-level remembrance.",
+      "collection_count": 30,
+      "collections": [
+        "MV-000001",
+        "MV-000086",
+        "MV-000087",
+        "MV-000088",
+        "MV-000089",
+        "MV-000090",
+        "MV-000091",
+        "MV-000094",
+        "MV-000096",
+        "MV-000104",
+        "MV-000105",
+        "MV-000107",
+        "MV-000113",
+        "MV-000116",
+        "MV-000117",
+        "MV-000123",
+        "MV-000139",
+        "MV-000142",
+        "MV-000145",
+        "MV-000177",
+        "MV-000180",
+        "MV-000185",
+        "MV-000189",
+        "MV-000192",
+        "MV-000193",
+        "MV-000199",
+        "MV-000203",
+        "MV-000205",
+        "MV-000206",
+        "MV-000209"
+      ]
+    },
+    {
+      "name": "national memory",
+      "group": "memory",
+      "scope_note": "Nationally framed memory projects.",
+      "collection_count": 9,
+      "collections": [
+        "MV-000019",
+        "MV-000033",
+        "MV-000034",
+        "MV-000067",
+        "MV-000069",
+        "MV-000071",
+        "MV-000078",
+        "MV-000131",
+        "MV-000133"
+      ]
+    },
+    {
+      "name": "memory",
+      "group": "memory",
+      "scope_note": "Memory studies framing not captured by a narrower term.",
+      "collection_count": 3,
+      "collections": [
+        "MV-000009",
+        "MV-000021",
+        "MV-000179"
+      ]
+    },
+    {
+      "name": "everyday life",
+      "group": "memory",
+      "scope_note": "Ordinary lives and daily experience.",
+      "collection_count": 30,
+      "collections": [
+        "MV-000001",
+        "MV-000007",
+        "MV-000067",
+        "MV-000070",
+        "MV-000071",
+        "MV-000081",
+        "MV-000094",
+        "MV-000096",
+        "MV-000102",
+        "MV-000103",
+        "MV-000107",
+        "MV-000108",
+        "MV-000109",
+        "MV-000112",
+        "MV-000113",
+        "MV-000117",
+        "MV-000122",
+        "MV-000125",
+        "MV-000132",
+        "MV-000141",
+        "MV-000142",
+        "MV-000147",
+        "MV-000161",
+        "MV-000166",
+        "MV-000167",
+        "MV-000168",
+        "MV-000173",
+        "MV-000175",
+        "MV-000176",
+        "MV-000206"
+      ]
+    },
+    {
+      "name": "family history",
+      "group": "memory",
+      "scope_note": "Family and intergenerational history.",
+      "collection_count": 2,
+      "collections": [
+        "MV-000001",
+        "MV-000140"
+      ]
+    },
+    {
+      "name": "urban history",
+      "group": "memory",
+      "scope_note": "Cities, neighborhoods, and urban change.",
+      "collection_count": 2,
+      "collections": [
+        "MV-000021",
+        "MV-000168"
+      ]
+    },
+    {
+      "name": "history",
+      "group": "history",
+      "scope_note": "General historical documentation with no narrower theme recorded.",
+      "collection_count": 30,
+      "collections": [
+        "MV-000023",
+        "MV-000024",
+        "MV-000032",
+        "MV-000037",
+        "MV-000038",
+        "MV-000039",
+        "MV-000044",
+        "MV-000046",
+        "MV-000069",
+        "MV-000120",
+        "MV-000131",
+        "MV-000133",
+        "MV-000135",
+        "MV-000140",
+        "MV-000145",
+        "MV-000148",
+        "MV-000154",
+        "MV-000173",
+        "MV-000174",
+        "MV-000185",
+        "MV-000193",
+        "MV-000194",
+        "MV-000195",
+        "MV-000198",
+        "MV-000199",
+        "MV-000201",
+        "MV-000203",
+        "MV-000207",
+        "MV-000209",
+        "MV-000210"
+      ]
+    },
+    {
+      "name": "social history",
+      "group": "history",
+      "scope_note": "Social structures and experience of ordinary people.",
+      "collection_count": 11,
+      "collections": [
+        "MV-000010",
+        "MV-000051",
+        "MV-000052",
+        "MV-000063",
+        "MV-000067",
+        "MV-000086",
+        "MV-000088",
+        "MV-000090",
+        "MV-000092",
+        "MV-000097",
+        "MV-000124"
+      ]
+    },
+    {
+      "name": "political history",
+      "group": "history",
+      "scope_note": "Political life, movements, and institutions.",
+      "collection_count": 17,
+      "collections": [
+        "MV-000013",
+        "MV-000036",
+        "MV-000046",
+        "MV-000051",
+        "MV-000053",
+        "MV-000054",
+        "MV-000055",
+        "MV-000069",
+        "MV-000076",
+        "MV-000110",
+        "MV-000131",
+        "MV-000175",
+        "MV-000179",
+        "MV-000180",
+        "MV-000195",
+        "MV-000196",
+        "MV-000203"
+      ]
+    },
+    {
+      "name": "labor history",
+      "group": "labor",
+      "scope_note": "Work, workers, and labor movements.",
+      "collection_count": 13,
+      "collections": [
+        "MV-000007",
+        "MV-000010",
+        "MV-000047",
+        "MV-000051",
+        "MV-000053",
+        "MV-000092",
+        "MV-000093",
+        "MV-000097",
+        "MV-000108",
+        "MV-000109",
+        "MV-000122",
+        "MV-000125",
+        "MV-000201"
+      ]
+    },
+    {
+      "name": "women's history",
+      "group": "gender",
+      "scope_note": "Women's lives and experiences.",
+      "collection_count": 8,
+      "collections": [
+        "MV-000028",
+        "MV-000070",
+        "MV-000072",
+        "MV-000074",
+        "MV-000089",
+        "MV-000093",
+        "MV-000094",
+        "MV-000192"
+      ]
+    },
+    {
+      "name": "LGBTQ+ history",
+      "group": "gender",
+      "scope_note": "LGBTQ+ lives, communities, and activism.",
+      "collection_count": 5,
+      "collections": [
+        "MV-000086",
+        "MV-000087",
+        "MV-000088",
+        "MV-000089",
+        "MV-000090"
+      ]
+    },
+    {
+      "name": "Deaf history",
+      "group": "disability",
+      "scope_note": "Deaf communities and signed-language history.",
+      "collection_count": 1,
+      "collections": [
+        "MV-000123"
+      ]
+    },
+    {
+      "name": "disability rights",
+      "group": "disability",
+      "scope_note": "Disability experience and rights movements.",
+      "collection_count": 1,
+      "collections": [
+        "MV-000124"
+      ]
+    },
+    {
+      "name": "religion",
+      "group": "religion",
+      "scope_note": "Religious life, practice, and institutions.",
+      "collection_count": 3,
+      "collections": [
+        "MV-000027",
+        "MV-000139",
+        "MV-000178"
+      ]
+    },
+    {
+      "name": "science",
+      "group": "science",
+      "scope_note": "Science and scientists.",
+      "collection_count": 1,
+      "collections": [
+        "MV-000010"
+      ]
+    },
+    {
+      "name": "disaster and survivor testimony",
+      "group": "science",
+      "scope_note": "Natural and industrial disasters and survivors' accounts.",
+      "collection_count": 3,
+      "collections": [
+        "MV-000081",
+        "MV-000116",
+        "MV-000117"
+      ]
+    }
+  ]
+}

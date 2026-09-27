@@ -1,0 +1,2090 @@
+{
+  "dataset": "Mapping Voices: An Open Atlas of Oral-History and Voice-Testimony Collections",
+  "version": "0.2.0",
+  "released": "2026-09-27",
+  "license": "CC-BY-4.0",
+  "homepage": "https://adamu.tech/mapping/",
+  "methodology": "https://github.com/adab-tech/mapping/blob/main/METHODOLOGY.md",
+  "scope_statement": "Counts and statistics describe the collections currently indexed in Mapping Voices, not the global distribution of oral history. Absence of an indexed archive for a place or language is not evidence that no oral-history tradition or collection exists.",
+  "terms": [
+    {
+      "name": "Afghanistan",
+      "iso3166_1_alpha2": "AF",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Dari",
+        "Pashto"
+      ],
+      "collections": [
+        "MV-000138"
+      ]
+    },
+    {
+      "name": "Algeria",
+      "iso3166_1_alpha2": "DZ",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Arabic",
+        "Tamazight"
+      ],
+      "collections": [
+        "MV-000152"
+      ]
+    },
+    {
+      "name": "Angola",
+      "iso3166_1_alpha2": "AO",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Portuguese",
+        "Umbundu"
+      ],
+      "collections": [
+        "MV-000148"
+      ]
+    },
+    {
+      "name": "Argentina",
+      "iso3166_1_alpha2": "AR",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Spanish"
+      ],
+      "collections": [
+        "MV-000009"
+      ]
+    },
+    {
+      "name": "Australia",
+      "iso3166_1_alpha2": "AU",
+      "region": "Oceania",
+      "subregion": "Australia and New Zealand",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 4,
+      "languages": [
+        "Aboriginal and Torres Strait Islander languages",
+        "English",
+        "Multiple languages"
+      ],
+      "collections": [
+        "MV-000018",
+        "MV-000085",
+        "MV-000086",
+        "MV-000198"
+      ]
+    },
+    {
+      "name": "Austria",
+      "iso3166_1_alpha2": "AT",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 2,
+      "languages": [
+        "German",
+        "Multiple languages"
+      ],
+      "collections": [
+        "MV-000065",
+        "MV-000207"
+      ]
+    },
+    {
+      "name": "Bangladesh",
+      "iso3166_1_alpha2": "BD",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Bengali",
+        "English"
+      ],
+      "collections": [
+        "MV-000078"
+      ]
+    },
+    {
+      "name": "Belgium",
+      "iso3166_1_alpha2": "BE",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Dutch",
+        "French"
+      ],
+      "collections": [
+        "MV-000167"
+      ]
+    },
+    {
+      "name": "Benin",
+      "iso3166_1_alpha2": "BJ",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Yoruba"
+      ],
+      "collections": [
+        "MV-000028"
+      ]
+    },
+    {
+      "name": "Bolivia",
+      "iso3166_1_alpha2": "BO",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Aymara",
+        "Quechua",
+        "Spanish"
+      ],
+      "collections": [
+        "MV-000177"
+      ]
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "iso3166_1_alpha2": "BA",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 2,
+      "languages": [
+        "Bosnian"
+      ],
+      "collections": [
+        "MV-000056",
+        "MV-000206"
+      ]
+    },
+    {
+      "name": "Botswana",
+      "iso3166_1_alpha2": "BW",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "English",
+        "Setswana"
+      ],
+      "collections": [
+        "MV-000145"
+      ]
+    },
+    {
+      "name": "Brazil",
+      "iso3166_1_alpha2": "BR",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 2,
+      "languages": [
+        "Portuguese"
+      ],
+      "collections": [
+        "MV-000007",
+        "MV-000131"
+      ]
+    },
+    {
+      "name": "Bulgaria",
+      "iso3166_1_alpha2": "BG",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Bulgarian"
+      ],
+      "collections": [
+        "MV-000163"
+      ]
+    },
+    {
+      "name": "Cambodia",
+      "iso3166_1_alpha2": "KH",
+      "region": "Asia",
+      "subregion": "South-eastern Asia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 2,
+      "languages": [
+        "English",
+        "Khmer"
+      ],
+      "collections": [
+        "MV-000016",
+        "MV-000126"
+      ]
+    },
+    {
+      "name": "Cameroon",
+      "iso3166_1_alpha2": "CM",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "French"
+      ],
+      "collections": [
+        "MV-000151"
+      ]
+    },
+    {
+      "name": "Canada",
+      "iso3166_1_alpha2": "CA",
+      "region": "Americas",
+      "subregion": "Northern America",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 2,
+      "languages": [
+        "English",
+        "French",
+        "Indigenous languages of the Americas",
+        "Innu-aimun",
+        "Inuktitut"
+      ],
+      "collections": [
+        "MV-000006",
+        "MV-000103"
+      ]
+    },
+    {
+      "name": "Chile",
+      "iso3166_1_alpha2": "CL",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Spanish"
+      ],
+      "collections": [
+        "MV-000129"
+      ]
+    },
+    {
+      "name": "China",
+      "iso3166_1_alpha2": "CN",
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Mandarin Chinese"
+      ],
+      "collections": [
+        "MV-000072"
+      ]
+    },
+    {
+      "name": "Colombia",
+      "iso3166_1_alpha2": "CO",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Spanish"
+      ],
+      "collections": [
+        "MV-000008"
+      ]
+    },
+    {
+      "name": "Cook Islands",
+      "iso3166_1_alpha2": "CK",
+      "region": "Oceania",
+      "subregion": "Polynesia",
+      "un_member": false,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Cook Islands Māori",
+        "English"
+      ],
+      "collections": [
+        "MV-000200"
+      ]
+    },
+    {
+      "name": "Costa Rica",
+      "iso3166_1_alpha2": "CR",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Spanish"
+      ],
+      "collections": [
+        "MV-000173"
+      ]
+    },
+    {
+      "name": "Côte d'Ivoire",
+      "iso3166_1_alpha2": "CI",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "un_member": true,
+      "alt_names": [
+        "Ivory Coast"
+      ],
+      "collection_count": 1,
+      "languages": [
+        "Bambara",
+        "French",
+        "Fulfulde"
+      ],
+      "collections": [
+        "MV-000038"
+      ]
+    },
+    {
+      "name": "Croatia",
+      "iso3166_1_alpha2": "HR",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Croatian"
+      ],
+      "collections": [
+        "MV-000164"
+      ]
+    },
+    {
+      "name": "Cuba",
+      "iso3166_1_alpha2": "CU",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Spanish"
+      ],
+      "collections": [
+        "MV-000174"
+      ]
+    },
+    {
+      "name": "Czech Republic",
+      "iso3166_1_alpha2": "CZ",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "un_member": true,
+      "alt_names": [
+        "Czechia"
+      ],
+      "collection_count": 1,
+      "languages": [
+        "Czech",
+        "English",
+        "Slovak"
+      ],
+      "collections": [
+        "MV-000013"
+      ]
+    },
+    {
+      "name": "Democratic Republic of the Congo",
+      "iso3166_1_alpha2": "CD",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "un_member": true,
+      "alt_names": [
+        "DR Congo",
+        "DRC"
+      ],
+      "collection_count": 1,
+      "languages": [
+        "French",
+        "Kikongo",
+        "Lingala",
+        "Swahili",
+        "Tshiluba"
+      ],
+      "collections": [
+        "MV-000149"
+      ]
+    },
+    {
+      "name": "Denmark",
+      "iso3166_1_alpha2": "DK",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Danish"
+      ],
+      "collections": [
+        "MV-000161"
+      ]
+    },
+    {
+      "name": "Egypt",
+      "iso3166_1_alpha2": "EG",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Arabic",
+        "English"
+      ],
+      "collections": [
+        "MV-000036"
+      ]
+    },
+    {
+      "name": "El Salvador",
+      "iso3166_1_alpha2": "SV",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Spanish"
+      ],
+      "collections": [
+        "MV-000127"
+      ]
+    },
+    {
+      "name": "Estonia",
+      "iso3166_1_alpha2": "EE",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Estonian",
+        "Seto",
+        "Võro"
+      ],
+      "collections": [
+        "MV-000061"
+      ]
+    },
+    {
+      "name": "Eswatini",
+      "iso3166_1_alpha2": "SZ",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "un_member": true,
+      "alt_names": [
+        "Swaziland"
+      ],
+      "collection_count": 1,
+      "languages": [
+        "Swazi"
+      ],
+      "collections": [
+        "MV-000210"
+      ]
+    },
+    {
+      "name": "Ethiopia",
+      "iso3166_1_alpha2": "ET",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Amharic",
+        "Ge'ez",
+        "Multiple languages",
+        "Oromo"
+      ],
+      "collections": [
+        "MV-000035"
+      ]
+    },
+    {
+      "name": "Federated States of Micronesia",
+      "iso3166_1_alpha2": "FM",
+      "region": "Oceania",
+      "subregion": "Micronesia",
+      "un_member": true,
+      "alt_names": [
+        "Micronesia"
+      ],
+      "collection_count": 1,
+      "languages": [
+        "Multiple languages"
+      ],
+      "collections": [
+        "MV-000188"
+      ]
+    },
+    {
+      "name": "Fiji",
+      "iso3166_1_alpha2": "FJ",
+      "region": "Oceania",
+      "subregion": "Melanesia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "English",
+        "Fijian"
+      ],
+      "collections": [
+        "MV-000084"
+      ]
+    },
+    {
+      "name": "Finland",
+      "iso3166_1_alpha2": "FI",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Finnish",
+        "Karelian"
+      ],
+      "collections": [
+        "MV-000060"
+      ]
+    },
+    {
+      "name": "France",
+      "iso3166_1_alpha2": "FR",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 4,
+      "languages": [
+        "Arabic",
+        "French",
+        "Kurdish",
+        "Multiple languages",
+        "Polish",
+        "Russian",
+        "Ukrainian"
+      ],
+      "collections": [
+        "MV-000044",
+        "MV-000047",
+        "MV-000057",
+        "MV-000202"
+      ]
+    },
+    {
+      "name": "Georgia",
+      "iso3166_1_alpha2": "GE",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Georgian"
+      ],
+      "collections": [
+        "MV-000062"
+      ]
+    },
+    {
+      "name": "Germany",
+      "iso3166_1_alpha2": "DE",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 4,
+      "languages": [
+        "English",
+        "German",
+        "Multiple languages",
+        "Romani",
+        "Turkish"
+      ],
+      "collections": [
+        "MV-000058",
+        "MV-000059",
+        "MV-000109",
+        "MV-000197"
+      ]
+    },
+    {
+      "name": "Ghana",
+      "iso3166_1_alpha2": "GH",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "English",
+        "Ewe",
+        "Ga",
+        "Multiple languages",
+        "Twi"
+      ],
+      "collections": [
+        "MV-000030"
+      ]
+    },
+    {
+      "name": "Greece",
+      "iso3166_1_alpha2": "GR",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Greek"
+      ],
+      "collections": [
+        "MV-000155"
+      ]
+    },
+    {
+      "name": "Guatemala",
+      "iso3166_1_alpha2": "GT",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Mayan languages",
+        "Spanish"
+      ],
+      "collections": [
+        "MV-000172"
+      ]
+    },
+    {
+      "name": "Guinea",
+      "iso3166_1_alpha2": "GN",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "French",
+        "Maninka"
+      ],
+      "collections": [
+        "MV-000026"
+      ]
+    },
+    {
+      "name": "Haiti",
+      "iso3166_1_alpha2": "HT",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "English",
+        "French",
+        "Haitian Creole"
+      ],
+      "collections": [
+        "MV-000175"
+      ]
+    },
+    {
+      "name": "Hong Kong",
+      "iso3166_1_alpha2": "HK",
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "un_member": false,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Cantonese",
+        "English"
+      ],
+      "collections": [
+        "MV-000071"
+      ]
+    },
+    {
+      "name": "Hungary",
+      "iso3166_1_alpha2": "HU",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "English",
+        "Hungarian",
+        "Russian"
+      ],
+      "collections": [
+        "MV-000055"
+      ]
+    },
+    {
+      "name": "Iceland",
+      "iso3166_1_alpha2": "IS",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Icelandic"
+      ],
+      "collections": [
+        "MV-000162"
+      ]
+    },
+    {
+      "name": "India",
+      "iso3166_1_alpha2": "IN",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 3,
+      "languages": [
+        "Bengali",
+        "English",
+        "Gujarati",
+        "Hindi",
+        "Multiple languages",
+        "Punjabi",
+        "Sindhi",
+        "Tamil",
+        "Urdu"
+      ],
+      "collections": [
+        "MV-000014",
+        "MV-000069",
+        "MV-000070"
+      ]
+    },
+    {
+      "name": "Indonesia",
+      "iso3166_1_alpha2": "ID",
+      "region": "Asia",
+      "subregion": "South-eastern Asia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Indonesian",
+        "Multiple languages"
+      ],
+      "collections": [
+        "MV-000183"
+      ]
+    },
+    {
+      "name": "Iran",
+      "iso3166_1_alpha2": "IR",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "un_member": true,
+      "alt_names": [
+        "Islamic Republic of Iran"
+      ],
+      "collection_count": 1,
+      "languages": [
+        "English",
+        "Persian"
+      ],
+      "collections": [
+        "MV-000046"
+      ]
+    },
+    {
+      "name": "Iraq",
+      "iso3166_1_alpha2": "IQ",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Arabic"
+      ],
+      "collections": [
+        "MV-000139"
+      ]
+    },
+    {
+      "name": "Ireland",
+      "iso3166_1_alpha2": "IE",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "English",
+        "Irish"
+      ],
+      "collections": [
+        "MV-000012"
+      ]
+    },
+    {
+      "name": "Israel",
+      "iso3166_1_alpha2": "IL",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 2,
+      "languages": [
+        "Arabic",
+        "English",
+        "Hebrew",
+        "Multiple languages"
+      ],
+      "collections": [
+        "MV-000041",
+        "MV-000045"
+      ]
+    },
+    {
+      "name": "Italy",
+      "iso3166_1_alpha2": "IT",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Italian"
+      ],
+      "collections": [
+        "MV-000154"
+      ]
+    },
+    {
+      "name": "Jamaica",
+      "iso3166_1_alpha2": "JM",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "English",
+        "Jamaican Patois"
+      ],
+      "collections": [
+        "MV-000132"
+      ]
+    },
+    {
+      "name": "Japan",
+      "iso3166_1_alpha2": "JP",
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 5,
+      "languages": [
+        "Ainu",
+        "English",
+        "Japanese",
+        "Okinawan"
+      ],
+      "collections": [
+        "MV-000015",
+        "MV-000079",
+        "MV-000080",
+        "MV-000081",
+        "MV-000082"
+      ]
+    },
+    {
+      "name": "Kazakhstan",
+      "iso3166_1_alpha2": "KZ",
+      "region": "Asia",
+      "subregion": "Central Asia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Kazakh",
+        "Russian"
+      ],
+      "collections": [
+        "MV-000133"
+      ]
+    },
+    {
+      "name": "Kenya",
+      "iso3166_1_alpha2": "KE",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "English",
+        "Multiple languages",
+        "Swahili"
+      ],
+      "collections": [
+        "MV-000034"
+      ]
+    },
+    {
+      "name": "Kuwait",
+      "iso3166_1_alpha2": "KW",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Arabic",
+        "English"
+      ],
+      "collections": [
+        "MV-000142"
+      ]
+    },
+    {
+      "name": "Kyrgyzstan",
+      "iso3166_1_alpha2": "KG",
+      "region": "Asia",
+      "subregion": "Central Asia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Kyrgyz"
+      ],
+      "collections": [
+        "MV-000135"
+      ]
+    },
+    {
+      "name": "Latvia",
+      "iso3166_1_alpha2": "LV",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Latvian"
+      ],
+      "collections": [
+        "MV-000158"
+      ]
+    },
+    {
+      "name": "Lebanon",
+      "iso3166_1_alpha2": "LB",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 3,
+      "languages": [
+        "Arabic",
+        "English",
+        "French"
+      ],
+      "collections": [
+        "MV-000017",
+        "MV-000042",
+        "MV-000043"
+      ]
+    },
+    {
+      "name": "Libya",
+      "iso3166_1_alpha2": "LY",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Arabic"
+      ],
+      "collections": [
+        "MV-000153"
+      ]
+    },
+    {
+      "name": "Lithuania",
+      "iso3166_1_alpha2": "LT",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Lithuanian"
+      ],
+      "collections": [
+        "MV-000159"
+      ]
+    },
+    {
+      "name": "Madagascar",
+      "iso3166_1_alpha2": "MG",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Malagasy"
+      ],
+      "collections": [
+        "MV-000150"
+      ]
+    },
+    {
+      "name": "Malaysia",
+      "iso3166_1_alpha2": "MY",
+      "region": "Asia",
+      "subregion": "South-eastern Asia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Malay"
+      ],
+      "collections": [
+        "MV-000185"
+      ]
+    },
+    {
+      "name": "Mali",
+      "iso3166_1_alpha2": "ML",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Bambara"
+      ],
+      "collections": [
+        "MV-000025"
+      ]
+    },
+    {
+      "name": "Marshall Islands",
+      "iso3166_1_alpha2": "MH",
+      "region": "Oceania",
+      "subregion": "Micronesia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Marshallese"
+      ],
+      "collections": [
+        "MV-000189"
+      ]
+    },
+    {
+      "name": "Mauritania",
+      "iso3166_1_alpha2": "MR",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Hassaniya Arabic"
+      ],
+      "collections": [
+        "MV-000039"
+      ]
+    },
+    {
+      "name": "Mexico",
+      "iso3166_1_alpha2": "MX",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 2,
+      "languages": [
+        "Indigenous languages of the Americas",
+        "Spanish"
+      ],
+      "collections": [
+        "MV-000170",
+        "MV-000171"
+      ]
+    },
+    {
+      "name": "Morocco",
+      "iso3166_1_alpha2": "MA",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Arabic",
+        "French",
+        "Tamazight"
+      ],
+      "collections": [
+        "MV-000037"
+      ]
+    },
+    {
+      "name": "Mozambique",
+      "iso3166_1_alpha2": "MZ",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Portuguese"
+      ],
+      "collections": [
+        "MV-000147"
+      ]
+    },
+    {
+      "name": "Namibia",
+      "iso3166_1_alpha2": "NA",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Afrikaans",
+        "English"
+      ],
+      "collections": [
+        "MV-000146"
+      ]
+    },
+    {
+      "name": "Nepal",
+      "iso3166_1_alpha2": "NP",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Nepali"
+      ],
+      "collections": [
+        "MV-000190"
+      ]
+    },
+    {
+      "name": "Netherlands",
+      "iso3166_1_alpha2": "NL",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Multiple languages"
+      ],
+      "collections": [
+        "MV-000100"
+      ]
+    },
+    {
+      "name": "New Zealand",
+      "iso3166_1_alpha2": "NZ",
+      "region": "Oceania",
+      "subregion": "Australia and New Zealand",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "English",
+        "Māori"
+      ],
+      "collections": [
+        "MV-000019"
+      ]
+    },
+    {
+      "name": "Nicaragua",
+      "iso3166_1_alpha2": "NI",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Spanish"
+      ],
+      "collections": [
+        "MV-000180"
+      ]
+    },
+    {
+      "name": "Niger",
+      "iso3166_1_alpha2": "NE",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 3,
+      "languages": [
+        "Arabic",
+        "French",
+        "Fulfulde",
+        "Hausa",
+        "Tamasheq",
+        "Zarma"
+      ],
+      "collections": [
+        "MV-000023",
+        "MV-000024",
+        "MV-000031"
+      ]
+    },
+    {
+      "name": "Nigeria",
+      "iso3166_1_alpha2": "NG",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 2,
+      "languages": [
+        "Arabic",
+        "English",
+        "Hausa",
+        "Yoruba"
+      ],
+      "collections": [
+        "MV-000027",
+        "MV-000032"
+      ]
+    },
+    {
+      "name": "Norway",
+      "iso3166_1_alpha2": "NO",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Northern Sámi",
+        "Norwegian"
+      ],
+      "collections": [
+        "MV-000066"
+      ]
+    },
+    {
+      "name": "Pakistan",
+      "iso3166_1_alpha2": "PK",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "English",
+        "Punjabi",
+        "Sindhi",
+        "Urdu"
+      ],
+      "collections": [
+        "MV-000068"
+      ]
+    },
+    {
+      "name": "Papua New Guinea",
+      "iso3166_1_alpha2": "PG",
+      "region": "Oceania",
+      "subregion": "Melanesia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Multiple languages"
+      ],
+      "collections": [
+        "MV-000186"
+      ]
+    },
+    {
+      "name": "Peru",
+      "iso3166_1_alpha2": "PE",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Quechua",
+        "Spanish"
+      ],
+      "collections": [
+        "MV-000128"
+      ]
+    },
+    {
+      "name": "Philippines",
+      "iso3166_1_alpha2": "PH",
+      "region": "Asia",
+      "subregion": "South-eastern Asia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Karay-a"
+      ],
+      "collections": [
+        "MV-000184"
+      ]
+    },
+    {
+      "name": "Poland",
+      "iso3166_1_alpha2": "PL",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 2,
+      "languages": [
+        "English",
+        "Polish",
+        "Russian",
+        "Ukrainian"
+      ],
+      "collections": [
+        "MV-000053",
+        "MV-000054"
+      ]
+    },
+    {
+      "name": "Portugal",
+      "iso3166_1_alpha2": "PT",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Portuguese"
+      ],
+      "collections": [
+        "MV-000166"
+      ]
+    },
+    {
+      "name": "Puerto Rico",
+      "iso3166_1_alpha2": "PR",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "un_member": false,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Spanish"
+      ],
+      "collections": [
+        "MV-000176"
+      ]
+    },
+    {
+      "name": "Romania",
+      "iso3166_1_alpha2": "RO",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Romanian"
+      ],
+      "collections": [
+        "MV-000157"
+      ]
+    },
+    {
+      "name": "Rwanda",
+      "iso3166_1_alpha2": "RW",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "English",
+        "French",
+        "Kinyarwanda"
+      ],
+      "collections": [
+        "MV-000022"
+      ]
+    },
+    {
+      "name": "Saudi Arabia",
+      "iso3166_1_alpha2": "SA",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Arabic"
+      ],
+      "collections": [
+        "MV-000140"
+      ]
+    },
+    {
+      "name": "Senegal",
+      "iso3166_1_alpha2": "SN",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "French",
+        "Multiple languages",
+        "Wolof"
+      ],
+      "collections": [
+        "MV-000029"
+      ]
+    },
+    {
+      "name": "Serbia",
+      "iso3166_1_alpha2": "RS",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Serbian"
+      ],
+      "collections": [
+        "MV-000165"
+      ]
+    },
+    {
+      "name": "Singapore",
+      "iso3166_1_alpha2": "SG",
+      "region": "Asia",
+      "subregion": "South-eastern Asia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin Chinese",
+        "Tamil"
+      ],
+      "collections": [
+        "MV-000067"
+      ]
+    },
+    {
+      "name": "Slovakia",
+      "iso3166_1_alpha2": "SK",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Slovak"
+      ],
+      "collections": [
+        "MV-000169"
+      ]
+    },
+    {
+      "name": "Slovenia",
+      "iso3166_1_alpha2": "SI",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Slovenian"
+      ],
+      "collections": [
+        "MV-000156"
+      ]
+    },
+    {
+      "name": "Solomon Islands",
+      "iso3166_1_alpha2": "SB",
+      "region": "Oceania",
+      "subregion": "Melanesia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Multiple languages"
+      ],
+      "collections": [
+        "MV-000187"
+      ]
+    },
+    {
+      "name": "South Africa",
+      "iso3166_1_alpha2": "ZA",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 3,
+      "languages": [
+        "Afrikaans",
+        "English",
+        "Xhosa",
+        "Zulu"
+      ],
+      "collections": [
+        "MV-000020",
+        "MV-000021",
+        "MV-000087"
+      ]
+    },
+    {
+      "name": "South Korea",
+      "iso3166_1_alpha2": "KR",
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "un_member": true,
+      "alt_names": [
+        "Republic of Korea"
+      ],
+      "collection_count": 2,
+      "languages": [
+        "English",
+        "Japanese",
+        "Korean"
+      ],
+      "collections": [
+        "MV-000073",
+        "MV-000074"
+      ]
+    },
+    {
+      "name": "Spain",
+      "iso3166_1_alpha2": "ES",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Basque",
+        "French",
+        "Spanish"
+      ],
+      "collections": [
+        "MV-000063"
+      ]
+    },
+    {
+      "name": "Sri Lanka",
+      "iso3166_1_alpha2": "LK",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Sinhala",
+        "Tamil"
+      ],
+      "collections": [
+        "MV-000191"
+      ]
+    },
+    {
+      "name": "Sudan",
+      "iso3166_1_alpha2": "SD",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Arabic"
+      ],
+      "collections": [
+        "MV-000143"
+      ]
+    },
+    {
+      "name": "Sweden",
+      "iso3166_1_alpha2": "SE",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Finnish",
+        "Sámi languages",
+        "Swedish"
+      ],
+      "collections": [
+        "MV-000064"
+      ]
+    },
+    {
+      "name": "Switzerland",
+      "iso3166_1_alpha2": "CH",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "French",
+        "German",
+        "Italian",
+        "Romansh"
+      ],
+      "collections": [
+        "MV-000160"
+      ]
+    },
+    {
+      "name": "Taiwan",
+      "iso3166_1_alpha2": "TW",
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "un_member": false,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Mandarin Chinese",
+        "Taiwanese Hokkien"
+      ],
+      "collections": [
+        "MV-000076"
+      ]
+    },
+    {
+      "name": "Tajikistan",
+      "iso3166_1_alpha2": "TJ",
+      "region": "Asia",
+      "subregion": "Central Asia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Tajik"
+      ],
+      "collections": [
+        "MV-000136"
+      ]
+    },
+    {
+      "name": "Thailand",
+      "iso3166_1_alpha2": "TH",
+      "region": "Asia",
+      "subregion": "South-eastern Asia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Multiple languages",
+        "Thai"
+      ],
+      "collections": [
+        "MV-000182"
+      ]
+    },
+    {
+      "name": "Timor-Leste",
+      "iso3166_1_alpha2": "TL",
+      "region": "Asia",
+      "subregion": "South-eastern Asia",
+      "un_member": true,
+      "alt_names": [
+        "East Timor"
+      ],
+      "collection_count": 1,
+      "languages": [
+        "Indonesian",
+        "Portuguese",
+        "Tetum"
+      ],
+      "collections": [
+        "MV-000130"
+      ]
+    },
+    {
+      "name": "Tunisia",
+      "iso3166_1_alpha2": "TN",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Arabic",
+        "French"
+      ],
+      "collections": [
+        "MV-000144"
+      ]
+    },
+    {
+      "name": "Turkey",
+      "iso3166_1_alpha2": "TR",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "un_member": true,
+      "alt_names": [
+        "Türkiye"
+      ],
+      "collection_count": 1,
+      "languages": [
+        "Turkish"
+      ],
+      "collections": [
+        "MV-000137"
+      ]
+    },
+    {
+      "name": "Uganda",
+      "iso3166_1_alpha2": "UG",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Acholi",
+        "English",
+        "Luo"
+      ],
+      "collections": [
+        "MV-000040"
+      ]
+    },
+    {
+      "name": "Ukraine",
+      "iso3166_1_alpha2": "UA",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Polish",
+        "Russian",
+        "Ukrainian"
+      ],
+      "collections": [
+        "MV-000168"
+      ]
+    },
+    {
+      "name": "United Arab Emirates",
+      "iso3166_1_alpha2": "AE",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Arabic"
+      ],
+      "collections": [
+        "MV-000141"
+      ]
+    },
+    {
+      "name": "United Kingdom",
+      "iso3166_1_alpha2": "GB",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "un_member": true,
+      "alt_names": [
+        "UK",
+        "Great Britain"
+      ],
+      "collection_count": 10,
+      "languages": [
+        "English",
+        "German",
+        "Multiple languages",
+        "Scots",
+        "Scottish Gaelic",
+        "Welsh"
+      ],
+      "collections": [
+        "MV-000010",
+        "MV-000011",
+        "MV-000048",
+        "MV-000049",
+        "MV-000050",
+        "MV-000051",
+        "MV-000052",
+        "MV-000091",
+        "MV-000098",
+        "MV-000120"
+      ]
+    },
+    {
+      "name": "United States",
+      "iso3166_1_alpha2": "US",
+      "region": "Americas",
+      "subregion": "Northern America",
+      "un_member": true,
+      "alt_names": [
+        "USA",
+        "US",
+        "United States of America"
+      ],
+      "collection_count": 51,
+      "languages": [
+        "American Sign Language",
+        "Arabic",
+        "Armenian",
+        "Cantonese",
+        "Chinese",
+        "Czech",
+        "English",
+        "German",
+        "Hebrew",
+        "Hmong",
+        "Ilocano",
+        "Indigenous languages of the Americas",
+        "Japanese",
+        "Korean",
+        "Mandarin Chinese",
+        "Multiple languages",
+        "Polish",
+        "Russian",
+        "Spanish",
+        "Tagalog",
+        "Vietnamese",
+        "Yiddish"
+      ],
+      "collections": [
+        "MV-000001",
+        "MV-000002",
+        "MV-000003",
+        "MV-000004",
+        "MV-000005",
+        "MV-000075",
+        "MV-000077",
+        "MV-000088",
+        "MV-000089",
+        "MV-000090",
+        "MV-000092",
+        "MV-000093",
+        "MV-000094",
+        "MV-000095",
+        "MV-000096",
+        "MV-000097",
+        "MV-000099",
+        "MV-000101",
+        "MV-000102",
+        "MV-000104",
+        "MV-000105",
+        "MV-000106",
+        "MV-000107",
+        "MV-000108",
+        "MV-000110",
+        "MV-000111",
+        "MV-000112",
+        "MV-000113",
+        "MV-000114",
+        "MV-000115",
+        "MV-000116",
+        "MV-000117",
+        "MV-000118",
+        "MV-000119",
+        "MV-000121",
+        "MV-000122",
+        "MV-000123",
+        "MV-000124",
+        "MV-000125",
+        "MV-000192",
+        "MV-000193",
+        "MV-000194",
+        "MV-000195",
+        "MV-000196",
+        "MV-000199",
+        "MV-000201",
+        "MV-000203",
+        "MV-000204",
+        "MV-000205",
+        "MV-000208",
+        "MV-000209"
+      ]
+    },
+    {
+      "name": "Uruguay",
+      "iso3166_1_alpha2": "UY",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Spanish"
+      ],
+      "collections": [
+        "MV-000179"
+      ]
+    },
+    {
+      "name": "Uzbekistan",
+      "iso3166_1_alpha2": "UZ",
+      "region": "Asia",
+      "subregion": "Central Asia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Uzbek"
+      ],
+      "collections": [
+        "MV-000134"
+      ]
+    },
+    {
+      "name": "Vanuatu",
+      "iso3166_1_alpha2": "VU",
+      "region": "Oceania",
+      "subregion": "Melanesia",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Bislama",
+        "English",
+        "French",
+        "Multiple languages"
+      ],
+      "collections": [
+        "MV-000083"
+      ]
+    },
+    {
+      "name": "Venezuela",
+      "iso3166_1_alpha2": "VE",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "Indigenous languages of the Americas",
+        "Spanish"
+      ],
+      "collections": [
+        "MV-000178"
+      ]
+    },
+    {
+      "name": "Vietnam",
+      "iso3166_1_alpha2": "VN",
+      "region": "Asia",
+      "subregion": "South-eastern Asia",
+      "un_member": true,
+      "alt_names": [
+        "Viet Nam"
+      ],
+      "collection_count": 1,
+      "languages": [
+        "Multiple languages",
+        "Vietnamese"
+      ],
+      "collections": [
+        "MV-000181"
+      ]
+    },
+    {
+      "name": "Zimbabwe",
+      "iso3166_1_alpha2": "ZW",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "un_member": true,
+      "alt_names": [],
+      "collection_count": 1,
+      "languages": [
+        "English",
+        "Ndebele",
+        "Shona"
+      ],
+      "collections": [
+        "MV-000033"
+      ]
+    }
+  ]
+}

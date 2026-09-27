@@ -25,5 +25,11 @@ jobs:
       - name: Validate data/collections.json
         run: node scripts/validate-data.mjs
 
+      - name: Run data tests
+        run: node --test tests/*.test.mjs
+
+      - name: Check open-data exports are up to date
+        run: node scripts/build-data.mjs --check
+
       - name: Validate locale files are structurally consistent
         run: node scripts/validate-locales.mjs

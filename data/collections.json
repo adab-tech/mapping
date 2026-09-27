@@ -1,6 +1,7 @@
 [
   {
     "id": "storycorps-national-archive",
+    "mv_id": "MV-000001",
     "title": "StoryCorps Archive",
     "archive": "StoryCorps / Library of Congress American Folklife Center",
     "country": "United States",
@@ -28,10 +29,14 @@
       "preserve-the-baltimore-uprising",
       "the-historymakers",
       "the-outwords-archive"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "veterans-history-project",
+    "mv_id": "MV-000002",
     "title": "Veterans History Project",
     "archive": "Library of Congress, American Folklife Center",
     "country": "United States",
@@ -55,10 +60,14 @@
       "korean-war-legacy-foundation",
       "national-wwii-museum-oral-history",
       "vietnam-center-ttu"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "densho-digital-repository",
+    "mv_id": "MV-000003",
     "title": "Densho Digital Repository",
     "archive": "Densho",
     "country": "United States",
@@ -82,10 +91,14 @@
     "related_ids": [
       "japanese-american-national-museum",
       "the-historymakers"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "usc-shoah-foundation-vha",
+    "mv_id": "MV-000004",
     "title": "Visual History Archive",
     "archive": "USC Shoah Foundation",
     "country": "United States",
@@ -96,8 +109,9 @@
       "Hebrew",
       "Russian",
       "Polish",
-      "multiple other languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple other languages",
     "themes": [
       "genocide",
       "Holocaust",
@@ -117,10 +131,14 @@
       "preserve-the-baltimore-uprising",
       "the-outwords-archive",
       "yad-vashem-testimonies"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "ralph-rinzler-folklife-archives",
+    "mv_id": "MV-000005",
     "title": "Ralph Rinzler Folklife Archives and Collections",
     "archive": "Smithsonian Center for Folklife and Cultural Heritage",
     "country": "United States",
@@ -128,8 +146,9 @@
     "lng": -77.0364,
     "languages": [
       "English",
-      "multiple"
+      "Multiple languages"
     ],
+    "language_note": "multiple",
     "themes": [
       "folklife",
       "music",
@@ -145,10 +164,14 @@
       "berlin-phonogramm-archiv",
       "oral-history-of-american-music",
       "slave-narratives-a-folk-history-of-slavery-in-the"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "nctr-residential-schools",
+    "mv_id": "MV-000006",
     "title": "National Centre for Truth and Reconciliation",
     "archive": "University of Manitoba",
     "country": "Canada",
@@ -157,8 +180,9 @@
     "languages": [
       "English",
       "French",
-      "Indigenous languages"
+      "Indigenous languages of the Americas"
     ],
+    "language_note": "Indigenous languages",
     "themes": [
       "indigenous history",
       "human rights",
@@ -171,10 +195,14 @@
     "citation": "University of Manitoba. National Centre for Truth and Reconciliation. Retrieved from https://nctr.ca/.",
     "related_ids": [
       "doris-duke-utah-oral-history"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "museu-da-pessoa",
+    "mv_id": "MV-000007",
     "title": "Museu da Pessoa (Museum of the Person)",
     "archive": "Museu da Pessoa",
     "country": "Brazil",
@@ -195,10 +223,14 @@
     "citation": "Museu da Pessoa. Museu da Pessoa (Museum of the Person). Retrieved from https://museudapessoa.org/.",
     "related_ids": [
       "cpdoc-fgv-brazil"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "cnmh-colombia",
+    "mv_id": "MV-000008",
     "title": "Human Rights and Historical Memory Virtual Archive",
     "archive": "Centro Nacional de Memoria Historica",
     "country": "Colombia",
@@ -208,7 +240,7 @@
       "Spanish"
     ],
     "themes": [
-      "armed conflict",
+      "war and conflict",
       "human rights",
       "memory and reconciliation"
     ],
@@ -221,10 +253,14 @@
       "lugar-de-la-memoria-peru",
       "memoria-abierta-argentina",
       "museo-palabra-imagen-el-salvador"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "memoria-abierta-argentina",
+    "mv_id": "MV-000009",
     "title": "Archivo Oral de Memoria Abierta",
     "archive": "Memoria Abierta",
     "country": "Argentina",
@@ -247,10 +283,14 @@
       "cnmh-colombia",
       "museo-memoria-chile",
       "museo-palabra-imagen-el-salvador"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "bl-national-life-stories",
+    "mv_id": "MV-000010",
     "title": "National Life Stories",
     "archive": "British Library",
     "country": "United Kingdom",
@@ -272,10 +312,14 @@
     "related_ids": [
       "iwm-sound-archive",
       "warwick-modern-records-centre"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "tobar-an-dualchais",
+    "mv_id": "MV-000011",
     "title": "Tobar an Dualchais / Kist o Riches",
     "archive": "School of Scottish Studies Archives, University of Edinburgh",
     "country": "United Kingdom",
@@ -301,10 +345,14 @@
       "duchas-national-folklore-collection",
       "estonian-folklore-archives",
       "finnish-literature-society-folklore-archive"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "duchas-national-folklore-collection",
+    "mv_id": "MV-000012",
     "title": "National Folklore Collection (Duchas)",
     "archive": "University College Dublin",
     "country": "Ireland",
@@ -326,10 +374,14 @@
     "related_ids": [
       "finnish-literature-society-folklore-archive",
       "tobar-an-dualchais"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "memory-of-nations-czech",
+    "mv_id": "MV-000013",
     "title": "Memory of Nations",
     "archive": "Post Bellum",
     "country": "Czech Republic",
@@ -355,10 +407,14 @@
       "karta-center-poland",
       "osa-archivum-budapest",
       "yahad-in-unum"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "1947-partition-archive",
+    "mv_id": "MV-000014",
     "title": "The 1947 Partition Archive",
     "archive": "The 1947 Partition Archive",
     "country": "India",
@@ -386,10 +442,14 @@
     "related_ids": [
       "citizens-archive-pakistan",
       "nehru-memorial-oral-history"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "hiroshima-peace-memorial-testimony",
+    "mv_id": "MV-000015",
     "title": "A-bomb Survivor Testimony Archive",
     "archive": "Hiroshima Peace Memorial Museum",
     "country": "Japan",
@@ -412,10 +472,14 @@
     "related_ids": [
       "nagasaki-peace-memorial-testimonies",
       "okinawa-peace-memorial-museum"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "dccam-oral-history",
+    "mv_id": "MV-000016",
     "title": "Documentation Center of Cambodia Oral History Project",
     "archive": "Documentation Center of Cambodia (DC-Cam)",
     "country": "Cambodia",
@@ -438,10 +502,14 @@
     "related_ids": [
       "genocide-archive-rwanda",
       "khmer-legacies"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "palestinian-oral-history-archive",
+    "mv_id": "MV-000017",
     "title": "Palestinian Oral History Archive (POHA)",
     "archive": "American University of Beirut, Issam Fares Institute",
     "country": "Lebanon",
@@ -464,10 +532,14 @@
       "ips-narrating-palestine",
       "umam-documentation-research",
       "zochrot-nakba-testimonies"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "aiatsis-collection",
+    "mv_id": "MV-000018",
     "title": "AIATSIS Collection",
     "archive": "Australian Institute of Aboriginal and Torres Strait Islander Studies",
     "country": "Australia",
@@ -490,10 +562,14 @@
     "related_ids": [
       "nga-taonga-sound-vision",
       "paradisec-archive"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "nga-taonga-sound-vision",
+    "mv_id": "MV-000019",
     "title": "Nga Taonga Sound & Vision",
     "archive": "Nga Taonga Sound & Vision",
     "country": "New Zealand",
@@ -501,7 +577,7 @@
     "lng": 174.7762,
     "languages": [
       "English",
-      "Maori"
+      "Māori"
     ],
     "themes": [
       "broadcast history",
@@ -515,10 +591,14 @@
     "citation": "Nga Taonga Sound & Vision. Nga Taonga Sound & Vision. Retrieved from https://www.ngataonga.org.nz/.",
     "related_ids": [
       "aiatsis-collection"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "saha-oral-history",
+    "mv_id": "MV-000020",
     "title": "SAHA Oral History Collections",
     "archive": "South African History Archive",
     "country": "South Africa",
@@ -543,23 +623,27 @@
     "related_ids": [
       "district-six-museum",
       "gala-queer-archive"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "district-six-museum",
+    "mv_id": "MV-000021",
     "title": "District Six Museum Sound Archive",
     "archive": "District Six Museum",
     "country": "South Africa",
     "lat": -33.9249,
     "lng": 18.4241,
+    "languages": [
+      "English",
+      "Afrikaans"
+    ],
     "themes": [
       "forced removal",
       "urban history",
       "memory"
-    ],
-    "languages": [
-      "English",
-      "Afrikaans"
     ],
     "decade_start": 1994,
     "decade_end": null,
@@ -568,10 +652,14 @@
     "citation": "District Six Museum. District Six Museum Sound Archive. Retrieved from https://www.districtsix.co.za/collections/.",
     "related_ids": [
       "saha-oral-history"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "genocide-archive-rwanda",
+    "mv_id": "MV-000022",
     "title": "Genocide Archive of Rwanda",
     "archive": "Aegis Trust / National Commission for the Fight Against Genocide",
     "country": "Rwanda",
@@ -597,10 +685,14 @@
       "dccam-oral-history",
       "khmer-legacies"
     ],
-    "preview_url": "https://genocidearchiverwanda.org.rw/index.php/Category:Survivor_Testimonies"
+    "preview_url": "https://genocidearchiverwanda.org.rw/index.php/Category:Survivor_Testimonies",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "celhto-oral-tradition-archive",
+    "mv_id": "MV-000023",
     "title": "CELHTO Oral Tradition Archive",
     "archive": "Centre d'Etudes Linguistiques et Historiques par Tradition Orale (African Union)",
     "country": "Niger",
@@ -627,10 +719,14 @@
       "fondation-hampate-ba",
       "irsh-niamey-boubou-hama",
       "sahel-sounds-field-recordings"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "irsh-niamey-boubou-hama",
+    "mv_id": "MV-000024",
     "title": "Institut de Recherches en Sciences Humaines",
     "archive": "Universite Abdou Moumouni de Niamey",
     "country": "Niger",
@@ -654,10 +750,14 @@
     "citation": "Universite Abdou Moumouni de Niamey. Institut de Recherches en Sciences Humaines. Retrieved from https://irsh-uam.com/.",
     "related_ids": [
       "celhto-oral-tradition-archive"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "bird-mali-collections",
+    "mv_id": "MV-000025",
     "title": "Charles S. Bird Mali Collections",
     "archive": "Archives of Traditional Music, Indiana University",
     "country": "Mali",
@@ -679,10 +779,14 @@
     "related_ids": [
       "fondation-hampate-ba",
       "sahel-sounds-field-recordings"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "sosso-bala-cultural-space",
+    "mv_id": "MV-000026",
     "title": "Cultural Space of Sosso-Bala",
     "archive": "UNESCO Intangible Cultural Heritage / Ministry of Culture of Guinea",
     "country": "Guinea",
@@ -705,10 +809,14 @@
     "related_ids": [
       "ifa-divination-system",
       "moorish-epic-theydinn"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "ifa-divination-system",
+    "mv_id": "MV-000027",
     "title": "Ifa Divination System",
     "archive": "UNESCO Intangible Cultural Heritage / Yoruba babalawo tradition",
     "country": "Nigeria",
@@ -730,10 +838,14 @@
     "related_ids": [
       "gelede-oral-heritage",
       "sosso-bala-cultural-space"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "gelede-oral-heritage",
+    "mv_id": "MV-000028",
     "title": "Oral Heritage of Gelede",
     "archive": "UNESCO Intangible Cultural Heritage / Yoruba-Nago communities",
     "country": "Benin",
@@ -754,10 +866,14 @@
     "citation": "UNESCO Intangible Cultural Heritage / Yoruba-Nago communities. Oral Heritage of Gelede. Retrieved from https://ich.unesco.org/en/RL/oral-heritage-of-gelede-00002.",
     "related_ids": [
       "ifa-divination-system"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "ifan-dakar-sound-archives",
+    "mv_id": "MV-000029",
     "title": "IFAN Sound Archives",
     "archive": "Institut Fondamental d'Afrique Noire, Universite Cheikh Anta Diop",
     "country": "Senegal",
@@ -766,8 +882,9 @@
     "languages": [
       "Wolof",
       "French",
-      "multiple Senegalese languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple Senegalese languages",
     "themes": [
       "oral tradition",
       "music",
@@ -781,10 +898,14 @@
     "related_ids": [
       "nketia-archives-ghana",
       "sahel-sounds-field-recordings"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "nketia-archives-ghana",
+    "mv_id": "MV-000030",
     "title": "J.H. Kwabena Nketia Archives",
     "archive": "Institute of African Studies, University of Ghana",
     "country": "Ghana",
@@ -795,8 +916,9 @@
       "Ga",
       "Ewe",
       "English",
-      "multiple Ghanaian languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple Ghanaian languages",
     "themes": [
       "oral tradition",
       "music",
@@ -809,10 +931,14 @@
     "citation": "Institute of African Studies, University of Ghana. J.H. Kwabena Nketia Archives. Retrieved from https://ias.ug.edu.gh/content/jh-kwabena-nketia-archives.",
     "related_ids": [
       "ifan-dakar-sound-archives"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "sahel-sounds-field-recordings",
+    "mv_id": "MV-000031",
     "title": "Sahel Sounds Field Recordings Archive",
     "archive": "Sahel Sounds",
     "country": "Niger",
@@ -840,10 +966,14 @@
       "bird-mali-collections",
       "celhto-oral-tradition-archive",
       "ifan-dakar-sound-archives"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "ibadan-african-studies-audiovisual",
+    "mv_id": "MV-000032",
     "title": "African Studies Ibadan Audiovisual and Arabic Manuscripts Archive",
     "archive": "Institute of African Studies, University of Ibadan",
     "country": "Nigeria",
@@ -868,10 +998,14 @@
     "access_notes": "In-person access at the Institute; digitized portions being released via the Endangered Archives Programme.",
     "related_ids": [
       "endangered-archives-programme"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "zimbabwe-archives-oral-history",
+    "mv_id": "MV-000033",
     "title": "Oral History Programme",
     "archive": "National Archives of Zimbabwe",
     "country": "Zimbabwe",
@@ -892,10 +1026,14 @@
     "summary": "Zimbabwe's National Archives, established in 1935, runs an Oral History programme with the National Museums and Monuments and the University of Zimbabwe recording testimony of the First and Second Chimurenga liberation struggles in English and local languages.",
     "url": "https://www.archives.gov.zw/",
     "citation": "National Archives of Zimbabwe. Oral History Programme. Retrieved from https://www.archives.gov.zw/.",
-    "access_notes": "In-person/reading-room access; some liberation-history recordings referenced in public reporting."
+    "access_notes": "In-person/reading-room access; some liberation-history recordings referenced in public reporting.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "kenya-national-archives-oral-history",
+    "mv_id": "MV-000034",
     "title": "Oral History Collections",
     "archive": "Kenya National Archives and Documentation Service",
     "country": "Kenya",
@@ -904,8 +1042,9 @@
     "languages": [
       "Swahili",
       "English",
-      "multiple Kenyan languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple Kenyan languages",
     "themes": [
       "oral tradition",
       "colonial history",
@@ -915,10 +1054,14 @@
     "decade_end": null,
     "summary": "Kenya's national archive, established by Act of Parliament in 1965, holds audio cassette recordings of oral histories and folk songs alongside colonial records, government files, and papers of prominent Kenyans.",
     "url": "https://www.archives.go.ke/homepage",
-    "citation": "Kenya National Archives and Documentation Service. Oral History Collections. Retrieved from https://www.archives.go.ke/homepage."
+    "citation": "Kenya National Archives and Documentation Service. Oral History Collections. Retrieved from https://www.archives.go.ke/homepage.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "institute-ethiopian-studies",
+    "mv_id": "MV-000035",
     "title": "Institute of Ethiopian Studies Audiovisual Archive",
     "archive": "Addis Ababa University",
     "country": "Ethiopia",
@@ -928,8 +1071,9 @@
       "Amharic",
       "Ge'ez",
       "Oromo",
-      "multiple Ethiopian languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple Ethiopian languages",
     "themes": [
       "oral tradition",
       "ethnomusicology",
@@ -939,10 +1083,14 @@
     "decade_end": null,
     "summary": "Established in 1963, the Institute holds the world's largest single collection of Ethiopian manuscripts alongside an Audiovisual Materials section with ethnomusicological field recordings documenting Ethiopia's oral and musical traditions.",
     "url": "https://aau.edu.et/institute/IES",
-    "citation": "Institute of Ethiopian Studies, Addis Ababa University. Audiovisual Archive. Retrieved from https://aau.edu.et/institute/IES."
+    "citation": "Institute of Ethiopian Studies, Addis Ababa University. Audiovisual Archive. Retrieved from https://aau.edu.et/institute/IES.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "mosireen-858-archive",
+    "mv_id": "MV-000036",
     "title": "858: An Archive of Resistance",
     "archive": "Mosireen Collective",
     "country": "Egypt",
@@ -962,10 +1110,14 @@
     "summary": "A video collective formed during the 2011 Egyptian revolution released 858 hours of raw, timestamped footage of protests and state violence, freely licensed and published as a public archive of firsthand documentation and voice.",
     "url": "https://858.ma/",
     "citation": "Mosireen Collective. 858: An Archive of Resistance. Retrieved from https://858.ma/.",
-    "access_notes": "Freely accessible online, indexed and searchable video."
+    "access_notes": "Freely accessible online, indexed and searchable video.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "ircam-amazigh-culture",
+    "mv_id": "MV-000037",
     "title": "Institut Royal de la Culture Amazighe",
     "archive": "Institut Royal de la Culture Amazighe (IRCAM)",
     "country": "Morocco",
@@ -985,10 +1137,14 @@
     "decade_end": null,
     "summary": "Founded by royal decree in 2001, IRCAM researches and promotes Amazigh (Berber) language and culture across Morocco, including documentation of oral literature and dialects through its research centres in Rabat.",
     "url": "https://www.ircam.ma/",
-    "citation": "Institut Royal de la Culture Amazighe. Retrieved from https://www.ircam.ma/."
+    "citation": "Institut Royal de la Culture Amazighe. Retrieved from https://www.ircam.ma/.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "fondation-hampate-ba",
+    "mv_id": "MV-000038",
     "title": "Fondation Amadou Hampâté Bâ",
     "archive": "Fondation Amadou Hampâté Bâ",
     "country": "Côte d'Ivoire",
@@ -1013,10 +1169,14 @@
     "related_ids": [
       "bird-mali-collections",
       "celhto-oral-tradition-archive"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "moorish-epic-theydinn",
+    "mv_id": "MV-000039",
     "title": "Moorish Epic T'heydinn",
     "archive": "UNESCO Intangible Cultural Heritage / Mauritanian griot (iggawin) tradition",
     "country": "Mauritania",
@@ -1037,10 +1197,14 @@
     "citation": "UNESCO Intangible Cultural Heritage. Moorish Epic T'heydinn. Retrieved from https://ich.unesco.org/en/USL/moorish-epic-t-heydinn-00524.",
     "related_ids": [
       "sosso-bala-cultural-space"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "refugee-law-project-uganda",
+    "mv_id": "MV-000040",
     "title": "Documentation of War-Affected Communities",
     "archive": "Refugee Law Project, Makerere University",
     "country": "Uganda",
@@ -1060,10 +1224,14 @@
     "decade_end": null,
     "summary": "Founded in 1999 as an outreach project of Makerere University's law school, the Refugee Law Project documents testimony and advocates for transitional justice for communities affected by conflict with the Lord's Resistance Army in northern Uganda.",
     "url": "https://www.refugeelawproject.org/",
-    "citation": "Refugee Law Project, Makerere University. Retrieved from https://www.refugeelawproject.org/."
+    "citation": "Refugee Law Project, Makerere University. Retrieved from https://www.refugeelawproject.org/.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "zochrot-nakba-testimonies",
+    "mv_id": "MV-000041",
     "title": "Nakba Survivor Testimonies",
     "archive": "Zochrot",
     "country": "Israel",
@@ -1084,14 +1252,18 @@
     "url": "https://www.zochrot.org/testimonies/all/en",
     "citation": "Zochrot. Nakba Survivor Testimonies. Retrieved from https://www.zochrot.org/testimonies/all/en.",
     "access_notes": "Freely accessible online, video testimonies with searchable database.",
-    "preview_url": "https://www.zochrot.org/testimonies/all/en",
     "related_ids": [
       "ips-narrating-palestine",
       "palestinian-oral-history-archive"
-    ]
+    ],
+    "preview_url": "https://www.zochrot.org/testimonies/all/en",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "umam-documentation-research",
+    "mv_id": "MV-000042",
     "title": "UMAM Documentation & Research",
     "archive": "UMAM Documentation & Research",
     "country": "Lebanon",
@@ -1103,7 +1275,7 @@
       "English"
     ],
     "themes": [
-      "armed conflict",
+      "war and conflict",
       "memory and reconciliation",
       "human rights"
     ],
@@ -1114,10 +1286,14 @@
     "citation": "UMAM Documentation & Research. Retrieved from https://www.umam-dr.org/.",
     "related_ids": [
       "palestinian-oral-history-archive"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "ips-narrating-palestine",
+    "mv_id": "MV-000043",
     "title": "Narrating Palestine: The Palestinian Oral History Archive Project",
     "archive": "Institute for Palestine Studies",
     "country": "Lebanon",
@@ -1140,19 +1316,24 @@
     "related_ids": [
       "palestinian-oral-history-archive",
       "zochrot-nakba-testimonies"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "institut-kurde-paris",
+    "mv_id": "MV-000044",
     "title": "Kurdish Digital Library and Audio Archive",
     "archive": "Institut kurde de Paris",
     "country": "France",
     "lat": 48.8566,
     "lng": 2.3522,
     "languages": [
-      "Kurdish (Kurmanji, Sorani)",
+      "Kurdish",
       "French"
     ],
+    "language_note": "Kurdish (Kurmanji, Sorani)",
     "themes": [
       "language documentation",
       "oral tradition",
@@ -1165,10 +1346,14 @@
     "citation": "Institut kurde de Paris. Retrieved from https://www.institutkurde.org/.",
     "related_ids": [
       "pangloss-collection"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "yad-vashem-testimonies",
+    "mv_id": "MV-000045",
     "title": "Survivor Testimonies Collection",
     "archive": "Yad Vashem",
     "country": "Israel",
@@ -1177,8 +1362,9 @@
     "languages": [
       "Hebrew",
       "English",
-      "multiple languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple languages",
     "themes": [
       "Holocaust",
       "genocide",
@@ -1190,17 +1376,21 @@
     "url": "https://www.yadvashem.org/collections/testimonies.html",
     "citation": "Yad Vashem. Survivor Testimonies Collection. Retrieved from https://www.yadvashem.org/collections/testimonies.html.",
     "access_notes": "Thousands of full testimonies freely viewable online; broader archive by researcher request.",
-    "preview_url": "https://www.yadvashem.org/collections/testimonies.html",
     "related_ids": [
       "armenian-film-foundation",
       "david-boder-voices-of-holocaust",
       "fortunoff-video-archive",
       "usc-shoah-foundation-vha",
       "yahad-in-unum"
-    ]
+    ],
+    "preview_url": "https://www.yadvashem.org/collections/testimonies.html",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "harvard-iranian-oral-history",
+    "mv_id": "MV-000046",
     "title": "Iranian Oral History Project",
     "archive": "Harvard University Center for Middle Eastern Studies",
     "country": "Iran",
@@ -1219,10 +1409,14 @@
     "decade_end": null,
     "summary": "Launched at Harvard in 1981 by historian Habib Ladjevardi, this project recorded personal accounts of 134 political leaders and eyewitnesses to major events in Iranian history from the 1920s through the 1980s, now digitized and streamed publicly.",
     "url": "https://cmes.fas.harvard.edu/projects/iohp",
-    "citation": "Harvard University Center for Middle Eastern Studies. Iranian Oral History Project. Retrieved from https://cmes.fas.harvard.edu/projects/iohp."
+    "citation": "Harvard University Center for Middle Eastern Studies. Iranian Oral History Project. Retrieved from https://cmes.fas.harvard.edu/projects/iohp.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "odysseo-generiques-oral-archives",
+    "mv_id": "MV-000047",
     "title": "Oral Archives of Immigration History (Odysseo)",
     "archive": "Genériques / Les Amis de Génériques",
     "country": "France",
@@ -1231,8 +1425,9 @@
     "languages": [
       "French",
       "Arabic",
-      "multiple immigrant languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple immigrant languages",
     "themes": [
       "migration",
       "displacement",
@@ -1246,10 +1441,14 @@
     "access_notes": "Digitized sources freely searchable online via the Odysseo portal.",
     "related_ids": [
       "domid-migration-museum"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "iwm-sound-archive",
+    "mv_id": "MV-000048",
     "title": "Sound Archive",
     "archive": "Imperial War Museums",
     "country": "United Kingdom",
@@ -1257,8 +1456,9 @@
     "lng": -0.1098,
     "languages": [
       "English",
-      "multiple languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple languages",
     "themes": [
       "war and conflict",
       "military history",
@@ -1275,10 +1475,14 @@
       "fortunoff-video-archive",
       "national-wwii-museum-oral-history",
       "veterans-history-project"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "prisons-memory-archive",
+    "mv_id": "MV-000049",
     "title": "Prisons Memory Archive",
     "archive": "Prisons Memory Archive / Public Record Office of Northern Ireland",
     "country": "United Kingdom",
@@ -1297,10 +1501,14 @@
     "summary": "Between 2006 and 2007, filmmakers recorded 161 filmed oral histories with former prisoners, officers, chaplains, and visitors inside Armagh Gaol and the Maze and Long Kesh Prison, capturing life-storytelling about Northern Ireland's Troubles.",
     "url": "https://prisonsmemoryarchive.com/",
     "citation": "Prisons Memory Archive. Retrieved from https://prisonsmemoryarchive.com/.",
-    "access_notes": "Selected extracts online; full collection held at the Public Record Office of Northern Ireland."
+    "access_notes": "Selected extracts online; full collection held at the Public Record Office of Northern Ireland.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "ajr-refugee-voices",
+    "mv_id": "MV-000050",
     "title": "AJR Refugee Voices Testimony Archive",
     "archive": "Association of Jewish Refugees",
     "country": "United Kingdom",
@@ -1320,10 +1528,14 @@
     "summary": "Commissioned in 2003, this UK archive holds 310 filmed interviews totalling 450 hours with Jewish refugees and survivors of Nazi Europe who rebuilt their lives in Britain, with summaries and clips available and full interviews via research partners.",
     "url": "https://www.ajrrefugeevoices.org.uk/",
     "citation": "Association of Jewish Refugees. Refugee Voices Testimony Archive. Retrieved from https://www.ajrrefugeevoices.org.uk/.",
-    "access_notes": "Summaries and short clips online; full unedited interviews via institutional partners."
+    "access_notes": "Summaries and short clips online; full unedited interviews via institutional partners.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "warwick-modern-records-centre",
+    "mv_id": "MV-000051",
     "title": "Working Class and Labour Oral History Archive",
     "archive": "Modern Records Centre, University of Warwick",
     "country": "United Kingdom",
@@ -1345,10 +1557,14 @@
     "related_ids": [
       "bl-national-life-stories",
       "walter-reuther-library"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "national-library-wales-sound-archive",
+    "mv_id": "MV-000052",
     "title": "Screen and Sound Archive",
     "archive": "National Library of Wales",
     "country": "United Kingdom",
@@ -1367,10 +1583,14 @@
     "decade_end": null,
     "summary": "The National Library of Wales's Screen and Sound Archive preserves recordings of Welsh life dating from 1898 onward, including oral history interviews with Welsh migrants to North America and Patagonia, dialect recordings, and industrial-community testimony.",
     "url": "https://www.library.wales/catalogues-searching/about-our-collections/screen-sound-archive",
-    "citation": "National Library of Wales. Screen and Sound Archive. Retrieved from https://www.library.wales/catalogues-searching/about-our-collections/screen-sound-archive."
+    "citation": "National Library of Wales. Screen and Sound Archive. Retrieved from https://www.library.wales/catalogues-searching/about-our-collections/screen-sound-archive.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "european-solidarity-centre-archive",
+    "mv_id": "MV-000053",
     "title": "European Solidarity Centre Archive",
     "archive": "European Solidarity Centre",
     "country": "Poland",
@@ -1393,10 +1613,14 @@
     "related_ids": [
       "karta-center-poland",
       "memory-of-nations-czech"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "karta-center-poland",
+    "mv_id": "MV-000054",
     "title": "Ośrodek KARTA Oral History Collections",
     "archive": "KARTA Center Foundation",
     "country": "Poland",
@@ -1421,10 +1645,14 @@
       "european-solidarity-centre-archive",
       "memory-of-nations-czech",
       "osa-archivum-budapest"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "osa-archivum-budapest",
+    "mv_id": "MV-000055",
     "title": "Blinken OSA Archivum",
     "archive": "Central European University",
     "country": "Hungary",
@@ -1448,10 +1676,14 @@
     "related_ids": [
       "karta-center-poland",
       "memory-of-nations-czech"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "pcrc-ordinary-heroes",
+    "mv_id": "MV-000056",
     "title": "Ordinary Heroes Digital Archive",
     "archive": "Post-Conflict Research Center",
     "country": "Bosnia and Herzegovina",
@@ -1461,7 +1693,7 @@
       "Bosnian"
     ],
     "themes": [
-      "armed conflict",
+      "war and conflict",
       "memory and reconciliation",
       "human rights"
     ],
@@ -1469,10 +1701,14 @@
     "decade_end": null,
     "summary": "Founded in Sarajevo in 2011, the Post-Conflict Research Center collects testimony of rescuers and survivors from the 1992-95 Bosnian War through its Ordinary Heroes peacebuilding programme, preserving oral testimonies, letters, and diaries.",
     "url": "https://p-crc.org/our-work/post-conflict-research/rescue-and-survivor-testemonials/ordinary-heroes-digital-archive/",
-    "citation": "Post-Conflict Research Center. Ordinary Heroes Digital Archive. Retrieved from https://p-crc.org/our-work/post-conflict-research/rescue-and-survivor-testemonials/ordinary-heroes-digital-archive/."
+    "citation": "Post-Conflict Research Center. Ordinary Heroes Digital Archive. Retrieved from https://p-crc.org/our-work/post-conflict-research/rescue-and-survivor-testemonials/ordinary-heroes-digital-archive/.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "yahad-in-unum",
+    "mv_id": "MV-000057",
     "title": "Holocaust by Bullets Testimony Archive",
     "archive": "Yahad-In Unum",
     "country": "France",
@@ -1483,8 +1719,9 @@
       "Ukrainian",
       "Russian",
       "Polish",
-      "multiple languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple languages",
     "themes": [
       "Holocaust",
       "genocide",
@@ -1499,18 +1736,23 @@
     "related_ids": [
       "memory-of-nations-czech",
       "yad-vashem-testimonies"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "berlin-phonogramm-archiv",
+    "mv_id": "MV-000058",
     "title": "Berliner Phonogramm-Archiv",
     "archive": "Ethnologisches Museum, Staatliche Museen zu Berlin",
     "country": "Germany",
     "lat": 52.5063,
     "lng": 13.2066,
     "languages": [
-      "multiple world languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple world languages",
     "themes": [
       "oral tradition",
       "ethnomusicology",
@@ -1525,10 +1767,14 @@
       "association-cultural-equity-lomax",
       "austria-phonogrammarchiv",
       "ralph-rinzler-folklife-archives"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "romarchive",
+    "mv_id": "MV-000059",
     "title": "RomArchive",
     "archive": "RomArchive e.V.",
     "country": "Germany",
@@ -1552,10 +1798,14 @@
     "access_notes": "Freely accessible online.",
     "related_ids": [
       "austria-phonogrammarchiv"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "finnish-literature-society-folklore-archive",
+    "mv_id": "MV-000060",
     "title": "Folklore Archives of the Finnish Literature Society",
     "archive": "Finnish Literature Society (SKS)",
     "country": "Finland",
@@ -1579,10 +1829,14 @@
       "duchas-national-folklore-collection",
       "estonian-folklore-archives",
       "tobar-an-dualchais"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "estonian-folklore-archives",
+    "mv_id": "MV-000061",
     "title": "Estonian Folklore Archives",
     "archive": "Estonian Literary Museum",
     "country": "Estonia",
@@ -1590,7 +1844,7 @@
     "lng": 26.729,
     "languages": [
       "Estonian",
-      "Voro",
+      "Võro",
       "Seto"
     ],
     "themes": [
@@ -1606,10 +1860,14 @@
     "related_ids": [
       "finnish-literature-society-folklore-archive",
       "tobar-an-dualchais"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "georgia-traditional-polyphony-center",
+    "mv_id": "MV-000062",
     "title": "International Research Center for Traditional Polyphony",
     "archive": "Tbilisi Vano Sarajishvili State Conservatoire",
     "country": "Georgia",
@@ -1627,17 +1885,21 @@
     "decade_end": null,
     "summary": "Established with UNESCO support in 2002-2003, this Tbilisi research centre studies and documents Georgian traditional vocal polyphony, an oral musical tradition inscribed on UNESCO's list of the Intangible Cultural Heritage of Humanity.",
     "url": "https://polyphony.ge/en/home-2/",
-    "citation": "International Research Center for Traditional Polyphony, Tbilisi State Conservatoire. Retrieved from https://polyphony.ge/en/home-2/."
+    "citation": "International Research Center for Traditional Polyphony, Tbilisi State Conservatoire. Retrieved from https://polyphony.ge/en/home-2/.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "ahotsak-basque-oral-archive",
+    "mv_id": "MV-000063",
     "title": "Ahotsak.eus Basque Oral Archive",
     "archive": "Badihardugu Association",
     "country": "Spain",
     "lat": 43.263,
     "lng": -2.935,
     "languages": [
-      "Basque (Euskara)",
+      "Basque",
       "Spanish",
       "French"
     ],
@@ -1651,10 +1913,14 @@
     "summary": "Since 2003, this project has video-recorded interviews with more than 6,000 Basque speakers over age 75 across Spain and France, documenting Basque dialects, local history, and 20th-century historical memory.",
     "url": "https://ahotsak.eus/english/",
     "citation": "Badihardugu Association. Ahotsak.eus Basque Oral Archive. Retrieved from https://ahotsak.eus/english/.",
-    "access_notes": "Freely accessible online, catalogued by topic and town."
+    "access_notes": "Freely accessible online, catalogued by topic and town.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "isof-sweden-folklore",
+    "mv_id": "MV-000064",
     "title": "Dialect, Name, and Folklore Archives",
     "archive": "Institutet för sprak och folkminnen (Isof)",
     "country": "Sweden",
@@ -1662,9 +1928,10 @@
     "lng": 17.6389,
     "languages": [
       "Swedish",
-      "Sami",
+      "Sámi languages",
       "Finnish"
     ],
+    "language_note": "Sami",
     "themes": [
       "oral tradition",
       "folklife",
@@ -1674,18 +1941,23 @@
     "decade_end": null,
     "summary": "Sweden's government agency for language and folklore, in its current form since a 2006 institutional merger, holds archives of dialect recordings, folk music, and folklore gathered from across the country and Swedish-speaking areas abroad.",
     "url": "https://www.isof.se/",
-    "citation": "Institutet för sprak och folkminnen (Isof). Retrieved from https://www.isof.se/."
+    "citation": "Institutet för sprak och folkminnen (Isof). Retrieved from https://www.isof.se/.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "austria-phonogrammarchiv",
+    "mv_id": "MV-000065",
     "title": "Phonogrammarchiv",
     "archive": "Austrian Academy of Sciences",
     "country": "Austria",
     "lat": 48.2082,
     "lng": 16.3738,
     "languages": [
-      "multiple world languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple world languages",
     "themes": [
       "oral tradition",
       "ethnomusicology",
@@ -1699,17 +1971,21 @@
     "related_ids": [
       "berlin-phonogramm-archiv",
       "romarchive"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "sami-archives-norway",
+    "mv_id": "MV-000066",
     "title": "The Sami Archives",
     "archive": "National Archival Services of Norway",
     "country": "Norway",
     "lat": 69.0125,
     "lng": 23.0412,
     "languages": [
-      "Northern Sami",
+      "Northern Sámi",
       "Norwegian"
     ],
     "themes": [
@@ -1721,10 +1997,14 @@
     "decade_end": null,
     "summary": "Located at the Sami academic park Diehtosiida in Kautokeino, the Sami Archives has preserved material relating to the Sami people since 1988, and since 2005 operates as part of Norway's National Archival Services.",
     "url": "https://www.arkivverket.no/om-oss/samisk-arkiv",
-    "citation": "National Archival Services of Norway. The Sami Archives. Retrieved from https://www.arkivverket.no/om-oss/samisk-arkiv."
+    "citation": "National Archival Services of Norway. The Sami Archives. Retrieved from https://www.arkivverket.no/om-oss/samisk-arkiv.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "singapore-oral-history-centre",
+    "mv_id": "MV-000067",
     "title": "Oral History Centre",
     "archive": "National Archives of Singapore",
     "country": "Singapore",
@@ -1732,7 +2012,7 @@
     "lng": 103.85,
     "languages": [
       "English",
-      "Mandarin",
+      "Mandarin Chinese",
       "Malay",
       "Tamil"
     ],
@@ -1746,10 +2026,14 @@
     "summary": "Set up in 1979, Singapore's Oral History Centre records life stories and eyewitness accounts documenting the nation's diverse voices, from leaders and innovators to ordinary residents who witnessed historical change.",
     "url": "https://www.nas.gov.sg/archivesonline/oral_history_interviews/about-us",
     "citation": "National Archives of Singapore. Oral History Centre. Retrieved from https://www.nas.gov.sg/archivesonline/oral_history_interviews/about-us.",
-    "access_notes": "Interviews searchable online; full recordings subject to interviewee consent."
+    "access_notes": "Interviews searchable online; full recordings subject to interviewee consent.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "citizens-archive-pakistan",
+    "mv_id": "MV-000068",
     "title": "Oral History Project",
     "archive": "Citizens Archive of Pakistan",
     "country": "Pakistan",
@@ -1773,10 +2057,14 @@
     "citation": "Citizens Archive of Pakistan. Oral History Project. Retrieved from https://citizensarchive.org/portfolio-item/oral-history-project/.",
     "related_ids": [
       "1947-partition-archive"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "nehru-memorial-oral-history",
+    "mv_id": "MV-000069",
     "title": "Oral History Division",
     "archive": "Nehru Memorial Museum and Library",
     "country": "India",
@@ -1798,10 +2086,14 @@
     "citation": "Nehru Memorial Museum and Library. Oral History Division. Retrieved from https://nehruportal.nic.in/oral-history.",
     "related_ids": [
       "1947-partition-archive"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "sparrow-india",
+    "mv_id": "MV-000070",
     "title": "SPARROW: Sound & Picture Archives for Research on Women",
     "archive": "SPARROW",
     "country": "India",
@@ -1811,8 +2103,9 @@
       "Hindi",
       "Tamil",
       "English",
-      "multiple Indian languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple Indian languages",
     "themes": [
       "women's history",
       "oral tradition",
@@ -1825,10 +2118,14 @@
     "citation": "SPARROW. Sound & Picture Archives for Research on Women. Retrieved from https://www.sparrowonline.org/.",
     "related_ids": [
       "sophia-smith-voices-of-feminism"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "hong-kong-memory-project",
+    "mv_id": "MV-000071",
     "title": "Hong Kong Memory Project",
     "archive": "Hong Kong University of Science and Technology",
     "country": "Hong Kong",
@@ -1848,10 +2145,14 @@
     "summary": "Begun in 2006, this digital repository gathers oral history and multimedia documentation of Hong Kong's history and culture, covering topics from Kai Tak Airport's neighbourhood to village life and traditional festivals.",
     "url": "https://www.hkmemory.hk/en/index.html",
     "citation": "Hong Kong Memory Project. Retrieved from https://www.hkmemory.hk/en/index.html.",
-    "access_notes": "Freely accessible online."
+    "access_notes": "Freely accessible online.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "shanghai-comfort-women-museum",
+    "mv_id": "MV-000072",
     "title": "Chinese \"Comfort Women\" History Museum and Research Center",
     "archive": "Shanghai Normal University",
     "country": "China",
@@ -1872,10 +2173,14 @@
     "citation": "Shanghai Normal University. Chinese \"Comfort Women\" History Museum and Research Center. Retrieved from https://www.shnu.edu.cn/.",
     "related_ids": [
       "house-of-sharing-korea"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "jeju43-peace-foundation",
+    "mv_id": "MV-000073",
     "title": "Jeju 4.3 Archives",
     "archive": "Jeju 4.3 Peace Foundation",
     "country": "South Korea",
@@ -1893,10 +2198,14 @@
     "decade_end": null,
     "summary": "Established in 2008, this foundation manages Jeju's Peace Memorial Hall and an archive of over 14,600 victim and bereaved-family testimonies documenting the 1947-54 Jeju uprising and massacre, inscribed on UNESCO's Memory of the World Register in 2025.",
     "url": "http://jeju43peace.org/",
-    "citation": "Jeju 4.3 Peace Foundation. Jeju 4.3 Archives. Retrieved from http://jeju43peace.org/."
+    "citation": "Jeju 4.3 Peace Foundation. Jeju 4.3 Archives. Retrieved from http://jeju43peace.org/.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "house-of-sharing-korea",
+    "mv_id": "MV-000074",
     "title": "Museum of Sexual Slavery by the Japanese Military",
     "archive": "House of Sharing",
     "country": "South Korea",
@@ -1919,10 +2228,14 @@
     "citation": "House of Sharing. Museum of Sexual Slavery by the Japanese Military. Retrieved from http://www.nanum.org/.",
     "related_ids": [
       "shanghai-comfort-women-museum"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "korean-war-legacy-foundation",
+    "mv_id": "MV-000075",
     "title": "Korean War Legacy Foundation Interview Archive",
     "archive": "Korean War Legacy Foundation",
     "country": "United States",
@@ -1931,8 +2244,9 @@
     "languages": [
       "English",
       "Korean",
-      "multiple UN-participant languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple UN-participant languages",
     "themes": [
       "war and conflict",
       "military history"
@@ -1943,13 +2257,17 @@
     "url": "https://koreanwarlegacy.org/interactive-library/",
     "citation": "Korean War Legacy Foundation. Interview Archive. Retrieved from https://koreanwarlegacy.org/interactive-library/.",
     "access_notes": "Freely accessible online, searchable video library.",
-    "preview_url": "https://koreanwarlegacy.org/interactive-library/",
     "related_ids": [
       "veterans-history-project"
-    ]
+    ],
+    "preview_url": "https://koreanwarlegacy.org/interactive-library/",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "taiwan-human-rights-museum-white-terror",
+    "mv_id": "MV-000076",
     "title": "White Terror Oral History Archive",
     "archive": "National Human Rights Museum",
     "country": "Taiwan",
@@ -1968,10 +2286,14 @@
     "decade_end": null,
     "summary": "A preparatory office founded in 2011 (formally established as a museum in 2018) has recorded oral history interviews with more than 500 political prisoners and their families, documenting Taiwan's 1949-1987 White Terror era of martial-law repression.",
     "url": "https://www.nhrm.gov.tw/w/nhrmEN/About",
-    "citation": "National Human Rights Museum. White Terror Oral History Archive. Retrieved from https://www.nhrm.gov.tw/w/nhrmEN/About."
+    "citation": "National Human Rights Museum. White Terror Oral History Archive. Retrieved from https://www.nhrm.gov.tw/w/nhrmEN/About.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "vietnam-center-ttu",
+    "mv_id": "MV-000077",
     "title": "Oral History Project",
     "archive": "The Vietnam Center and Sam Johnson Vietnam Archive, Texas Tech University",
     "country": "United States",
@@ -1993,10 +2315,14 @@
     "citation": "The Vietnam Center and Sam Johnson Vietnam Archive, Texas Tech University. Oral History Project. Retrieved from https://www.vietnam.ttu.edu/oralhistory/.",
     "related_ids": [
       "veterans-history-project"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "liberation-war-museum-bangladesh",
+    "mv_id": "MV-000078",
     "title": "Liberation War Museum Oral History Archive",
     "archive": "Liberation War Museum",
     "country": "Bangladesh",
@@ -2015,10 +2341,14 @@
     "decade_end": null,
     "summary": "Established in Dhaka in 1996, the Liberation War Museum has coordinated student-led oral history collection nationwide, gathering some 70,000 eyewitness accounts of Bangladesh's 1971 Liberation War alongside its collection of wartime artifacts.",
     "url": "https://www.liberationwarmuseumbd.org/",
-    "citation": "Liberation War Museum. Oral History Archive. Retrieved from https://www.liberationwarmuseumbd.org/."
+    "citation": "Liberation War Museum. Oral History Archive. Retrieved from https://www.liberationwarmuseumbd.org/.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "nagasaki-peace-memorial-testimonies",
+    "mv_id": "MV-000079",
     "title": "Testimonies of the Atomic Bomb Survivors",
     "archive": "Nagasaki National Peace Memorial Hall for the Atomic Bomb Victims",
     "country": "Japan",
@@ -2041,10 +2371,14 @@
     "related_ids": [
       "hiroshima-peace-memorial-testimony",
       "okinawa-peace-memorial-museum"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "okinawa-peace-memorial-museum",
+    "mv_id": "MV-000080",
     "title": "Battle of Okinawa Survivor Testimonies",
     "archive": "Okinawa Prefectural Peace Memorial Museum",
     "country": "Japan",
@@ -2068,10 +2402,14 @@
     "related_ids": [
       "hiroshima-peace-memorial-testimony",
       "nagasaki-peace-memorial-testimonies"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "michinoku-shinrokuden",
+    "mv_id": "MV-000081",
     "title": "Michinoku Shinrokuden",
     "archive": "International Research Institute of Disaster Science, Tohoku University",
     "country": "Japan",
@@ -2094,10 +2432,14 @@
     "access_notes": "Freely accessible online; open to public contributions.",
     "related_ids": [
       "hurricane-digital-memory-bank"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "ainu-museum-nibutani",
+    "mv_id": "MV-000082",
     "title": "Nibutani Ainu Culture Museum",
     "archive": "Nibutani Ainu Culture Museum, Biratori Town",
     "country": "Japan",
@@ -2116,10 +2458,14 @@
     "decade_end": null,
     "summary": "Opened in 1992 in the Ainu community of Nibutani, Hokkaido, this museum preserves and screens recordings of yukar (heroic epics) and other Ainu oral traditions passed down by word of mouth for generations.",
     "url": "https://www.town.biratori.hokkaido.jp/",
-    "citation": "Nibutani Ainu Culture Museum, Biratori Town. Retrieved from https://www.town.biratori.hokkaido.jp/."
+    "citation": "Nibutani Ainu Culture Museum, Biratori Town. Retrieved from https://www.town.biratori.hokkaido.jp/.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "vanuatu-cultural-centre-archive",
+    "mv_id": "MV-000083",
     "title": "Film and Audio Archive",
     "archive": "Vanuatu Cultural Centre",
     "country": "Vanuatu",
@@ -2129,8 +2475,9 @@
       "Bislama",
       "English",
       "French",
-      "multiple ni-Vanuatu languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple ni-Vanuatu languages",
     "themes": [
       "oral tradition",
       "folklife",
@@ -2140,17 +2487,21 @@
     "decade_end": null,
     "summary": "Vanuatu's national cultural institution, tracing its origins to 1955, maintains a Film and Audio Archive and a national heritage registry documenting kastom (customary) oral traditions, ceremonies, and languages across the archipelago's many communities.",
     "url": "https://vanuatuculturalcentre.gov.vu/",
-    "citation": "Vanuatu Cultural Centre. Film and Audio Archive. Retrieved from https://vanuatuculturalcentre.gov.vu/."
+    "citation": "Vanuatu Cultural Centre. Film and Audio Archive. Retrieved from https://vanuatuculturalcentre.gov.vu/.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "itaukei-institute-fiji",
+    "mv_id": "MV-000084",
     "title": "iTaukei Institute of Language and Culture",
     "archive": "iTaukei Affairs Board",
     "country": "Fiji",
     "lat": -18.1248,
     "lng": 178.4501,
     "languages": [
-      "iTaukei (Fijian)",
+      "Fijian",
       "English"
     ],
     "themes": [
@@ -2162,18 +2513,23 @@
     "decade_end": null,
     "summary": "Evolving from a Fijian dictionary project begun in 1974, this institute is custodian of iTaukei dialects and oral traditions across Fiji's fourteen provinces, running a Cultural Mapping Programme recording traditional knowledge village by village.",
     "url": "https://www.itaukeiaffairs.gov.fj/index.php/divisions/tilc",
-    "citation": "iTaukei Affairs Board. iTaukei Institute of Language and Culture. Retrieved from https://www.itaukeiaffairs.gov.fj/index.php/divisions/tilc."
+    "citation": "iTaukei Affairs Board. iTaukei Institute of Language and Culture. Retrieved from https://www.itaukeiaffairs.gov.fj/index.php/divisions/tilc.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "paradisec-archive",
+    "mv_id": "MV-000085",
     "title": "PARADISEC",
     "archive": "Pacific and Regional Archive for Digital Sources in Endangered Cultures",
     "country": "Australia",
     "lat": -33.8886,
     "lng": 151.1873,
     "languages": [
-      "multiple Pacific and Southeast Asian languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple Pacific and Southeast Asian languages",
     "themes": [
       "language documentation",
       "oral tradition",
@@ -2188,10 +2544,14 @@
       "aiatsis-collection",
       "ailla-archive",
       "elar-soas"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "australian-queer-archives",
+    "mv_id": "MV-000086",
     "title": "Australian Queer Archives",
     "archive": "Australian Queer Archives (AQuA)",
     "country": "Australia",
@@ -2213,10 +2573,14 @@
     "related_ids": [
       "gala-queer-archive",
       "one-archives-usc"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "gala-queer-archive",
+    "mv_id": "MV-000087",
     "title": "GALA Queer Archive",
     "archive": "GALA Queer Archive",
     "country": "South Africa",
@@ -2242,10 +2606,14 @@
       "australian-queer-archives",
       "one-archives-usc",
       "saha-oral-history"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "one-archives-usc",
+    "mv_id": "MV-000088",
     "title": "ONE Archives at the USC Libraries",
     "archive": "University of Southern California Libraries",
     "country": "United States",
@@ -2272,10 +2640,14 @@
       "lesbian-herstory-archives",
       "preserve-the-baltimore-uprising",
       "the-outwords-archive"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "lesbian-herstory-archives",
+    "mv_id": "MV-000089",
     "title": "Lesbian Herstory Archives",
     "archive": "Lesbian Herstory Archives",
     "country": "United States",
@@ -2298,10 +2670,14 @@
       "activist-women-s-voices",
       "glbt-historical-society",
       "one-archives-usc"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "glbt-historical-society",
+    "mv_id": "MV-000090",
     "title": "GLBT Historical Society Archives",
     "archive": "GLBT Historical Society",
     "country": "United States",
@@ -2323,10 +2699,14 @@
     "related_ids": [
       "lesbian-herstory-archives",
       "one-archives-usc"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "black-cultural-archives-windrush",
+    "mv_id": "MV-000091",
     "title": "Windrush Generation Oral Histories",
     "archive": "Black Cultural Archives",
     "country": "United Kingdom",
@@ -2348,10 +2728,14 @@
     "related_ids": [
       "domid-migration-museum",
       "saada-archive"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "walter-reuther-library",
+    "mv_id": "MV-000092",
     "title": "Walter P. Reuther Library Oral History Collection",
     "archive": "Wayne State University",
     "country": "United States",
@@ -2374,10 +2758,14 @@
     "related_ids": [
       "sohp-unc",
       "warwick-modern-records-centre"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "sophia-smith-voices-of-feminism",
+    "mv_id": "MV-000093",
     "title": "Voices of Feminism Oral History Project",
     "archive": "Sophia Smith Collection, Smith College",
     "country": "United States",
@@ -2400,10 +2788,14 @@
     "related_ids": [
       "jewish-womens-archive-weaving-words",
       "sparrow-india"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "jewish-womens-archive-weaving-words",
+    "mv_id": "MV-000094",
     "title": "Weaving Women's Words",
     "archive": "Jewish Women's Archive",
     "country": "United States",
@@ -2426,18 +2818,23 @@
     "related_ids": [
       "activist-women-s-voices",
       "sophia-smith-voices-of-feminism"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "association-cultural-equity-lomax",
+    "mv_id": "MV-000095",
     "title": "Alan Lomax Archive / Global Jukebox",
     "archive": "Association for Cultural Equity",
     "country": "United States",
     "lat": 40.7685,
     "lng": -73.9645,
     "languages": [
-      "multiple world languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple world languages",
     "themes": [
       "oral tradition",
       "folklife",
@@ -2455,10 +2852,14 @@
       "ralph-rinzler-folklife-archives",
       "slave-narratives-a-folk-history-of-slavery-in-the",
       "tobar-an-dualchais"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "the-historymakers",
+    "mv_id": "MV-000096",
     "title": "The HistoryMakers Digital Archive",
     "archive": "The HistoryMakers",
     "country": "United States",
@@ -2480,10 +2881,14 @@
     "related_ids": [
       "densho-digital-repository",
       "storycorps-national-archive"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "sohp-unc",
+    "mv_id": "MV-000097",
     "title": "Southern Oral History Program",
     "archive": "University of North Carolina at Chapel Hill",
     "country": "United States",
@@ -2504,18 +2909,23 @@
     "citation": "Southern Oral History Program, University of North Carolina at Chapel Hill. Retrieved from https://sohp.org/.",
     "related_ids": [
       "walter-reuther-library"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "elar-soas",
+    "mv_id": "MV-000098",
     "title": "Endangered Languages Archive (ELAR)",
     "archive": "SOAS University of London",
     "country": "United Kingdom",
     "lat": 51.5222,
     "lng": -0.13,
     "languages": [
-      "multiple endangered languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple endangered languages",
     "themes": [
       "language documentation",
       "oral tradition",
@@ -2531,18 +2941,23 @@
       "endangered-archives-programme",
       "paradisec-archive",
       "tla-dobes"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "ailla-archive",
+    "mv_id": "MV-000099",
     "title": "Archive of the Indigenous Languages of Latin America (AILLA)",
     "archive": "University of Texas at Austin",
     "country": "United States",
     "lat": 30.2849,
     "lng": -97.7341,
     "languages": [
-      "multiple Indigenous Latin American languages"
+      "Indigenous languages of the Americas"
     ],
+    "language_note": "multiple Indigenous Latin American languages",
     "themes": [
       "language documentation",
       "indigenous history",
@@ -2557,18 +2972,23 @@
       "elar-soas",
       "paradisec-archive",
       "tla-dobes"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "tla-dobes",
+    "mv_id": "MV-000100",
     "title": "The Language Archive / DoBeS",
     "archive": "Max Planck Institute for Psycholinguistics",
     "country": "Netherlands",
     "lat": 51.8126,
     "lng": 5.8372,
     "languages": [
-      "multiple endangered languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple endangered languages",
     "themes": [
       "language documentation",
       "oral tradition",
@@ -2582,18 +3002,23 @@
     "related_ids": [
       "ailla-archive",
       "elar-soas"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "alaska-native-language-archive",
+    "mv_id": "MV-000101",
     "title": "Michael E. Krauss Alaska Native Language Archive",
     "archive": "University of Alaska Fairbanks",
     "country": "United States",
     "lat": 64.857,
     "lng": -147.834,
     "languages": [
-      "multiple Alaska Native languages"
+      "Indigenous languages of the Americas"
     ],
+    "language_note": "multiple Alaska Native languages",
     "themes": [
       "language documentation",
       "indigenous history",
@@ -2606,10 +3031,14 @@
     "citation": "University of Alaska Fairbanks. Michael E. Krauss Alaska Native Language Archive. Retrieved from https://www.uaf.edu/anla/.",
     "related_ids": [
       "project-jukebox-alaska"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "project-jukebox-alaska",
+    "mv_id": "MV-000102",
     "title": "Project Jukebox",
     "archive": "University of Alaska Fairbanks Oral History Program",
     "country": "United States",
@@ -2617,8 +3046,9 @@
     "lng": -147.834,
     "languages": [
       "English",
-      "multiple Alaska Native languages"
+      "Indigenous languages of the Americas"
     ],
+    "language_note": "multiple Alaska Native languages",
     "themes": [
       "oral tradition",
       "indigenous history",
@@ -2632,10 +3062,14 @@
     "access_notes": "Freely accessible online.",
     "related_ids": [
       "alaska-native-language-archive"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "them-days-archives-labrador",
+    "mv_id": "MV-000103",
     "title": "Them Days Archives",
     "archive": "Them Days",
     "country": "Canada",
@@ -2655,10 +3089,14 @@
     "decade_end": null,
     "summary": "Growing out of a quarterly magazine published since 1975, the Them Days Archives in Happy Valley-Goose Bay has since 1984 gathered diaries, letters, and audio and video recordings documenting Labrador history and culture across Inuit, Innu, and settler communities.",
     "url": "https://www.themdays.com/",
-    "citation": "Them Days. Archives. Retrieved from https://www.themdays.com/."
+    "citation": "Them Days. Archives. Retrieved from https://www.themdays.com/.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "nmai-archive-center",
+    "mv_id": "MV-000104",
     "title": "Archive Center",
     "archive": "National Museum of the American Indian, Smithsonian Institution",
     "country": "United States",
@@ -2666,8 +3104,9 @@
     "lng": -76.9314,
     "languages": [
       "English",
-      "multiple Indigenous languages of the Americas"
+      "Indigenous languages of the Americas"
     ],
+    "language_note": "multiple Indigenous languages of the Americas",
     "themes": [
       "indigenous history",
       "oral tradition",
@@ -2683,10 +3122,14 @@
       "activist-women-s-voices",
       "doris-duke-utah-oral-history",
       "slave-narratives-a-folk-history-of-slavery-in-the"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "doris-duke-utah-oral-history",
+    "mv_id": "MV-000105",
     "title": "Doris Duke American Indian Oral History Project",
     "archive": "University of Utah, J. Willard Marriott Library",
     "country": "United States",
@@ -2694,8 +3137,9 @@
     "lng": -111.8421,
     "languages": [
       "English",
-      "multiple Indigenous languages"
+      "Indigenous languages of the Americas"
     ],
+    "language_note": "multiple Indigenous languages",
     "themes": [
       "indigenous history",
       "oral tradition",
@@ -2709,10 +3153,14 @@
     "related_ids": [
       "nctr-residential-schools",
       "nmai-archive-center"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "angel-island-immigration-foundation",
+    "mv_id": "MV-000106",
     "title": "Immigrant Voices Oral History Collection",
     "archive": "Angel Island Immigration Station Foundation",
     "country": "United States",
@@ -2721,8 +3169,9 @@
     "languages": [
       "English",
       "Chinese",
-      "multiple immigrant languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple immigrant languages",
     "themes": [
       "migration",
       "displacement",
@@ -2736,10 +3185,14 @@
     "related_ids": [
       "bracero-history-archive",
       "saada-archive"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "saada-archive",
+    "mv_id": "MV-000107",
     "title": "South Asian American Digital Archive (SAADA)",
     "archive": "South Asian American Digital Archive",
     "country": "United States",
@@ -2747,8 +3200,9 @@
     "lng": -75.1652,
     "languages": [
       "English",
-      "multiple South Asian languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple South Asian languages",
     "themes": [
       "migration",
       "everyday life",
@@ -2764,10 +3218,14 @@
       "angel-island-immigration-foundation",
       "black-cultural-archives-windrush",
       "moise-a-khayrallah-center-for-lebanese-diaspora"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "bracero-history-archive",
+    "mv_id": "MV-000108",
     "title": "Bracero History Archive",
     "archive": "Institute of Oral History, University of Texas at El Paso",
     "country": "United States",
@@ -2792,10 +3250,14 @@
       "angel-island-immigration-foundation",
       "chinese-railroad-workers-stanford",
       "fanhs-national-pinoy-archives"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "domid-migration-museum",
+    "mv_id": "MV-000109",
     "title": "Documentation Center and Museum of Migration in Germany (DOMiD)",
     "archive": "DOMiD e.V.",
     "country": "Germany",
@@ -2818,10 +3280,14 @@
     "related_ids": [
       "black-cultural-archives-windrush",
       "odysseo-generiques-oral-archives"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "cuban-heritage-collection-miami",
+    "mv_id": "MV-000110",
     "title": "Cuban Heritage Collection Oral Histories",
     "archive": "University of Miami Libraries",
     "country": "United States",
@@ -2840,10 +3306,14 @@
     "decade_end": null,
     "summary": "Since 2008, the University of Miami's Cuban Heritage Collection has recorded oral histories of Cuban exiles and dissidents, including the Luis J. Botifoll Oral History Project and interviews with 2003 Black Spring political prisoners.",
     "url": "https://www.library.miami.edu/oral-histories.html",
-    "citation": "University of Miami Libraries. Cuban Heritage Collection Oral Histories. Retrieved from https://www.library.miami.edu/oral-histories.html."
+    "citation": "University of Miami Libraries. Cuban Heritage Collection Oral Histories. Retrieved from https://www.library.miami.edu/oral-histories.html.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "viet-stories-uci",
+    "mv_id": "MV-000111",
     "title": "Viet Stories: Vietnamese American Oral History Project",
     "archive": "University of California, Irvine",
     "country": "United States",
@@ -2865,10 +3335,14 @@
     "citation": "University of California, Irvine. Viet Stories: Vietnamese American Oral History Project. Retrieved from https://sites.uci.edu/vaohp/.",
     "related_ids": [
       "hmong-archives-stpaul"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "hmong-archives-stpaul",
+    "mv_id": "MV-000112",
     "title": "Hmong Archives",
     "archive": "Hmong Archives",
     "country": "United States",
@@ -2890,10 +3364,14 @@
     "citation": "Hmong Archives. Retrieved from https://hmongarchives.org/.",
     "related_ids": [
       "viet-stories-uci"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "immigration-history-research-center-umn",
+    "mv_id": "MV-000113",
     "title": "Immigration History Research Center Archives",
     "archive": "University of Minnesota",
     "country": "United States",
@@ -2901,8 +3379,9 @@
     "lng": -93.2277,
     "languages": [
       "English",
-      "multiple immigrant languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple immigrant languages",
     "themes": [
       "migration",
       "everyday life",
@@ -2915,10 +3394,14 @@
     "citation": "University of Minnesota. Immigration History Research Center Archives. Retrieved from https://www.lib.umn.edu/collections/special/ihrca.",
     "related_ids": [
       "moise-a-khayrallah-center-for-lebanese-diaspora"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "fortunoff-video-archive",
+    "mv_id": "MV-000114",
     "title": "Fortunoff Video Archive for Holocaust Testimonies",
     "archive": "Yale University Library",
     "country": "United States",
@@ -2926,8 +3409,9 @@
     "lng": -72.928,
     "languages": [
       "English",
-      "multiple languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple languages",
     "themes": [
       "Holocaust",
       "genocide",
@@ -2944,10 +3428,14 @@
       "iwm-sound-archive",
       "usc-shoah-foundation-vha",
       "yad-vashem-testimonies"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "national-wwii-museum-oral-history",
+    "mv_id": "MV-000115",
     "title": "Oral History Collection",
     "archive": "The National WWII Museum",
     "country": "United States",
@@ -2968,10 +3456,14 @@
     "related_ids": [
       "iwm-sound-archive",
       "veterans-history-project"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "911-memorial-museum-oral-history",
+    "mv_id": "MV-000116",
     "title": "Oral Histories",
     "archive": "National September 11 Memorial & Museum",
     "country": "United States",
@@ -2991,13 +3483,17 @@
     "url": "https://www.911memorial.org/learn/resources/oral-histories",
     "citation": "National September 11 Memorial & Museum. Oral Histories. Retrieved from https://www.911memorial.org/learn/resources/oral-histories.",
     "access_notes": "Selected audio freely streamable online.",
-    "preview_url": "https://www.911memorial.org/learn/resources/oral-histories",
     "related_ids": [
       "storycorps-national-archive"
-    ]
+    ],
+    "preview_url": "https://www.911memorial.org/learn/resources/oral-histories",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "hurricane-digital-memory-bank",
+    "mv_id": "MV-000117",
     "title": "Hurricane Digital Memory Bank",
     "archive": "Roy Rosenzweig Center for History and New Media, George Mason University",
     "country": "United States",
@@ -3020,10 +3516,14 @@
     "access_notes": "Freely accessible online.",
     "related_ids": [
       "michinoku-shinrokuden"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "armenian-film-foundation",
+    "mv_id": "MV-000118",
     "title": "Armenian Film Foundation Genocide Testimony Collection",
     "archive": "Armenian Film Foundation",
     "country": "United States",
@@ -3032,8 +3532,9 @@
     "languages": [
       "Armenian",
       "English",
-      "multiple languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple languages",
     "themes": [
       "genocide",
       "Holocaust",
@@ -3048,10 +3549,14 @@
       "freedom-collection",
       "usc-shoah-foundation-vha",
       "yad-vashem-testimonies"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "david-boder-voices-of-holocaust",
+    "mv_id": "MV-000119",
     "title": "Voices of the Holocaust",
     "archive": "Illinois Institute of Technology",
     "country": "United States",
@@ -3061,8 +3566,9 @@
       "Yiddish",
       "German",
       "Polish",
-      "multiple languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple languages",
     "themes": [
       "Holocaust",
       "genocide",
@@ -3077,18 +3583,23 @@
     "related_ids": [
       "fortunoff-video-archive",
       "yad-vashem-testimonies"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "endangered-archives-programme",
+    "mv_id": "MV-000120",
     "title": "Endangered Archives Programme",
     "archive": "British Library",
     "country": "United Kingdom",
     "lat": 51.5299,
     "lng": -0.1276,
     "languages": [
-      "multiple world languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple world languages",
     "themes": [
       "language documentation",
       "oral tradition",
@@ -3103,10 +3614,14 @@
     "related_ids": [
       "elar-soas",
       "ibadan-african-studies-audiovisual"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "japanese-american-national-museum",
+    "mv_id": "MV-000121",
     "title": "Hirasaki National Resource Center Oral Histories",
     "archive": "Japanese American National Museum",
     "country": "United States",
@@ -3129,10 +3644,14 @@
     "related_ids": [
       "densho-digital-repository",
       "fanhs-national-pinoy-archives"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "fanhs-national-pinoy-archives",
+    "mv_id": "MV-000122",
     "title": "National Pinoy Archives",
     "archive": "Filipino American National Historical Society",
     "country": "United States",
@@ -3156,10 +3675,14 @@
     "related_ids": [
       "bracero-history-archive",
       "japanese-american-national-museum"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "gallaudet-university-archives",
+    "mv_id": "MV-000123",
     "title": "Gallaudet University Archives",
     "archive": "Gallaudet University",
     "country": "United States",
@@ -3181,10 +3704,14 @@
     "citation": "Gallaudet University. Archives. Retrieved from https://gallaudet.edu/archives/.",
     "related_ids": [
       "roho-disability-rights"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "roho-disability-rights",
+    "mv_id": "MV-000124",
     "title": "Disability Rights and Independent Living Movement Oral History Project",
     "archive": "Bancroft Library, University of California, Berkeley",
     "country": "United States",
@@ -3205,10 +3732,14 @@
     "citation": "Bancroft Library, University of California, Berkeley. Disability Rights and Independent Living Movement Oral History Project. Retrieved from https://www.lib.berkeley.edu/visit/bancroft/oral-history-center/projects/disability-rights.",
     "related_ids": [
       "gallaudet-university-archives"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "chinese-railroad-workers-stanford",
+    "mv_id": "MV-000125",
     "title": "Chinese Railroad Workers in North America Project",
     "archive": "Stanford University",
     "country": "United States",
@@ -3232,10 +3763,14 @@
     "access_notes": "Project concluded in 2020; site maintained as a public research archive.",
     "related_ids": [
       "bracero-history-archive"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "khmer-legacies",
+    "mv_id": "MV-000126",
     "title": "Khmer Legacies",
     "archive": "Khmer Legacies",
     "country": "Cambodia",
@@ -3258,10 +3793,14 @@
     "related_ids": [
       "dccam-oral-history",
       "genocide-archive-rwanda"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "museo-palabra-imagen-el-salvador",
+    "mv_id": "MV-000127",
     "title": "Museo de la Palabra y la Imagen",
     "archive": "Museo de la Palabra y la Imagen (MUPI)",
     "country": "El Salvador",
@@ -3271,7 +3810,7 @@
       "Spanish"
     ],
     "themes": [
-      "armed conflict",
+      "war and conflict",
       "human rights",
       "memory and reconciliation"
     ],
@@ -3284,10 +3823,14 @@
       "cnmh-colombia",
       "lugar-de-la-memoria-peru",
       "memoria-abierta-argentina"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "lugar-de-la-memoria-peru",
+    "mv_id": "MV-000128",
     "title": "Centro de Documentación e Investigación (CVR Testimonies)",
     "archive": "Lugar de la Memoria, la Tolerancia y la Inclusión Social (LUM)",
     "country": "Peru",
@@ -3298,7 +3841,7 @@
       "Quechua"
     ],
     "themes": [
-      "armed conflict",
+      "war and conflict",
       "human rights",
       "memory and reconciliation"
     ],
@@ -3311,10 +3854,14 @@
       "cnmh-colombia",
       "museo-memoria-chile",
       "museo-palabra-imagen-el-salvador"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "museo-memoria-chile",
+    "mv_id": "MV-000129",
     "title": "Archivo Oral",
     "archive": "Museo de la Memoria y los Derechos Humanos",
     "country": "Chile",
@@ -3324,7 +3871,7 @@
       "Spanish"
     ],
     "themes": [
-      "armed conflict",
+      "war and conflict",
       "human rights",
       "memory and reconciliation"
     ],
@@ -3336,10 +3883,14 @@
     "related_ids": [
       "lugar-de-la-memoria-peru",
       "memoria-abierta-argentina"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "cavr-chega-timor-leste",
+    "mv_id": "MV-000130",
     "title": "Chega! CAVR Truth Commission Testimonies",
     "archive": "Comissão de Acolhimento, Verdade e Reconciliação (CAVR)",
     "country": "Timor-Leste",
@@ -3351,7 +3902,7 @@
       "Indonesian"
     ],
     "themes": [
-      "armed conflict",
+      "war and conflict",
       "human rights",
       "memory and reconciliation"
     ],
@@ -3359,10 +3910,14 @@
     "decade_end": 2005,
     "summary": "Timor-Leste's Commission for Reception, Truth and Reconciliation operated from 2002 to 2005, relying heavily on eyewitness testimony to document mass killing and displacement during the 1974-1999 Indonesian occupation, published in its final report Chega!.",
     "url": "https://chegareport.org/",
-    "citation": "Comissão de Acolhimento, Verdade e Reconciliação (CAVR). Chega! Final Report. Retrieved from https://chegareport.org/."
+    "citation": "Comissão de Acolhimento, Verdade e Reconciliação (CAVR). Chega! Final Report. Retrieved from https://chegareport.org/.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "cpdoc-fgv-brazil",
+    "mv_id": "MV-000131",
     "title": "Programa de Historia Oral (Oral History Program)",
     "archive": "CPDOC, Fundação Getulio Vargas",
     "country": "Brazil",
@@ -3383,10 +3938,14 @@
     "citation": "CPDOC, Fundação Getulio Vargas. Programa de Historia Oral. Retrieved from https://cpdoc.fgv.br/.",
     "related_ids": [
       "museu-da-pessoa"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "jamaica-memory-bank",
+    "mv_id": "MV-000132",
     "title": "Jamaica Memory Bank",
     "archive": "African Caribbean Institute of Jamaica",
     "country": "Jamaica",
@@ -3405,10 +3964,14 @@
     "decade_end": null,
     "summary": "Begun as an independent agency in 1980 and integrated into the African Caribbean Institute of Jamaica in 1990, the Jamaica Memory Bank holds over 2,000 sound recordings and 800 videos of storytelling, folk religion, craft, and oral history from across Jamaica's parishes.",
     "url": "https://acij-ioj.org.jm/",
-    "citation": "African Caribbean Institute of Jamaica. Jamaica Memory Bank. Retrieved from https://acij-ioj.org.jm/."
+    "citation": "African Caribbean Institute of Jamaica. Jamaica Memory Bank. Retrieved from https://acij-ioj.org.jm/.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "kazakhstan-central-state-sound-archive",
+    "mv_id": "MV-000133",
     "title": "Central State Archive of Film, Photo Documents and Sound Recordings of the Republic of Kazakhstan",
     "archive": "Central State Archive of Film, Photo Documents and Sound Recordings of the Republic of Kazakhstan",
     "country": "Kazakhstan",
@@ -3426,10 +3989,14 @@
     "decade_end": null,
     "summary": "Kazakhstan's national audiovisual archive, founded in 1943 and based in Almaty, holds roughly 300,000 items of film, photo and sound-recording documents covering the country's Soviet-era and post-independence history.",
     "url": "http://kfdz.kz/",
-    "citation": "Central State Archive of Film, Photo Documents and Sound Recordings of the Republic of Kazakhstan. Retrieved from http://kfdz.kz/."
+    "citation": "Central State Archive of Film, Photo Documents and Sound Recordings of the Republic of Kazakhstan. Retrieved from http://kfdz.kz/.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "uzbekistan-institute-language-literature-folklore",
+    "mv_id": "MV-000134",
     "title": "Folklore Archive of the Institute of Uzbek Language, Literature and Folklore",
     "archive": "Institute of Uzbek Language, Literature and Folklore, Academy of Sciences of Uzbekistan",
     "country": "Uzbekistan",
@@ -3451,10 +4018,14 @@
     "citation": "Institute of Uzbek Language, Literature and Folklore, Academy of Sciences of Uzbekistan. Retrieved from https://tai.academy.uz/en.",
     "related_ids": [
       "kyrgyzstan-manas-epic-trilogy"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "kyrgyzstan-manas-epic-trilogy",
+    "mv_id": "MV-000135",
     "title": "Kyrgyz Epic Trilogy: Manas, Semetey, Seytek",
     "archive": "UNESCO Intangible Cultural Heritage / Kyrgyz manaschi (epic-teller) tradition",
     "country": "Kyrgyzstan",
@@ -3475,10 +4046,14 @@
     "citation": "UNESCO Intangible Cultural Heritage. Kyrgyz epic trilogy: Manas, Semetey, Seytek. Retrieved from https://ich.unesco.org/en/RL/kyrgyz-epic-trilogy-manas-semetey-seytek-00876.",
     "related_ids": [
       "uzbekistan-institute-language-literature-folklore"
-    ]
+    ],
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "tajikistan-rudaki-institute-folklore-archive",
+    "mv_id": "MV-000136",
     "title": "Tajik Folklore Archive of the Rudaki Institute of Language and Literature",
     "archive": "Rudaki Institute of Language and Literature, Academy of Sciences of Tajikistan",
     "country": "Tajikistan",
@@ -3496,10 +4071,14 @@
     "decade_end": 2003,
     "summary": "The Rudaki Institute in Dushanbe, founded in 1932, holds one of the few surviving repositories of Tajik expressive culture: a folklore archive of notebooks, notecards and loose-leaf papers from Soviet-era and post-Soviet fieldwork expeditions, collected between 1923 and 2003 and written in Arabic, Latin and Cyrillic script.",
     "url": "https://izar.tj/en/department-folklore",
-    "citation": "Rudaki Institute of Language and Literature, Academy of Sciences of Tajikistan. Department of Folklore. Retrieved from https://izar.tj/en/department-folklore."
+    "citation": "Rudaki Institute of Language and Literature, Academy of Sciences of Tajikistan. Department of Folklore. Retrieved from https://izar.tj/en/department-folklore.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "turkey-trt-folk-music-archive",
+    "mv_id": "MV-000137",
     "title": "TRT Turkish Folk Music Archive",
     "archive": "Turkish Radio and Television Corporation (TRT)",
     "country": "Turkey",
@@ -3517,10 +4096,14 @@
     "decade_end": null,
     "summary": "TRT's folk music archive comprises more than 6,500 field-collected recordings and notations of Turkish folk music, built on collecting expeditions beginning with the Istanbul Municipal Conservatory (1926-1929) and continued by the Ankara State Conservatory (1936-1952). Notation and recording holdings are made available through TRT's Nota Kutuphanesi (Notation Library) platform.",
     "url": "https://nota.trt.net.tr/Nota-Kutuphanesi",
-    "citation": "Turkish Radio and Television Corporation (TRT). Nota Kutuphanesi. Retrieved from https://nota.trt.net.tr/Nota-Kutuphanesi."
+    "citation": "Turkish Radio and Television Corporation (TRT). Nota Kutuphanesi. Retrieved from https://nota.trt.net.tr/Nota-Kutuphanesi.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "afghanistan-hoover-oral-history-project",
+    "mv_id": "MV-000138",
     "title": "HART: Hoover Afghanistan Oral History Project",
     "archive": "Hoover Institution Library & Archives, Stanford University",
     "country": "Afghanistan",
@@ -3540,10 +4123,14 @@
     "decade_end": null,
     "summary": "Since 2022, oral historian Halima Kazem has recorded more than 450 hours of interviews with Afghans who fled the country following the August 2021 Taliban takeover and the collapse of the Afghan government. The interviews are held in the Hoover Institution Library & Archives' digital repository.",
     "url": "https://digitalcollections2.hoover.org/collection/3249451/hart-hoover-afghanistan-oral-history-project",
-    "citation": "Hoover Institution Library & Archives, Stanford University. HART: Hoover Afghanistan Oral History Project. Retrieved from https://digitalcollections2.hoover.org/collection/3249451/hart-hoover-afghanistan-oral-history-project."
+    "citation": "Hoover Institution Library & Archives, Stanford University. HART: Hoover Afghanistan Oral History Project. Retrieved from https://digitalcollections2.hoover.org/collection/3249451/hart-hoover-afghanistan-oral-history-project.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "iraq-mosul-jewish-community-testimonies",
+    "mv_id": "MV-000139",
     "title": "Intangible Heritage Collection of Testimonies on the Jewish Community of Mosul",
     "archive": "ALIPH Foundation (International Alliance for the Protection of Heritage in Conflict Areas)",
     "country": "Iraq",
@@ -3561,10 +4148,14 @@
     "decade_end": 2022,
     "summary": "Between 2021 and 2022, an ALIPH Foundation-supported project recorded seventeen video interviews with individuals connected to Mosul's historic Jewish community, whose members had largely left Iraq by the mid-20th century, alongside digitization of private family archives and a community journal.",
     "url": "https://www.aliph-foundation.org/en/projects/intangible-heritage-collection-of-testimonies-on-the-jewish-community-of-mosul",
-    "citation": "ALIPH Foundation. Intangible Heritage Collection of Testimonies on the Jewish Community of Mosul. Retrieved from https://www.aliph-foundation.org/en/projects/intangible-heritage-collection-of-testimonies-on-the-jewish-community-of-mosul."
+    "citation": "ALIPH Foundation. Intangible Heritage Collection of Testimonies on the Jewish Community of Mosul. Retrieved from https://www.aliph-foundation.org/en/projects/intangible-heritage-collection-of-testimonies-on-the-jewish-community-of-mosul.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "saudi-arabia-darah-oral-history-center",
+    "mv_id": "MV-000140",
     "title": "Darah Oral History Center",
     "archive": "King Abdulaziz Foundation for Research and Archives (Darah)",
     "country": "Saudi Arabia",
@@ -3582,10 +4173,14 @@
     "decade_end": null,
     "summary": "Established in 1995 by the King Abdulaziz Foundation for Research and Archives (Darah) in Riyadh, this was the first specialized oral history center in Saudi Arabia. It has recorded thousands of audio and video interviews with storytellers, elders and narrators from across the Kingdom for use in historical research.",
     "url": "https://www.darah.org.sa/",
-    "citation": "King Abdulaziz Foundation for Research and Archives (Darah). Retrieved from https://www.darah.org.sa/."
+    "citation": "King Abdulaziz Foundation for Research and Archives (Darah). Retrieved from https://www.darah.org.sa/.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "uae-national-archives-oral-history-programme",
+    "mv_id": "MV-000141",
     "title": "Oral History Programme",
     "archive": "National Library and Archives, United Arab Emirates",
     "country": "United Arab Emirates",
@@ -3603,10 +4198,14 @@
     "decade_end": null,
     "summary": "Since 2008, the UAE's National Library and Archives has recorded more than 800 audio-visual interviews with elderly Emirati narrators and eyewitnesses, documenting local dialects, folk songs and the lifestyles of earlier generations for the national archival record.",
     "url": "https://www.nla.ae/en/our-history/oral-history/overview/overview/",
-    "citation": "National Library and Archives, United Arab Emirates. Oral History Overview. Retrieved from https://www.nla.ae/en/our-history/oral-history/overview/overview/."
+    "citation": "National Library and Archives, United Arab Emirates. Oral History Overview. Retrieved from https://www.nla.ae/en/our-history/oral-history/overview/overview/.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "kuwait-auk-oral-history-documentation-project",
+    "mv_id": "MV-000142",
     "title": "Oral History and Documentation Project (OHDP)",
     "archive": "American University of Kuwait Library",
     "country": "Kuwait",
@@ -3625,11 +4224,15 @@
     "decade_end": null,
     "summary": "Launched in 2020 by the American University of Kuwait Library in collaboration with KIPCO, the Oral History and Documentation Project is Kuwait's first comprehensive program actively recording life-history interviews across a range of topics to preserve the voices of Kuwaiti and non-Kuwaiti residents. The library was among the first in the Arab world to adopt the OHMS oral-history indexing application, including Arabic-language support.",
     "url": "https://oralhistory.auk.edu.kw",
+    "citation": "American University of Kuwait Library. Oral History and Documentation Project. Retrieved from https://oralhistory.auk.edu.kw.",
     "access_notes": "Selected life-history interviews are published and browsable via the project's own online platform.",
-    "citation": "American University of Kuwait Library. Oral History and Documentation Project. Retrieved from https://oralhistory.auk.edu.kw."
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "sudan-folklore-traditional-music-archives",
+    "mv_id": "MV-000143",
     "title": "Folklore and Traditional Music Archives",
     "archive": "Institute of African and Asian Studies, University of Khartoum",
     "country": "Sudan",
@@ -3647,10 +4250,14 @@
     "decade_end": null,
     "summary": "The Institute of African and Asian Studies at the University of Khartoum holds the Folklore and Traditional Music Archives: more than 3,000 audio recordings and photographs of traditional Sudanese music and folklore gathered since 1963 through successive research initiatives. UNESCO's Intangible Cultural Heritage Fund has supported an action plan for digitizing and preserving the collection.",
     "url": "https://ich.unesco.org/en/news/digitization-of-sudan-folklore-and-traditional-music-archives-00046",
-    "citation": "UNESCO Intangible Cultural Heritage. Digitization of Sudan folklore and traditional music archives. Retrieved from https://ich.unesco.org/en/news/digitization-of-sudan-folklore-and-traditional-music-archives-00046."
+    "citation": "UNESCO Intangible Cultural Heritage. Digitization of Sudan folklore and traditional music archives. Retrieved from https://ich.unesco.org/en/news/digitization-of-sudan-folklore-and-traditional-music-archives-00046.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "tunisia-cmam-phonotheque-nationale",
+    "mv_id": "MV-000144",
     "title": "Phonothèque Nationale de Tunisie (National Sound Archive)",
     "archive": "Centre des Musiques Arabes et Méditerranéennes (CMAM), Ennejma Ezzahra",
     "country": "Tunisia",
@@ -3669,10 +4276,14 @@
     "decade_end": null,
     "summary": "The Phonothèque Nationale de Tunisie, run by the Centre des Musiques Arabes et Méditerranéennes at the Ennejma Ezzahra palace near Tunis, holds Tunisia's historical phonographic heritage: 78/80/45/33rpm discs and field recordings dating back to 1907, organized into roughly thirty corpora and made accessible online through the Telemeta audio platform.",
     "url": "https://phonotheque.cmam.tn/",
-    "access_notes": "Many collections are streamable online via the Telemeta-based Phonothèque platform; other material requires an in-person consultation request to the Center."
+    "access_notes": "Many collections are streamable online via the Telemeta-based Phonothèque platform; other material requires an in-person consultation request to the Center.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "botswana-national-archives-oral-history",
+    "mv_id": "MV-000145",
     "title": "Oral History Collection",
     "archive": "Botswana National Archives and Records Services (BNARS)",
     "country": "Botswana",
@@ -3691,10 +4302,14 @@
     "decade_end": null,
     "summary": "BNARS, a department under Botswana's Ministry of Youth, Sport and Culture, has collected oral history recordings since 1982 documenting the histories of Botswana's ethnic groups, villages and notable individuals, held alongside its documentary archival holdings in Gaborone.",
     "url": "https://www.gov.bw/culture/national-archives-research-enquiry",
-    "access_notes": "In-person research-room access at the National Archives in Gaborone; researchers submit an enquiry form in advance."
+    "access_notes": "In-person research-room access at the National Archives in Gaborone; researchers submit an enquiry form in advance.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "namibia-national-archives-aacrls-oral-history",
+    "mv_id": "MV-000146",
     "title": "AACRLS Oral History Collection",
     "archive": "National Archives of Namibia",
     "country": "Namibia",
@@ -3712,10 +4327,14 @@
     "decade_start": 2001,
     "decade_end": 2010,
     "summary": "The National Archives of Namibia's Archives of Anti-Colonial Resistance and the Liberation Struggle (AACRLS) programme, jointly funded by Namibia and Germany from 2001 to 2010, expanded the Archives' oral history holdings from a small base to roughly 1,500 recorded interviews with participants in Namibia's liberation struggle.",
-    "url": "https://nan.gov.na/finding-aids"
+    "url": "https://nan.gov.na/finding-aids",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "mozambique-arquivo-historico-oral-history",
+    "mv_id": "MV-000147",
     "title": "Independence-War and Rural Life Oral History Collection",
     "archive": "Arquivo Histórico de Moçambique, Eduardo Mondlane University",
     "country": "Mozambique",
@@ -3732,10 +4351,14 @@
     "decade_start": 1979,
     "decade_end": 1984,
     "summary": "The Arquivo Histórico de Moçambique, overseen by Eduardo Mondlane University in Maputo since 1976, holds several hundred cassette-tape interviews and storytelling sessions recorded between 1979 and 1984 in Mozambique's northern provinces, documenting the war of independence, rural social life, rituals and local histories.",
-    "url": "https://ahm.ghost.uem.mz/"
+    "url": "https://ahm.ghost.uem.mz/",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "angola-arquivo-nacional-oral-tradition",
+    "mv_id": "MV-000148",
     "title": "Oral Tradition Sound Collection",
     "archive": "Arquivo Nacional de Angola",
     "country": "Angola",
@@ -3753,10 +4376,14 @@
     "decade_start": 1960,
     "decade_end": 1979,
     "summary": "Angola's National Archive holds magnetic-tape recordings made during the 1960s and 1970s in the Benguela, Huambo, Bié and Luanda regions, including interviews with traditional leaders (sobas and sekulos), oral narratives, songs and elders' memories, some of it recovered after an earlier period of neglect and now cared for by the Archive's oral-archive department.",
-    "url": "https://www.ana.gov.ao/"
+    "url": "https://www.ana.gov.ao/",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "drc-rmca-ethnomusicology-sound-archive",
+    "mv_id": "MV-000149",
     "title": "Ethnomusicological Sound Archive (Congo Collections)",
     "archive": "Royal Museum for Central Africa (Tervuren, Belgium)",
     "country": "Democratic Republic of the Congo",
@@ -3778,10 +4405,14 @@
     "decade_end": null,
     "summary": "The Royal Museum for Central Africa's ethnomusicology department holds roughly 3,000 hours of sound recordings of traditional music from Central Africa, with a strong focus on the Congo and Rwanda, spanning 1910 Edison-cylinder recordings made by Armand Hutereau in Uele province through later tape, cassette and digital field recordings. A digitization project (DEKKMMA), run with the Université Libre de Bruxelles and Ghent University, is making the collection more widely accessible.",
     "url": "https://www.africamuseum.be/en/research/discover/collections_management/archives_and_documentation/archives",
-    "access_notes": "Physically held in Tervuren, Belgium, as the historical repository for this Central African material; access is by request to the museum's ethnomusicology department."
+    "access_notes": "Physically held in Tervuren, Belgium, as the historical repository for this Central African material; access is by request to the museum's ethnomusicology department.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "madagascar-phonogrammarchiv-collection",
+    "mv_id": "MV-000150",
     "title": "Madagascar Sound Collection",
     "archive": "Phonogrammarchiv, Austrian Academy of Sciences",
     "country": "Madagascar",
@@ -3799,11 +4430,15 @@
     "decade_end": 1992,
     "summary": "Field recordings of Malagasy traditional music, fairy tales and stories, made between 1961 and 1992 by researchers including Gerhard Kubik and August Schmidhofer, are held by the Vienna Phonogrammarchiv. In September 2012 the Archive repatriated a digital copy of over 1,000 of these sound documents to the Institut de Civilisations at the University of Antananarivo.",
     "url": "https://www.oeaw.ac.at/en/phonogrammarchiv/home",
+    "citation": "IASA. Phonogrammarchiv repatriates Madagascar's acoustic heritage. Retrieved from https://www.iasa-web.org/phonogrammarchiv-repatriates-madagascar%E2%80%99s-acoustic-heritage.",
     "access_notes": "A digital copy of the collection was repatriated to the University of Antananarivo in 2012; the original recordings remain held by the Phonogrammarchiv in Vienna.",
-    "citation": "IASA. Phonogrammarchiv repatriates Madagascar's acoustic heritage. Retrieved from https://www.iasa-web.org/phonogrammarchiv-repatriates-madagascar%E2%80%99s-acoustic-heritage."
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "cameroon-cerdotola-oral-resources-laboratory",
+    "mv_id": "MV-000151",
     "title": "Oral Resources Laboratory (Laboratoire des Ressources Orales)",
     "archive": "Centre International de Recherche et de Documentation sur les Traditions et les Langues Africaines (CERDOTOLA)",
     "country": "Cameroon",
@@ -3820,10 +4455,14 @@
     "decade_start": 1977,
     "decade_end": null,
     "summary": "CERDOTOLA, an intergovernmental research center founded by 11 African states in 1977 and headquartered in Yaoundé, runs an Oral Resources Laboratory (Laboratoire des Ressources Orales) dedicated to documenting and archiving African oral traditions and languages, and has hosted training sessions and conferences on sound, oral and radio archives across the continent.",
-    "url": "https://en.cerdotola.org/"
+    "url": "https://en.cerdotola.org/",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "algeria-cnrpah-oral-heritage-recordings",
+    "mv_id": "MV-000152",
     "title": "Ethnomusicology and Oral Heritage Sound Recordings",
     "archive": "Centre National de Recherches Préhistoriques, Anthropologiques et Historiques (CNRPAH)",
     "country": "Algeria",
@@ -3841,10 +4480,14 @@
     "decade_start": 1974,
     "decade_end": null,
     "summary": "CNRPAH, Algeria's national research center for prehistory, anthropology and history, has conducted ethnomusicological fieldwork since 1974 and built an audio collection of more than 300 hours of recordings; since 2007 it has coordinated Algeria's national inventory of intangible cultural heritage together with the country's regional cultural departments.",
-    "url": "https://cnrpah.org/"
+    "url": "https://cnrpah.org/",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "libya-lcahs-oral-history-project",
+    "mv_id": "MV-000153",
     "title": "Libyan Oral History Project",
     "archive": "Libyan Center for Archives and Historical Studies (formerly the Libyan Studies Center)",
     "country": "Libya",
@@ -3861,10 +4504,14 @@
     "decade_start": 1978,
     "decade_end": null,
     "summary": "Established in Tripoli in the late 1970s with methodological input from historian Jan Vansina, the Libyan Center for Archives and Historical Studies (formerly the Libyan Studies Center) built a large-scale oral history archive recording testimonies of participants in Libyan resistance to Italian colonial rule and survivors of Italy's concentration camps in Libya.",
-    "url": "https://lcahs.ly/"
+    "url": "https://lcahs.ly/",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "italy-icbsa-sound-archive",
+    "mv_id": "MV-000154",
     "title": "ICBSA National Sound Archive",
     "archive": "Istituto Centrale per i Beni Sonori ed Audiovisivi (ICBSA), Italian Ministry of Culture",
     "country": "Italy",
@@ -3882,10 +4529,14 @@
     "decade_start": 1928,
     "decade_end": null,
     "summary": "Italy's national sound archive, founded in 1928 as the Discoteca di Stato, holds over 300,000 sound items ranging from Edison wax cylinders to digital recordings, including field recordings of Italian folk music, regional dialects, and oral traditions.",
-    "url": "http://www.icbsa.it/"
+    "url": "http://www.icbsa.it/",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "greece-asia-minor-oral-tradition-archive",
+    "mv_id": "MV-000155",
     "title": "Oral Tradition Archive of the Centre for Asia Minor Studies",
     "archive": "Centre for Asia Minor Studies (Κέντρο Μικρασιατικών Σπουδών)",
     "country": "Greece",
@@ -3903,10 +4554,14 @@
     "decade_start": 1930,
     "decade_end": 1970,
     "summary": "Founded in 1930 by Melpo and Octave Merlier, the Centre's Oral Tradition Archive gathered testimonies from more than 5,000 Greek Orthodox refugees from Asia Minor, covering roughly 1,475 investigated pre-1922 settlements and documenting daily life, the population exchange, and the 1922 Asia Minor Catastrophe.",
-    "url": "https://www.kms.org.gr/en/archives/oral-tradition-archive/"
+    "url": "https://www.kms.org.gr/en/archives/oral-tradition-archive/",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "slovenia-institute-ethnomusicology-sound-archive",
+    "mv_id": "MV-000156",
     "title": "Sound Archive of the Institute of Ethnomusicology",
     "archive": "Institute of Ethnomusicology (Glasbenonarodopisni inštitut), ZRC SAZU",
     "country": "Slovenia",
@@ -3924,10 +4579,14 @@
     "decade_start": 1934,
     "decade_end": null,
     "summary": "Founded in 1934 and now part of the Slovenian Academy of Sciences and Arts, the Institute runs a dedicated Sound Archive and Studio (established 1994) of Slovenian and South Slavic folk music, song, and dance recordings, with selected material published through its Etnomuza digital platform.",
-    "url": "https://gni.zrc-sazu.si/en"
+    "url": "https://gni.zrc-sazu.si/en",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "romania-brailoiu-institute-ethnography-folklore",
+    "mv_id": "MV-000157",
     "title": "Constantin Brăiloiu Institute of Ethnography and Folklore Archive",
     "archive": "Institutul de Etnografie și Folclor „Constantin Brăiloiu”, Romanian Academy",
     "country": "Romania",
@@ -3945,10 +4604,14 @@
     "decade_start": 1928,
     "decade_end": null,
     "summary": "Successor to the folklore archive that composer-ethnomusicologist Constantin Brăiloiu founded in 1928 under the Society of Romanian Composers, the Institute preserves decades of field recordings of Romanian folk music and oral tradition gathered during Brăiloiu's and sociologist Dimitrie Gusti's village research campaigns and later fieldwork.",
-    "url": "https://academiaromana.ro/ief/"
+    "url": "https://academiaromana.ro/ief/",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "latvia-folklore-archives-dainas",
+    "mv_id": "MV-000158",
     "title": "Archives of Latvian Folklore",
     "archive": "Institute of Literature, Folklore and Art, University of Latvia (Latviešu folkloras krātuve)",
     "country": "Latvia",
@@ -3966,10 +4629,14 @@
     "decade_end": null,
     "summary": "Established in 1924, the Archives of Latvian Folklore is the oldest folklore archive in the Baltic states, holding more than three million items including manuscripts, and audio and video recordings. Its centerpiece, the Cabinet of Dainas — Krišjānis Barons's card catalogue of over 200,000 Latvian folk songs — was inscribed on UNESCO's Memory of the World Register in 2001.",
     "url": "https://lulfmi.lv/en/archives-of-latvian-folklore",
-    "citation": "UNESCO Memory of the World Register: 'Dainu skapis' (Cabinet of Dainas), inscribed 2001."
+    "citation": "UNESCO Memory of the World Register: 'Dainu skapis' (Cabinet of Dainas), inscribed 2001.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "lithuania-folklore-phonogram-collection",
+    "mv_id": "MV-000159",
     "title": "Lithuanian Folk Music Phonogram Collection",
     "archive": "Institute of Lithuanian Literature and Folklore, Lithuanian Folklore Archives",
     "country": "Lithuania",
@@ -3986,10 +4653,14 @@
     "decade_start": 1908,
     "decade_end": 1949,
     "summary": "Held at the Lithuanian Folklore Archives, this collection of early phonograph and later tape recordings of Lithuanian folk songs and music, made between 1908 and 1949, was inscribed on UNESCO's Memory of the World national register in 2008 as documentary heritage of regional significance.",
-    "url": "https://archyvas.llti.lt/en/lithuanian_folk_music_phonogram_collection/?id=55793"
+    "url": "https://archyvas.llti.lt/en/lithuanian_folk_music_phonogram_collection/?id=55793",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "switzerland-uzh-phonogrammarchiv",
+    "mv_id": "MV-000160",
     "title": "Phonogrammarchiv of the University of Zurich",
     "archive": "Phonogrammarchiv, University of Zurich",
     "country": "Switzerland",
@@ -4009,10 +4680,14 @@
     "decade_start": 1909,
     "decade_end": null,
     "summary": "Founded in 1909, Switzerland's oldest sound archive collects, documents, and publishes recordings of Swiss dialects across all four national languages; it is now housed within the University of Zurich's Institute of Computational Linguistics.",
-    "url": "https://www.phonogrammarchiv.uzh.ch/de.html"
+    "url": "https://www.phonogrammarchiv.uzh.ch/de.html",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "denmark-folklore-archives-royal-library",
+    "mv_id": "MV-000161",
     "title": "Danish Folklore Archives",
     "archive": "Dansk Folkemindesamling, Royal Danish Library",
     "country": "Denmark",
@@ -4029,10 +4704,14 @@
     "decade_start": 1904,
     "decade_end": null,
     "summary": "Established in 1904 and incorporated into the Royal Danish Library in 2008, the Danish Folklore Archives preserves manuscripts, audio recordings, and video documenting Danish folk narrative, custom, song, and everyday life across more than a century of collecting.",
-    "url": "https://www.kb.dk/en/find-materials/collections/folklore-archive"
+    "url": "https://www.kb.dk/en/find-materials/collections/folklore-archive",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "iceland-arni-magnusson-folklore-collection",
+    "mv_id": "MV-000162",
     "title": "Folklore Collection of the Árni Magnússon Institute",
     "archive": "Árni Magnússon Institute for Icelandic Studies (Stofnun Árna Magnússonar í íslenskum fræðum)",
     "country": "Iceland",
@@ -4050,10 +4729,14 @@
     "decade_end": null,
     "summary": "The Institute's ethnology division holds a large tape-recorded folklore collection of ballads, folk songs, folktales, and descriptions of customs gathered across Iceland and Icelandic settlements in North America, with source material dating back to 1900.",
     "url": "https://arnastofnun.is/en/culture",
-    "access_notes": "Selected recordings from the collection are accessible online via the ismus.is portal."
+    "access_notes": "Selected recordings from the collection are accessible online via the ismus.is portal.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "bulgaria-iefsem-ethnographic-archive",
+    "mv_id": "MV-000163",
     "title": "Ethnographic Archive of the Institute of Ethnology and Folklore Studies",
     "archive": "Institute of Ethnology and Folklore Studies with Ethnographic Museum (IEFSEM), Bulgarian Academy of Sciences",
     "country": "Bulgaria",
@@ -4070,10 +4753,14 @@
     "decade_start": 1947,
     "decade_end": null,
     "summary": "Tracing its research lineage to the Institute of Folklore founded by the Bulgarian Academy of Sciences in 1947, IEFSEM's Ethnographic Archive holds field-collected written records, photographs, and sound recordings of Bulgarian pre-industrial and traditional culture, with active digitization efforts underway.",
-    "url": "https://iefem.bas.bg/en/"
+    "url": "https://iefem.bas.bg/en/",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "croatia-ethnology-folklore-research-sound-archive",
+    "mv_id": "MV-000164",
     "title": "Sound Archive of the Institute of Ethnology and Folklore Research",
     "archive": "Institute of Ethnology and Folklore Research (Institut za etnologiju i folkloristiku), Zagreb",
     "country": "Croatia",
@@ -4090,10 +4777,14 @@
     "decade_start": 1948,
     "decade_end": null,
     "summary": "Founded in 1948, the Institute's Audio Library holds several thousand recordings of Croatian oral literature, folk music and dance, and narrations of custom, gathered from Croatian-speaking regions and Croatian communities living outside Croatia.",
-    "url": "https://www.ief.hr/en/archive/collections/"
+    "url": "https://www.ief.hr/en/archive/collections/",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "serbia-sasa-institute-musicology-archive",
+    "mv_id": "MV-000165",
     "title": "Archive of the Institute of Musicology SASA",
     "archive": "Institute of Musicology, Serbian Academy of Sciences and Arts (SASA)",
     "country": "Serbia",
@@ -4110,10 +4801,14 @@
     "decade_start": 1948,
     "decade_end": null,
     "summary": "Founded in 1948 as the first musicology institute in the former Yugoslavia, the Institute holds an extensive archive of ethnomusicological field notation and sound recordings of Serbian folk songs and dances, built up through decades of ongoing fieldwork.",
-    "url": "https://music.sanu.ac.rs/en/archive/"
+    "url": "https://music.sanu.ac.rs/en/archive/",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "portugal-fado-museum-digital-sound-archive",
+    "mv_id": "MV-000166",
     "title": "Digital Sound Archive (Arquivo Sonoro Digital)",
     "archive": "INET-MD (Instituto de Etnomusicologia) and Museu do Fado, Lisbon",
     "country": "Portugal",
@@ -4130,10 +4825,14 @@
     "decade_start": 1900,
     "decade_end": null,
     "summary": "A partnership between the Fado Museum and the Institute of Ethnomusicology (INET-MD, NOVA University Lisbon), this digital archive brings together thousands of historical fado recordings dating from the early 20th century, forming Portugal's largest historical popular-music sound repository.",
-    "url": "https://www.inetmd.pt/publicacoes/arquivo-sonoro-digital/"
+    "url": "https://www.inetmd.pt/publicacoes/arquivo-sonoro-digital/",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "belgium-cegesoma-oral-history-wwii",
+    "mv_id": "MV-000167",
     "title": "CegeSoma Oral History Interview Collections",
     "archive": "CegeSoma, State Archives of Belgium",
     "country": "Belgium",
@@ -4152,10 +4851,14 @@
     "decade_start": 1969,
     "decade_end": null,
     "summary": "Belgium's federal research centre on 20th-century conflict, part of the State Archives since 2016, holds about 1,800 digitized interviews with former WWII resistance fighters, collaborators, and eyewitnesses, plus 1,200 interviews recorded between 1984 and 1998 on daily life under the German Occupation.",
-    "url": "https://www.cegesoma.be/en/home"
+    "url": "https://www.cegesoma.be/en/home",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "ukraine-lviv-urban-media-archive",
+    "mv_id": "MV-000168",
     "title": "Urban Media Archive Oral History Interviews",
     "archive": "Center for Urban History of East Central Europe, Lviv",
     "country": "Ukraine",
@@ -4175,10 +4878,14 @@
     "decade_start": 2004,
     "decade_end": null,
     "summary": "Since its founding in 2004, the Center for Urban History has recorded oral history interviews on urban space, professional biographies, and everyday life across Lviv and East-Central Europe, digitized and annotated for public access in its Urban Media Archive.",
-    "url": "https://uma.lvivcenter.org/en/interviews"
+    "url": "https://uma.lvivcenter.org/en/interviews",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "slovakia-institute-musicology-folk-music-archive",
+    "mv_id": "MV-000169",
     "title": "Folk Music Sound Recordings of the Institute of Musicology SAS",
     "archive": "Institute of Musicology, Slovak Academy of Sciences (Ústav hudobnej vedy SAV)",
     "country": "Slovakia",
@@ -4195,10 +4902,14 @@
     "decade_start": 1950,
     "decade_end": null,
     "summary": "The Institute's Department of Ethnomusicology holds Slovakia's most extensive folk-music recording collection: over 3,500 tapes recorded by Institute staff from the second half of the 20th century onward, covering every region of Slovakia and Slovak diaspora communities abroad.",
-    "url": "https://uhv.sav.sk/en/"
+    "url": "https://uhv.sav.sk/en/",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "mexico-fonoteca-nacional",
+    "mv_id": "MV-000170",
     "title": "Fonoteca Nacional de México",
     "archive": "Fonoteca Nacional de México",
     "country": "Mexico",
@@ -4206,8 +4917,9 @@
     "lng": -99.1718,
     "languages": [
       "Spanish",
-      "Indigenous languages of Mexico"
+      "Indigenous languages of the Americas"
     ],
+    "language_note": "Indigenous languages of Mexico",
     "themes": [
       "oral tradition",
       "ethnomusicology",
@@ -4218,19 +4930,24 @@
     "decade_end": null,
     "summary": "Mexico's national sound archive, established in 2008 in Coyoacán, Mexico City, holds and preserves historical and contemporary recordings including music, oral narratives, radio broadcasts and field recordings in Spanish and multiple Mexican indigenous languages, some dating to early wax-cylinder recordings.",
     "url": "https://www.fonotecanacional.gob.mx/",
-    "citation": "Fonoteca Nacional de México. Retrieved from https://www.fonotecanacional.gob.mx/."
+    "citation": "Fonoteca Nacional de México. Retrieved from https://www.fonotecanacional.gob.mx/.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "mexico-fonoteca-henrietta-yurchenco",
+    "mv_id": "MV-000171",
     "title": "Fonoteca Henrietta Yurchenco",
     "archive": "Instituto Nacional de los Pueblos Indígenas (INPI)",
     "country": "Mexico",
     "lat": 19.4326,
     "lng": -99.1332,
     "languages": [
-      "Indigenous languages of Mexico",
+      "Indigenous languages of the Americas",
       "Spanish"
     ],
+    "language_note": "Indigenous languages of Mexico",
     "themes": [
       "oral tradition",
       "indigenous history",
@@ -4241,10 +4958,14 @@
     "decade_end": 1997,
     "summary": "Named for ethnomusicologist Henrietta Yurchenco, this sound archive held by Mexico's national indigenous-peoples institute comprises more than 11,000 field recordings of indigenous music, oral narratives, interviews and festivals gathered by researchers between 1960 and 1997, plus some of the earliest known recordings of Mexican indigenous music.",
     "url": "https://www.inpi.gob.mx/acervos/fonoteca.html",
-    "citation": "Instituto Nacional de los Pueblos Indígenas. Fonoteca Henrietta Yurchenco. Retrieved from https://www.inpi.gob.mx/acervos/fonoteca.html."
+    "citation": "Instituto Nacional de los Pueblos Indígenas. Fonoteca Henrietta Yurchenco. Retrieved from https://www.inpi.gob.mx/acervos/fonoteca.html.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "guatemala-remhi-centro-memoria-gerardi",
+    "mv_id": "MV-000172",
     "title": "REMHI — Proyecto Interdiocesano de Recuperación de la Memoria Histórica",
     "archive": "Centro de la Memoria Monseñor Juan Gerardi (Oficina de Derechos Humanos del Arzobispado de Guatemala, ODHAG)",
     "country": "Guatemala",
@@ -4266,10 +4987,14 @@
     "decade_end": 1998,
     "summary": "Directed by Bishop Juan Gerardi and published as the 1998 report 'Guatemala: Nunca Más', REMHI gathered several thousand oral testimonies from survivors and witnesses of Guatemala's internal armed conflict; the original testimonies and case files are preserved at the archdiocese's Centro de la Memoria, which bears Gerardi's name after his 1998 assassination.",
     "url": "https://www.odhag.org.gt/cmmjg/",
-    "access_notes": "The popularized version of the REMHI report is freely available online; original testimony archives are held for research access at the Centro de la Memoria."
+    "access_notes": "The popularized version of the REMHI report is freely available online; original testimony archives are held for research access at the Centro de la Memoria.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "costa-rica-archivo-historico-musical-ucr",
+    "mv_id": "MV-000173",
     "title": "Archivo Histórico Musical",
     "archive": "Escuela de Artes Musicales, Universidad de Costa Rica",
     "country": "Costa Rica",
@@ -4288,10 +5013,14 @@
     "decade_end": null,
     "summary": "Founded in 1993 at the University of Costa Rica's School of Musical Arts, this archive rescues, preserves and digitizes Costa Rica's musical heritage, holding scores, photographs and sound recordings from more than 5,600 Costa Rican composers and musicians.",
     "url": "https://archivomusical.ucr.ac.cr/",
-    "citation": "Universidad de Costa Rica, Escuela de Artes Musicales. Archivo Histórico Musical. Retrieved from https://archivomusical.ucr.ac.cr/."
+    "citation": "Universidad de Costa Rica, Escuela de Artes Musicales. Archivo Histórico Musical. Retrieved from https://archivomusical.ucr.ac.cr/.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "cuba-museo-nacional-musica-fonoteca",
+    "mv_id": "MV-000174",
     "title": "Fonoteca del Museo Nacional de la Música",
     "archive": "Museo Nacional de la Música de Cuba",
     "country": "Cuba",
@@ -4310,10 +5039,14 @@
     "decade_end": null,
     "summary": "Cuba's national music museum in Havana, formed in 1998 from the merger of the earlier Museo y Archivo de la Música with the Odilio Urfé documentation center, holds a sound archive of wax cylinders, reel-to-reel tapes and thousands of discs documenting Cuban musical history, built partly from the Urfé family's private collection.",
     "url": "https://www.ministeriodecultura.gob.cu/es/ministerio-2/directorio-de-entidades/instituciones-nacionales/museo-nacional-de-la-musica",
-    "citation": "Ministerio de Cultura de Cuba. Museo Nacional de la Música. Retrieved from https://www.ministeriodecultura.gob.cu/es/ministerio-2/directorio-de-entidades/instituciones-nacionales/museo-nacional-de-la-musica."
+    "citation": "Ministerio de Cultura de Cuba. Museo Nacional de la Música. Retrieved from https://www.ministeriodecultura.gob.cu/es/ministerio-2/directorio-de-entidades/instituciones-nacionales/museo-nacional-de-la-musica.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "haiti-radio-haiti-archive-duke",
+    "mv_id": "MV-000175",
     "title": "Radio Haiti Archive",
     "archive": "David M. Rubenstein Rare Book & Manuscript Library, Duke University",
     "country": "Haiti",
@@ -4335,11 +5068,15 @@
     "decade_end": 2003,
     "summary": "More than 5,300 digitized audio recordings from independent station Radio Haiti-Inter, donated to Duke's Human Rights Archive by co-anchor Michèle Montas after journalist Jean Dominique's 2000 assassination, documenting Haitian politics, culture and daily life from the Duvalier era through the 1991-1994 coup years and beyond, with trilingual (Kreyòl, French, English) metadata.",
     "url": "https://repository.duke.edu/dc/radiohaiti",
+    "citation": "Radio Haiti Archive, David M. Rubenstein Rare Book & Manuscript Library, Duke University. Retrieved from https://repository.duke.edu/dc/radiohaiti.",
     "access_notes": "Freely accessible online via the Duke Digital Repository.",
-    "citation": "Radio Haiti Archive, David M. Rubenstein Rare Book & Manuscript Library, Duke University. Retrieved from https://repository.duke.edu/dc/radiohaiti."
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "puerto-rico-archivo-musica-sonido-icp",
+    "mv_id": "MV-000176",
     "title": "Archivo de Música y Sonido",
     "archive": "Archivo General de Puerto Rico, Instituto de Cultura Puertorriqueña",
     "country": "Puerto Rico",
@@ -4358,10 +5095,14 @@
     "decade_end": null,
     "summary": "A division of Puerto Rico's General Archive under the Instituto de Cultura Puertorriqueña, this collection preserves roughly 15,000 musical works by more than 700 composers alongside around 10,000 recordings, including field recordings of poetry recitations, political rallies and workshops documenting Puerto Rican oral testimony.",
     "url": "https://www.icp.pr.gov/archivo-general/",
-    "citation": "Instituto de Cultura Puertorriqueña. Archivo General de Puerto Rico. Retrieved from https://www.icp.pr.gov/archivo-general/."
+    "citation": "Instituto de Cultura Puertorriqueña. Archivo General de Puerto Rico. Retrieved from https://www.icp.pr.gov/archivo-general/.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "bolivia-archivo-oral-fondo-sonoro-umsa",
+    "mv_id": "MV-000177",
     "title": "El Archivo Oral — Fondo Oral Sonoro",
     "archive": "Carrera de Literatura, Universidad Mayor de San Andrés (UMSA)",
     "country": "Bolivia",
@@ -4382,10 +5123,14 @@
     "decade_end": null,
     "summary": "Run by the Literature program at Bolivia's Universidad Mayor de San Andrés, this archive holds roughly 700 hours of audio with more than 7,000 recorded oral narratives — memories, local histories, testimonies, myths and stories — gathered from highland, valley and Amazonian communities across Bolivia's nine departments, in Aymara, Quechua and other languages.",
     "url": "http://www.literatura.edu.bo/archivo_oral/index.php/archivo/sobre-el-archivo",
-    "citation": "Universidad Mayor de San Andrés, Carrera de Literatura. El Archivo Oral - Fondo Oral Sonoro. Retrieved from http://www.literatura.edu.bo/archivo_oral/index.php/archivo/sobre-el-archivo."
+    "citation": "Universidad Mayor de San Andrés, Carrera de Literatura. El Archivo Oral - Fondo Oral Sonoro. Retrieved from http://www.literatura.edu.bo/archivo_oral/index.php/archivo/sobre-el-archivo.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "venezuela-testimonios-audiovisuales-culturas-vivas",
+    "mv_id": "MV-000178",
     "title": "Testimonios Audiovisuales de las Culturas Vivas de América Latina y el Caribe del Siglo XX",
     "archive": "Fundación Centro de la Diversidad Cultural",
     "country": "Venezuela",
@@ -4405,10 +5150,14 @@
     "decade_end": 1986,
     "summary": "Custodied in Caracas by the Centro de la Diversidad Cultural (successor to the OAS-founded ethnomusicology institute INIDEF, built around Isabel Aretz's field research), this collection of 152,344 images and 23,383 sound recordings of music, legends, games, poetry, prayers and traditional medicine practices from across Latin America and the Caribbean was inscribed on UNESCO's Memory of the World Regional Register for Latin America and the Caribbean in November 2023.",
     "url": "http://www.diversidadcultural.gob.ve/",
-    "citation": "UNESCO Memory of the World Programme, Regional Register for Latin America and the Caribbean (2023 inscriptions); Fundación Centro de la Diversidad Cultural. Retrieved from http://www.diversidadcultural.gob.ve/."
+    "citation": "UNESCO Memory of the World Programme, Regional Register for Latin America and the Caribbean (2023 inscriptions); Fundación Centro de la Diversidad Cultural. Retrieved from http://www.diversidadcultural.gob.ve/.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "uruguay-archivo-oral-memoria-mume",
+    "mv_id": "MV-000179",
     "title": "Archivo Oral de la Memoria",
     "archive": "Museo de la Memoria (MUME), Intendencia de Montevideo",
     "country": "Uruguay",
@@ -4428,10 +5177,14 @@
     "decade_end": 1985,
     "summary": "Created by Montevideo's Museum of Memory together with the Association of Friends of MUME, this oral archive holds recorded testimonies from former political prisoners of Uruguay's civil-military dictatorship, including accounts from clandestine detention and torture sites, plus testimonies from relatives of the disappeared, accessible to researchers by appointment.",
     "url": "https://mume.montevideo.gub.uy/archivo-oral-de-la-memoria",
-    "access_notes": "In-person access by appointment; summaries of available testimonies are published on the museum's site."
+    "access_notes": "In-person access by appointment; summaries of available testimonies are published on the museum's site.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "nicaragua-narrativas-orales-ihnca-exilio",
+    "mv_id": "MV-000180",
     "title": "Narrativas Orales — Brigada de Rescate Histórico Germán Pomares Ordóñez",
     "archive": "Instituto de Historia de Nicaragua y Centroamérica (IHNCA)",
     "country": "Nicaragua",
@@ -4450,11 +5203,15 @@
     "decade_end": 1980,
     "summary": "In 1980, alongside Nicaragua's National Literacy Campaign, some 215 university-student brigadistas recorded roughly 6,900 cassette interviews with popular leaders and witnesses about the Somoza dictatorship and the Sandinista Popular Insurrection; the collection was held at IHNCA (Universidad Centroamericana) until the government's 2023 confiscation of the university, after which exiled Jesuit staff republished the digitized collection at 'El IHNCA en el Exilio'.",
     "url": "https://ihncaexilio.org/el-acervo-ihnca/colecciones/",
+    "citation": "El IHNCA en el Exilio. Colecciones. Retrieved from https://ihncaexilio.org/el-acervo-ihnca/colecciones/.",
     "access_notes": "Freely browsable online following the 2023 relaunch as 'El IHNCA en el Exilio' after the original archive at UCA Managua was confiscated by the Nicaraguan government.",
-    "citation": "El IHNCA en el Exilio. Colecciones. Retrieved from https://ihncaexilio.org/el-acervo-ihnca/colecciones/."
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "vietnam-institute-musicology-databank",
+    "mv_id": "MV-000181",
     "title": "Vietnamese Institute for Musicology Data Bank",
     "archive": "Vietnamese Institute for Musicology (Viện Âm nhạc Việt Nam)",
     "country": "Vietnam",
@@ -4462,8 +5219,9 @@
     "lng": 105.8542,
     "languages": [
       "Vietnamese",
-      "multiple Vietnamese ethnic minority languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple Vietnamese ethnic minority languages",
     "themes": [
       "ethnomusicology",
       "folklife",
@@ -4474,10 +5232,14 @@
     "summary": "Vietnam's national musicology institute, formally independent since 1976, conducts ongoing fieldwork recording traditional and folk music across the country's ethnic groups, including tens of thousands of folk song and instrumental recordings catalogued in a searchable online data bank.",
     "url": "https://www.vienamnhac.vn/data-bank.html",
     "citation": "Vietnamese Institute for Musicology. Data Bank. Retrieved from https://www.vienamnhac.vn/data-bank.html.",
-    "access_notes": "Catalog entries and some audio browsable on the institute's website; full recordings typically require contacting the institute directly."
+    "access_notes": "Catalog entries and some audio browsable on the institute's website; full recordings typically require contacting the institute directly.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "thailand-sac-anthropological-archives",
+    "mv_id": "MV-000182",
     "title": "Anthropological Archives Database",
     "archive": "Princess Maha Chakri Sirindhorn Anthropology Centre (SAC)",
     "country": "Thailand",
@@ -4485,8 +5247,9 @@
     "lng": 100.4571,
     "languages": [
       "Thai",
-      "multiple Thai regional and ethnic languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple Thai regional and ethnic languages",
     "themes": [
       "folklore",
       "linguistics",
@@ -4496,10 +5259,14 @@
     "decade_end": null,
     "summary": "A public anthropological research organization under Thailand's Ministry of Culture that systematically gathers and preserves ethnographic material from across the country, including audio field recordings, in a searchable online Anthropological Archives Database.",
     "url": "https://db.sac.or.th/anthroarchives/en/about-us.php",
-    "access_notes": "Database searchable online in Thai and English; some holdings require an in-person research visit to Bangkok."
+    "access_notes": "Database searchable online in Thai and English; some holdings require an in-person research visit to Bangkok.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "indonesia-jaap-kunst-collection-ntt",
+    "mv_id": "MV-000183",
     "title": "Jaap Kunst Collection",
     "archive": "Perpustakaan Daerah Nusa Tenggara Timur (NTT Regional Library), with University of Amsterdam",
     "country": "Indonesia",
@@ -4507,8 +5274,9 @@
     "lng": 123.607,
     "languages": [
       "Indonesian",
-      "multiple regional languages of Flores, Sumba, Alor, Timor and Kisar"
+      "Multiple languages"
     ],
+    "language_note": "multiple regional languages of Flores, Sumba, Alor, Timor and Kisar",
     "themes": [
       "ethnomusicology",
       "music",
@@ -4519,10 +5287,14 @@
     "summary": "Colonial-era sound recordings, film footage, and photographs made by ethnomusicologist Jaap Kunst across Flores, Sumba, Alor, Timor, and Kisar between 1919 and 1934 were digitally repatriated in 2024 by the University of Amsterdam to the NTT Regional Library in Kupang, where they are now accessible in a dedicated 'Jaap Kunst Corner.'",
     "url": "https://www.uva.nl/en/shared-content/faculteiten/en/faculteit-der-geesteswetenschappen/news/2024/10/uva-returns-sound-recordings-and-film-footage-from-colonial-collection-to-indonesia.html",
     "citation": "University of Amsterdam. UvA returns sound recordings and film footage from colonial collection to Indonesia (October 2024).",
-    "access_notes": "Digitized copies freely accessible in person at the NTT Regional Library, Kupang; original recordings remain held at the University of Amsterdam."
+    "access_notes": "Digitized copies freely accessible in person at the NTT Regional Library, Kupang; original recordings remain held at the University of Amsterdam.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "philippines-hinilawod-epic-chant-recordings",
+    "mv_id": "MV-000184",
     "title": "Hinilawod Epic Chant Recordings",
     "archive": "Henry Luce III Library, Central Philippine University",
     "country": "Philippines",
@@ -4541,10 +5313,14 @@
     "summary": "Magnetic-tape recordings of the Hinilawod, the epic cycle of Panay, chanted in archaic Karay-a by tradition-bearers Ulang Udig and Narcisa 'Hugan-an' Lingaya and recorded by anthropologist F. Landa Jocano in 1956-57. Inscribed on the UNESCO Memory of the World Committee for Asia and the Pacific (MOWCAP) Register in 2024 as the earliest extensive documentation of the Panay epics.",
     "url": "https://library.cpu.edu.ph/hinilawod-epic-chant-recordings-secured-in-unescos-memory-of-the-world-registry/",
     "citation": "Memory of the World Committee for Asia and the Pacific. Hinilawod Epic Chant Recordings (2024). https://www.mowcapunesco.org/register/hinilawod-epic-chant-recordings-2024/",
-    "access_notes": "Digitized and curated by the University of the Philippines Center for Ethnomusicology; original tapes held at Central Philippine University, Iloilo City."
+    "access_notes": "Digitized and curated by the University of the Philippines Center for Ethnomusicology; original tapes held at Central Philippine University, Iloilo City.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "malaysia-arkib-negara-oral-history",
+    "mv_id": "MV-000185",
     "title": "National Archives of Malaysia Oral History Programme",
     "archive": "National Archives of Malaysia (Arkib Negara Malaysia)",
     "country": "Malaysia",
@@ -4562,18 +5338,23 @@
     "decade_end": null,
     "summary": "Malaysia's national archives has run an oral history programme since 1963, one of the earliest in Southeast Asia, housed within its Documentation and Publication section; interviews recorded through the programme have been used extensively in local historical publications since the 1980s.",
     "url": "https://www.arkib.gov.my/en/",
-    "access_notes": "Registration required for full access; short audio excerpts viewable online via the Archives' Online Finding Aid at ofa.arkib.gov.my."
+    "access_notes": "Registration required for full access; short audio excerpts viewable online via the Archives' Online Finding Aid at ofa.arkib.gov.my.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "png-ipngs-music-archive",
+    "mv_id": "MV-000186",
     "title": "IPNGS Music Archive",
     "archive": "Institute of Papua New Guinea Studies (IPNGS)",
     "country": "Papua New Guinea",
     "lat": -9.4707,
     "lng": 147.1908,
     "languages": [
-      "multiple Papua New Guinean languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple Papua New Guinean languages",
     "themes": [
       "ethnomusicology",
       "music",
@@ -4583,18 +5364,23 @@
     "decade_end": null,
     "summary": "A government-funded cultural research institute established in 1974 whose Music Archive holds the world's largest collection of Papua New Guinean music recordings and documentation: more than 6,700 collections totalling roughly 12,000 hours of tape, cassette, and digital recordings, including early wax-cylinder and shellac recordings dating to 1898 repatriated from European archives.",
     "url": "https://www.ipngs.gov.pg/",
-    "access_notes": "Access to the archive is by application to IPNGS in Port Moresby."
+    "access_notes": "Access to the archive is by application to IPNGS in Port Moresby.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "solomon-islands-national-museum-tapes",
+    "mv_id": "MV-000187",
     "title": "Solomon Islands National Museum Analog Tape Collection",
     "archive": "Solomon Islands Archives and National Museum",
     "country": "Solomon Islands",
     "lat": -9.428,
     "lng": 159.9498,
     "languages": [
-      "multiple Solomon Islands languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple Solomon Islands languages",
     "themes": [
       "language documentation",
       "folklife",
@@ -4605,18 +5391,23 @@
     "summary": "Around 200 analog tapes held by the Solomon Islands National Museum contain field recordings in local languages and recordings of customary knowledge made from the 1970s by Solomon Islands government agencies and visiting researchers, covering many of the country's 74 languages, several with few remaining speakers.",
     "url": "https://eap.bl.uk/project/EAP693",
     "citation": "Endangered Archives Programme, British Library. EAP693: Preservation of Solomon Islands analog recordings.",
-    "access_notes": "Digitized copies deposited with the Solomon Islands National Museum, PARADISEC, and the British Library; originals remain in Honiara."
+    "access_notes": "Digitized copies deposited with the Solomon Islands National Museum, PARADISEC, and the British Library; originals remain in Honiara.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "fsm-micsem-music-archive",
+    "mv_id": "MV-000188",
     "title": "MicSem Music Collection",
     "archive": "Micronesian Seminar (MicSem)",
     "country": "Federated States of Micronesia",
     "lat": 6.96,
     "lng": 158.2075,
     "languages": [
-      "multiple Micronesian languages"
+      "Multiple languages"
     ],
+    "language_note": "multiple Micronesian languages",
     "themes": [
       "ethnomusicology",
       "music",
@@ -4626,10 +5417,14 @@
     "decade_end": 1990,
     "summary": "MicSem, a Catholic Church-founded research and public education organization based in Pohnpei since 1992, holds a digitized collection of over 20,000 tracks of Micronesian music, including recordings gathered from government radio stations across Chuuk, Pohnpei, Kosrae, Yap, the Marshall Islands, and Palau dating from the 1950s onward, searchable through its own website.",
     "url": "https://micsem.org/music/music-listing/",
-    "access_notes": "Music listings and audio streams are freely browsable on the MicSem website."
+    "access_notes": "Music listings and audio streams are freely browsable on the MicSem website.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "marshall-islands-alele-museum-archive",
+    "mv_id": "MV-000189",
     "title": "Alele Museum Audio-Visual Collection",
     "archive": "Alele Museum, Public Library and National Archives",
     "country": "Marshall Islands",
@@ -4647,10 +5442,14 @@
     "decade_end": 1999,
     "summary": "The Marshall Islands' national museum, library, and archive holds a video and audio collection including local television programs, traditional stories and proverbs, and community event recordings from the 1980s and 1990s, some documenting traditions no longer held by living community members.",
     "url": "https://www.alele.org/",
-    "access_notes": "Located in Majuro; the archive functions as the country's designated national archives."
+    "access_notes": "Located in Majuro; the archive functions as the country's designated national archives.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "nepal-madan-puraskar-pustakalaya-audio",
+    "mv_id": "MV-000190",
     "title": "Madan Puraskar Pustakalaya Audio-Visual Collection",
     "archive": "Madan Puraskar Pustakalaya",
     "country": "Nepal",
@@ -4668,10 +5467,14 @@
     "decade_end": null,
     "summary": "Nepal's principal Nepali-language library and archive, founded in 1955, holds an audio-visual collection of roughly 750 items including oral testimonies, an audio corpus of Nepali speech, transcribed radio interviews, and recorded voices of Nepali writers.",
     "url": "https://madanpuraskar.org/collection-development-2/",
-    "access_notes": "Materials are held at the library's premises in Patan, Lalitpur; researchers should contact the library directly for access."
+    "access_notes": "Materials are held at the library's premises in Patan, Lalitpur; researchers should contact the library directly for access.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "sri-lanka-national-library-folklore-collection",
+    "mv_id": "MV-000191",
     "title": "Folklore Collection",
     "archive": "National Library of Sri Lanka",
     "country": "Sri Lanka",
@@ -4689,10 +5492,14 @@
     "decade_end": null,
     "summary": "Sri Lanka's national library maintains a dedicated Folklore Collection documenting Sinhala and Tamil oral traditions, folk literature, and related documentary heritage as part of its national holdings.",
     "url": "http://www.natlib.lk/index.php/folklore-collection",
-    "access_notes": "Located in Colombo; materials accessible on-site as part of the library's reference collection."
+    "access_notes": "Located in Colombo; materials accessible on-site as part of the library's reference collection.",
+    "verification_status": "partially_verified",
+    "provenance": "v0.1 seed dataset, maintainer-curated from the holding institution's public page.",
+    "date_added": "2026-09-01"
   },
   {
     "id": "activist-women-s-voices",
+    "mv_id": "MV-000192",
     "title": "Activist Women's Voices",
     "archive": "Activist Women's Voices",
     "country": "United States",
@@ -4716,10 +5523,15 @@
       "jewish-womens-archive-weaving-words",
       "nmai-archive-center"
     ],
-    "preview_url": null
+    "preview_url": null,
+    "verification_status": "partially_verified",
+    "verification_note": "Languages inferred from country and subject; not stated by the source.",
+    "provenance": "Wikipedia/Wikidata harvest, September 2026 audit (Wikidata Q22906176; URL from wikipedia:infobox). See data/new-entries-provenance.json.",
+    "date_added": "2026-09-20"
   },
   {
     "id": "a-people-s-archive-of-police-violence-in-cleveland",
+    "mv_id": "MV-000193",
     "title": "A People's Archive of Police Violence in Cleveland",
     "archive": "A People's Archive of Police Violence in Cleveland",
     "country": "United States",
@@ -4743,10 +5555,15 @@
       "usc-shoah-foundation-vha",
       "one-archives-usc"
     ],
-    "preview_url": null
+    "preview_url": null,
+    "verification_status": "partially_verified",
+    "verification_note": "Languages inferred from country and subject; not stated by the source.",
+    "provenance": "Wikipedia/Wikidata harvest, September 2026 audit (Wikidata Q76000748; URL from wikidata:P856). See data/new-entries-provenance.json.",
+    "date_added": "2026-09-20"
   },
   {
     "id": "archives-of-american-art",
+    "mv_id": "MV-000194",
     "title": "Archives of American Art",
     "archive": "Archives of American Art",
     "country": "United States",
@@ -4764,10 +5581,15 @@
     "url": "https://www.aaa.si.edu/",
     "citation": "Archives of American Art. Retrieved from https://www.aaa.si.edu/.",
     "related_ids": [],
-    "preview_url": null
+    "preview_url": null,
+    "verification_status": "partially_verified",
+    "verification_note": "Languages inferred from country and subject; not stated by the source.",
+    "provenance": "Wikipedia/Wikidata harvest, September 2026 audit (Wikidata Q2860568; URL from wikidata:P856). See data/new-entries-provenance.json.",
+    "date_added": "2026-09-20"
   },
   {
     "id": "association-for-diplomatic-studies-and-training",
+    "mv_id": "MV-000195",
     "title": "Association for Diplomatic Studies and Training",
     "archive": "Association for Diplomatic Studies and Training",
     "country": "United States",
@@ -4778,7 +5600,7 @@
     ],
     "themes": [
       "history",
-      "politics"
+      "political history"
     ],
     "decade_start": 1986,
     "decade_end": null,
@@ -4786,10 +5608,15 @@
     "url": "https://adst.org",
     "citation": "Association for Diplomatic Studies and Training. Retrieved from https://adst.org.",
     "related_ids": [],
-    "preview_url": null
+    "preview_url": null,
+    "verification_status": "partially_verified",
+    "verification_note": "Languages inferred from country and subject; not stated by the source.",
+    "provenance": "Wikipedia/Wikidata harvest, September 2026 audit (Wikidata Q4809439; URL from wikidata:P856). See data/new-entries-provenance.json.",
+    "date_added": "2026-09-20"
   },
   {
     "id": "freedom-collection",
+    "mv_id": "MV-000196",
     "title": "Freedom Collection",
     "archive": "Freedom Collection",
     "country": "United States",
@@ -4803,7 +5630,7 @@
     ],
     "themes": [
       "human rights",
-      "politics"
+      "political history"
     ],
     "decade_start": 2012,
     "decade_end": null,
@@ -4815,10 +5642,15 @@
       "fortunoff-video-archive",
       "armenian-film-foundation"
     ],
-    "preview_url": null
+    "preview_url": null,
+    "verification_status": "partially_verified",
+    "verification_note": "Languages inferred from country and subject; not stated by the source.",
+    "provenance": "Wikipedia/Wikidata harvest, September 2026 audit (Wikidata Q17014741; URL from wikidata:P856). See data/new-entries-provenance.json.",
+    "date_added": "2026-09-20"
   },
   {
     "id": "german-broadcasting-archive-deutsches-rundfunkarchiv",
+    "mv_id": "MV-000197",
     "title": "German Broadcasting Archive (Deutsches Rundfunkarchiv; DRA)",
     "archive": "German Broadcasting Archive",
     "country": "Germany",
@@ -4836,10 +5668,15 @@
     "url": "https://www.dra.de/",
     "citation": "German Broadcasting Archive. German Broadcasting Archive (Deutsches Rundfunkarchiv; DRA). Retrieved from https://www.dra.de/.",
     "related_ids": [],
-    "preview_url": null
+    "preview_url": null,
+    "verification_status": "partially_verified",
+    "verification_note": "Languages inferred from country and subject; not stated by the source.",
+    "provenance": "Wikipedia/Wikidata harvest, September 2026 audit (Wikidata Q1205934; URL from wikidata:P856). See data/new-entries-provenance.json.",
+    "date_added": "2026-09-20"
   },
   {
     "id": "j-s-battye-library-of-west-australian-history",
+    "mv_id": "MV-000198",
     "title": "J. S. Battye Library of West Australian History",
     "archive": "J S Battye Library",
     "country": "Australia",
@@ -4857,10 +5694,15 @@
     "url": "http://slwa.wa.gov.au/dead_reckoning/battye_library",
     "citation": "J S Battye Library. J. S. Battye Library of West Australian History. Retrieved from http://slwa.wa.gov.au/dead_reckoning/battye_library.",
     "related_ids": [],
-    "preview_url": null
+    "preview_url": null,
+    "verification_status": "partially_verified",
+    "verification_note": "Languages inferred from country and subject; not stated by the source.",
+    "provenance": "Wikipedia/Wikidata harvest, September 2026 audit (Wikidata Q6109426; URL from wikipedia:infobox). See data/new-entries-provenance.json.",
+    "date_added": "2026-09-20"
   },
   {
     "id": "moise-a-khayrallah-center-for-lebanese-diaspora",
+    "mv_id": "MV-000199",
     "title": "Moise A. Khayrallah Center for Lebanese Diaspora Studies",
     "archive": "Moise A. Khayrallah Center for Lebanese Diaspora Studies",
     "country": "United States",
@@ -4885,17 +5727,22 @@
       "immigration-history-research-center-umn",
       "storycorps-national-archive"
     ],
-    "preview_url": null
+    "preview_url": null,
+    "verification_status": "partially_verified",
+    "verification_note": "Languages inferred from country and subject; not stated by the source.",
+    "provenance": "Wikipedia/Wikidata harvest, September 2026 audit (Wikidata Q22095741; URL from wikidata:P856). See data/new-entries-provenance.json.",
+    "date_added": "2026-09-20"
   },
   {
     "id": "national-archives-of-the-cook-islands",
+    "mv_id": "MV-000200",
     "title": "National Archives of the Cook Islands",
     "archive": "National Archives of the Cook Islands",
     "country": "Cook Islands",
     "lat": -21.2082,
     "lng": -159.7755,
     "languages": [
-      "Cook Islands Maori",
+      "Cook Islands Māori",
       "English"
     ],
     "themes": [
@@ -4908,10 +5755,15 @@
     "url": "https://www.culture.gov.ck/category/national-archives/",
     "citation": "National Archives of the Cook Islands. Retrieved from https://www.culture.gov.ck/category/national-archives/.",
     "related_ids": [],
-    "preview_url": null
+    "preview_url": null,
+    "verification_status": "partially_verified",
+    "verification_note": "Languages inferred from country and subject; not stated by the source.",
+    "provenance": "Wikipedia/Wikidata harvest, September 2026 audit (Wikidata Q16893043; URL from wikidata:P856). See data/new-entries-provenance.json.",
+    "date_added": "2026-09-20"
   },
   {
     "id": "national-smokejumper-association",
+    "mv_id": "MV-000201",
     "title": "National Smokejumper Association",
     "archive": "National Smokejumper Association",
     "country": "United States",
@@ -4922,7 +5774,7 @@
     ],
     "themes": [
       "history",
-      "labor"
+      "labor history"
     ],
     "decade_start": 1993,
     "decade_end": null,
@@ -4930,18 +5782,24 @@
     "url": "https://smokejumpers.com/",
     "citation": "National Smokejumper Association. Retrieved from https://smokejumpers.com/.",
     "related_ids": [],
-    "preview_url": null
+    "preview_url": null,
+    "verification_status": "partially_verified",
+    "verification_note": "Languages inferred from country and subject; not stated by the source.",
+    "provenance": "Wikipedia/Wikidata harvest, September 2026 audit (Wikidata Q6978470; URL from wikidata:P856). See data/new-entries-provenance.json.",
+    "date_added": "2026-09-20"
   },
   {
     "id": "pangloss-collection",
+    "mv_id": "MV-000202",
     "title": "Pangloss Collection",
     "archive": "Pangloss Collection",
     "country": "France",
     "lat": 48.8581,
     "lng": 2.353,
     "languages": [
-      "various endangered languages"
+      "Multiple languages"
     ],
+    "language_note": "various endangered languages",
     "themes": [
       "language documentation"
     ],
@@ -4953,10 +5811,15 @@
     "related_ids": [
       "institut-kurde-paris"
     ],
-    "preview_url": null
+    "preview_url": null,
+    "verification_status": "partially_verified",
+    "verification_note": "Languages inferred from country and subject; not stated by the source.",
+    "provenance": "Wikipedia/Wikidata harvest, September 2026 audit (Wikidata Q6468667; URL from wikidata:P856). See data/new-entries-provenance.json.",
+    "date_added": "2026-09-20"
   },
   {
     "id": "preserve-the-baltimore-uprising",
+    "mv_id": "MV-000203",
     "title": "Preserve the Baltimore Uprising",
     "archive": "Preserve the Baltimore Uprising",
     "country": "United States",
@@ -4969,7 +5832,7 @@
       "community memory",
       "history",
       "human rights",
-      "politics"
+      "political history"
     ],
     "decade_start": 2015,
     "decade_end": null,
@@ -4981,10 +5844,15 @@
       "usc-shoah-foundation-vha",
       "one-archives-usc"
     ],
-    "preview_url": null
+    "preview_url": null,
+    "verification_status": "partially_verified",
+    "verification_note": "Languages inferred from country and subject; not stated by the source.",
+    "provenance": "Wikipedia/Wikidata harvest, September 2026 audit (Wikidata Q96400016; URL from wikipedia:infobox). See data/new-entries-provenance.json.",
+    "date_added": "2026-09-20"
   },
   {
     "id": "the-interviews-an-oral-history-of-television",
+    "mv_id": "MV-000204",
     "title": "The Interviews: An Oral History of Television",
     "archive": "The Interviews: An Oral History of Television",
     "country": "United States",
@@ -5002,10 +5870,15 @@
     "url": "https://interviews.televisionacademy.com/",
     "citation": "The Interviews: An Oral History of Television. Retrieved from https://interviews.televisionacademy.com/.",
     "related_ids": [],
-    "preview_url": null
+    "preview_url": null,
+    "verification_status": "partially_verified",
+    "verification_note": "Languages inferred from country and subject; not stated by the source.",
+    "provenance": "Wikipedia/Wikidata harvest, September 2026 audit (Wikidata Q4787268; URL from wikidata:P856). See data/new-entries-provenance.json.",
+    "date_added": "2026-09-20"
   },
   {
     "id": "the-outwords-archive",
+    "mv_id": "MV-000205",
     "title": "The Outwords Archive",
     "archive": "The OUTWORDS Archive",
     "country": "United States",
@@ -5028,10 +5901,15 @@
       "usc-shoah-foundation-vha",
       "one-archives-usc"
     ],
-    "preview_url": null
+    "preview_url": null,
+    "verification_status": "partially_verified",
+    "verification_note": "Languages inferred from country and subject; not stated by the source.",
+    "provenance": "Wikipedia/Wikidata harvest, September 2026 audit (Wikidata Q65089759; URL from wikidata:P856). See data/new-entries-provenance.json.",
+    "date_added": "2026-09-20"
   },
   {
     "id": "war-childhood-museum",
+    "mv_id": "MV-000206",
     "title": "War Childhood Museum",
     "archive": "War Childhood Museum",
     "country": "Bosnia and Herzegovina",
@@ -5051,10 +5929,15 @@
     "url": "http://museum.warchildhood.com",
     "citation": "War Childhood Museum. Retrieved from http://museum.warchildhood.com.",
     "related_ids": [],
-    "preview_url": null
+    "preview_url": null,
+    "verification_status": "partially_verified",
+    "verification_note": "Languages inferred from country and subject; not stated by the source.",
+    "provenance": "Wikipedia/Wikidata harvest, September 2026 audit (Wikidata Q28654544; URL from wikidata:P856). See data/new-entries-provenance.json.",
+    "date_added": "2026-09-20"
   },
   {
     "id": "osterreichische-mediathek",
+    "mv_id": "MV-000207",
     "title": "Österreichische Mediathek",
     "archive": "Österreichische Mediathek",
     "country": "Austria",
@@ -5072,10 +5955,15 @@
     "url": "http://www.mediathek.at",
     "citation": "Österreichische Mediathek. Retrieved from http://www.mediathek.at.",
     "related_ids": [],
-    "preview_url": null
+    "preview_url": null,
+    "verification_status": "partially_verified",
+    "verification_note": "Languages inferred from country and subject; not stated by the source.",
+    "provenance": "Wikipedia/Wikidata harvest, September 2026 audit (Wikidata Q303798; URL from wikidata:P856). See data/new-entries-provenance.json.",
+    "date_added": "2026-09-20"
   },
   {
     "id": "oral-history-of-american-music",
+    "mv_id": "MV-000208",
     "title": "Oral History of American Music",
     "archive": "Oral History of American Music",
     "country": "United States",
@@ -5096,10 +5984,15 @@
       "ralph-rinzler-folklife-archives",
       "association-cultural-equity-lomax"
     ],
-    "preview_url": null
+    "preview_url": null,
+    "verification_status": "partially_verified",
+    "verification_note": "Languages inferred from country and subject; not stated by the source.",
+    "provenance": "Wikipedia/Wikidata harvest, September 2026 audit (Wikidata Q22095677; URL from wikidata:P856). See data/new-entries-provenance.json.",
+    "date_added": "2026-09-20"
   },
   {
     "id": "slave-narratives-a-folk-history-of-slavery-in-the",
+    "mv_id": "MV-000209",
     "title": "Slave Narratives: A Folk History of Slavery in the United States",
     "archive": "Slave Narrative Collection",
     "country": "United States",
@@ -5124,10 +6017,15 @@
       "association-cultural-equity-lomax",
       "nmai-archive-center"
     ],
-    "preview_url": null
+    "preview_url": null,
+    "verification_status": "partially_verified",
+    "verification_note": "Languages inferred from country and subject; not stated by the source.",
+    "provenance": "Wikipedia/Wikidata harvest, September 2026 audit (Wikidata Q7539156; URL from wikipedia:infobox). See data/new-entries-provenance.json.",
+    "date_added": "2026-09-20"
   },
   {
     "id": "swaziland-oral-history-project",
+    "mv_id": "MV-000210",
     "title": "Swaziland Oral History Project",
     "archive": "University of Cape Town Libraries (Emandulo digital collections)",
     "country": "Eswatini",
@@ -5147,6 +6045,10 @@
     "url": "https://emandulo.apc.uct.ac.za/metadata/SWOHP/index.html",
     "citation": "University of Cape Town Libraries (Emandulo digital collections). Swaziland Oral History Project. Retrieved from https://emandulo.apc.uct.ac.za/metadata/SWOHP/index.html.",
     "related_ids": [],
-    "preview_url": null
+    "preview_url": null,
+    "verification_status": "partially_verified",
+    "verification_note": "Languages inferred from country and subject; not stated by the source.",
+    "provenance": "Wikipedia/Wikidata harvest, September 2026 audit (Wikidata Q137572000; URL from wikipedia:infobox). See data/new-entries-provenance.json.",
+    "date_added": "2026-09-20"
   }
 ]
