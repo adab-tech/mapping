@@ -26,5 +26,9 @@ description: Cut a new Mapping Voices dataset version — bump the version every
      && node scripts/build-data.mjs --check && node scripts/validate-locales.mjs
    ```
 5. Run the `site-audit` skill if UI changed. Commit "Release dataset vx.y.z".
-6. After merge: suggest a GitHub release/tag (Zenodo mints a DOI per release
-   if the integration is enabled).
+6. After merge, `.github/workflows/release.yml` creates the GitHub release
+   `v<version>` automatically (notes from the CHANGELOG section, via
+   `scripts/release-notes.mjs`). With the Zenodo–GitHub integration on,
+   Zenodo archives it and mints a DOI (metadata in `.zenodo.json`). Once the
+   user reports the DOI, add it to CITATION.cff (`doi:` / `identifiers`),
+   the README citation, and the About page citation.

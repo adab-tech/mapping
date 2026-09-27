@@ -113,6 +113,10 @@ by their holding institutions.
 > Voice-Testimony Collections*. Dataset, version 0.4.0, 2026-09-27. CC BY 4.0.
 > https://adab-tech.github.io/mapping/
 
+Every dataset version is published as a GitHub release (created
+automatically when the version changes; see `.github/workflows/release.yml`)
+and archived with a DOI on Zenodo once the integration is enabled.
+
 To cite one collection, cite its holding institution and give the Mapping
 Voices identifier (e.g. `MV-000023`) as the finding aid. Machine-readable
 metadata is in [`CITATION.cff`](CITATION.cff) (GitHub shows it as "Cite
