@@ -5,8 +5,7 @@
 [![DOI](https://zenodo.org/badge/1110764203.svg)](https://doi.org/10.5281/zenodo.22996478)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-**Live:** [adamu.tech/mapping](https://adamu.tech/mapping/) ·
-[adab-tech.github.io/mapping](https://adab-tech.github.io/mapping/) (GitHub Pages, canonical)
+**Live atlas:** [adamu.tech/mapping](https://adamu.tech/mapping/)
 
 Mapping Voices is an open digital-humanities research infrastructure for
 discovering oral-history and voice-testimony collections through geography,
